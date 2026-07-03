@@ -4,16 +4,11 @@ HECTOR-Editor is a lightweight, responsive desktop application built with Python
 
 ---
 
-## 📂 Vokabular-Struktur (`vocabularies/`)
+## 📂 Vocabulary Folder (`vocabularies/`)
 
-Das fertige, integrierte SKOS-Vokabular befindet sich im Ordner `vocabularies/` und ist als **`HECTOR_Epoch.ttl`** serialisiert. Es ist im Namespace `http://vocabs.bcdh.uni-bonn.de/hector_epochs/` definiert und nutzt rein **abstrakte, opake URIs** (`c_<stable_hash>`) zur Gewährleistung der Stabilität.
+The finalized, integrated SKOS vocabulary is located in the **[vocabularies/](file:///c:/Users/langm/sciebo/BCDH_Projektbox/1_BCDH%20Intern/Scripts/Vocab/hector-editor-skos/vocabularies)** directory, serialized as **`HECTOR_Epoch.ttl`**.
 
-Es besteht aus folgenden Teil-Facetten:
-1. **Core-Epochen:** Die grundlegenden archäologischen Epochen (Steinzeit, Kupferzeit, Bronzezeit, Eisenzeit, Altertum, Mittelalter, Neuzeit) basierend auf der ursprünglichen Ontologiestruktur.
-2. **Chronologisches Raster:** Ein feingliedriges, zeitliches Raster aus Jahrtausenden, Jahrhunderten sowie deren Hälften und Vierteln (von 3000 v. Chr. bis heute).
-3. **Römische Kaiserzeit:** 106 römische Kaiser, chronologisch sortiert in die *Frühe*, *Mittlere* und *Späte Kaiserzeit*.
-4. **Mittelalterliche Dynastien:** Gliederung der Herrscher nach Ländern (Heiliges Römisches Reich, England, Frankreich, Spanien, Italien) und deren Dynastien (Ottonen, Salier, Staufer, Normannen, Kapetinger, etc.) mit 86 detaillierten Herrscherprofilen.
-5. **Altes Ägypten:** Eine hierarchische Gliederung des Alten Ägyptens in Epochen (Altes Reich, Neues Reich, etc.), Dynastien (1. bis 31. Dynastie, Ptolemäer) und 524 Pharaonen.
+For a detailed English description of its facets (Core Epochs, Chronological Grid, Roman Emperors, medieval dynasties, and Egyptian dynasties), please refer to the dedicated **[vocabularies/README.md](file:///c:/Users/langm/sciebo/BCDH_Projektbox/1_BCDH%20Intern/Scripts/Vocab/hector-editor-skos/vocabularies/README.md)**.
 
 ---
 
