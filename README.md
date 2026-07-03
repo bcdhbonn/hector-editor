@@ -4,9 +4,9 @@ HECTOR-Editor is a lightweight, responsive desktop application built with Python
 
 ---
 
-## 📂 Vokabular-Struktur (`hector_epochs/`)
+## 📂 Vokabular-Struktur (`vocabularies/`)
 
-Das fertige, integrierte SKOS-Vokabular befindet sich im Ordner `hector_epochs/` und ist als **`HECTOR_Epoch.ttl`** serialisiert. Es ist im Namespace `http://vocabs.bcdh.uni-bonn.de/hector_epochs/` definiert und nutzt rein **abstrakte, opake URIs** (`c_<stable_hash>`) zur Gewährleistung der Stabilität.
+Das fertige, integrierte SKOS-Vokabular befindet sich im Ordner `vocabularies/` und ist als **`HECTOR_Epoch.ttl`** serialisiert. Es ist im Namespace `http://vocabs.bcdh.uni-bonn.de/hector_epochs/` definiert und nutzt rein **abstrakte, opake URIs** (`c_<stable_hash>`) zur Gewährleistung der Stabilität.
 
 Es besteht aus folgenden Teil-Facetten:
 1. **Core-Epochen:** Die grundlegenden archäologischen Epochen (Steinzeit, Kupferzeit, Bronzezeit, Eisenzeit, Altertum, Mittelalter, Neuzeit) basierend auf der ursprünglichen Ontologiestruktur.
