@@ -1,0 +1,1021 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY archeoinfepochen "http://archeoinfepochen/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY thesaurus "http://iaaa.unizar.es/thesaurus/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="file:/J:/Thesauri/skos/ArcheoInf_Epochen.skos.xml#"
+     xml:base="file:/J:/Thesauri/skos/ArcheoInf_Epochen.skos.xml"
+     xmlns:thesaurus="http://iaaa.unizar.es/thesaurus/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:archeoinfepochen="http://archeoinfepochen/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+    <owl:ObjectProperty rdf:about="&skos;broader"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+    <owl:ObjectProperty rdf:about="&skos;hasTopConcept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+    <owl:ObjectProperty rdf:about="&skos;inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrower -->
+
+    <owl:ObjectProperty rdf:about="&skos;narrower"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#related -->
+
+    <owl:ObjectProperty rdf:about="&skos;related"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:DatatypeProperty rdf:about="&skos;altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:DatatypeProperty rdf:about="&skos;prefLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="&skos;Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+    <owl:Class rdf:about="&skos;ConceptScheme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://archeoinfepochen/Bronzeit_Kreta -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;Bronzeit_Kreta">
+        <skos:prefLabel xml:lang="de"
+            >Bronzezeit Kreta</skos:prefLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;Minoisch"/>
+        <skos:broader rdf:resource="&archeoinfepochen;bronzezeit_mittelmeer"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;subminoisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/Bronzeit_Kykladen -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;Bronzeit_Kykladen">
+        <skos:prefLabel xml:lang="de"
+            >Bronzezeit Kykladen</skos:prefLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;Kykladisch"/>
+        <skos:broader rdf:resource="&archeoinfepochen;bronzezeit_mittelmeer"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/Helladisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;Helladisch">
+        <skos:prefLabel xml:lang="de"
+            >Helladische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">helladisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;bronzeit_griechisches_festland"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;fruehhelladisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;mittelhelladisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;spaetlhelladisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/Kykladisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;Kykladisch">
+        <skos:prefLabel xml:lang="de"
+            >Kykladische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">kykladisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;Bronzeit_Kykladen"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;fruehkykladisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;mittelkykladisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;spaetkykladisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/Minoisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;Minoisch">
+        <skos:prefLabel xml:lang="de"
+            >Minoische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">minoisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;Bronzeit_Kreta"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;fruehminoisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;mittelminoisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;spaetminoisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/akkadisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;akkadisch">
+        <skos:prefLabel xml:lang="de"
+            >Akkadische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">akkadisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;alter_orient"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/alter_orient -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;alter_orient">
+        <skos:prefLabel xml:lang="de">Alter Orient</skos:prefLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;akkadisch"/>
+        <skos:broader rdf:resource="&archeoinfepochen;altertum"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;assyrien"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;babylonisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;sumerisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/altertum -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;altertum">
+        <skos:prefLabel xml:lang="de">Altertum</skos:prefLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;alter_orient"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;altesaegypten"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;antike"/>
+        <skos:broader rdf:resource="&archeoinfepochen;epoche"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/altesaegypten -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;altesaegypten">
+        <skos:prefLabel xml:lang="de">Altes &#196;gypten</skos:prefLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;altertum"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/altlpal&#228;olithikum -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;altlpal&#228;olithikum">
+        <skos:prefLabel xml:lang="de"
+            >Altpal&#228;olithikum</skos:prefLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;altsteinzeit"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/altsteinzeit -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;altsteinzeit">
+        <skos:prefLabel xml:lang="de">Altsteinzeit</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Pal&#228;olithikum</skos:altLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;altlpal&#228;olithikum"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;jungpal&#228;olithikum"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;mittelpal&#228;olithikum"/>
+        <skos:broader rdf:resource="&archeoinfepochen;steinzeit"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/antike -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;antike">
+        <skos:prefLabel xml:lang="de">Antike</skos:prefLabel>
+        <skos:altLabel xml:lang="de"
+            >Klassische Antike</skos:altLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;archaisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;dunkle_jahrhunderte"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;geometrisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;hellenismus"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;karthagisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;klassisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;protogeometrisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;punisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/archaisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;archaisch">
+        <skos:altLabel xml:lang="de">Archaik</skos:altLabel>
+        <skos:prefLabel xml:lang="de"
+            >Archaische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">archaisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;eisenzeit_griechenland"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;frueharchaisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;mittelarchaisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;spaetarchaisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/assyrien -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;assyrien">
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/babylonisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;babylonisch">
+        <skos:prefLabel xml:lang="de"
+            >Babylonische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">babylonisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;alter_orient"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/bronzeit_griechisches_festland -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;bronzeit_griechisches_festland">
+        <skos:prefLabel xml:lang="de"
+            >Bronzezeit Griechisches Festland</skos:prefLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;Helladisch"/>
+        <skos:broader rdf:resource="&archeoinfepochen;bronzezeit_mittelmeer"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;submykenisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/bronzezeit -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;bronzezeit">
+        <skos:prefLabel xml:lang="de">Bronzezeit</skos:prefLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;bronzezeit_mittelmeer"/>
+        <skos:broader rdf:resource="&archeoinfepochen;epoche"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/bronzezeit_mittelmeer -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;bronzezeit_mittelmeer">
+        <skos:prefLabel xml:lang="de"
+            >Bronzezeit Mittelmeer</skos:prefLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;Bronzeit_Kreta"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;Bronzeit_Kykladen"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;bronzeit_griechisches_festland"/>
+        <skos:broader rdf:resource="&archeoinfepochen;bronzezeit"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/byzantinisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;byzantinisch">
+        <skos:prefLabel xml:lang="de"
+            >Byzantinische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">byzantinisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;mittelalter"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/dunkle_jahrhunderte -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;dunkle_jahrhunderte">
+        <skos:altLabel xml:lang="de">Dark Ages</skos:altLabel>
+        <skos:prefLabel xml:lang="de"
+            >Dunkle Jahrhunderte</skos:prefLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;eisenzeit_griechenland"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/eisenzeit -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;eisenzeit">
+        <skos:prefLabel xml:lang="de">Eisenzeit</skos:prefLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;eisenzeit_griechenland"/>
+        <skos:broader rdf:resource="&archeoinfepochen;epoche"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;roemische_eisenzeit"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/eisenzeit_griechenland -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;eisenzeit_griechenland">
+        <skos:prefLabel xml:lang="de"
+            >Griechische Eisenzeit</skos:prefLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;archaisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;dunkle_jahrhunderte"/>
+        <skos:broader rdf:resource="&archeoinfepochen;eisenzeit_mittelmeer"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;geometrisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;klassisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;protogeometrisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/eisenzeit_mittelmeer -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;eisenzeit_mittelmeer"/>
+    
+
+
+    <!-- http://archeoinfepochen/epoche -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;epoche">
+        <skos:prefLabel xml:lang="de">Epoche</skos:prefLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;altertum"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;bronzezeit"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;eisenzeit"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;kupferzeit"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;mittelalter"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;neuzeit"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;steinzeit"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/frueharchaisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;frueharchaisch">
+        <skos:altLabel xml:lang="de">Fr&#252;harchaik</skos:altLabel>
+        <skos:prefLabel xml:lang="de"
+            >Fr&#252;harchaische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">fr&#252;harchaisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;archaisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/fruehgeometrisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;fruehgeometrisch">
+        <skos:prefLabel xml:lang="de"
+            >Fr&#252;hgeometrische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">fr&#252;hgeometrisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;geometrisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/fruehhelladisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;fruehhelladisch">
+        <skos:prefLabel xml:lang="de"
+            >Fr&#252;hhelladische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">fr&#252;hhelladisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;Helladisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/fruehklassisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;fruehklassisch">
+        <skos:altLabel xml:lang="de">Fr&#252;hklassik</skos:altLabel>
+        <skos:prefLabel xml:lang="de"
+            >Fr&#252;hklassische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">fr&#252;hklassisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;klassisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/fruehkykladisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;fruehkykladisch">
+        <skos:prefLabel xml:lang="de"
+            >Fr&#252;hkykladische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">fr&#252;hkykladisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;Kykladisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/fruehminoisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;fruehminoisch">
+        <skos:prefLabel xml:lang="de"
+            >Fr&#252;hminoische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">fr&#252;hminoisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;Minoisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/geometrisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;geometrisch">
+        <skos:prefLabel xml:lang="de"
+            >Geometrische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">geometrisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;antike"/>
+        <skos:broader rdf:resource="&archeoinfepochen;eisenzeit_griechenland"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;fruehgeometrisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;mittelgeometrisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;spaetgeometrisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/hellenismus -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;hellenismus">
+        <skos:prefLabel xml:lang="de">Hellenismus</skos:prefLabel>
+        <skos:altLabel xml:lang="de">hellenistisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;eisenzeit_griechenland"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;hellenismus_frueh"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;hellenismus_hoch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;hellenismus_spaet"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/hellenismus_frueh -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;hellenismus_frueh">
+        <skos:prefLabel xml:lang="de">Fr&#252;hhellenismus</skos:prefLabel>
+        <skos:altLabel xml:lang="de"
+            >fr&#252;hhellenistisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;hellenismus"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/hellenismus_hoch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;hellenismus_hoch">
+        <skos:prefLabel xml:lang="de">Hochhellenismus</skos:prefLabel>
+        <skos:altLabel xml:lang="de"
+            >hochhellenistisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;hellenismus"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/hellenismus_spaet -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;hellenismus_spaet">
+        <skos:prefLabel xml:lang="de">Sp&#228;thellenismus</skos:prefLabel>
+        <skos:altLabel xml:lang="de"
+            >sp&#228;thellenistisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;hellenismus"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/hochklassisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;hochklassisch">
+        <skos:altLabel xml:lang="de">Hochklassik</skos:altLabel>
+        <skos:prefLabel xml:lang="de"
+            >Hochklassische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Reifklassik</skos:altLabel>
+        <skos:altLabel xml:lang="de"
+            >Reifklassische Epoche</skos:altLabel>
+        <skos:altLabel xml:lang="de">hochklassich</skos:altLabel>
+        <skos:altLabel xml:lang="de">reifklassisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;klassisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/jungpal&#228;olithikum -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;jungpal&#228;olithikum">
+        <skos:prefLabel xml:lang="de"
+            >Jungpal&#228;olithikum</skos:prefLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;altsteinzeit"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/jungsteinzeit -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;jungsteinzeit">
+        <skos:prefLabel xml:lang="de">Jungsteinzeit</skos:prefLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;steinzeit"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/karthagisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;karthagisch">
+        <skos:prefLabel xml:lang="de"
+            >Karthagische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">karthagisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;antike"/>
+        <skos:broader rdf:resource="&archeoinfepochen;eisenzeit"/>
+        <skos:related rdf:resource="&archeoinfepochen;punisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/klassisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;klassisch">
+        <skos:altLabel xml:lang="de">Klassik</skos:altLabel>
+        <skos:prefLabel xml:lang="de"
+            >Klassische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">klassisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;antike"/>
+        <skos:broader rdf:resource="&archeoinfepochen;eisenzeit_griechenland"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;fruehklassisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;hochklassisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;spaetklassisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/kupferzeit -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;kupferzeit">
+        <skos:altLabel xml:lang="de">Chalkolithikum</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Kupferzeit</skos:prefLabel>
+        <skos:altLabel xml:lang="de">kupferzeitlich</skos:altLabel>
+        <skos:altLabel xml:lang="de">&#196;neolithikum</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;epoche"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/mittelalter -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;mittelalter">
+        <skos:prefLabel xml:lang="de">Mittelalter</skos:prefLabel>
+        <skos:altLabel xml:lang="de">mittelalterlich</skos:altLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;byzantinisch"/>
+        <skos:broader rdf:resource="&archeoinfepochen;epoche"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/mittelarchaisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;mittelarchaisch">
+        <skos:altLabel xml:lang="de">Hocharchaik</skos:altLabel>
+        <skos:prefLabel xml:lang="de"
+            >Hocharchaische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Mittelarchaik</skos:altLabel>
+        <skos:altLabel xml:lang="de"
+            >Mittelarchaische Epoche</skos:altLabel>
+        <skos:altLabel xml:lang="de">Reifarchaik</skos:altLabel>
+        <skos:altLabel xml:lang="de"
+            >Reifarchaische Epoche</skos:altLabel>
+        <skos:altLabel xml:lang="de">hocharchaisch</skos:altLabel>
+        <skos:altLabel xml:lang="de">mittelarchaisch</skos:altLabel>
+        <skos:altLabel xml:lang="de">reifarchaisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;archaisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/mittelgeometrisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;mittelgeometrisch">
+        <skos:prefLabel xml:lang="de"
+            >Mittelgeometrische Epoche</skos:prefLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;geometrisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/mittelhelladisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;mittelhelladisch">
+        <skos:prefLabel xml:lang="de"
+            >Mittelhelladische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de"
+            >mittelhelladisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;Helladisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/mittelkykladisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;mittelkykladisch">
+        <skos:prefLabel xml:lang="de"
+            >Mittelkykladische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de"
+            >mittelkykladisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;Kykladisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/mittelminoisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;mittelminoisch">
+        <skos:prefLabel xml:lang="de"
+            >Mittelminoische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">mittelminoisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;Minoisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/mittelpal&#228;olithikum -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;mittelpal&#228;olithikum">
+        <skos:prefLabel xml:lang="de"
+            >Mittelpal&#228;olitikum</skos:prefLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;altsteinzeit"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/mittelsteinzeit -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;mittelsteinzeit">
+        <skos:altLabel xml:lang="de">Epipalithikum</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Mittelsteinzeit</skos:prefLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;steinzeit"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/mykenisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;mykenisch">
+        <skos:prefLabel xml:lang="de"
+            >Mykenische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">mykenisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;spaetlhelladisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/neuzeit -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;neuzeit">
+        <skos:prefLabel xml:lang="de">Neuzeit</skos:prefLabel>
+        <skos:altLabel xml:lang="de">neuzeitlich</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;epoche"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/protogeometrisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;protogeometrisch">
+        <skos:prefLabel xml:lang="de"
+            >Protogeometrische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de"
+            >protogeometrisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;antike"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/punisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;punisch">
+        <skos:prefLabel xml:lang="de">Punisch</skos:prefLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;antike"/>
+        <skos:broader rdf:resource="&archeoinfepochen;eisenzeit"/>
+        <skos:related rdf:resource="&archeoinfepochen;karthagisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/roemische_eisenzeit -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;roemische_eisenzeit">
+        <skos:prefLabel xml:lang="de"
+            >R&#246;mische Eisenzeit</skos:prefLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;roemische_kaiserzeit"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/roemische_kaiserzeit -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;roemische_kaiserzeit">
+        <skos:altLabel xml:lang="de">Kaiserzeit</skos:altLabel>
+        <skos:prefLabel xml:lang="de"
+            >R&#246;mische Kaiserzeit</skos:prefLabel>
+        <skos:altLabel xml:lang="de">kaiserzeitlich</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;antike"/>
+        <skos:broader rdf:resource="&archeoinfepochen;roemische_kaiserzeit"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;roemische_kaiserzeit_frueh"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;roemische_kaiserzeit_mittel"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;roemische_kaiserzeit_spaet"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/roemische_kaiserzeit_frueh -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;roemische_kaiserzeit_frueh">
+        <skos:prefLabel xml:lang="de"
+            >Fr&#252;he Kaiserzeit</skos:prefLabel>
+        <skos:altLabel xml:lang="de"
+            >fr&#252;hkaiserzeitlich</skos:altLabel>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/roemische_kaiserzeit_mittel -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;roemische_kaiserzeit_mittel">
+        <skos:prefLabel xml:lang="de"
+            >Mittlere Kaiserzeit</skos:prefLabel>
+        <skos:altLabel xml:lang="de"
+            >mittelkaiserzeitlich</skos:altLabel>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/roemische_kaiserzeit_spaet -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;roemische_kaiserzeit_spaet">
+        <skos:prefLabel xml:lang="de"
+            >Sp&#228;te Kaiserzeit</skos:prefLabel>
+        <skos:altLabel xml:lang="de"
+            >sp&#228;tkaiserzeitlich</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;roemische_kaiserzeit"/>
+        <skos:related rdf:resource="&archeoinfepochen;spaetantike"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/spaetantike -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;spaetantike"/>
+    
+
+
+    <!-- http://archeoinfepochen/spaetarchaisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;spaetarchaisch">
+        <skos:altLabel xml:lang="de">Sp&#228;tarchaik</skos:altLabel>
+        <skos:prefLabel xml:lang="de"
+            >Sp&#228;tarchaische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">sp&#228;tarchaisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;archaisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/spaetgeometrisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;spaetgeometrisch">
+        <skos:prefLabel xml:lang="de"
+            >Sp&#228;tgeometrische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">sp&#228;tgeometrisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;geometrisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/spaetklassisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;spaetklassisch">
+        <skos:altLabel xml:lang="de">Sp&#228;tklassik</skos:altLabel>
+        <skos:prefLabel xml:lang="de"
+            >Sp&#228;tklassische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">sp&#228;tklassisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;klassisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/spaetkykladisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;spaetkykladisch">
+        <skos:prefLabel xml:lang="de"
+            >Sp&#228;tkykladische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">sp&#228;tkykladisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;Kykladisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/spaetlhelladisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;spaetlhelladisch">
+        <skos:altLabel xml:lang="de">Sp&#228;thelladikum</skos:altLabel>
+        <skos:prefLabel xml:lang="de"
+            >Sp&#228;thelladische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">sp&#228;thelladisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;Helladisch"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;mykenisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/spaetminoisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;spaetminoisch">
+        <skos:prefLabel xml:lang="de"
+            >Sp&#228;tminoische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">sp&#228;tminoisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;Minoisch"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/steinzeit -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;steinzeit">
+        <skos:prefLabel xml:lang="de">Steinzeit</skos:prefLabel>
+        <skos:altLabel xml:lang="de">steinzeitlich</skos:altLabel>
+        <skos:narrower rdf:resource="&archeoinfepochen;altsteinzeit"/>
+        <skos:broader rdf:resource="&archeoinfepochen;epoche"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;jungsteinzeit"/>
+        <skos:narrower rdf:resource="&archeoinfepochen;mittelsteinzeit"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/subminoisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;subminoisch">
+        <skos:prefLabel xml:lang="de"
+            >Subminoische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">subminoisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;Bronzeit_Kreta"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/submykenisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;submykenisch">
+        <skos:prefLabel xml:lang="de"
+            >Submykenische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">submykenisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;bronzeit_griechisches_festland"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://archeoinfepochen/sumerisch -->
+
+    <skos:Concept rdf:about="&archeoinfepochen;sumerisch">
+        <skos:prefLabel xml:lang="de"
+            >Sumerische Epoche</skos:prefLabel>
+        <skos:altLabel xml:lang="de">sumerisch</skos:altLabel>
+        <skos:broader rdf:resource="&archeoinfepochen;alter_orient"/>
+        <skos:inScheme rdf:resource="&thesaurus;ArcheoInf_Epochen"/>
+    </skos:Concept>
+    
+
+
+    <!-- http://iaaa.unizar.es/thesaurus/ArcheoInf_Epochen -->
+
+    <skos:ConceptScheme rdf:about="&thesaurus;ArcheoInf_Epochen">
+        <skos:hasTopConcept rdf:resource="&archeoinfepochen;epoche"/>
+    </skos:ConceptScheme>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1042) http://owlapi.sourceforge.net -->
+
