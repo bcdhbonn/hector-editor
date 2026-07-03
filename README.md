@@ -35,6 +35,6 @@ HECTOR-Editor is a lightweight, responsive desktop application built with Python
 
 ## 📂 Vocabulary Folder (`vocabularies/`)
 
-This directory contains the SKOS vocabulary files, including the main integrated vocabulary **`HECTOR_Epoch.ttl`**.
+This directory contains the semantic SKOS vocabularies, starting with the integrated epoch vocabulary **`vocabularies/hector_epochs/HECTOR_Epoch.ttl`**.
 
-For details on the vocabulary structure, namespace configurations, and individual facets, please refer to the dedicated **[vocabularies/README.md](vocabularies/README.md)**.
+For details on the collection, directory structure, and sub-vocabularies, please refer to the main **[vocabularies/README.md](vocabularies/README.md)**.
