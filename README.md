@@ -2,16 +2,6 @@
 
 HECTOR-Editor is a lightweight, responsive desktop application built with Python and CustomTkinter for managing semantic SKOS vocabularies. Tailored for workflows in the Digital Humanities and archaeological data management, it allows researchers to easily build, edit, and serialize structured hierarchical concept schemes.
 
----
-
-## 📂 Vocabulary Folder (`vocabularies/`)
-
-The finalized, integrated SKOS vocabulary is located in the **[vocabularies/](file:///c:/Users/langm/sciebo/BCDH_Projektbox/1_BCDH%20Intern/Scripts/Vocab/hector-editor-skos/vocabularies)** directory, serialized as **`HECTOR_Epoch.ttl`**.
-
-For a detailed English description of its facets (Core Epochs, Chronological Grid, Roman Emperors, medieval dynasties, and Egyptian dynasties), please refer to the dedicated **[vocabularies/README.md](file:///c:/Users/langm/sciebo/BCDH_Projektbox/1_BCDH%20Intern/Scripts/Vocab/hector-editor-skos/vocabularies/README.md)**.
-
----
-
 ## ✨ Key Features (Editor)
 * **SKOS Hierarchy Management:** Visually construct and manage `skos:Concept` hierarchies, broader/narrower relationships, and top concepts.
 * **Multilingual Support:** Dynamic UI for managing `skos:prefLabel` and `skos:altLabel` across multiple language codes (DE/EN).
@@ -40,3 +30,11 @@ For a detailed English description of its facets (Core Epochs, Chronological Gri
    ```bash
    python hector_editor.py
    ```
+
+---
+
+## 📂 Vocabulary Folder (`vocabularies/`)
+
+This directory contains the SKOS vocabulary files, including the main integrated vocabulary **`HECTOR_Epoch.ttl`**.
+
+For details on the vocabulary structure, namespace configurations, and individual facets, please refer to the dedicated **[vocabularies/README.md](vocabularies/README.md)**.
