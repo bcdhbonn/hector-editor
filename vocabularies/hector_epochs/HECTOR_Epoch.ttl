@@ -10265,7 +10265,7 @@ hector_epochs:c_3bbe4d3b a skos:Concept ;
         hector_epochs:c_acc34558,
         hector_epochs:c_c873037f ;
     skos:prefLabel "Griechische Eisenzeit"@de,
-        "Greek Iron Age"@en ;
+        "Greek Iron Age"@en .
 
 hector_epochs:c_a33558fb a skos:Concept ;
     skos:broader hector_epochs:c_41f3ff90 ;
