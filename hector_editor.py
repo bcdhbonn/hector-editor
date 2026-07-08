@@ -1004,9 +1004,77 @@ class HECTOREditor:
             node_id = self.tree.insert(parent_id, "end", text=f"{prefix}{lbl}", values=(u_str,), open=is_open)
             inserted_nodes[u_str] = node_id
             
+            def get_sort_key(item):
+                import re
+                if not hasattr(get_sort_key, "de_cache"):
+                    get_sort_key.de_cache = {}
+                c_uri, lbl = item
+                if c_uri not in get_sort_key.de_cache:
+                    val = self.get_label(c_uri, lang="de")
+                    get_sort_key.de_cache[c_uri] = val if val else lbl
+                lbl_de = get_sort_key.de_cache[c_uri]
+                
+                if lbl_de == "Chronologisches Raster":
+                    return (3, 99999, "")
+                
+                main_epochs = {
+                    "steinzeit": -10000,
+                    "kupferzeit": -5000,
+                    "bronzezeit": -3000,
+                    "eisenzeit": -1200,
+                    "altertum": -800,
+                    "fruehmittelalter": 500,
+                    "hochmittelalter": 1050,
+                    "spaetmittelalter": 1250,
+                    "mittelalter": 500,
+                    "neuzeit": 1500
+                }
+                
+                lbl_norm = lbl_de.lower().replace("ü", "ue").replace("ä", "ae").replace("ö", "oe").replace("ß", "ss").replace(" ", "").replace("-", "")
+                if lbl_norm in main_epochs:
+                    return (2, main_epochs[lbl_norm], "")
+                
+                # Millennia (e.g. "3. Jahrtausend v. Chr.")
+                m = re.match(r"^(\d+)\.\s+Jahrtausend\s+(v\.\s+Chr\.|n\.\s+Chr\.)$", lbl_de)
+                if m:
+                    num = int(m.group(1))
+                    is_bc = "v." in m.group(2)
+                    val = -num * 1000 if is_bc else (num - 1) * 1000 + 1
+                    return (2, val, "")
+                
+                # Centuries (e.g. "30. Jahrhundert v. Chr.")
+                m = re.match(r"^(\d+)\.\s+Jahrhundert\s+(v\.\s+Chr\.|n\.\s+Chr\.)$", lbl_de)
+                if m:
+                    num = int(m.group(1))
+                    is_bc = "v." in m.group(2)
+                    val = -num * 100 if is_bc else (num - 1) * 100 + 1
+                    return (2, val, "")
+                
+                # Halves (e.g. "1. Hälfte 30. Jh. v. Chr.")
+                m = re.match(r"^(\d+)\.\s+Hälfte\s+(\d+)\.\s+Jh\.\s+(v\.\s+Chr\.|n\.\s+Chr\.)$", lbl_de)
+                if m:
+                    h_num = int(m.group(1))
+                    c_num = int(m.group(2))
+                    is_bc = "v." in m.group(3)
+                    c_start = -c_num * 100 if is_bc else (c_num - 1) * 100 + 1
+                    val = c_start + (h_num - 1) * 50
+                    return (2, val, "")
+                
+                # Quarters (e.g. "1. Viertel 30. Jh. v. Chr.")
+                m = re.match(r"^(\d+)\.\s+Viertel\s+(\d+)\.\s+Jh\.\s+(v\.\s+Chr\.|n\.\s+Chr\.)$", lbl_de)
+                if m:
+                    q_num = int(m.group(1))
+                    c_num = int(m.group(2))
+                    is_bc = "v." in m.group(3)
+                    c_start = -c_num * 100 if is_bc else (c_num - 1) * 100 + 1
+                    val = c_start + (q_num - 1) * 25
+                    return (2, val, "")
+                
+                return (0, 0, lbl.lower())
+
             kids = sorted(
                 [(c, get_cached_label(c)) for c in self.mgr.get_child_concepts(concept_uri)],
-                key=lambda x: x[1].lower(),
+                key=get_sort_key,
                 reverse=True
             )
             
