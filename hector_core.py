@@ -31,7 +31,6 @@ class VocabularyManager:
         if not detected_langs:
             detected_langs = {"de", "en"}
             
-        self.sync_reciprocal_relations(auto_serialize=False)
         return sorted(list(detected_langs))
 
     def sync_reciprocal_relations(self, auto_serialize=True):

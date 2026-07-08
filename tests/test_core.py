@@ -205,7 +205,14 @@ class TestVocabularyManager(unittest.TestCase):
         new_mgr = VocabularyManager()
         new_mgr.load_data(self.vocab_path)
         
-        # Verify that narrower relation was generated during load
+        # Verify that narrower relation was NOT generated during load
+        self.assertNotIn((p1, SKOS.narrower, c1), new_mgr.g)
+        
+        # Run sync manually
+        added = new_mgr.sync_reciprocal_relations(auto_serialize=False)
+        self.assertEqual(added, 1)
+        
+        # Verify that narrower relation is now present
         self.assertIn((p1, SKOS.narrower, c1), new_mgr.g)
 
 if __name__ == "__main__":
