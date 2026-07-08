@@ -11218,8 +11218,7 @@ hector_epochs:c_499db5e1 a skos:Concept ;
 hector_epochs:scheme a skos:ConceptScheme ;
     skos:definition "Ein SKOS-konformes Vokabular für archäologische Epochen, angereichert mit Wikidata, Getty AAT und GND Identifikatoren."@de,
         "A SKOS-compliant vocabulary for archaeological epochs, enriched with Wikidata, Getty AAT, and GND authorities."@en ;
-    skos:hasTopConcept hector_epochs:c_3bbe4d3b,
-        hector_epochs:c_4a572b1e ;
+    skos:hasTopConcept hector_epochs:c_4a572b1e ;
     skos:prefLabel "ArcheoInf Epochen (SKOS Version)"@de,
         "ArcheoInf Epochs (SKOS Version)"@en .
 
