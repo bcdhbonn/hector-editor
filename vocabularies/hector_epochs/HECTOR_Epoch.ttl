@@ -54,16 +54,6 @@ hector_epochs:c_01b7022f a skos:Concept ;
     skos:prefLabel "Amenmesse"@de,
         "Amenmesse"@en .
 
-hector_epochs:c_01ca3184 a skos:Concept ;
-    skos:broader hector_epochs:c_bfd2ecdd ;
-    skos:definition "römisch-deutscher König (1056–1105) und Kaiser (1084–1105) (Salier)"@de,
-        "Holy Roman Emperor from 1084 to 1105 (Salian Dynasty)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118548271>,
-        <http://www.wikidata.org/entity/Q60094> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Heinrich IV."@de,
-        "Henry IV"@en .
-
 hector_epochs:c_022e9a34 a skos:Concept ;
     skos:broader hector_epochs:c_a33558fb ;
     skos:definition "altägyptischer König der 15. Dynastie, Hyksos-Zeit"@de,
@@ -182,15 +172,6 @@ hector_epochs:c_04455d7c a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Aurelian"@de,
         "Aurelian"@en .
-
-hector_epochs:c_0461ee39 a skos:Concept ;
-    skos:broader hector_epochs:c_8894fab4 ;
-    skos:definition "italienischer Fußballspieler (Haus Burgund)"@de,
-        "Italian association football player (Castilian House of Burgundy)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q299105> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Simone Barone"@de,
-        "Simone Barone"@en .
 
 hector_epochs:c_04a933cb a skos:Concept ;
     skos:broader hector_epochs:c_8135bfa2 ;
@@ -353,15 +334,6 @@ hector_epochs:c_07a44d5e a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "4. Viertel 12. Jh. n. Chr."@de,
         "4th Quarter 12th Century AD"@en .
-
-hector_epochs:c_07cf0daa a skos:Concept ;
-    skos:broader hector_epochs:c_84715bb0 ;
-    skos:definition "Album von Neil Young & Crazy Horse (Anjou)"@de,
-        "1975 studio album by Neil Young & Crazy Horse (Capetian House of Anjou)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q229618> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Zuma"@de,
-        "Zuma"@en .
 
 hector_epochs:c_07e06d69 a skos:Concept ;
     skos:broader hector_epochs:c_44baa143 ;
@@ -627,15 +599,6 @@ hector_epochs:c_138dedc5 a skos:Concept ;
     skos:prefLabel "3. Viertel 9. Jh. n. Chr."@de,
         "3rd Quarter 9th Century AD"@en .
 
-hector_epochs:c_1394656c a skos:Concept ;
-    skos:broader hector_epochs:c_2fbc18ca ;
-    skos:definition "Herrscher (Habsburger)"@de,
-        "Ruler (House of Habsburg)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q154944> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Q154944"@de,
-        "Q154944"@en .
-
 hector_epochs:c_14915326 a skos:Concept ;
     skos:broader hector_epochs:c_23aebc71 ;
     skos:definition "altägyptischer König der 1. Dynastie"@de,
@@ -893,15 +856,6 @@ hector_epochs:c_1a3af5b3 a skos:Concept ;
     skos:prefLabel "Kleopatra VII."@de,
         "Cleopatra"@en .
 
-hector_epochs:c_1aaad2fe a skos:Concept ;
-    skos:broader hector_epochs:c_84715bb0 ;
-    skos:definition "Stadt in Russland (Anjou)"@de,
-        "human settlement in Amur Oblast, Khabarovsk Krai, Russia (Capetian House of Anjou)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q184617> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Raitschichinsk"@de,
-        "Raychikhinsk"@en .
-
 hector_epochs:c_1aacefce a skos:Concept ;
     skos:broader hector_epochs:c_f15eb188 ;
     skos:definition "Viertel-Jahrhundert von 1425 v. Chr. bis 1401 v. Chr.."@de,
@@ -929,16 +883,6 @@ hector_epochs:c_1af98635 a skos:Concept ;
     skos:prefLabel "Krokodil"@de,
         "Horus Crocodile"@en .
 
-hector_epochs:c_1ba6cfd1 a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "Geschwindigkeit, mit der sich Schallwellen in einem Medium ausbreiten (Kapetinger)"@de,
-        "distance travelled during a unit of time by a sound wave propagating through an elastic medium (House of Capet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4179365-1>,
-        <http://www.wikidata.org/entity/Q124003> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Schallgeschwindigkeit"@de,
-        "speed of sound"@en .
-
 hector_epochs:c_1bc4c565 a skos:Concept ;
     skos:broader hector_epochs:c_cc01d95b ;
     skos:definition "Viertel-Jahrhundert von 26 n. Chr. bis 50 n. Chr.."@de,
@@ -946,15 +890,6 @@ hector_epochs:c_1bc4c565 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "2. Viertel 1. Jh. n. Chr."@de,
         "2nd Quarter 1st Century AD"@en .
-
-hector_epochs:c_1c25f8c6 a skos:Concept ;
-    skos:broader hector_epochs:c_84715bb0 ;
-    skos:definition "Aktionsprogramm der Vereinten Nationen, beschlossen 1992 (Anjou)"@de,
-        "1992 action plan of the United Nations (Capetian House of Anjou)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q208571> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Agenda 21"@de,
-        "Agenda 21"@en .
 
 hector_epochs:c_1c9637a3 a skos:Concept ;
     skos:broader hector_epochs:c_3520b7a5 ;
@@ -1077,16 +1012,6 @@ hector_epochs:c_1f2633b5 a skos:Concept ;
     skos:prefLabel "Aha"@de,
         "Hor-Aha"@en .
 
-hector_epochs:c_1f58a2c0 a skos:Concept ;
-    skos:broader hector_epochs:c_eeaa8461 ;
-    skos:definition "Gemeinde in Deutschland (Plantagenet)"@de,
-        "municipality in Germany (House of Plantagenet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4130433-0>,
-        <http://www.wikidata.org/entity/Q83220> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Großbettlingen"@de,
-        "Großbettlingen"@en .
-
 hector_epochs:c_1fa3ffae a skos:Concept ;
     skos:broader hector_epochs:c_4c05ece0 ;
     skos:definition "altägyptischer König der 13. Dynastie"@de,
@@ -1141,16 +1066,6 @@ hector_epochs:c_20c3bffc a skos:Concept ;
     skos:prefLabel "2. Viertel 8. Jh. n. Chr."@de,
         "2nd Quarter 8th Century AD"@en .
 
-hector_epochs:c_2167136b a skos:Concept ;
-    skos:broader hector_epochs:c_bfd2ecdd ;
-    skos:definition "römisch-deutscher König und Kaiser (Salier)"@de,
-        "Holy Roman Emperor (Salian Dynasty)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118565079>,
-        <http://www.wikidata.org/entity/Q152256> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Konrad II."@de,
-        "Conrad II"@en .
-
 hector_epochs:c_21855812 a skos:Concept ;
     skos:broader hector_epochs:c_afea147c ;
     skos:definition "altägyptische Königin"@de,
@@ -1159,16 +1074,6 @@ hector_epochs:c_21855812 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Ahhotep II."@de,
         "Ahhotep II"@en .
-
-hector_epochs:c_21d1eafe a skos:Concept ;
-    skos:broader hector_epochs:c_0dde1770 ;
-    skos:definition "Stadt in Rheinland-Pfalz, Deutschland (Luxemburger)"@de,
-        "town in Rhineland-Palatinate, Germany (House of Luxembourg)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4069330-2>,
-        <http://www.wikidata.org/entity/Q155622> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Bernkastel-Kues"@de,
-        "Bernkastel-Kues"@en .
 
 hector_epochs:c_227c379d a skos:Concept ;
     skos:broader hector_epochs:c_9fbc0a79 ;
@@ -1186,16 +1091,6 @@ hector_epochs:c_22bbc857 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Sekhemre Kutawire"@de,
         "Sekhemre Kutawire"@en .
-
-hector_epochs:c_24093f50 a skos:Concept ;
-    skos:broader hector_epochs:c_8894fab4 ;
-    skos:definition "deutscher Mineraloge und Geologe (Haus Burgund)"@de,
-        "German scientist (1817–1886) (Castilian House of Burgundy)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/116556293>,
-        <http://www.wikidata.org/entity/Q110976> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Heinrich Fischer"@de,
-        "Leopold Heinrich Fischer"@en .
 
 hector_epochs:c_2439e021 a skos:Concept ;
     skos:broader hector_epochs:c_ea6387ef ;
@@ -1232,16 +1127,6 @@ hector_epochs:c_24b3fe88 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Usermonth"@de,
         "Usermontu"@en .
-
-hector_epochs:c_255eddfa a skos:Concept ;
-    skos:broader hector_epochs:c_8894fab4 ;
-    skos:definition "irischer Freiheitskämpfer (Haus Burgund)"@de,
-        "Irish political leader (1775–1847) (Castilian House of Burgundy)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118786695>,
-        <http://www.wikidata.org/entity/Q314917> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Daniel O’Connell"@de,
-        "Daniel O'Connell"@en .
 
 hector_epochs:c_2599cf8a a skos:Concept ;
     skos:broader hector_epochs:c_68a3e900 ;
@@ -1425,16 +1310,6 @@ hector_epochs:c_2a3838bb a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Djehuti Sechemre Sememtaui"@de,
         "Djehuti"@en .
-
-hector_epochs:c_2ab059be a skos:Concept ;
-    skos:broader hector_epochs:c_eee2cb93 ;
-    skos:definition "König von Frankreich (Valois)"@de,
-        "monarch of the House of Valois who ruled as King of France (House of Valois)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/100736416>,
-        <http://www.wikidata.org/entity/Q133372> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Karl VII."@de,
-        "Charles VII of France"@en .
 
 hector_epochs:c_2acd96ed a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
@@ -1818,16 +1693,6 @@ hector_epochs:c_35f8ff74 a skos:Concept ;
     skos:prefLabel "7. Dynastie"@de,
         "Seventh Dynasty of Egypt"@en .
 
-hector_epochs:c_36d086cc a skos:Concept ;
-    skos:broader hector_epochs:c_2fbc18ca ;
-    skos:definition "Fürst von Liechtenstein (Habsburger)"@de,
-        "monarch of Liechtenstein (born 1945) (House of Habsburg)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/119056496>,
-        <http://www.wikidata.org/entity/Q57454> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Hans-Adam II."@de,
-        "Hans-Adam II, Prince of Liechtenstein"@en .
-
 hector_epochs:c_36dbff6e a skos:Concept ;
     skos:broader hector_epochs:c_1dac3bf6 ;
     skos:definition "Viertel-Jahrhundert von 2025 v. Chr. bis 2001 v. Chr.."@de,
@@ -1930,16 +1795,6 @@ hector_epochs:c_390d5b79 a skos:Concept ;
     skos:prefLabel "Neferkare"@de,
         "Neferkare"@en .
 
-hector_epochs:c_39cc4194 a skos:Concept ;
-    skos:broader hector_epochs:c_4ad3c65e ;
-    skos:definition "König von Spanien und Aragonien (Trastámara)"@de,
-        "King of Aragon, Sicily, Naples, and Valencia (1452-1516) (House of Trastámara)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118686712>,
-        <http://www.wikidata.org/entity/Q12860> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Ferdinand II."@de,
-        "Ferdinand II of Aragon"@en .
-
 hector_epochs:c_39d8ab92 a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
     skos:definition "ägyptischer Pharao"@de,
@@ -1965,15 +1820,6 @@ hector_epochs:c_3a176b46 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Seth"@de,
         "Seth Meribre"@en .
-
-hector_epochs:c_3a66efb2 a skos:Concept ;
-    skos:broader hector_epochs:c_eee2cb93 ;
-    skos:definition "Fluss im Vereinigten Königreich (Valois)"@de,
-        "river in the United Kingdom (House of Valois)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q168574> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Beal"@de,
-        "River Beal"@en .
 
 hector_epochs:c_3ab77db8 a skos:Concept ;
     skos:broader hector_epochs:c_44baa143 ;
@@ -2126,16 +1972,6 @@ hector_epochs:c_3f7577bf a skos:Concept ;
     skos:prefLabel "Rahotep"@de,
         "Rahotep"@en .
 
-hector_epochs:c_4019eb27 a skos:Concept ;
-    skos:broader hector_epochs:c_40a3d809 ;
-    skos:definition "ostfränkischer König, römisch-deutscher Kaiser, Herzog von Sachsen (Ottonen)"@de,
-        "Holy Roman Emperor from 962 to 973 (Ottonian Dynasty)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118590758>,
-        <http://www.wikidata.org/entity/Q43915> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Otto I."@de,
-        "Otto I the Great"@en .
-
 hector_epochs:c_404bef80 a skos:Concept ;
     skos:broader hector_epochs:c_44baa143 ;
     skos:definition "altägyptischer König der 14. Dynastie"@de,
@@ -2144,15 +1980,6 @@ hector_epochs:c_404bef80 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Sehabre"@de,
         "Sehebre"@en .
-
-hector_epochs:c_40a1c984 a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "Herrscher (Kapetinger)"@de,
-        "genus of plants (House of Capet)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q159451> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Hypecoum"@de,
-        "Hypecoum"@en .
 
 hector_epochs:c_410603b4 a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
@@ -2372,16 +2199,6 @@ hector_epochs:c_45a26bc4 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "4. Viertel 11. Jh. n. Chr."@de,
         "4th Quarter 11th Century AD"@en .
-
-hector_epochs:c_45aa0dde a skos:Concept ;
-    skos:broader hector_epochs:c_4410d180 ;
-    skos:definition "englischer König (York)"@de,
-        "King of England from 1461 to 1470 and 1471 to 1483 (House of York)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118528939>,
-        <http://www.wikidata.org/entity/Q160341> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Eduard IV."@de,
-        "Edward IV of England"@en .
 
 hector_epochs:c_4625ab54 a skos:Concept ;
     skos:broader hector_epochs:c_28268fb6 ;
@@ -2658,16 +2475,6 @@ hector_epochs:c_4ca72cbe a skos:Concept ;
     skos:prefLabel "Kha...ra"@de,
         "Kha...ra"@en .
 
-hector_epochs:c_4cb620ee a skos:Concept ;
-    skos:broader hector_epochs:c_8894fab4 ;
-    skos:definition "US-amerikanischer Politiker (Haus Burgund)"@de,
-        "United States Senator from Hawaii (1924–2012) (Castilian House of Burgundy)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/170680185>,
-        <http://www.wikidata.org/entity/Q312845> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Daniel Inouye"@de,
-        "Daniel Inouye"@en .
-
 hector_epochs:c_4cc67165 a skos:Concept ;
     skos:broader hector_epochs:c_4c05ece0 ;
     skos:definition "altägyptischer König der 13. Dynastie"@de,
@@ -2808,15 +2615,6 @@ hector_epochs:c_50d4c0a4 a skos:Concept ;
     skos:prefLabel "4. Viertel 30. Jh. v. Chr."@de,
         "4th Quarter 30th Century BC"@en .
 
-hector_epochs:c_5106b98e a skos:Concept ;
-    skos:broader hector_epochs:c_2fbc18ca ;
-    skos:definition "niederländischer Radrennfahrer (Habsburger)"@de,
-        "Dutch racing cyclist (House of Habsburg)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q150537> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Jo de Roo"@de,
-        "Jo de Roo"@en .
-
 hector_epochs:c_51233d76 a skos:Concept ;
     skos:broader hector_epochs:c_df94bee1 ;
     skos:definition "Pharao der altägyptischen Prädynastik"@de,
@@ -2853,15 +2651,6 @@ hector_epochs:c_52243943 a skos:Concept ;
     skos:prefLabel "Potheinos"@de,
         "Pothinus"@en .
 
-hector_epochs:c_5259ced7 a skos:Concept ;
-    skos:broader hector_epochs:c_8894fab4 ;
-    skos:definition "Kap im Vereinigten Königreich (Haus Burgund)"@de,
-        "cape in South Georgia and the South Sandwich Islands (Castilian House of Burgundy)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q312906> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Framnaes Point"@de,
-        "Framnaes Point"@en .
-
 hector_epochs:c_52bc275f a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
     skos:definition "altägyptischer Pharao"@de,
@@ -2895,15 +2684,6 @@ hector_epochs:c_53ab2fe5 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Hor II."@de,
         "Hor II."@en .
-
-hector_epochs:c_53c6c638 a skos:Concept ;
-    skos:broader hector_epochs:c_eeaa8461 ;
-    skos:definition "Chinesischer Bomber (Plantagenet)"@de,
-        "Chinese strategic bomber aircraft (House of Plantagenet)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q39600> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Xian H-6"@de,
-        "Xian H-6"@en .
 
 hector_epochs:c_545d30f9 a skos:Concept ;
     skos:broader hector_epochs:c_8135bfa2 ;
@@ -3040,16 +2820,6 @@ hector_epochs:c_58046dd7 a skos:Concept ;
     skos:prefLabel "Trebonianus Gallus"@de,
         "Trebonianus Gallus"@en .
 
-hector_epochs:c_584d04e2 a skos:Concept ;
-    skos:broader hector_epochs:c_733426f7 ;
-    skos:definition "Herzog von Schwaben, römisch-deutscher König, Kaiser des römisch-deutschen Reiches (Staufer)"@de,
-        "Holy Roman Emperor from 1155 to 1190 (Hohenstaufen Dynasty)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118535757>,
-        <http://www.wikidata.org/entity/Q79789> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Friedrich I. Barbarossa"@de,
-        "Frederick Barbarossa"@en .
-
 hector_epochs:c_588b7678 a skos:Concept ;
     skos:broader hector_epochs:c_7a476f75 ;
     skos:definition "Viertel-Jahrhundert von 125 v. Chr. bis 101 v. Chr.."@de,
@@ -3057,16 +2827,6 @@ hector_epochs:c_588b7678 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "4. Viertel 2. Jh. v. Chr."@de,
         "4th Quarter 2nd Century BC"@en .
-
-hector_epochs:c_58d46f4a a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "deutscher Maler des Expressionismus (1880–1938) (Kapetinger)"@de,
-        "German painter, sculptor, engraver and printmaker (1880–1938) (House of Capet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118562398>,
-        <http://www.wikidata.org/entity/Q229272> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Ernst Ludwig Kirchner"@de,
-        "Ernst Ludwig Kirchner"@en .
 
 hector_epochs:c_58fc37ed a skos:Concept ;
     skos:broader hector_epochs:c_17c2191a ;
@@ -3077,15 +2837,6 @@ hector_epochs:c_58fc37ed a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Hakor"@de,
         "Hakor"@en .
-
-hector_epochs:c_592aba4d a skos:Concept ;
-    skos:broader hector_epochs:c_4ad3c65e ;
-    skos:definition "Kloster in Russland (Trastámara)"@de,
-        "convent and UNESCO World Heritage Site in Moscow, Russia (House of Trastámara)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q270725> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Nowodewitschi-Kloster"@de,
-        "Novodevichy Convent"@en .
 
 hector_epochs:c_5947aa75 a skos:Concept ;
     skos:broader hector_epochs:c_0b7f3022 ;
@@ -3106,26 +2857,6 @@ hector_epochs:c_59a3a3e1 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Xerxes I."@de,
         "Xerxes I"@en .
-
-hector_epochs:c_59bfd0f3 a skos:Concept ;
-    skos:broader hector_epochs:c_2fbc18ca ;
-    skos:definition "tschechischer Ökonom und Politiker; Ministerpräsident, Vorsitzender des Abgeordnetenhauses und Staatspräsident. der Tschechischen Republik (Habsburger)"@de,
-        "President of the Czech Republic from 2003 to 2013 (House of Habsburg)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/119278480>,
-        <http://www.wikidata.org/entity/Q57434> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Václav Klaus"@de,
-        "Václav Klaus"@en .
-
-hector_epochs:c_5af41b47 a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "deutscher Politikwissenschaftler (Kapetinger)"@de,
-        "German political scientist (1934–2018) (House of Capet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/120942364>,
-        <http://www.wikidata.org/entity/Q102928> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Ekkehart Krippendorff"@de,
-        "Ekkehart Krippendorff"@en .
 
 hector_epochs:c_5b17f3b4 a skos:Concept ;
     skos:broader hector_epochs:c_4b0ed540 ;
@@ -3165,15 +2896,6 @@ hector_epochs:c_5bafb04a a skos:Concept ;
     skos:prefLabel "Antef III."@de,
         "Intef III"@en .
 
-hector_epochs:c_5c771ff3 a skos:Concept ;
-    skos:broader hector_epochs:c_3535f731 ;
-    skos:definition "Herrscher (Normannen)"@de,
-        "Arrangement of sound frequency processing in the brain (House of Normandy)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q82654> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Tonotopie"@de,
-        "tonotopy"@en .
-
 hector_epochs:c_5c9dc339 a skos:Concept ;
     skos:broader hector_epochs:c_6d1aeb13 ;
     skos:definition "römischer Kaiser (Frühe Kaiserzeit (reg. bis 193 n. Chr.))"@de,
@@ -3193,15 +2915,6 @@ hector_epochs:c_5d96d179 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Hetepsechemui"@de,
         "Hotepsekhemwy"@en .
-
-hector_epochs:c_5e653596 a skos:Concept ;
-    skos:broader hector_epochs:c_ad59d4d1 ;
-    skos:definition "Sportsaison (Lancaster)"@de,
-        "1967 edition of the World Men's Handball Championship (House of Lancaster)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q845155> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Handball-Weltmeisterschaft der Herren 1967"@de,
-        "1967 World Men's Handball Championship"@en .
 
 hector_epochs:c_5ea4c9d2 a skos:Concept ;
     skos:broader hector_epochs:c_28268fb6 ;
@@ -3294,16 +3007,6 @@ hector_epochs:c_6189c39b a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Mittelhelladische Epoche"@de,
         "Middle Helladic Period"@en .
-
-hector_epochs:c_61a26a66 a skos:Concept ;
-    skos:broader hector_epochs:c_bfd2ecdd ;
-    skos:definition "römisch-deutscher König und Kaiser des Heiligen Römischen Reiches (Salier)"@de,
-        "Holy Roman Emperor (Salian Dynasty)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118548263>,
-        <http://www.wikidata.org/entity/Q153023> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Heinrich III."@de,
-        "Henry III"@en .
 
 hector_epochs:c_62aa1ca6 a skos:Concept ;
     skos:broader hector_epochs:c_2b576abd ;
@@ -3405,16 +3108,6 @@ hector_epochs:c_6607f849 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "3. Viertel 18. Jh. n. Chr."@de,
         "3rd Quarter 18th Century AD"@en .
-
-hector_epochs:c_66cb939e a skos:Concept ;
-    skos:broader hector_epochs:c_733426f7 ;
-    skos:definition "deutscher Journalist, Soziologe und Filmkritiker (Staufer)"@de,
-        "German writer, journalist, sociologist, cultural critic, and film theorist (1889-1966) (Hohenstaufen Dynasty)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118565877>,
-        <http://www.wikidata.org/entity/Q76435> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Siegfried Kracauer"@de,
-        "Siegfried Kracauer"@en .
 
 hector_epochs:c_6754596a a skos:Concept ;
     skos:broader hector_epochs:c_2ea1e61f ;
@@ -3729,6 +3422,13 @@ hector_epochs:c_6f620a47 a skos:Concept ;
     skos:prefLabel "Takelot II."@de,
         "Takelot II"@en .
 
+hector_epochs:c_6f64b8ff a skos:Concept ;
+    skos:broader hector_epochs:c_20bac33e ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2566630> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Römische Eisenzeit"@de,
+        "Roman Iron Age"@en .
+
 hector_epochs:c_706acfd2 a skos:Concept ;
     skos:broader hector_epochs:c_7ff0d7b8 ;
     skos:definition "Viertel-Jahrhundert von 1701 n. Chr. bis 1725 n. Chr.."@de,
@@ -3762,16 +3462,6 @@ hector_epochs:c_711e76a9 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "2. Viertel 5. Jh. v. Chr."@de,
         "2nd Quarter 5th Century BC"@en .
-
-hector_epochs:c_713307c7 a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "Hafenstadt und Verwaltungszentrum der Oblast Rostow im Süden Russlands (Kapetinger)"@de,
-        "city and administrative center of Rostov Oblast in southern Russia (House of Capet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4122720-7>,
-        <http://www.wikidata.org/entity/Q908> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Rostow am Don"@de,
-        "Rostov-on-Don"@en .
 
 hector_epochs:c_714ccd67 a skos:Concept ;
     skos:broader hector_epochs:c_4b0ed540 ;
@@ -3810,15 +3500,6 @@ hector_epochs:c_73605835 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Hor..."@de,
         "Hor..."@en .
-
-hector_epochs:c_73c0c6ed a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "Film von David M. Evans (2000) (Kapetinger)"@de,
-        "2000 film by David M. Evans (House of Capet)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q129959> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Beethoven: Urlaub mit Hindernissen"@de,
-        "Beethoven's 3rd"@en .
 
 hector_epochs:c_73e74b8d a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
@@ -4182,15 +3863,6 @@ hector_epochs:c_7e868f08 a skos:Concept ;
     skos:prefLabel "Neferkare Tereru"@de,
         "Neferkare Tereru"@en .
 
-hector_epochs:c_7ebe1728 a skos:Concept ;
-    skos:broader hector_epochs:c_8894fab4 ;
-    skos:definition "König von Numidien (Haus Burgund)"@de,
-        "king of Numidia (Castilian House of Burgundy)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q356616> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Adherbal"@de,
-        "Adherbal"@en .
-
 hector_epochs:c_7eda99bc a skos:Concept ;
     skos:broader hector_epochs:c_a18ac688 ;
     skos:definition "Viertel-Jahrhundert von 2900 v. Chr. bis 2876 v. Chr.."@de,
@@ -4216,26 +3888,6 @@ hector_epochs:c_7f5ea6a4 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Scheschi"@de,
         "Sheshi"@en .
-
-hector_epochs:c_7f62e6d2 a skos:Concept ;
-    skos:broader hector_epochs:c_24770a96 ;
-    skos:definition "Universität in Venezuela (Hauteville)"@de,
-        "university in Venezuela (House of Hauteville)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/14054-5>,
-        <http://www.wikidata.org/entity/Q367429> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Universidad de Carabobo"@de,
-        "University of Carabobo bachiller"@en .
-
-hector_epochs:c_7fa926fd a skos:Concept ;
-    skos:broader hector_epochs:c_733426f7 ;
-    skos:definition "österreichisches Unternehmen (Staufer)"@de,
-        "business (Hohenstaufen Dynasty)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/1211915-5>,
-        <http://www.wikidata.org/entity/Q151415> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Kommunalkredit Austria"@de,
-        "Kommunalkredit Austria"@en .
 
 hector_epochs:c_7fa99fe0 a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
@@ -4335,16 +3987,6 @@ hector_epochs:c_826a396a a skos:Concept ;
     skos:prefLabel "Sesostris III."@de,
         "Senusret III"@en .
 
-hector_epochs:c_82c82e6b a skos:Concept ;
-    skos:broader hector_epochs:c_eeaa8461 ;
-    skos:definition "österreichischer Opernsänger (Bariton) (Plantagenet)"@de,
-        "Austrian opera singer (1909–1995) (House of Plantagenet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/119290693>,
-        <http://www.wikidata.org/entity/Q78855> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Erich Kunz"@de,
-        "Erich Kunz"@en .
-
 hector_epochs:c_8395e20a a skos:Concept ;
     skos:broader hector_epochs:c_543d279d ;
     skos:definition "7. altägyptischer Pharao der 19. Dynastie"@de,
@@ -4416,16 +4058,6 @@ hector_epochs:c_85e06354 a skos:Concept ;
     skos:prefLabel "1. Viertel 23. Jh. v. Chr."@de,
         "1st Quarter 23rd Century BC"@en .
 
-hector_epochs:c_85ee2a59 a skos:Concept ;
-    skos:broader hector_epochs:c_4ad3c65e ;
-    skos:definition "Königin von Kastilien von 1474 bis 1504, und die erste Königin von Spanien von 1479 bis 1504 (Trastámara)"@de,
-        "queen of the Crown of Castile, from 1474 to 1504; first queen of a dynastically-united Spain, from 1479 to 1504 (1451–1504) (House of Trastámara)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/11863982X>,
-        <http://www.wikidata.org/entity/Q45859> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Isabella I."@de,
-        "Isabella I of Castile"@en .
-
 hector_epochs:c_8637e488 a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
     skos:definition "altägyptischer Pharao der 14. Dynastie"@de,
@@ -4454,15 +4086,6 @@ hector_epochs:c_86dbcb4b a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Kambyses II."@de,
         "Cambyses II"@en .
-
-hector_epochs:c_86ef819a a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "Herrscher (Kapetinger)"@de,
-        "Ruler (House of Capet)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q34258> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Q34258"@de,
-        "Q34258"@en .
 
 hector_epochs:c_874da8c8 a skos:Concept ;
     skos:broader hector_epochs:c_4c05ece0 ;
@@ -4556,15 +4179,6 @@ hector_epochs:c_88bf442e a skos:Concept ;
     skos:prefLabel "Nerva"@de,
         "Nerva"@en .
 
-hector_epochs:c_88ce38fc a skos:Concept ;
-    skos:broader hector_epochs:c_24770a96 ;
-    skos:definition "Gemeinde in Frankreich (Hauteville)"@de,
-        "commune in Haute-Vienne, France (House of Hauteville)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q193649> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Saint-Martial-sur-Isop"@de,
-        "Saint-Martial-sur-Isop"@en .
-
 hector_epochs:c_88e87ba8 a skos:Concept ;
     skos:broader hector_epochs:c_bb249250 ;
     skos:definition "erster altägyptischer Pharao der 20. Dynastie"@de,
@@ -4583,15 +4197,6 @@ hector_epochs:c_892a78ba a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Sobekhotep I."@de,
         "Sobekhotep I"@en .
-
-hector_epochs:c_8993c238 a skos:Concept ;
-    skos:broader hector_epochs:c_eee2cb93 ;
-    skos:definition "Art der Gattung Astyanax (Valois)"@de,
-        "species of fish (House of Valois)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q134901> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Astyanax jordani"@de,
-        "Astyanax jordani"@en .
 
 hector_epochs:c_89fdb17c a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
@@ -4648,16 +4253,6 @@ hector_epochs:c_8bf698e5 a skos:Concept ;
     skos:prefLabel "Ramses VIII."@de,
         "Ramesses VIII"@en .
 
-hector_epochs:c_8c4fcca5 a skos:Concept ;
-    skos:broader hector_epochs:c_eee2cb93 ;
-    skos:definition "Wüste an der Südwestküste Afrikas (Valois)"@de,
-        "desert in southern Africa (House of Valois)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4041195-3>,
-        <http://www.wikidata.org/entity/Q131377> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Namib"@de,
-        "Namib"@en .
-
 hector_epochs:c_8c963314 a skos:Concept ;
     skos:broader hector_epochs:c_4c05ece0 ;
     skos:definition "ägyptischer Pharao"@de,
@@ -4702,16 +4297,6 @@ hector_epochs:c_8d1c442a a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Penamun"@de,
         "Penamun"@en .
-
-hector_epochs:c_8d3cf7a6 a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "König von Frankreich (1226–1270) (Kapetinger)"@de,
-        "King of France from 1226 to 1270 (1214–1270) (House of Capet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118729411>,
-        <http://www.wikidata.org/entity/Q346> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Ludwig IX."@de,
-        "Louis IX of France"@en .
 
 hector_epochs:c_8d6a9450 a skos:Concept ;
     skos:broader hector_epochs:c_4b0ed540 ;
@@ -5044,16 +4629,6 @@ hector_epochs:c_96c81ad2 a skos:Concept ;
     skos:prefLabel "4. Viertel 11. Jh. v. Chr."@de,
         "4th Quarter 11th Century BC"@en .
 
-hector_epochs:c_97234b94 a skos:Concept ;
-    skos:broader hector_epochs:c_0dde1770 ;
-    skos:definition "deutscher Schachspieler (Luxemburger)"@de,
-        "German chess champion, after Paul Morphy (1858-1860), second unofficial world chess champion (1851-1858, 1860-1865, 1867-1871), chess publicist (House of Luxembourg)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118502840>,
-        <http://www.wikidata.org/entity/Q57155> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Adolf Anderssen"@de,
-        "Adolf Anderssen"@en .
-
 hector_epochs:c_9727c3da a skos:Concept ;
     skos:broader hector_epochs:c_28268fb6 ;
     skos:definition "altägyptischer König der 8. Dynastie"@de,
@@ -5062,15 +4637,6 @@ hector_epochs:c_9727c3da a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Neterikare"@de,
         "Netjerkare"@en .
-
-hector_epochs:c_976c90ac a skos:Concept ;
-    skos:broader hector_epochs:c_24770a96 ;
-    skos:definition "Gemeinde in Armenien (Hauteville)"@de,
-        "village in Tavush Province of Armenia (House of Hauteville)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q367425> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Aygepar"@de,
-        "Aygepar"@en .
 
 hector_epochs:c_98283bfc a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
@@ -5116,16 +4682,6 @@ hector_epochs:c_99a48d2f a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Sahathor"@de,
         "Sihathor"@en .
-
-hector_epochs:c_99b2b663 a skos:Concept ;
-    skos:broader hector_epochs:c_4410d180 ;
-    skos:definition "König von England (York)"@de,
-        "king of England in 1483 (1470-1483) (House of York)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118528947>,
-        <http://www.wikidata.org/entity/Q170470> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Eduard V."@de,
-        "Edward V of England"@en .
 
 hector_epochs:c_9a20160d a skos:Concept ;
     skos:broader hector_epochs:c_3f60aad4 ;
@@ -5310,16 +4866,6 @@ hector_epochs:c_9e90a7da a skos:Concept ;
     skos:prefLabel "Sechet"@de,
         "Sechet"@en .
 
-hector_epochs:c_9ebe32bf a skos:Concept ;
-    skos:broader hector_epochs:c_8894fab4 ;
-    skos:definition "italienische Journalistin (Haus Burgund)"@de,
-        "Italian journalist (1919–2011) (Castilian House of Burgundy)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/134183541>,
-        <http://www.wikidata.org/entity/Q272607> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Tullia Zevi"@de,
-        "Tullia Zevi"@en .
-
 hector_epochs:c_9ec7822a a skos:Concept ;
     skos:broader hector_epochs:c_6d1aeb13 ;
     skos:definition "römischer Kaiser (Frühe Kaiserzeit (reg. bis 69 n. Chr.))"@de,
@@ -5374,25 +4920,6 @@ hector_epochs:c_9f88576e a skos:Concept ;
     skos:prefLabel "Semqen"@de,
         "Semqen"@en .
 
-hector_epochs:c_9f90efd7 a skos:Concept ;
-    skos:broader hector_epochs:c_4ad3c65e ;
-    skos:definition "argentinischer Fußballspieler und -trainer (Trastámara)"@de,
-        "Argentine association football player and manager (House of Trastámara)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q310373> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Osvaldo Ardiles"@de,
-        "Osvaldo Ardiles"@en .
-
-hector_epochs:c_9fa6b0f5 a skos:Concept ;
-    skos:broader hector_epochs:c_40a3d809 ;
-    skos:definition "ostfränkischer König und römisch-deutscher Kaiser, heiliggesprochen (Ottonen)"@de,
-        "Holy Roman Emperor from 1014 to 1024 (Ottonian Dynasty)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118548255>,
-        <http://www.wikidata.org/entity/Q103556> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Heinrich II."@de,
-        "Henry II, Holy Roman Emperor"@en .
-
 hector_epochs:c_9fb01a3b a skos:Concept ;
     skos:broader hector_epochs:c_c6fe0856 ;
     skos:definition "Gegenkaiser im Westen des römischen Reiches 406/07 (Späte Kaiserzeit (reg. bis 406 n. Chr.))"@de,
@@ -5426,15 +4953,6 @@ hector_epochs:c_a00c9a06 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Ahhotep I."@de,
         "Ahhotep I"@en .
-
-hector_epochs:c_a032b0a4 a skos:Concept ;
-    skos:broader hector_epochs:c_24770a96 ;
-    skos:definition "Wikimedia-Liste (Hauteville)"@de,
-        "Wikimedia list article (House of Hauteville)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q367468> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Liste der Länder nach Investitionsquote"@de,
-        "list of countries by gross fixed investment as percentage of GDP"@en .
 
 hector_epochs:c_a03bb29e a skos:Concept ;
     skos:broader hector_epochs:c_12cd0776 ;
@@ -5513,15 +5031,6 @@ hector_epochs:c_a1a0d762 a skos:Concept ;
     skos:prefLabel "Inaros II."@de,
         "Inaros II"@en .
 
-hector_epochs:c_a1a38238 a skos:Concept ;
-    skos:broader hector_epochs:c_8894fab4 ;
-    skos:definition "türkischer Fußballspieler (Haus Burgund)"@de,
-        "Turkish association football player (born 1991) (Castilian House of Burgundy)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q318063> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Abdülkadir Kayalı"@de,
-        "Abdülkadir Kayalı"@en .
-
 hector_epochs:c_a1e6fff9 a skos:Concept ;
     skos:broader hector_epochs:c_20065bf8 ;
     skos:definition "altägyptischer Pharao und Begründer der 23. Dynastie, die parallel zur 22. Dynastie läuft"@de,
@@ -5590,16 +5099,6 @@ hector_epochs:c_a398675a a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "3. Viertel 16. Jh. v. Chr."@de,
         "3rd Quarter 16th Century BC"@en .
-
-hector_epochs:c_a3b157d2 a skos:Concept ;
-    skos:broader hector_epochs:c_3535f731 ;
-    skos:definition "König von England (1100-1135) (Normannen)"@de,
-        "King of England from 1100 to 1135 (1068–1135) (House of Normandy)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118773739>,
-        <http://www.wikidata.org/entity/Q101384> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Heinrich I."@de,
-        "Henry I of England"@en .
 
 hector_epochs:c_a3fa0359 a skos:Concept ;
     skos:broader hector_epochs:c_4b0ed540 ;
@@ -5738,16 +5237,6 @@ hector_epochs:c_a8286c94 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Aakare"@de,
         "Ânkhkarê"@en .
-
-hector_epochs:c_a8984f41 a skos:Concept ;
-    skos:broader hector_epochs:c_3535f731 ;
-    skos:definition "Pfalzgraf und Herzog von Zweibrücken-Birkenfeld zu Gelnhausen (Normannen)"@de,
-        "Count Palatine of Zweibrücken-Birkenfeld at Gelnhausen (House of Normandy)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/138870691>,
-        <http://www.wikidata.org/entity/Q71257> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Johann"@de,
-        "John, Count Palatine of Gelnhausen"@en .
 
 hector_epochs:c_a8aa2c22 a skos:Concept ;
     skos:broader hector_epochs:c_17c2191a ;
@@ -6056,16 +5545,6 @@ hector_epochs:c_b12bfa2b a skos:Concept ;
     skos:prefLabel "Balbinus"@de,
         "Balbinus"@en .
 
-hector_epochs:c_b1b69ae8 a skos:Concept ;
-    skos:broader hector_epochs:c_eee2cb93 ;
-    skos:definition "Sommerspiele der XX. Olympiade, in München, Westdeutschland (Valois)"@de,
-        "Games of the XX Olympiad, in Munich, West Germany (House of Valois)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/2021043-7>,
-        <http://www.wikidata.org/entity/Q8438> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Olympische Sommerspiele 1972"@de,
-        "1972 Summer Olympics"@en .
-
 hector_epochs:c_b1ff0c12 a skos:Concept ;
     skos:broader hector_epochs:c_23aebc71 ;
     skos:definition "3. altägyptischer König der 1. Dynastie"@de,
@@ -6217,15 +5696,6 @@ hector_epochs:c_b5a472d2 a skos:Concept ;
     skos:prefLabel "Arsinoë I."@de,
         "Arsinoe I"@en .
 
-hector_epochs:c_b5d59fb1 a skos:Concept ;
-    skos:broader hector_epochs:c_eeaa8461 ;
-    skos:definition "Herrscher (Plantagenet)"@de,
-        "1868 battle (House of Plantagenet)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q81256> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Battle of Ichikawa-Funabashi"@de,
-        "Battle of Ichikawa-Funabashi"@en .
-
 hector_epochs:c_b6375a71 a skos:Concept ;
     skos:broader hector_epochs:c_c6fe0856 ;
     skos:definition "Mitkaiser des Römischen Reiches (Späte Kaiserzeit (reg. bis 356 n. Chr.))"@de,
@@ -6234,15 +5704,6 @@ hector_epochs:c_b6375a71 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Vetranio"@de,
         "Vetranio"@en .
-
-hector_epochs:c_b654975d a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "kanadische Fernsehserie (1995–1998) (Kapetinger)"@de,
-        "Canadian-American horror anthology television series (House of Capet)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q32824> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Gänsehaut – Die Stunde der Geister"@de,
-        "Goosebumps"@en .
 
 hector_epochs:c_b6e30662 a skos:Concept ;
     skos:broader hector_epochs:c_7c73104c ;
@@ -6335,26 +5796,6 @@ hector_epochs:c_b9ed2fb5 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Kheretheb Shepesu"@de,
         "Kheretheb Shepesu"@en .
-
-hector_epochs:c_ba0e152d a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "sich an Tieren orientierende sexuelle Präferenz (Kapetinger)"@de,
-        "paraphilia involving a sexual fixation on non-human animal (House of Capet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4181721-7>,
-        <http://www.wikidata.org/entity/Q8392> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Zoophilie"@de,
-        "zoophilia"@en .
-
-hector_epochs:c_ba66a1b2 a skos:Concept ;
-    skos:broader hector_epochs:c_eeaa8461 ;
-    skos:definition "US-amerikanischer Drehbuchautor und Filmregisseur (Plantagenet)"@de,
-        "American screenwriter and director (1913-1988) (House of Plantagenet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/141273445>,
-        <http://www.wikidata.org/entity/Q41131> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Melvin Frank"@de,
-        "Melvin Frank"@en .
 
 hector_epochs:c_ba6e73a8 a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
@@ -6534,15 +5975,6 @@ hector_epochs:c_bea22331 a skos:Concept ;
     skos:prefLabel "Djedkare Schemai"@de,
         "Djedkare Shemai"@en .
 
-hector_epochs:c_bf80943a a skos:Concept ;
-    skos:broader hector_epochs:c_ad59d4d1 ;
-    skos:definition "Herrscher (Lancaster)"@de,
-        "organism that produces complex organic compounds (such as carbohydrates, fats, and proteins) from simple substances present in its surroundings, generally using energy from light (photosynthesis) or inorganic chemical reactions (chemosynthesis) (House of Lancaster)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q131427> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Autotroph"@de,
-        "autotroph"@en .
-
 hector_epochs:c_c117c0a5 a skos:Concept ;
     skos:broader hector_epochs:c_0d8d1934 ;
     skos:definition "Viertel-Jahrhundert von 876 n. Chr. bis 900 n. Chr.."@de,
@@ -6579,16 +6011,6 @@ hector_epochs:c_c3746267 a skos:Concept ;
     skos:prefLabel "Geta"@de,
         "Geta"@en .
 
-hector_epochs:c_c37ff8e0 a skos:Concept ;
-    skos:broader hector_epochs:c_eeaa8461 ;
-    skos:definition "König von England, Herzog der Normandie, Herzog von Aquitanien, Graf von Anjou (1157–1199) (Plantagenet)"@de,
-        "King of England from 1189 to 1199 (1157–1199) (House of Plantagenet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118641972>,
-        <http://www.wikidata.org/entity/Q42305> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Richard Löwenherz"@de,
-        "Richard I of England"@en .
-
 hector_epochs:c_c3a093e6 a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
     skos:definition "altägyptischer König der 3. Dynastie"@de,
@@ -6605,15 +6027,6 @@ hector_epochs:c_c3f6578e a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "4. Viertel 21. Jh. n. Chr."@de,
         "4th Quarter 21st Century AD"@en .
-
-hector_epochs:c_c3fa721e a skos:Concept ;
-    skos:broader hector_epochs:c_eee2cb93 ;
-    skos:definition "Berg in Italien (Valois)"@de,
-        "mountain (House of Valois)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q167669> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Monte Labbro"@de,
-        "Monte Labbro"@en .
 
 hector_epochs:c_c4b26832 a skos:Concept ;
     skos:broader hector_epochs:c_e79f8ce9 ;
@@ -6632,16 +6045,6 @@ hector_epochs:c_c4c1445b a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "3. Viertel 27. Jh. v. Chr."@de,
         "3rd Quarter 27th Century BC"@en .
-
-hector_epochs:c_c53cd0ec a skos:Concept ;
-    skos:broader hector_epochs:c_bfd2ecdd ;
-    skos:definition "costa-ricanische Politikerin (Salier)"@de,
-        "46th President of Costa Rica (Salian Dynasty)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/1057284335>,
-        <http://www.wikidata.org/entity/Q57321> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Laura Chinchilla"@de,
-        "Laura Chinchilla"@en .
 
 hector_epochs:c_c53e9e0d a skos:Concept ;
     skos:broader hector_epochs:c_21373bb3 ;
@@ -6730,16 +6133,6 @@ hector_epochs:c_c74604d5 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Weneg"@de,
         "Weneg"@en .
-
-hector_epochs:c_c77d1641 a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "König von Frankreich (1270–1285) (Kapetinger)"@de,
-        "king of France from 1270 to 1285 (1245–1285) (House of Capet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118791850>,
-        <http://www.wikidata.org/entity/Q172203> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Philipp III."@de,
-        "Philip III of France"@en .
 
 hector_epochs:c_c781b555 a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
@@ -6864,16 +6257,6 @@ hector_epochs:c_cb26dcb1 a skos:Concept ;
     skos:prefLabel "Naqyrjinsan[...]"@de,
         "Naqyrjinsan[...]"@en .
 
-hector_epochs:c_cb429328 a skos:Concept ;
-    skos:broader hector_epochs:c_eeaa8461 ;
-    skos:definition "britischer Premierminister (1945–1951) (Plantagenet)"@de,
-        "Prime Minister of the United Kingdom from 1945 to 1951 (1883–1967) (House of Plantagenet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118650882>,
-        <http://www.wikidata.org/entity/Q129006> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Clement Attlee"@de,
-        "Clement Attlee"@en .
-
 hector_epochs:c_cb835a80 a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
     skos:definition "Hoher Priester"@de,
@@ -6892,15 +6275,6 @@ hector_epochs:c_cb8b93ec a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Menes"@de,
         "Menes"@en .
-
-hector_epochs:c_cbff0316 a skos:Concept ;
-    skos:broader hector_epochs:c_4ad3c65e ;
-    skos:definition "Gemeinde im Département Ille-et-Vilaine, Frankreich (Trastámara)"@de,
-        "commune in Ille-et-Vilaine, France (House of Trastámara)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q219665> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Saint-Père-Marc-en-Poulet"@de,
-        "Saint-Père-Marc-en-Poulet"@en .
 
 hector_epochs:c_cc2026ea a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
@@ -7066,16 +6440,6 @@ hector_epochs:c_cf624ea0 a skos:Concept ;
     skos:prefLabel "Ptolemaios X."@de,
         "Ptolemy X Alexander I"@en .
 
-hector_epochs:c_cf7b52f7 a skos:Concept ;
-    skos:broader hector_epochs:c_8894fab4 ;
-    skos:definition "französischer Schriftsteller (Haus Burgund)"@de,
-        "French writer and literary critic (born 1965) (Castilian House of Burgundy)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/123008867>,
-        <http://www.wikidata.org/entity/Q314972> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Frédéric Beigbeder"@de,
-        "Frédéric Beigbeder"@en .
-
 hector_epochs:c_d040ab6d a skos:Concept ;
     skos:broader hector_epochs:c_6d1aeb13 ;
     skos:definition "römischer Kaiser (Frühe Kaiserzeit (reg. bis 211 n. Chr.))"@de,
@@ -7115,15 +6479,6 @@ hector_epochs:c_d1b98faf a skos:Concept ;
     skos:prefLabel "Artaxerxes II."@de,
         "Artaxerxes II"@en .
 
-hector_epochs:c_d1f8165b a skos:Concept ;
-    skos:broader hector_epochs:c_8894fab4 ;
-    skos:definition "Riff im Vereinigten Königreich (Haus Burgund)"@de,
-        "reef in the United Kingdom (Castilian House of Burgundy)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q312882> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Hauge Reef"@de,
-        "Hauge Reef"@en .
-
 hector_epochs:c_d1fce055 a skos:Concept ;
     skos:broader hector_epochs:c_c6fe0856 ;
     skos:definition "römischer Kaiser (337-361) (Späte Kaiserzeit (reg. bis 361 n. Chr.))"@de,
@@ -7156,15 +6511,6 @@ hector_epochs:c_d224fb08 a skos:Concept ;
     skos:prefLabel "Karl V."@de,
         "Charles V"@en .
 
-hector_epochs:c_d28dc0dc a skos:Concept ;
-    skos:broader hector_epochs:c_eee2cb93 ;
-    skos:definition "Museum in der Volksrepublik China (Valois)"@de,
-        "museum in Kuancheng, Changchun, Jilin, China (House of Valois)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q83332> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Museum of the Imperial Palace of Manchukuo"@de,
-        "Museum of the Imperial Palace of Manchukuo"@en .
-
 hector_epochs:c_d2999297 a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
     skos:definition "altägyptischer König der 1. Dynastie"@de,
@@ -7191,16 +6537,6 @@ hector_epochs:c_d323a837 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Seankhibra"@de,
         "Seankhibra"@en .
-
-hector_epochs:c_d38af748 a skos:Concept ;
-    skos:broader hector_epochs:c_0dde1770 ;
-    skos:definition "deutsch-amerikanische Physikerin (Luxemburger)"@de,
-        "German-born American theoretical physicist (1906-1972) (House of Luxembourg)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/119155680>,
-        <http://www.wikidata.org/entity/Q57100> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Maria Goeppert-Mayer"@de,
-        "Maria Göppert Mayer"@en .
 
 hector_epochs:c_d3d2a2c7 a skos:Concept ;
     skos:broader hector_epochs:c_cfafe22d ;
@@ -7391,16 +6727,6 @@ hector_epochs:c_d8dddbb3 a skos:Concept ;
     skos:prefLabel "Antoninus Pius"@de,
         "Antoninus Pius"@en .
 
-hector_epochs:c_d9379af4 a skos:Concept ;
-    skos:broader hector_epochs:c_3535f731 ;
-    skos:definition "König von England (1066-1087), Herzog der Normandie (1035-1087) (Normannen)"@de,
-        "King of England from 1066 to 1087, Duke of Normandy from 1035 to 1087 (1028–1087) (House of Normandy)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118643347>,
-        <http://www.wikidata.org/entity/Q37594> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Wilhelm I."@de,
-        "William the Conqueror"@en .
-
 hector_epochs:c_d93b70f7 a skos:Concept ;
     skos:broader hector_epochs:c_abe396ae ;
     skos:definition "Viertel-Jahrhundert von 1126 n. Chr. bis 1150 n. Chr.."@de,
@@ -7508,16 +6834,6 @@ hector_epochs:c_dc1576e8 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Maara Sobekhotep"@de,
         "Maara Sobekhotep"@en .
-
-hector_epochs:c_dc2409e5 a skos:Concept ;
-    skos:broader hector_epochs:c_eeaa8461 ;
-    skos:definition "deutscher Dirigent und Komponist (Plantagenet)"@de,
-        "German conductor and composer (1886–1954) (House of Plantagenet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118536931>,
-        <http://www.wikidata.org/entity/Q57285> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Wilhelm Furtwängler"@de,
-        "Wilhelm Furtwängler"@en .
 
 hector_epochs:c_dc8b543a a skos:Concept ;
     skos:broader hector_epochs:c_63260e46 ;
@@ -7815,16 +7131,6 @@ hector_epochs:c_e67bb7d3 a skos:Concept ;
     skos:prefLabel "Theodosius II."@de,
         "Theodosius II"@en .
 
-hector_epochs:c_e681167c a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "König von Frankreich von 1547 bis 1559 (Kapetinger)"@de,
-        "King of France from 1547 to 1559 (1519–1559) (House of Capet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118548166>,
-        <http://www.wikidata.org/entity/Q132545> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Heinrich II."@de,
-        "Henry II of France"@en .
-
 hector_epochs:c_e68b5696 a skos:Concept ;
     skos:broader hector_epochs:c_4c05ece0 ;
     skos:definition "altägyptischer Pharao der 13. Dynastie"@de,
@@ -7925,15 +7231,6 @@ hector_epochs:c_e8a579cd a skos:Concept ;
     skos:prefLabel "...ren Hepu"@de,
         "...ren Hepu"@en .
 
-hector_epochs:c_e8c40f17 a skos:Concept ;
-    skos:broader hector_epochs:c_8894fab4 ;
-    skos:definition "südafrikanischer Schauspieler (Haus Burgund)"@de,
-        "South African actor (Castilian House of Burgundy)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q356637> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Adhir Kalyan"@de,
-        "Adhir Kalyan"@en .
-
 hector_epochs:c_e8ee7b4e a skos:Concept ;
     skos:broader hector_epochs:c_e367a734 ;
     skos:definition "ägyptischer Pharao"@de,
@@ -7997,16 +7294,6 @@ hector_epochs:c_ea343cce a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Khauserra Aanu"@de,
         "Khauserra Aanu"@en .
-
-hector_epochs:c_ea631d00 a skos:Concept ;
-    skos:broader hector_epochs:c_40a3d809 ;
-    skos:definition "Römisch-deutscher König und Kaiser (Ottonen)"@de,
-        "Holy Roman Emperor from 996 to 1002 (Ottonian Dynasty)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118590766>,
-        <http://www.wikidata.org/entity/Q151090> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Otto III."@de,
-        "Otto III"@en .
 
 hector_epochs:c_eacc7cb1 a skos:Concept ;
     skos:broader hector_epochs:c_d7ab4abc ;
@@ -8080,15 +7367,6 @@ hector_epochs:c_ec543dbb a skos:Concept ;
     skos:prefLabel "3. Viertel 13. Jh. v. Chr."@de,
         "3rd Quarter 13th Century BC"@en .
 
-hector_epochs:c_ed15ea90 a skos:Concept ;
-    skos:broader hector_epochs:c_ad59d4d1 ;
-    skos:definition "Herrscher (Lancaster)"@de,
-        "Ruler (House of Lancaster)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q79888> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Q79888"@de,
-        "Q79888"@en .
-
 hector_epochs:c_ed62a94f a skos:Concept ;
     skos:broader hector_epochs:c_2099acb3 ;
     skos:definition "ägyptischer König der 2. Dynastie"@de,
@@ -8098,16 +7376,6 @@ hector_epochs:c_ed62a94f a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Peribsen"@de,
         "Seth-Peribsen"@en .
-
-hector_epochs:c_ed802662 a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "Landschaft in China und Russland (Kapetinger)"@de,
-        "geographic region in Northeast Asia (House of Capet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4074528-4>,
-        <http://www.wikidata.org/entity/Q81126> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Mandschurei"@de,
-        "Manchuria"@en .
 
 hector_epochs:c_edde00cb a skos:Concept ;
     skos:broader hector_epochs:c_4c05ece0 ;
@@ -8142,16 +7410,6 @@ hector_epochs:c_eedcebdd a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Q3707863"@de,
         "Q3707863"@en .
-
-hector_epochs:c_ef6824d8 a skos:Concept ;
-    skos:broader hector_epochs:c_4ad3c65e ;
-    skos:definition "König von Kastilien und León (1379-1406) (Trastámara)"@de,
-        "king of Castille (1379-1407) (House of Trastámara)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/119377055>,
-        <http://www.wikidata.org/entity/Q312104> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Enrique III."@de,
-        "Enrique III of Castile"@en .
 
 hector_epochs:c_ef74ccf2 a skos:Concept ;
     skos:broader hector_epochs:c_44baa143 ;
@@ -8217,16 +7475,6 @@ hector_epochs:c_f09e2b99 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Ineb..."@de,
         "Ineb..."@en .
-
-hector_epochs:c_f10665c4 a skos:Concept ;
-    skos:broader hector_epochs:c_40a3d809 ;
-    skos:definition "römisch-deutscher Kaiser (973–983) (Ottonen)"@de,
-        "Holy Roman Emperor from 973 to 983 and King of Italy from 980 to 983 (Ottonian Dynasty)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118738747>,
-        <http://www.wikidata.org/entity/Q150512> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Otto II."@de,
-        "Otto II"@en .
 
 hector_epochs:c_f11292dd a skos:Concept ;
     skos:broader hector_epochs:c_c6fe0856 ;
@@ -8361,16 +7609,6 @@ hector_epochs:c_f30bb5d7 a skos:Concept ;
     skos:prefLabel "Se...ra Kheti"@de,
         "Se...ra Kheti"@en .
 
-hector_epochs:c_f31a55ba a skos:Concept ;
-    skos:broader hector_epochs:c_5b6fe02a ;
-    skos:definition "französische Gemeinde (Kapetinger)"@de,
-        "former commune in the metropolis of Lyon, France (House of Capet)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4404490-2>,
-        <http://www.wikidata.org/entity/Q8358> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Oullins"@de,
-        "Oullins"@en .
-
 hector_epochs:c_f3a11e83 a skos:Concept ;
     skos:broader hector_epochs:c_6d1aeb13 ;
     skos:definition "zweiter römischer Kaiser (Frühe Kaiserzeit (reg. bis 37 n. Chr.))"@de,
@@ -8413,35 +7651,6 @@ hector_epochs:c_f4576160 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "2. Viertel 20. Jh. n. Chr."@de,
         "2nd Quarter 20th Century AD"@en .
-
-hector_epochs:c_f46bde65 a skos:Concept ;
-    skos:broader hector_epochs:c_4ad3c65e ;
-    skos:definition "Software (Trastámara)"@de,
-        "Scorewriter (House of Trastámara)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q310931> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Capella"@de,
-        "Capella"@en .
-
-hector_epochs:c_f4c1eda6 a skos:Concept ;
-    skos:broader hector_epochs:c_4410d180 ;
-    skos:definition "italienische Gemeinde (York)"@de,
-        "Italian comune (House of York)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4116042-3>,
-        <http://www.wikidata.org/entity/Q81341> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Pontecagnano Faiano"@de,
-        "Pontecagnano Faiano"@en .
-
-hector_epochs:c_f503782c a skos:Concept ;
-    skos:broader hector_epochs:c_0dde1770 ;
-    skos:definition "römisch-deutscher König und Kaiser (Luxemburger)"@de,
-        "Duke of Bavaria and Holy Roman Emperor (House of Luxembourg)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118574957>,
-        <http://www.wikidata.org/entity/Q57161> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Ludwig IV."@de,
-        "Louis IV of Bavaria"@en .
 
 hector_epochs:c_f5224d5c a skos:Concept ;
     skos:broader hector_epochs:c_57360bec ;
@@ -8505,15 +7714,6 @@ hector_epochs:c_f70309e6 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Ferdinand I."@de,
         "Ferdinand I, Holy Roman Emperor"@en .
-
-hector_epochs:c_f709afac a skos:Concept ;
-    skos:broader hector_epochs:c_8894fab4 ;
-    skos:definition "Krankheit (Haus Burgund)"@de,
-        "carcinosarcoma that has material basis in gland and muscle components (Castilian House of Burgundy)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q356064> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Adenomyom"@de,
-        "adenomyoma"@en .
 
 hector_epochs:c_f74dcc3d a skos:Concept ;
     skos:broader hector_epochs:c_41f3467e ;
@@ -8713,15 +7913,6 @@ hector_epochs:c_fb088dbf a skos:Concept ;
     skos:prefLabel "4. Viertel 7. Jh. n. Chr."@de,
         "4th Quarter 7th Century AD"@en .
 
-hector_epochs:c_fb224f3f a skos:Concept ;
-    skos:broader hector_epochs:c_84715bb0 ;
-    skos:definition "Gouverneur von Barbados und Tasmanien (Anjou)"@de,
-        "British military officer and colonial administrator (1838-1887) (Capetian House of Anjou)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q290710> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "George Strahan"@de,
-        "George Strahan"@en .
-
 hector_epochs:c_fb5841f5 a skos:Concept ;
     skos:broader hector_epochs:c_4c05ece0 ;
     skos:definition "altägyptischer König der 13. Dynastie"@de,
@@ -8769,16 +7960,6 @@ hector_epochs:c_fc90fa85 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Doppelfalke"@de,
         "Double Falcon"@en .
-
-hector_epochs:c_fcd5debf a skos:Concept ;
-    skos:broader hector_epochs:c_733426f7 ;
-    skos:definition "deutscher Offizier, Schöpfer und Initiator der Waffen-SS (Staufer)"@de,
-        "German Waffen SS general (1880-1972) (Hohenstaufen Dynasty)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/121548872>,
-        <http://www.wikidata.org/entity/Q57181> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Paul Hausser"@de,
-        "Paul Hausser"@en .
 
 hector_epochs:c_fd0a1932 a skos:Concept ;
     skos:broader hector_epochs:c_44baa143 ;
@@ -8942,6 +8123,14 @@ hector_epochs:c_ffbaf27a a skos:Concept ;
     skos:prefLabel "Scharek"@de,
         "Scharek"@en .
 
+hector_epochs:concept_fb3a9558 a skos:Concept ;
+    skos:broader hector_epochs:c_20bac33e ;
+    skos:definition "the earliest part of the Iron Age in Scandinavia and the North European Plain (5th/4th–1st centuries BC)"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q893307> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "vorrömische Eisenzeit"@de,
+        "Pre-Roman Iron Age"@en .
+
 hector_epochs:c_043e224a a skos:Concept ;
     skos:broader hector_epochs:c_ad7adc66 ;
     skos:exactMatch <http://www.wikidata.org/entity/Q26224> ;
@@ -8978,14 +8167,6 @@ hector_epochs:c_3f60aad4 a skos:Concept ;
     skos:prefLabel "31. Dynastie"@de,
         "Thirty-first Dynasty of Egypt"@en .
 
-hector_epochs:c_6f64b8ff a skos:Concept ;
-    skos:broader hector_epochs:c_20bac33e ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q2566630> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_e4a9851a ;
-    skos:prefLabel "Römische Eisenzeit"@de,
-        "Roman Iron Age"@en .
-
 hector_epochs:c_733a7405 a skos:Concept ;
     skos:broader hector_epochs:c_4a572b1e ;
     skos:definition "Periode in der Menschheitsgeschichte"@de,
@@ -8997,18 +8178,6 @@ hector_epochs:c_733a7405 a skos:Concept ;
     skos:narrower hector_epochs:c_a7bfa5ce ;
     skos:prefLabel "Bronzezeit"@de,
         "Bronze Age"@en .
-
-hector_epochs:c_7c1bae21 a skos:Concept ;
-    skos:broader hector_epochs:c_20bac33e ;
-    skos:definition "Epoche der Urgeschichte bis in die Frühgeschichte mit Funden geschmiedeten Eisens"@de,
-        "archaeological period"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4014102-0>,
-        <http://vocab.getty.edu/aat/300019279>,
-        <http://www.wikidata.org/entity/Q11764> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_3bbe4d3b ;
-    skos:prefLabel "Eisenzeit Mediterranean"@de,
-        "Mediterranean Iron Age"@en .
 
 hector_epochs:c_91236bf9 a skos:Concept ;
     skos:altLabel "karthagisch"@de ;
@@ -9039,15 +8208,16 @@ hector_epochs:c_a6f754dd a skos:Concept ;
         "Predynastic Period"@en .
 
 hector_epochs:c_ab8f742e a skos:Concept ;
-    skos:altLabel "Dark Ages"@de ;
     skos:broader hector_epochs:c_3bbe4d3b,
         hector_epochs:c_6117064c ;
-    skos:definition "Zeitraum zwischen dem 12. und 8. vorchristlichen Jahrhundert im antiken Griechenland"@de,
-        "period of time in ancient Greece"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q210443> ;
+    skos:definition "allgemeiner Begriff für bestimmte historische Zeitabschnitte"@de,
+        "historical period"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300106716>,
+        <http://www.wikidata.org/entity/Q210443>,
+        <http://www.wikidata.org/entity/Q217192> ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Dunkle Jahrhunderte"@de,
-        "Dark Ages (Greece)"@en .
+        "Dark Ages"@en .
 
 hector_epochs:c_cac1087e a skos:Concept ;
     skos:broader hector_epochs:c_12cd0776 ;
@@ -9490,14 +8660,6 @@ hector_epochs:c_44026b9d a skos:Concept ;
     skos:prefLabel "2. Hälfte 23. Jh. v. Chr."@de,
         "2nd Half 23rd Century BC"@en .
 
-hector_epochs:c_4a466911 a skos:Concept ;
-    skos:broader hector_epochs:c_63260e46 ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_5b6fe02a,
-        hector_epochs:c_eee2cb93 ;
-    skos:prefLabel "Frankreich (Dynastien)"@de,
-        "France (Dynasties)"@en .
-
 hector_epochs:c_4b38dc61 a skos:Concept ;
     skos:broader hector_epochs:c_22107fc0 ;
     skos:definition "Hälfte eines Jahrhunderts von 2001 n. Chr. bis 2050 n. Chr.."@de,
@@ -9641,14 +8803,6 @@ hector_epochs:c_5e7abf73 a skos:Concept ;
         hector_epochs:c_56850875 ;
     skos:prefLabel "2. Hälfte 29. Jh. v. Chr."@de,
         "2nd Half 29th Century BC"@en .
-
-hector_epochs:c_617890ce a skos:Concept ;
-    skos:broader hector_epochs:c_63260e46 ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_4ad3c65e,
-        hector_epochs:c_8894fab4 ;
-    skos:prefLabel "Spanien (Dynastien)"@de,
-        "Spain (Dynasties)"@en .
 
 hector_epochs:c_62589548 a skos:Concept ;
     skos:broader hector_epochs:c_6e551045 ;
@@ -9817,14 +8971,6 @@ hector_epochs:c_7c73104c a skos:Concept ;
         hector_epochs:c_b6e30662 ;
     skos:prefLabel "2. Hälfte 14. Jh. v. Chr."@de,
         "2nd Half 14th Century BC"@en .
-
-hector_epochs:c_7e034661 a skos:Concept ;
-    skos:broader hector_epochs:c_63260e46 ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_24770a96,
-        hector_epochs:c_84715bb0 ;
-    skos:prefLabel "Italien (Dynastien)"@de,
-        "Italy (Dynasties)"@en .
 
 hector_epochs:c_7ff0d7b8 a skos:Concept ;
     skos:broader hector_epochs:c_ece42c3a ;
@@ -10720,16 +9866,6 @@ hector_epochs:c_22107fc0 a skos:Concept ;
     skos:prefLabel "21. Jahrhundert n. Chr."@de,
         "21st Century AD"@en .
 
-hector_epochs:c_4410d180 a skos:Concept ;
-    skos:broader hector_epochs:c_d8332275 ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q104443> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_45aa0dde,
-        hector_epochs:c_99b2b663,
-        hector_epochs:c_f4c1eda6 ;
-    skos:prefLabel "York"@de,
-        "House of York"@en .
-
 hector_epochs:c_54ebf933 a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
     skos:exactMatch <http://www.wikidata.org/entity/Q386303> ;
@@ -10777,16 +9913,6 @@ hector_epochs:c_a7bfa5ce a skos:Concept ;
     skos:prefLabel "Bronzezeit Mittelmeer"@de,
         "Mediterranean Bronze Age"@en .
 
-hector_epochs:c_ad59d4d1 a skos:Concept ;
-    skos:broader hector_epochs:c_d8332275 ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q104278> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_5e653596,
-        hector_epochs:c_bf80943a,
-        hector_epochs:c_ed15ea90 ;
-    skos:prefLabel "Lancaster"@de,
-        "House of Lancaster"@en .
-
 hector_epochs:c_b750d7f6 a skos:Concept ;
     skos:broader hector_epochs:c_4a572b1e ;
     skos:definition "Zeitraum vom Ende der Frühgeschichte bis zum beginnenden Mittelalter"@de,
@@ -10815,6 +9941,20 @@ hector_epochs:c_be027feb a skos:Concept ;
         hector_epochs:c_fc0fd176 ;
     skos:prefLabel "Steinzeit"@de,
         "Stone Age"@en .
+
+hector_epochs:c_e4a9851a a skos:Concept ;
+    skos:altLabel "Kaiserzeit"@de,
+        "kaiserzeitlich"@de ;
+    skos:broader hector_epochs:c_6117064c ;
+    skos:definition "antikes Weltreich"@de,
+        "period of ancient Rome following the Republic"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2277> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:c_4b0ed540,
+        hector_epochs:c_6d1aeb13,
+        hector_epochs:c_c6fe0856 ;
+    skos:prefLabel "Römische Kaiserzeit"@de,
+        "Roman Imperial Period"@en .
 
 hector_epochs:c_ec969110 a skos:Concept ;
     skos:altLabel "kykladisch"@de ;
@@ -10847,28 +9987,6 @@ hector_epochs:c_08f1434b a skos:Concept ;
     skos:prefLabel "Archaische Epoche"@de,
         "Archaic Period"@en .
 
-hector_epochs:c_0dde1770 a skos:Concept ;
-    skos:broader hector_epochs:c_95dc713f ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q152431> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_21d1eafe,
-        hector_epochs:c_97234b94,
-        hector_epochs:c_d38af748,
-        hector_epochs:c_f503782c ;
-    skos:prefLabel "Luxemburger"@de,
-        "House of Luxembourg"@en .
-
-hector_epochs:c_24770a96 a skos:Concept ;
-    skos:broader hector_epochs:c_7e034661 ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q830200> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_7f62e6d2,
-        hector_epochs:c_88ce38fc,
-        hector_epochs:c_976c90ac,
-        hector_epochs:c_a032b0a4 ;
-    skos:prefLabel "Hauteville"@de,
-        "House of Hauteville"@en .
-
 hector_epochs:c_268a1738 a skos:Concept ;
     skos:altLabel "hellenistisch"@de ;
     skos:broader hector_epochs:c_3bbe4d3b,
@@ -10885,28 +10003,6 @@ hector_epochs:c_268a1738 a skos:Concept ;
     skos:prefLabel "Hellenismus"@de,
         "Hellenistic Period"@en .
 
-hector_epochs:c_2fbc18ca a skos:Concept ;
-    skos:broader hector_epochs:c_95dc713f ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q65963> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_1394656c,
-        hector_epochs:c_36d086cc,
-        hector_epochs:c_5106b98e,
-        hector_epochs:c_59bfd0f3 ;
-    skos:prefLabel "Habsburger"@de,
-        "House of Habsburg"@en .
-
-hector_epochs:c_3535f731 a skos:Concept ;
-    skos:broader hector_epochs:c_d8332275 ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q106861> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_5c771ff3,
-        hector_epochs:c_a3b157d2,
-        hector_epochs:c_a8984f41,
-        hector_epochs:c_d9379af4 ;
-    skos:prefLabel "Normannen"@de,
-        "House of Normandy"@en .
-
 hector_epochs:c_3aaa1d5f a skos:Concept ;
     skos:broader hector_epochs:c_b750d7f6 ;
     skos:definition "geschichtlicher Großraum im Nahen und Mittleren Osten"@de,
@@ -10921,38 +10017,21 @@ hector_epochs:c_3aaa1d5f a skos:Concept ;
     skos:prefLabel "Alter Orient"@de,
         "Ancient Near East"@en .
 
-hector_epochs:c_40a3d809 a skos:Concept ;
-    skos:broader hector_epochs:c_95dc713f ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q161047> ;
+hector_epochs:c_63260e46 a skos:Concept ;
+    skos:altLabel "mittelalterlich"@de ;
+    skos:broader hector_epochs:c_4a572b1e ;
+    skos:definition "historische Epoche"@de,
+        "period of European history from the 5th to the late 15th-century"@en ;
+    skos:exactMatch <http://d-nb.info/gnd/4129108-6>,
+        <http://vocab.getty.edu/aat/300020756>,
+        <http://www.wikidata.org/entity/Q12554> ;
     skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_4019eb27,
-        hector_epochs:c_9fa6b0f5,
-        hector_epochs:c_ea631d00,
-        hector_epochs:c_f10665c4 ;
-    skos:prefLabel "Ottonen"@de,
-        "Ottonian Dynasty"@en .
-
-hector_epochs:c_733426f7 a skos:Concept ;
-    skos:broader hector_epochs:c_95dc713f ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q131413> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_584d04e2,
-        hector_epochs:c_66cb939e,
-        hector_epochs:c_7fa926fd,
-        hector_epochs:c_fcd5debf ;
-    skos:prefLabel "Staufer"@de,
-        "Hohenstaufen Dynasty"@en .
-
-hector_epochs:c_84715bb0 a skos:Concept ;
-    skos:broader hector_epochs:c_7e034661 ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q282512> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_07cf0daa,
-        hector_epochs:c_1aaad2fe,
-        hector_epochs:c_1c25f8c6,
-        hector_epochs:c_fb224f3f ;
-    skos:prefLabel "Anjou"@de,
-        "Capetian House of Anjou"@en .
+    skos:narrower hector_epochs:c_177f39ac,
+        hector_epochs:c_dc8b543a,
+        hector_epochs:c_e0616672,
+        hector_epochs:c_e7bfa31a ;
+    skos:prefLabel "Mittelalter"@de,
+        "Middle Ages"@en .
 
 hector_epochs:c_acc34558 a skos:Concept ;
     skos:altLabel "Klassik"@de,
@@ -10969,17 +10048,6 @@ hector_epochs:c_acc34558 a skos:Concept ;
         hector_epochs:c_9b22217a ;
     skos:prefLabel "Klassische Epoche"@de,
         "Classical Period"@en .
-
-hector_epochs:c_bfd2ecdd a skos:Concept ;
-    skos:broader hector_epochs:c_95dc713f ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q160161> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_01ca3184,
-        hector_epochs:c_2167136b,
-        hector_epochs:c_61a26a66,
-        hector_epochs:c_c53cd0ec ;
-    skos:prefLabel "Salier"@de,
-        "Salian Dynasty"@en .
 
 hector_epochs:c_c873037f a skos:Concept ;
     skos:altLabel "geometrisch"@de ;
@@ -11009,16 +10077,6 @@ hector_epochs:c_d4ab8520 a skos:Concept ;
     skos:prefLabel "19. Jahrhundert n. Chr."@de,
         "19th Century AD"@en .
 
-hector_epochs:c_d8332275 a skos:Concept ;
-    skos:broader hector_epochs:c_63260e46 ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_3535f731,
-        hector_epochs:c_4410d180,
-        hector_epochs:c_ad59d4d1,
-        hector_epochs:c_eeaa8461 ;
-    skos:prefLabel "England (Dynastien)"@de,
-        "England (Dynasties)"@en .
-
 hector_epochs:c_17c2191a a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
     skos:exactMatch <http://www.wikidata.org/entity/Q511257> ;
@@ -11041,9 +10099,9 @@ hector_epochs:c_20bac33e a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:narrower hector_epochs:c_3bbe4d3b,
         hector_epochs:c_6f64b8ff,
-        hector_epochs:c_7c1bae21,
         hector_epochs:c_91236bf9,
-        hector_epochs:c_dfdcfeb2 ;
+        hector_epochs:c_dfdcfeb2,
+        hector_epochs:concept_fb3a9558 ;
     skos:prefLabel "Eisenzeit"@de,
         "Iron Age"@en .
 
@@ -11096,17 +10154,6 @@ hector_epochs:c_77139732 a skos:Concept ;
     skos:prefLabel "20. Jahrhundert n. Chr."@de,
         "20th Century AD"@en .
 
-hector_epochs:c_95dc713f a skos:Concept ;
-    skos:broader hector_epochs:c_63260e46 ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_0dde1770,
-        hector_epochs:c_2fbc18ca,
-        hector_epochs:c_40a3d809,
-        hector_epochs:c_733426f7,
-        hector_epochs:c_bfd2ecdd ;
-    skos:prefLabel "Heiliges Römisches Reich (Dynastien)"@de,
-        "Holy Roman Empire (Dynasties)"@en .
-
 hector_epochs:c_00560efd a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
     skos:exactMatch <http://www.wikidata.org/entity/Q662410> ;
@@ -11150,23 +10197,6 @@ hector_epochs:c_b6182e52 a skos:Concept ;
         hector_epochs:c_ece42c3a ;
     skos:prefLabel "Neuzeit"@de,
         "Modern Period"@en .
-
-hector_epochs:c_e4a9851a a skos:Concept ;
-    skos:altLabel "Kaiserzeit"@de,
-        "kaiserzeitlich"@de ;
-    skos:broader hector_epochs:c_6117064c,
-        hector_epochs:c_6f64b8ff,
-        hector_epochs:c_e4a9851a ;
-    skos:definition "antikes Weltreich"@de,
-        "period of ancient Rome following the Republic"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q2277> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_4b0ed540,
-        hector_epochs:c_6d1aeb13,
-        hector_epochs:c_c6fe0856,
-        hector_epochs:c_e4a9851a ;
-    skos:prefLabel "Römische Kaiserzeit"@de,
-        "Roman Imperial Period"@en .
 
 hector_epochs:c_e79f8ce9 a skos:Concept ;
     skos:broader hector_epochs:c_9c8d2976 ;
@@ -11223,8 +10253,7 @@ hector_epochs:c_20065bf8 a skos:Concept ;
         "Twenty-third Dynasty of Egypt"@en .
 
 hector_epochs:c_3bbe4d3b a skos:Concept ;
-    skos:broader hector_epochs:c_20bac33e,
-        hector_epochs:c_7c1bae21 ;
+    skos:broader hector_epochs:c_20bac33e ;
     skos:definition "Zeitraum zwischen dem 12. und 8. vorchristlichen Jahrhundert im antiken Griechenland"@de,
         "period of time in ancient Greece"@en ;
     skos:exactMatch <http://www.wikidata.org/entity/Q210443> ;
@@ -11236,21 +10265,8 @@ hector_epochs:c_3bbe4d3b a skos:Concept ;
         hector_epochs:c_acc34558,
         hector_epochs:c_c873037f ;
     skos:prefLabel "Griechische Eisenzeit"@de,
-        "Greek Iron Age"@en .
-
-hector_epochs:c_4ad3c65e a skos:Concept ;
-    skos:broader hector_epochs:c_617890ce ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q510403> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_39cc4194,
-        hector_epochs:c_592aba4d,
-        hector_epochs:c_85ee2a59,
-        hector_epochs:c_9f90efd7,
-        hector_epochs:c_cbff0316,
-        hector_epochs:c_ef6824d8,
-        hector_epochs:c_f46bde65 ;
-    skos:prefLabel "Trastámara"@de,
-        "House of Trastámara"@en .
+        "Greek Iron Age"@en ;
+    skos:topConceptOf hector_epochs:scheme .
 
 hector_epochs:c_a33558fb a skos:Concept ;
     skos:broader hector_epochs:c_41f3ff90 ;
@@ -11296,20 +10312,6 @@ hector_epochs:c_ed93709a a skos:Concept ;
     skos:prefLabel "21. Dynastie"@de,
         "Twenty-first Dynasty of Egypt"@en .
 
-hector_epochs:c_eee2cb93 a skos:Concept ;
-    skos:broader hector_epochs:c_4a466911 ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q182142> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_2ab059be,
-        hector_epochs:c_3a66efb2,
-        hector_epochs:c_8993c238,
-        hector_epochs:c_8c4fcca5,
-        hector_epochs:c_b1b69ae8,
-        hector_epochs:c_c3fa721e,
-        hector_epochs:c_d28dc0dc ;
-    skos:prefLabel "Valois"@de,
-        "House of Valois"@en .
-
 hector_epochs:c_13ac3d8f a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
     skos:exactMatch <http://www.wikidata.org/entity/Q211001> ;
@@ -11343,9 +10345,10 @@ hector_epochs:c_20d60008 a skos:Concept ;
         "17th Century AD"@en .
 
 hector_epochs:c_4a572b1e a skos:Concept ;
-    skos:definition "Gattung der Familie Palmengewächse (Arecaceae)"@de,
-        "genus of plants"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q132712> ;
+    skos:definition "langer Zeitraum"@de,
+        "long period of time"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q12310205>,
+        <http://www.wikidata.org/entity/Q132712> ;
     skos:inScheme hector_epochs:scheme ;
     skos:narrower hector_epochs:c_20bac33e,
         hector_epochs:c_63260e46,
@@ -11356,7 +10359,7 @@ hector_epochs:c_4a572b1e a skos:Concept ;
         hector_epochs:c_ba983e27,
         hector_epochs:c_be027feb ;
     skos:prefLabel "Epoche"@de,
-        "Epoch"@en ;
+        "epoch"@en ;
     skos:topConceptOf hector_epochs:scheme .
 
 hector_epochs:c_543d279d a skos:Concept ;
@@ -11418,42 +10421,6 @@ hector_epochs:c_e367a734 a skos:Concept ;
         hector_epochs:c_f30bb5d7 ;
     skos:prefLabel "Zehnte ägyptische Dynastie"@de,
         "Tenth Dynasty of Egypt"@en .
-
-hector_epochs:c_eeaa8461 a skos:Concept ;
-    skos:broader hector_epochs:c_d8332275 ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q104925> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_1f58a2c0,
-        hector_epochs:c_53c6c638,
-        hector_epochs:c_82c82e6b,
-        hector_epochs:c_b5d59fb1,
-        hector_epochs:c_ba66a1b2,
-        hector_epochs:c_c37ff8e0,
-        hector_epochs:c_cb429328,
-        hector_epochs:c_dc2409e5 ;
-    skos:prefLabel "Plantagenet"@de,
-        "House of Plantagenet"@en .
-
-hector_epochs:c_63260e46 a skos:Concept ;
-    skos:altLabel "mittelalterlich"@de ;
-    skos:broader hector_epochs:c_4a572b1e ;
-    skos:definition "historische Epoche"@de,
-        "period of European history from the 5th to the late 15th-century"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4129108-6>,
-        <http://vocab.getty.edu/aat/300020756>,
-        <http://www.wikidata.org/entity/Q12554> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_177f39ac,
-        hector_epochs:c_4a466911,
-        hector_epochs:c_617890ce,
-        hector_epochs:c_7e034661,
-        hector_epochs:c_95dc713f,
-        hector_epochs:c_d8332275,
-        hector_epochs:c_dc8b543a,
-        hector_epochs:c_e0616672,
-        hector_epochs:c_e7bfa31a ;
-    skos:prefLabel "Mittelalter"@de,
-        "Middle Ages"@en .
 
 hector_epochs:c_0b9fd12e a skos:Concept ;
     skos:broader hector_epochs:c_ad7adc66 ;
@@ -11671,46 +10638,6 @@ hector_epochs:c_20f6e17e a skos:Concept ;
         hector_epochs:c_ff46821d ;
     skos:prefLabel "22. Dynastie"@de,
         "Twenty-second Dynasty of Egypt"@en .
-
-hector_epochs:c_8894fab4 a skos:Concept ;
-    skos:broader hector_epochs:c_617890ce ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1191024> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_0461ee39,
-        hector_epochs:c_24093f50,
-        hector_epochs:c_255eddfa,
-        hector_epochs:c_4cb620ee,
-        hector_epochs:c_5259ced7,
-        hector_epochs:c_7ebe1728,
-        hector_epochs:c_9ebe32bf,
-        hector_epochs:c_a1a38238,
-        hector_epochs:c_cf7b52f7,
-        hector_epochs:c_d1f8165b,
-        hector_epochs:c_e8c40f17,
-        hector_epochs:c_f709afac ;
-    skos:prefLabel "Haus Burgund"@de,
-        "Castilian House of Burgundy"@en .
-
-hector_epochs:c_5b6fe02a a skos:Concept ;
-    skos:broader hector_epochs:c_4a466911 ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q178928> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_1ba6cfd1,
-        hector_epochs:c_40a1c984,
-        hector_epochs:c_58d46f4a,
-        hector_epochs:c_5af41b47,
-        hector_epochs:c_713307c7,
-        hector_epochs:c_73c0c6ed,
-        hector_epochs:c_86ef819a,
-        hector_epochs:c_8d3cf7a6,
-        hector_epochs:c_b654975d,
-        hector_epochs:c_ba0e152d,
-        hector_epochs:c_c77d1641,
-        hector_epochs:c_e681167c,
-        hector_epochs:c_ed802662,
-        hector_epochs:c_f31a55ba ;
-    skos:prefLabel "Kapetinger"@de,
-        "House of Capet"@en .
 
 hector_epochs:c_2099acb3 a skos:Concept ;
     skos:broader hector_epochs:c_3f48380f ;
@@ -12292,7 +11219,8 @@ hector_epochs:c_499db5e1 a skos:Concept ;
 hector_epochs:scheme a skos:ConceptScheme ;
     skos:definition "Ein SKOS-konformes Vokabular für archäologische Epochen, angereichert mit Wikidata, Getty AAT und GND Identifikatoren."@de,
         "A SKOS-compliant vocabulary for archaeological epochs, enriched with Wikidata, Getty AAT, and GND authorities."@en ;
-    skos:hasTopConcept hector_epochs:c_4a572b1e ;
+    skos:hasTopConcept hector_epochs:c_3bbe4d3b,
+        hector_epochs:c_4a572b1e ;
     skos:prefLabel "ArcheoInf Epochen (SKOS Version)"@de,
         "ArcheoInf Epochs (SKOS Version)"@en .
 
