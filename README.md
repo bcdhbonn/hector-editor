@@ -3,10 +3,14 @@
 HECTOR-Editor is a lightweight, responsive desktop application built with Python and CustomTkinter for managing semantic SKOS vocabularies. Tailored for workflows in the Digital Humanities and archaeological data management, it allows researchers to easily build, edit, and serialize structured hierarchical concept schemes.
 
 ## ✨ Key Features (Editor)
-* **SKOS Hierarchy Management:** Visually construct and manage `skos:Concept` hierarchies, broader/narrower relationships, and top concepts.
+* **SKOS Hierarchy Management:** Visually construct and manage `skos:Concept` hierarchies, top concepts, and automatically synchronized reciprocal `skos:broader` / `skos:narrower` relationships.
 * **Multilingual Support:** Dynamic UI for managing `skos:prefLabel` and `skos:altLabel` across multiple language codes (DE/EN).
 * **Polyhierarchical Support:** Concepts can be linked to multiple broader terms, allowing for an accurate representation of complex knowledge domains (e.g., Neuzeit centuries linked to both Neuzeit and the Chronological Grid).
 * **Chronological Sorting:** The Treeview sorts all periods, millennia, centuries, halves, and quarters chronologically based on their German labels.
+* **Data Quality & Integrity Checks:** Built-in tools to keep vocabularies clean and consistent:
+    * **Reciprocal Synchronization:** A tool to automatically generate and synchronize missing `skos:narrower` relations from existing `skos:broader` relations (and vice-versa).
+    * **Repair Missing URI Labels:** Generates english `skos:prefLabel` values dynamically from local parts of the concept URIs.
+    * **Health Check validation:** Scans for orphan concepts missing both broader hierarchy and scheme top-concept linkage.
 * **Authority File Integration:** Built-in asynchronous querying and exact matching (`skos:exactMatch`) for:
     * Wikidata API
     * Getty Art & Architecture Thesaurus (AAT)
