@@ -31,7 +31,29 @@ class VocabularyManager:
         if not detected_langs:
             detected_langs = {"de", "en"}
             
+        self.sync_reciprocal_relations(auto_serialize=False)
         return sorted(list(detected_langs))
+
+    def sync_reciprocal_relations(self, auto_serialize=True):
+        """Synchronizes skos:broader and skos:narrower relations in both directions."""
+        added_count = 0
+        to_add = []
+        # From broader to narrower
+        for s, o in self.g.subject_objects(SKOS.broader):
+            if not (o, SKOS.narrower, s) in self.g:
+                to_add.append((o, SKOS.narrower, s))
+        # From narrower to broader
+        for s, o in self.g.subject_objects(SKOS.narrower):
+            if not (o, SKOS.broader, s) in self.g:
+                to_add.append((o, SKOS.broader, s))
+                
+        for s, p, o in to_add:
+            self.g.add((s, p, o))
+            added_count += 1
+            
+        if added_count > 0 and auto_serialize:
+            self.serialize()
+        return added_count
 
     def create_new_vocabulary(self, path, custom_namespace, name):
         """Creates a new vocabulary with a base namespace and concept scheme."""
@@ -146,6 +168,10 @@ class VocabularyManager:
 
     def save_concept(self, uri, pref_labels, alt_labels, definitions, match_wiki, match_aat, match_gnd, broader_parents):
         """Saves concept fields back to the graph. Replaces existing statements."""
+        # Clean inverse narrower relations from old parents
+        for old_parent in self.g.objects(uri, SKOS.broader):
+            self.g.remove((old_parent, SKOS.narrower, uri))
+
         # Clean existing relations
         for p in [SKOS.prefLabel, SKOS.altLabel, SKOS.definition, SKOS.broader, SKOS.topConceptOf, SKOS.inScheme]:
             self.g.remove((uri, p, None))
@@ -177,7 +203,9 @@ class VocabularyManager:
         has_parents = False
         for p_uri_str in broader_parents:
             if p_uri_str:
-                self.g.add((uri, SKOS.broader, URIRef(p_uri_str)))
+                p_ref = URIRef(p_uri_str)
+                self.g.add((uri, SKOS.broader, p_ref))
+                self.g.add((p_ref, SKOS.narrower, uri))
                 has_parents = True
 
         if not has_parents:

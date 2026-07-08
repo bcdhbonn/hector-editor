@@ -145,5 +145,68 @@ class TestVocabularyManager(unittest.TestCase):
         self.assertIn("Concept 1", turtle_str)
         self.assertIn("a skos:Concept", turtle_str)
 
+    def test_sync_reciprocal_relations(self):
+        self.mgr.create_new_vocabulary(self.vocab_path, "http://example.org/test/", "Test Vocab")
+        c1 = URIRef("http://example.org/test/concept_1")
+        c2 = URIRef("http://example.org/test/concept_2")
+        c3 = URIRef("http://example.org/test/concept_3")
+        c4 = URIRef("http://example.org/test/concept_4")
+        
+        # Add a broader relation without reciprocal
+        self.mgr.g.add((c1, SKOS.broader, c2))
+        self.assertNotIn((c2, SKOS.narrower, c1), self.mgr.g)
+        
+        # Add a narrower relation without reciprocal
+        self.mgr.g.add((c3, SKOS.narrower, c4))
+        self.assertNotIn((c4, SKOS.broader, c3), self.mgr.g)
+        
+        # Run sync
+        added = self.mgr.sync_reciprocal_relations(auto_serialize=False)
+        self.assertEqual(added, 2)
+        
+        self.assertIn((c2, SKOS.narrower, c1), self.mgr.g)
+        self.assertIn((c4, SKOS.broader, c3), self.mgr.g)
+
+    def test_save_concept_reciprocal(self):
+        self.mgr.create_new_vocabulary(self.vocab_path, "http://example.org/test/", "Test Vocab")
+        c1 = URIRef("http://example.org/test/concept_1")
+        p1 = URIRef("http://example.org/test/parent1")
+        p2 = URIRef("http://example.org/test/parent2")
+        
+        self.mgr.g.add((p1, RDF.type, SKOS.Concept))
+        self.mgr.g.add((p2, RDF.type, SKOS.Concept))
+        
+        # Save concept with parent p1
+        self.mgr.save_concept(c1, [("Concept 1", "en")], [], [], "", "", "", [str(p1)])
+        self.assertIn((c1, SKOS.broader, p1), self.mgr.g)
+        self.assertIn((p1, SKOS.narrower, c1), self.mgr.g)
+        
+        # Save concept again with parent p2 instead of p1
+        self.mgr.save_concept(c1, [("Concept 1", "en")], [], [], "", "", "", [str(p2)])
+        self.assertNotIn((c1, SKOS.broader, p1), self.mgr.g)
+        self.assertNotIn((p1, SKOS.narrower, c1), self.mgr.g)
+        self.assertIn((c1, SKOS.broader, p2), self.mgr.g)
+        self.assertIn((p2, SKOS.narrower, c1), self.mgr.g)
+
+    def test_load_data_sync(self):
+        # Create a temp file manually with only broader relations
+        temp_mgr = VocabularyManager()
+        temp_mgr.create_new_vocabulary(self.vocab_path, "http://example.org/test/", "Test Vocab")
+        c1 = URIRef("http://example.org/test/concept_1")
+        p1 = URIRef("http://example.org/test/parent1")
+        
+        # Manually add only the broader relation and save
+        temp_mgr.g.add((c1, RDF.type, SKOS.Concept))
+        temp_mgr.g.add((p1, RDF.type, SKOS.Concept))
+        temp_mgr.g.add((c1, SKOS.broader, p1))
+        temp_mgr.serialize()
+        
+        # Load using a fresh manager
+        new_mgr = VocabularyManager()
+        new_mgr.load_data(self.vocab_path)
+        
+        # Verify that narrower relation was generated during load
+        self.assertIn((p1, SKOS.narrower, c1), new_mgr.g)
+
 if __name__ == "__main__":
     unittest.main()

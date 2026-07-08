@@ -172,13 +172,16 @@ class HECTOREditor:
 
         self.tools_btn_frame = ctk.CTkFrame(self.right_frame, fg_color="transparent")
         self.tools_btn_frame.grid(row=5, column=0, padx=15, pady=5, sticky="ew")
-        self.tools_btn_frame.grid_columnconfigure((0, 1), weight=1)
+        self.tools_btn_frame.grid_columnconfigure((0, 1, 2), weight=1)
 
         self.btn_t_fix = ctk.CTkButton(self.tools_btn_frame, text="🛠️ Repair Missing URI Labels", height=28, font=("Arial", 12), command=self.run_fix_labels)
         self.btn_t_fix.grid(row=0, column=0, padx=(0, 5), sticky="ew")
 
         self.btn_t_check = ctk.CTkButton(self.tools_btn_frame, text="🏥 Health Check", height=28, font=("Arial", 12), command=self.run_health_check)
-        self.btn_t_check.grid(row=0, column=1, padx=(5, 0), sticky="ew")
+        self.btn_t_check.grid(row=0, column=1, padx=(5, 5), sticky="ew")
+
+        self.btn_t_sync = ctk.CTkButton(self.tools_btn_frame, text="🔄 Sync Broader/Narrower", height=28, font=("Arial", 12), command=self.run_sync_relations)
+        self.btn_t_sync.grid(row=0, column=2, padx=(5, 0), sticky="ew")
 
         self.out_tools = ctk.CTkTextbox(self.right_frame, height=270, fg_color="black", text_color="white", font=("Consolas", 16))
         self.out_tools.grid(row=6, column=0, padx=15, pady=(5, 15), sticky="ew")
@@ -591,27 +594,45 @@ class HECTOREditor:
         if not uri_str or not self.current_file_path: return
         uri = URIRef(uri_str)
 
-        # Retrieve prefLabels
+        # Get existing details to preserve inactive language values
+        try:
+            details = self.mgr.get_concept_details(uri)
+        except Exception:
+            details = {"pref_labels": [], "alt_labels": [], "definitions": []}
+
+        # Retrieve prefLabels from active languages
         pref_labels = []
         for lang, widget in self.lang_entries.items():
             if widget.winfo_exists():
                 text_val = widget.get().strip()
                 if text_val: pref_labels.append((text_val, lang))
+        # Keep inactive ones
+        for text_val, lang in details.get("pref_labels", []):
+            if lang not in self.active_languages:
+                pref_labels.append((text_val, lang))
 
-        # Retrieve altLabels
+        # Retrieve altLabels from active languages
         alt_labels = []
         for lang, entries_list in self.alt_label_widgets.items():
             for ent_widget in entries_list:
                 if ent_widget.winfo_exists():
                     alt_val = ent_widget.get().strip()
                     if alt_val: alt_labels.append((alt_val, lang))
+        # Keep inactive ones
+        for text_val, lang in details.get("alt_labels", []):
+            if lang not in self.active_languages:
+                alt_labels.append((text_val, lang))
 
-        # Retrieve definitions
+        # Retrieve definitions from active languages
         definitions = []
         for lang, widget in self.def_entries.items():
             if widget.winfo_exists():
                 text_val = widget.get().strip()
                 if text_val: definitions.append((text_val, lang))
+        # Keep inactive ones
+        for text_val, lang in details.get("definitions", []):
+            if lang not in self.active_languages:
+                definitions.append((text_val, lang))
 
         # Retrieve exactMatch fields
         match_wiki = self.entries["match_wiki"].get().strip() if ("match_wiki" in self.entries and self.entries["match_wiki"].winfo_exists()) else ""
@@ -669,7 +690,8 @@ class HECTOREditor:
 
         # Populate altLabels
         for text_val, lang_code in details["alt_labels"]:
-            self.add_alt_label_row(lang_code, initial_text=text_val)
+            if lang_code in self.alt_label_frames:
+                self.add_alt_label_row(lang_code, initial_text=text_val)
 
         # Populate definitions
         for text_val, lang_code in details.get("definitions", []):
@@ -946,8 +968,15 @@ class HECTOREditor:
         filter_txt = self.txt_search.get().lower().strip()
         concepts = self.mgr.get_concepts()
         
-        roots = sorted(list(self.mgr.get_roots()), key=lambda x: self.get_label(x, lang=self.tree_lang).lower())
-        self.parent_lookup = {self.get_label(s, lang=self.tree_lang): s for s in concepts}
+        # Performance optimization: local label cache to avoid thousands of RDFLib queries
+        label_cache = {}
+        def get_cached_label(uri):
+            if uri not in label_cache:
+                label_cache[uri] = self.get_label(uri, lang=self.tree_lang)
+            return label_cache[uri]
+
+        roots = sorted(list(self.mgr.get_roots()), key=lambda x: get_cached_label(x).lower())
+        self.parent_lookup = {get_cached_label(s): s for s in concepts}
 
         inserted_nodes = {}
 
@@ -964,7 +993,7 @@ class HECTOREditor:
             if concept_uri in path_set:
                 continue
                 
-            lbl = self.get_label(concept_uri, lang=self.tree_lang)
+            lbl = get_cached_label(concept_uri)
             if filter_txt and filter_txt not in lbl.lower():
                 continue
                 
@@ -976,7 +1005,7 @@ class HECTOREditor:
             inserted_nodes[u_str] = node_id
             
             kids = sorted(
-                [(c, self.get_label(c, lang=self.tree_lang)) for c in self.mgr.get_child_concepts(concept_uri)],
+                [(c, get_cached_label(c)) for c in self.mgr.get_child_concepts(concept_uri)],
                 key=lambda x: x[1].lower(),
                 reverse=True
             )
@@ -1177,6 +1206,12 @@ class HECTOREditor:
         repaired_count = self.mgr.run_fix_labels()
         self.update_tree_ui()
         self.log(f"✅ Success. Repaired {repaired_count} concept resources.")
+
+    def run_sync_relations(self):
+        self.log("🔄 Synchronizing reciprocal broader/narrower relations...")
+        added_count = self.mgr.sync_reciprocal_relations()
+        self.update_tree_ui()
+        self.log(f"✅ Success. Created {added_count} reciprocal relationships.")
 
 
 if __name__ == "__main__":
