@@ -302,8 +302,13 @@ class HECTOREditor:
         dropdown_btn_hover = "#3a3a3a" if is_dark else "#c1c1c1"
         dropdown_btn_text = "white" if is_dark else "black"
             
+        # Frame to hold dropdown button and direct add button side-by-side
+        lang_btn_frame = ctk.CTkFrame(self.form_frame, fg_color="transparent")
+        lang_btn_frame.grid(row=current_row, column=1, padx=(5, 5), pady=4, sticky="ew")
+        lang_btn_frame.grid_columnconfigure(0, weight=1)
+
         self.btn_lang_dropdown = ctk.CTkButton(
-            self.form_frame, 
+            lang_btn_frame, 
             text=f"{display_text}  ▼", 
             height=26, 
             font=("Arial", 12), 
@@ -312,7 +317,19 @@ class HECTOREditor:
             text_color=dropdown_btn_text,
             command=self.toggle_language_dropdown_popup
         )
-        self.btn_lang_dropdown.grid(row=current_row, column=1, padx=(5, 5), pady=4, sticky="ew")
+        self.btn_lang_dropdown.grid(row=0, column=0, padx=(0, 5), sticky="ew")
+
+        self.btn_add_lang_direct = ctk.CTkButton(
+            lang_btn_frame,
+            text="＋ Add",
+            width=65,
+            height=26,
+            font=("Arial", 12),
+            fg_color="#3a3a3a",
+            hover_color="#2b2b2b",
+            command=self.prompt_add_new_language
+        )
+        self.btn_add_lang_direct.grid(row=0, column=1, sticky="e")
         
         self.btn_wikidata = ctk.CTkButton(self.form_frame, text="🔍 Query Wikidata API", width=160, height=26, font=("Arial", 12), fg_color="#8a3ab9", hover_color="#6d2d93", command=self.fetch_from_wikidata)
         self.btn_wikidata.grid(row=current_row, column=2, padx=(5, 15), pady=4, sticky="e")
@@ -506,6 +523,36 @@ class HECTOREditor:
             
         self.rebuild_form_grid()
         self.update_tree_ui()
+
+    def prompt_add_new_language(self):
+        dialog = ctk.CTkInputDialog(text="Enter new ISO 639-1 language code (e.g. fr, es, it):", title="Add New Language")
+        code = dialog.get_input()
+        if code:
+            code = code.strip().lower()
+            if not code:
+                return
+            if len(code) < 2 or len(code) > 3:
+                messagebox.showerror("Error", "Language code must be 2 or 3 characters (e.g. fr, es, it)!")
+                return
+            
+            # If already exists, just make sure it's active
+            if code in self.all_possible_languages:
+                if code not in self.active_languages:
+                    self.active_languages.append(code)
+                    self.rebuild_form_grid()
+                    self.update_tree_ui()
+                return
+            
+            # Add to available pool and activate it
+            self.all_possible_languages.append(code)
+            self.active_languages.append(code)
+            
+            if hasattr(self, 'combo_tree_lang'):
+                self.combo_tree_lang.configure(values=[l.upper() for l in self.all_possible_languages])
+                
+            self.rebuild_form_grid()
+            self.update_tree_ui()
+            self.log(f"➕ Registered and activated new language code: '{code.upper()}'")
 
     def fetch_from_wikidata(self):
         search_term = ""

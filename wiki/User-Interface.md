@@ -49,6 +49,8 @@ The Right Panel is the editing form for the currently active concept.
 
 ### 2. Labels & Language Tabs
 * Multi-tab section to define **Preferred Labels (`skos:prefLabel`)** and **Alternative Labels (`skos:altLabel`)** for active language tags (e.g., German `de` and English `en`).
+* **Languages Selector:** A dropdown button showing which language tabs are currently active. Clicking it displays a checkable list to toggle languages.
+* **＋ Add Button:** A direct shortcut next to the dropdown that prompts you with an input dialog to register and activate a new ISO 639-1 language code (e.g., `fr`, `es`, `it`).
 
 ### 3. Definitions
 * Multi-line input fields to provide semantic descriptions (`skos:definition`) in multiple languages.
