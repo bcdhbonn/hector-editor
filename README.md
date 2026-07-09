@@ -46,7 +46,7 @@ For details on the collection, directory structure, and sub-vocabularies, please
 ---
 
 ## 🤝 Project Context & Funding
-This tool was developed as part of the consortium **NFDI4Objects** (National Research Data Infrastructure for Objects of Material Cultural Heritage) within *Trail 1: Archaeological Remote Sensing in the Roman Rhineland*.
+This tool was developed as part of the consortium **NFDI4Objects** (National Research Data Infrastructure for Objects of Material Cultural Heritage) within Taskarea 1.
 
 NFDI4Objects is funded by the German Research Foundation (DFG) - Project number 441958489.
 
