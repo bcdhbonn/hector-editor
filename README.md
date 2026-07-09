@@ -50,3 +50,14 @@ This tool was developed as part of the consortium **NFDI4Objects** (National Res
 
 NFDI4Objects is funded by the German Research Foundation (DFG) - Project number 441958489.
 
+<p align="center">
+  <br>
+  <a href="https://www.nfdi4objects.net/">
+    <img src="assets/n4o_logo.png" alt="NFDI4Objects Logo" height="80">
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.dfg.de/">
+    <img src="assets/dfg_logo.jpg" alt="DFG Logo" height="50">
+  </a>
+</p>
+
