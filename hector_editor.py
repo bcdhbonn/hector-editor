@@ -27,6 +27,22 @@ class HECTOREditor:
         self.root.title("HECTOR-Editor")
         self.root.geometry("1350x920")
 
+        # Load logo image and set window icon
+        self.logo_image = None
+        icon_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hector_logo.png")
+        if os.path.exists(icon_path):
+            try:
+                # Set window icon
+                img_photo = tk.PhotoImage(file=icon_path)
+                self.root.iconphoto(False, img_photo)
+                
+                # Load as PIL Image for CTkImage in header
+                from PIL import Image
+                pil_img = Image.open(icon_path)
+                self.logo_image = ctk.CTkImage(light_image=pil_img, dark_image=pil_img, size=(24, 24))
+            except Exception as e:
+                print(f"Could not load window icon: {e}")
+
         # Instantiate business logic core
         self.mgr = VocabularyManager()
         
@@ -79,13 +95,24 @@ class HECTOREditor:
         # App Identity Block Container
         self.header_frame = ctk.CTkFrame(self.left_frame, fg_color="transparent")
         self.header_frame.grid(row=0, column=0, padx=15, pady=(15, 5), sticky="ew")
-        self.header_frame.grid_columnconfigure(0, weight=1)
 
-        self.lbl_file_header = ctk.CTkLabel(self.header_frame, text="🏛️ HECTOR-EDITOR", font=("Arial", 12,))
-        self.lbl_file_header.grid(row=0, column=0, sticky="w")
+        # Place logo image in header if loaded
+        if hasattr(self, 'logo_image') and self.logo_image:
+            self.lbl_logo = ctk.CTkLabel(self.header_frame, text="", image=self.logo_image)
+            self.lbl_logo.grid(row=0, column=0, padx=(0, 8), sticky="w")
+            title_col = 1
+            switch_col = 2
+            self.header_frame.grid_columnconfigure(1, weight=1)
+        else:
+            title_col = 0
+            switch_col = 1
+            self.header_frame.grid_columnconfigure(0, weight=1)
+
+        self.lbl_file_header = ctk.CTkLabel(self.header_frame, text="HECTOR-EDITOR", font=("Arial", 14, "bold"))
+        self.lbl_file_header.grid(row=0, column=title_col, sticky="w")
 
         self.switch_theme = ctk.CTkSwitch(self.header_frame, text="Dark Mode", command=self.toggle_theme, font=("Arial", 12))
-        self.switch_theme.grid(row=0, column=1, sticky="e")
+        self.switch_theme.grid(row=0, column=switch_col, sticky="e")
         if ctk.get_appearance_mode() == "Dark":
             self.switch_theme.select()
 

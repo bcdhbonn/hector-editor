@@ -42,3 +42,11 @@ HECTOR-Editor is a lightweight, responsive desktop application built with Python
 This directory contains the semantic SKOS vocabularies, starting with the integrated epoch vocabulary **`vocabularies/hector_epochs/HECTOR_Epoch.ttl`**.
 
 For details on the collection, directory structure, and sub-vocabularies, please refer to the main **[vocabularies/README.md](vocabularies/README.md)**.
+
+---
+
+## 🤝 Project Context & Funding
+This tool was developed as part of the consortium **NFDI4Objects** (National Research Data Infrastructure for Objects of Material Cultural Heritage) within *Trail 1: Archaeological Remote Sensing in the Roman Rhineland*.
+
+NFDI4Objects is funded by the German Research Foundation (DFG) - Project number 441958489.
+
