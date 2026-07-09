@@ -6,13 +6,13 @@ Use the sidebar or the navigation links below to explore the detailed guide:
 
 ## 📖 Wiki Table of Contents
 
-* **[1. Installation & Setup](Installation.md)**
+* **[1. Installation & Setup](Installation)**
   System requirements, dependencies, and launching the editor.
-* **[2. User Interface Guide](User-Interface.md)**
+* **[2. User Interface Guide](User-Interface)**
   Detailed overview of the Left Workspace Panel (Treeview, Data Quality) and Right Concept Editor.
-* **[3. Core Workflows](Workflows.md)**
+* **[3. Core Workflows](Workflows)**
   Creating or loading vocabularies, managing concepts, and setting hierarchical parents.
-* **[4. Authority Matching](Authority-Matching.md)**
+* **[4. Authority Matching](Authority-Matching)**
   Querying Wikidata, Getty AAT, and GND APIs for exact match alignments.
-* **[5. Data Quality & Integrity Checks](Data-Quality.md)**
+* **[5. Data Quality & Integrity Checks](Data-Quality)**
   Running reciprocal relationship synchronization, repairing missing URI labels, and executing orphan health checks.
