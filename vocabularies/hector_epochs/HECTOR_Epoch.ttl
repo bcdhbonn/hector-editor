@@ -143,16 +143,6 @@ hector_epochs:c_03f8f523 a skos:Concept ;
     skos:prefLabel "Scheschonq II."@de,
         "Sheshonk II"@en .
 
-hector_epochs:c_0410282b a skos:Concept ;
-    skos:broader hector_epochs:c_ece42c3a ;
-    skos:definition "Herzog von Lothringen und Bar, Großherzog der Toskana, Kaiser des Heiligen Römischen Reiches (18. Jahrhundert n. Chr. (gest. 1765 n. Chr.))"@de,
-        "Holy Roman Emperor and Grand Duke of Tuscany (1708-1765). (death year: 1765)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118692925>,
-        <http://www.wikidata.org/entity/Q151075> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Franz I. Stephan"@de,
-        "Francis I, Holy Roman Emperor"@en .
-
 hector_epochs:c_04187da5 a skos:Concept ;
     skos:broader hector_epochs:c_c6fe0856 ;
     skos:definition "Kaiser des Römischen Reiches (305-311) (Späte Kaiserzeit (reg. bis 311 n. Chr.))"@de,
@@ -378,16 +368,6 @@ hector_epochs:c_087d498a a skos:Concept ;
     skos:prefLabel "3. Viertel 23. Jh. v. Chr."@de,
         "3rd Quarter 23rd Century BC"@en .
 
-hector_epochs:c_0973dde6 a skos:Concept ;
-    skos:broader hector_epochs:c_ece42c3a ;
-    skos:definition "Kaiser des Heiligen Römischen Reiches (1765–1790), Alleinherrscher in den österreichischen Ländern (1780–1790) (18. Jahrhundert n. Chr. (gest. 1790 n. Chr.))"@de,
-        "Holy Roman Emperor from 1765 to 1790, (1741-1790). (death year: 1790)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118558404>,
-        <http://www.wikidata.org/entity/Q76555> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Joseph II."@de,
-        "Joseph II, Holy Roman Emperor"@en .
-
 hector_epochs:c_0975022e a skos:Concept ;
     skos:broader hector_epochs:c_fc17d35b ;
     skos:definition "Viertel-Jahrhundert von 2175 v. Chr. bis 2151 v. Chr.."@de,
@@ -447,16 +427,6 @@ hector_epochs:c_0b080d14 a skos:Concept ;
     skos:prefLabel "2. Viertel 6. Jh. v. Chr."@de,
         "2nd Quarter 6th Century BC"@en .
 
-hector_epochs:c_0b717943 a skos:Concept ;
-    skos:broader hector_epochs:c_ece42c3a ;
-    skos:definition "Kaiser des Heiligen Römischen Reiches, König von Böhmen und Ungarn (18. Jahrhundert n. Chr. (gest. 1711 n. Chr.))"@de,
-        "Emperor from 1705 till his death in 1711 (death year: 1711)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118558390>,
-        <http://www.wikidata.org/entity/Q152480> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Joseph I."@de,
-        "Joseph I, Holy Roman Emperor"@en .
-
 hector_epochs:c_0bc7ae1c a skos:Concept ;
     skos:broader hector_epochs:c_41f3467e ;
     skos:definition "altägyptische königliche Frau der 18. Dynastie"@de,
@@ -512,7 +482,7 @@ hector_epochs:c_1001848c a skos:Concept ;
         "Ibi II."@en .
 
 hector_epochs:c_1004aa4b a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "König von Ägypten aus der Dynastie der Ptolemäer"@de,
         "Egyptian puppet pharao as the husband of Cleopatra VII"@en ;
     skos:exactMatch <http://www.wikidata.org/entity/Q40017> ;
@@ -634,16 +604,6 @@ hector_epochs:c_153160a7 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Stephinates"@de,
         "Tefnakht II"@en .
-
-hector_epochs:c_15375f9c a skos:Concept ;
-    skos:broader hector_epochs:c_20d60008 ;
-    skos:definition "Erzherzog von Österreich, Kaiser des Heiligen Römischen Reiches, König von Ungarn und Böhmen (17. Jahrhundert n. Chr. (gest. 1637 n. Chr.))"@de,
-        "Holy Roman Emperor (death year: 1637)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118532510>,
-        <http://www.wikidata.org/entity/Q150599> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Ferdinand II."@de,
-        "Ferdinand II, Holy Roman Emperor"@en .
 
 hector_epochs:c_16764541 a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
@@ -847,7 +807,7 @@ hector_epochs:c_1a0d448a a skos:Concept ;
         "Ay"@en .
 
 hector_epochs:c_1a3af5b3 a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "letzte Königin des ägyptischen Ptolemäerreiches und letzter weiblicher Pharao"@de,
         "queen of the Ptolemaic Kingdom of Egypt from 51 to 30 BCE"@en ;
     skos:exactMatch <http://d-nb.info/gnd/11856322X>,
@@ -1111,7 +1071,7 @@ hector_epochs:c_2481559b a skos:Concept ;
         "2nd Quarter 12th Century BC"@en .
 
 hector_epochs:c_249db504 a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "ägyptischer Prinz aus der Dynastie der Ptolemäer"@de,
         "Egyptian pharaoh"@en ;
     skos:exactMatch <http://www.wikidata.org/entity/Q39976> ;
@@ -1285,7 +1245,7 @@ hector_epochs:c_299fb518 a skos:Concept ;
         "4th Quarter 24th Century BC"@en .
 
 hector_epochs:c_29d13793 a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "König 44–30 v. Chr. von Ägypten"@de,
         "last pharaoh of Ptolemaic Egypt from 44 to 30 BC"@en ;
     skos:exactMatch <http://d-nb.info/gnd/131750240>,
@@ -1513,15 +1473,6 @@ hector_epochs:c_2fe0dc36 a skos:Concept ;
     skos:prefLabel "3. Viertel 9. Jh. v. Chr."@de,
         "3rd Quarter 9th Century BC"@en .
 
-hector_epochs:c_2fed4141 a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
-    skos:definition "ägyptischer Pharao"@de,
-        "berry flavored soft drink by PepsiCo"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q7166482> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Pepsi Blue"@de,
-        "Pepsi Blue"@en .
-
 hector_epochs:c_2ff056fc a skos:Concept ;
     skos:broader hector_epochs:c_3520b7a5 ;
     skos:definition "Viertel-Jahrhundert von 576 n. Chr. bis 600 n. Chr.."@de,
@@ -1741,7 +1692,7 @@ hector_epochs:c_37476940 a skos:Concept ;
         "Early Hellenistic Period"@en .
 
 hector_epochs:c_377c1450 a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "Pharao von Ägypten während der Ptolemäerzeit"@de,
         "an Egyptian king from the second century BC"@en ;
     skos:exactMatch <http://d-nb.info/gnd/118946811>,
@@ -1945,16 +1896,6 @@ hector_epochs:c_3e1d9692 a skos:Concept ;
     skos:prefLabel "Hocharchaische Epoche"@de,
         "Middle Archaic Period"@en .
 
-hector_epochs:c_3ea6af50 a skos:Concept ;
-    skos:broader hector_epochs:c_cbc7c55c ;
-    skos:definition "König und Kaiser des Heiligen Römischen Reiches aus dem Haus Habsburg (16. Jahrhundert n. Chr. (gest. 1519 n. Chr.))"@de,
-        "Holy Roman Emperor (1459-1519) (death year: 1519)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118579371>,
-        <http://www.wikidata.org/entity/Q150726> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Maximilian I."@de,
-        "Maximilian I"@en .
-
 hector_epochs:c_3f6e64f4 a skos:Concept ;
     skos:broader hector_epochs:c_f03ae1e6 ;
     skos:definition "Viertel-Jahrhundert von 826 n. Chr. bis 850 n. Chr.."@de,
@@ -2009,7 +1950,7 @@ hector_epochs:c_4150346b a skos:Concept ;
         "Neferkare IV"@en .
 
 hector_epochs:c_4162121f a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "4. König von Ägypten während der Ptolemäerzeit"@de,
         "4th Pharaoh of Ptolemaic Egypt (r. 221–204 BC)"@en ;
     skos:exactMatch <http://d-nb.info/gnd/118641794>,
@@ -2090,16 +2031,6 @@ hector_epochs:c_4255d71c a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Pentini"@de,
         "Sekhemre Khutawy"@en .
-
-hector_epochs:c_42cc1e44 a skos:Concept ;
-    skos:broader hector_epochs:c_20d60008 ;
-    skos:definition "Habsburgischer Kaiser des Heiligen Römischen Reichs, König von Böhmen, König von Ungarn und Erzherzog von Österreich (17. Jahrhundert n. Chr. (gest. 1612 n. Chr.))"@de,
-        "Holy Roman Emperor, King of Hungary and Croatia, King of Bohemia and Archduke of Austria (1552-1612) (death year: 1612)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118603701>,
-        <http://www.wikidata.org/entity/Q150586> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Rudolf II."@de,
-        "Emperor Rudolf II"@en .
 
 hector_epochs:c_433d744b a skos:Concept ;
     skos:broader hector_epochs:c_df94bee1 ;
@@ -2562,7 +2493,7 @@ hector_epochs:c_4eadebe7 a skos:Concept ;
         "Vespasian"@en .
 
 hector_epochs:c_4f3c6dbf a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "erster Herrscher der Ptolemäerdynastie und König von Ägypten"@de,
         "Macedonian general, ruler of Egypt"@en ;
     skos:exactMatch <http://d-nb.info/gnd/118596926>,
@@ -3753,7 +3684,7 @@ hector_epochs:c_7bd97e69 a skos:Concept ;
         "Snaaib"@en .
 
 hector_epochs:c_7bea2bde a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "Pharao von Ägypten"@de,
         "king of Egypt"@en ;
     skos:exactMatch <http://d-nb.info/gnd/133072568>,
@@ -3890,7 +3821,7 @@ hector_epochs:c_7f5ea6a4 a skos:Concept ;
         "Sheshi"@en .
 
 hector_epochs:c_7fa99fe0 a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "6. König von Ägypten während der Ptolemäerzeit"@de,
         "Egyptian pharaoh"@en ;
     skos:exactMatch <http://d-nb.info/gnd/118596934>,
@@ -4328,7 +4259,7 @@ hector_epochs:c_8dc7711f a skos:Concept ;
         "Twosret"@en .
 
 hector_epochs:c_8f31fa25 a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "König der Ptolemäer und Alleinherrscher seit 283/282 v. Chr."@de,
         "king of the Ptolemaic dynasty in Egypt (308–246 B.C.)"@en ;
     skos:exactMatch <http://d-nb.info/gnd/11879356X>,
@@ -4375,16 +4306,6 @@ hector_epochs:c_9021de38 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Firmus"@de,
         "Firmus"@en .
-
-hector_epochs:c_902eea29 a skos:Concept ;
-    skos:broader hector_epochs:c_20d60008 ;
-    skos:definition "Kaiser des Heiligen Römischen Reiches (17. Jahrhundert n. Chr. (gest. 1657 n. Chr.))"@de,
-        "Emperor of the Holy Roman Empire (1608-1657) (death year: 1657)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118532529>,
-        <http://www.wikidata.org/entity/Q150575> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Ferdinand III."@de,
-        "Ferdinand III, Holy Roman Emperor"@en .
 
 hector_epochs:c_908d2cc3 a skos:Concept ;
     skos:broader hector_epochs:c_23aebc71 ;
@@ -4556,16 +4477,6 @@ hector_epochs:c_95a71dbd a skos:Concept ;
     skos:prefLabel "Sesostris IV."@de,
         "Senusret IV"@en .
 
-hector_epochs:c_95cb51b0 a skos:Concept ;
-    skos:broader hector_epochs:c_ece42c3a ;
-    skos:definition "Kurfürst von Bayern, römisch-deutscher Kaiser (18. Jahrhundert n. Chr. (gest. 1745 n. Chr.))"@de,
-        "Holy Roman Emperor (death year: 1745)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118560115>,
-        <http://www.wikidata.org/entity/Q76736> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Karl VII."@de,
-        "Charles VII, Holy Roman Emperor"@en .
-
 hector_epochs:c_95e1feaa a skos:Concept ;
     skos:broader hector_epochs:c_20f6e17e ;
     skos:definition "ägyptischer Pharao"@de,
@@ -4666,7 +4577,7 @@ hector_epochs:c_987382bc a skos:Concept ;
         "3rd Quarter 14th Century BC"@en .
 
 hector_epochs:c_9928a818 a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "König von Ägypten während der Ptolemäerzeit"@de,
         "Egyptian ruler"@en ;
     skos:exactMatch <http://www.wikidata.org/entity/Q39996> ;
@@ -4808,7 +4719,7 @@ hector_epochs:c_9da065b9 a skos:Concept ;
         "Neferhotep I"@en .
 
 hector_epochs:c_9df48f8d a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "5. König von Ägypten während der Ptolemäerzeit"@de,
         "fifth ruler of the Ptolemaic dynasty in Egypt (209–179 B.C.)"@en ;
     skos:exactMatch <http://d-nb.info/gnd/1172668973>,
@@ -5138,16 +5049,6 @@ hector_epochs:c_a47c07a9 a skos:Concept ;
     skos:prefLabel "Septimius"@de,
         "Septimius"@en .
 
-hector_epochs:c_a4872b9d a skos:Concept ;
-    skos:broader hector_epochs:c_ece42c3a ;
-    skos:definition "Kaiser des Heiligen Römischen Reiches, König von Ungarn, Böhmen, Erzherzog von Österreich, etc., Großherzog der Toskana, aus dem Haus Habsburg-Lothringen (18. Jahrhundert n. Chr. (gest. 1792 n. Chr.))"@de,
-        "Holy Roman Emperor from 1790 to 1792 (death year: 1792)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118571877>,
-        <http://www.wikidata.org/entity/Q151321> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Leopold II."@de,
-        "Leopold II, Holy Roman Emperor"@en .
-
 hector_epochs:c_a49a4082 a skos:Concept ;
     skos:broader hector_epochs:c_44baa143 ;
     skos:definition "ägyptischer Pharao"@de,
@@ -5309,7 +5210,7 @@ hector_epochs:c_ab522f83 a skos:Concept ;
         "Neferkasokar"@en .
 
 hector_epochs:c_ab5689ce a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "jüngerer Bruder und Gatte von Kleopatra VII."@de,
         "Pharaoh of Egypt from 51 to 47 BC"@en ;
     skos:exactMatch <http://www.wikidata.org/entity/Q39938> ;
@@ -5506,16 +5407,6 @@ hector_epochs:c_b0673bdd a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "4. Viertel 17. Jh. v. Chr."@de,
         "4th Quarter 17th Century BC"@en .
-
-hector_epochs:c_b0c893de a skos:Concept ;
-    skos:broader hector_epochs:c_cbc7c55c ;
-    skos:definition "Habsburgischer römisch-deutscher König, König von Ungarn und Böhmen (16. Jahrhundert n. Chr. (gest. 1576 n. Chr.))"@de,
-        "King of the Romans, King of Hungary, Croatia and Bohemia (1527-1576) (death year: 1576)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/11857938X>,
-        <http://www.wikidata.org/entity/Q150862> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Maximilian II. Kaiser des Heiligen Römischen Reiches"@de,
-        "Maximilian II, Holy Roman Emperor"@en .
 
 hector_epochs:c_b0dead2b a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
@@ -6116,7 +6007,7 @@ hector_epochs:c_c717af44 a skos:Concept ;
         "Caligula"@en .
 
 hector_epochs:c_c726cd78 a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "König von Ägypten während der Ptolemäerzeit"@de,
         "1st-century BC Egyptian pharaoh"@en ;
     skos:exactMatch <http://d-nb.info/gnd/118793578>,
@@ -6277,7 +6168,7 @@ hector_epochs:c_cb8b93ec a skos:Concept ;
         "Menes"@en .
 
 hector_epochs:c_cc2026ea a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "3. König von Ägypten während der Ptolemäerzeit"@de,
         "Egyptian pharaoh"@en ;
     skos:exactMatch <http://d-nb.info/gnd/119132893>,
@@ -6303,16 +6194,6 @@ hector_epochs:c_cc5fe5ec a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Neferka"@de,
         "Neferka"@en .
-
-hector_epochs:c_cd4da2f7 a skos:Concept ;
-    skos:broader hector_epochs:c_ece42c3a ;
-    skos:definition "Kaiser des Heiligen Römischen Reiches, König von Böhmen und Ungarn (18. Jahrhundert n. Chr. (gest. 1705 n. Chr.))"@de,
-        "Holy Roman Emperor (1658-1705), King of Hungary and Croatia and King of Bohemia (1640–1705) (death year: 1705)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118571869>,
-        <http://www.wikidata.org/entity/Q150494> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Leopold I."@de,
-        "Leopold I, Holy Roman Emperor"@en .
 
 hector_epochs:c_cda0f8d1 a skos:Concept ;
     skos:broader hector_epochs:c_6d1aeb13 ;
@@ -6431,7 +6312,7 @@ hector_epochs:c_cf535fea a skos:Concept ;
         "Constans II"@en .
 
 hector_epochs:c_cf624ea0 a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "Pharao von Ägypten während der Ptolemäerzeit"@de,
         "King of Egypt"@en ;
     skos:exactMatch <http://d-nb.info/gnd/1163407305>,
@@ -6500,16 +6381,6 @@ hector_epochs:c_d2181a43 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Spätarchaische Epoche"@de,
         "Late Archaic Period"@en .
-
-hector_epochs:c_d224fb08 a skos:Concept ;
-    skos:broader hector_epochs:c_cbc7c55c ;
-    skos:definition "Habsburger, Römisch-deutscher König und Kaiser, König von Spanien, Landesherr der Niederlande (1500-1558) (16. Jahrhundert n. Chr. (gest. 1558 n. Chr.))"@de,
-        "Holy Roman Emperor from 1519 to 1556 (1500–1558) (death year: 1558)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118560093>,
-        <http://www.wikidata.org/entity/Q32500> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Karl V."@de,
-        "Charles V"@en .
 
 hector_epochs:c_d2999297 a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
@@ -6610,7 +6481,7 @@ hector_epochs:c_d67cef47 a skos:Concept ;
         "Ramesses IV"@en .
 
 hector_epochs:c_d695ac00 a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "Königin Ägyptens"@de,
         "queen of Egypt from 142 to 131 BC and again from 127 to 116 BC"@en ;
     skos:exactMatch <http://d-nb.info/gnd/119208237>,
@@ -6673,7 +6544,7 @@ hector_epochs:c_d7d146be a skos:Concept ;
         "Neferkare II"@en .
 
 hector_epochs:c_d7d1e8f9 a skos:Concept ;
-    skos:broader hector_epochs:c_499db5e1 ;
+    skos:broader hector_epochs:c_de995c0a ;
     skos:definition "König von Ägypten"@de,
         "Egyptian Ptolemaic prince, ruler of Cyprus"@en ;
     skos:exactMatch <http://www.wikidata.org/entity/Q888492> ;
@@ -6868,12 +6739,6 @@ hector_epochs:c_de3ff67a a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Sekhemre Shedwast"@de,
         "Sekhemre Shedwast"@en .
-
-hector_epochs:c_de995c0a a skos:Concept ;
-    skos:broader hector_epochs:c_12cd0776 ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Ptolemäische Zeit"@de,
-        "Ptolemaic Period"@en .
 
 hector_epochs:c_deaa9e70 a skos:Concept ;
     skos:broader hector_epochs:c_bb249250 ;
@@ -7313,16 +7178,6 @@ hector_epochs:c_eaec9199 a skos:Concept ;
     skos:prefLabel "Dareios II."@de,
         "Darius II"@en .
 
-hector_epochs:c_eb2bc168 a skos:Concept ;
-    skos:broader hector_epochs:c_ece42c3a ;
-    skos:definition "König und Kaiser des Heiligen Römischen Reiches, König von Böhmen, König von Ungarn und Kroatien, König von Neapel, König von Sardinien, König von Sizilien und Erzherzog von Österreich (18. Jahrhundert n. Chr. (gest. 1740 n. Chr.))"@de,
-        "18th century Habsburg Holy Roman Emperor (death year: 1740)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118560107>,
-        <http://www.wikidata.org/entity/Q150665> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Karl VI."@de,
-        "Charles VI, Holy Roman Emperor"@en .
-
 hector_epochs:c_eb3c6ae5 a skos:Concept ;
     skos:broader hector_epochs:c_5e02b6ce ;
     skos:definition "Viertel-Jahrhundert von 1576 n. Chr. bis 1600 n. Chr.."@de,
@@ -7705,16 +7560,6 @@ hector_epochs:c_f638bd29 a skos:Concept ;
     skos:prefLabel "Osorkon IV."@de,
         "Osorkon IV"@en .
 
-hector_epochs:c_f70309e6 a skos:Concept ;
-    skos:broader hector_epochs:c_cbc7c55c ;
-    skos:definition "Habsburgischer Kaiser des Heiligen Römischen Reichs und König von Böhmen und Ungarn (16. Jahrhundert n. Chr. (gest. 1564 n. Chr.))"@de,
-        "Holy Roman Emperor of the Habsburg dynasty and king of Bohemia, Croatia and Hungary (1503–1564) (death year: 1564)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/118532502>,
-        <http://www.wikidata.org/entity/Q150611> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Ferdinand I."@de,
-        "Ferdinand I, Holy Roman Emperor"@en .
-
 hector_epochs:c_f74dcc3d a skos:Concept ;
     skos:broader hector_epochs:c_41f3467e ;
     skos:definition "altägyptischer König der 18. Dynastie"@de,
@@ -8042,16 +7887,6 @@ hector_epochs:c_fe6a3f73 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Se...kara"@de,
         "Se...kara"@en .
-
-hector_epochs:c_fe83093a a skos:Concept ;
-    skos:broader hector_epochs:c_20d60008 ;
-    skos:definition "Habsburgischer Kaiser des Heiligen Römischen Reichs (17. Jahrhundert n. Chr. (gest. 1619 n. Chr.))"@de,
-        "Holy Roman Emperor (1557-1619) (death year: 1619)"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/119400839>,
-        <http://www.wikidata.org/entity/Q152157> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Matthias"@de,
-        "Matthias, Holy Roman Emperor"@en .
 
 hector_epochs:c_feb01e32 a skos:Concept ;
     skos:broader hector_epochs:c_2540815e ;
@@ -9942,6 +9777,18 @@ hector_epochs:c_be027feb a skos:Concept ;
     skos:prefLabel "Steinzeit"@de,
         "Stone Age"@en .
 
+hector_epochs:c_cbc7c55c a skos:Concept ;
+    skos:broader hector_epochs:c_88a3a526,
+        hector_epochs:c_b6182e52 ;
+    skos:definition "Zeitabschnitt von 1501 n. Chr. bis 1600 n. Chr.."@de,
+        "Time period from 1501 AD to 1600 AD."@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q7017> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:c_0da403d5,
+        hector_epochs:c_5e02b6ce ;
+    skos:prefLabel "16. Jahrhundert n. Chr."@de,
+        "16th Century AD"@en .
+
 hector_epochs:c_e4a9851a a skos:Concept ;
     skos:altLabel "Kaiserzeit"@de,
         "kaiserzeitlich"@de ;
@@ -9971,6 +9818,18 @@ hector_epochs:c_ec969110 a skos:Concept ;
     skos:prefLabel "Kykladische Epoche"@de,
         "Cycladic Period"@en .
 
+hector_epochs:c_ece42c3a a skos:Concept ;
+    skos:broader hector_epochs:c_88a3a526,
+        hector_epochs:c_b6182e52 ;
+    skos:definition "Zeitabschnitt von 1701 n. Chr. bis 1800 n. Chr.."@de,
+        "Time period from 1701 AD to 1800 AD."@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q7015> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:c_00bc8e4e,
+        hector_epochs:c_7ff0d7b8 ;
+    skos:prefLabel "18. Jahrhundert n. Chr."@de,
+        "18th Century AD"@en .
+
 hector_epochs:c_08f1434b a skos:Concept ;
     skos:altLabel "Archaik"@de,
         "archaisch"@de ;
@@ -9986,6 +9845,19 @@ hector_epochs:c_08f1434b a skos:Concept ;
         hector_epochs:c_d2181a43 ;
     skos:prefLabel "Archaische Epoche"@de,
         "Archaic Period"@en .
+
+hector_epochs:c_20d60008 a skos:Concept ;
+    skos:broader hector_epochs:c_88a3a526,
+        hector_epochs:c_b6182e52 ;
+    skos:definition "Zeitabschnitt von 1601 n. Chr. bis 1700 n. Chr.."@de,
+        "Time period from 1601 AD to 1700 AD."@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q7016> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:c_9fbc0a79,
+        hector_epochs:c_aec9c1ea,
+        hector_epochs:c_ff56bc19 ;
+    skos:prefLabel "17. Jahrhundert n. Chr."@de,
+        "17th Century AD"@en .
 
 hector_epochs:c_268a1738 a skos:Concept ;
     skos:altLabel "hellenistisch"@de ;
@@ -10167,6 +10039,21 @@ hector_epochs:c_00560efd a skos:Concept ;
     skos:prefLabel "26. Dynastie"@de,
         "Twenty-sixth Dynasty of Egypt"@en .
 
+hector_epochs:c_3bbe4d3b a skos:Concept ;
+    skos:broader hector_epochs:c_20bac33e ;
+    skos:definition "Zeitraum zwischen dem 12. und 8. vorchristlichen Jahrhundert im antiken Griechenland"@de,
+        "period of time in ancient Greece"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q210443> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:c_08f1434b,
+        hector_epochs:c_268a1738,
+        hector_epochs:c_a52c8e7c,
+        hector_epochs:c_ab8f742e,
+        hector_epochs:c_acc34558,
+        hector_epochs:c_c873037f ;
+    skos:prefLabel "Griechische Eisenzeit"@de,
+        "Greek Iron Age"@en .
+
 hector_epochs:c_ad7adc66 a skos:Concept ;
     skos:broader hector_epochs:c_4a572b1e ;
     skos:definition "Ein strukturiertes Zeitraster aus Jahrtausenden, Jahrhunderten, Hälften und Vierteln."@de,
@@ -10252,21 +10139,6 @@ hector_epochs:c_20065bf8 a skos:Concept ;
     skos:prefLabel "23. Dynastie"@de,
         "Twenty-third Dynasty of Egypt"@en .
 
-hector_epochs:c_3bbe4d3b a skos:Concept ;
-    skos:broader hector_epochs:c_20bac33e ;
-    skos:definition "Zeitraum zwischen dem 12. und 8. vorchristlichen Jahrhundert im antiken Griechenland"@de,
-        "period of time in ancient Greece"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q210443> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_08f1434b,
-        hector_epochs:c_268a1738,
-        hector_epochs:c_a52c8e7c,
-        hector_epochs:c_ab8f742e,
-        hector_epochs:c_acc34558,
-        hector_epochs:c_c873037f ;
-    skos:prefLabel "Griechische Eisenzeit"@de,
-        "Greek Iron Age"@en .
-
 hector_epochs:c_a33558fb a skos:Concept ;
     skos:broader hector_epochs:c_41f3ff90 ;
     skos:exactMatch <http://www.wikidata.org/entity/Q728479> ;
@@ -10280,22 +10152,6 @@ hector_epochs:c_a33558fb a skos:Concept ;
         hector_epochs:c_cdfed1a8 ;
     skos:prefLabel "15. Dynastie"@de,
         "Fifteenth Dynasty of Egypt"@en .
-
-hector_epochs:c_cbc7c55c a skos:Concept ;
-    skos:broader hector_epochs:c_88a3a526,
-        hector_epochs:c_b6182e52 ;
-    skos:definition "Zeitabschnitt von 1501 n. Chr. bis 1600 n. Chr.."@de,
-        "Time period from 1501 AD to 1600 AD."@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q7017> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_0da403d5,
-        hector_epochs:c_3ea6af50,
-        hector_epochs:c_5e02b6ce,
-        hector_epochs:c_b0c893de,
-        hector_epochs:c_d224fb08,
-        hector_epochs:c_f70309e6 ;
-    skos:prefLabel "16. Jahrhundert n. Chr."@de,
-        "16th Century AD"@en .
 
 hector_epochs:c_ed93709a a skos:Concept ;
     skos:broader hector_epochs:c_cac1087e ;
@@ -10325,23 +10181,6 @@ hector_epochs:c_13ac3d8f a skos:Concept ;
         hector_epochs:c_cc3e92e7 ;
     skos:prefLabel "4. Dynastie"@de,
         "Fourth Dynasty of Egypt"@en .
-
-hector_epochs:c_20d60008 a skos:Concept ;
-    skos:broader hector_epochs:c_88a3a526,
-        hector_epochs:c_b6182e52 ;
-    skos:definition "Zeitabschnitt von 1601 n. Chr. bis 1700 n. Chr.."@de,
-        "Time period from 1601 AD to 1700 AD."@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q7016> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_15375f9c,
-        hector_epochs:c_42cc1e44,
-        hector_epochs:c_902eea29,
-        hector_epochs:c_9fbc0a79,
-        hector_epochs:c_aec9c1ea,
-        hector_epochs:c_fe83093a,
-        hector_epochs:c_ff56bc19 ;
-    skos:prefLabel "17. Jahrhundert n. Chr."@de,
-        "17th Century AD"@en .
 
 hector_epochs:c_4a572b1e a skos:Concept ;
     skos:definition "langer Zeitraum"@de,
@@ -10579,25 +10418,6 @@ hector_epochs:c_df94bee1 a skos:Concept ;
     skos:prefLabel "0. Dynastie"@de,
         "Protodynastic Period of Egypt"@en .
 
-hector_epochs:c_ece42c3a a skos:Concept ;
-    skos:broader hector_epochs:c_88a3a526,
-        hector_epochs:c_b6182e52 ;
-    skos:definition "Zeitabschnitt von 1701 n. Chr. bis 1800 n. Chr.."@de,
-        "Time period from 1701 AD to 1800 AD."@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q7015> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_00bc8e4e,
-        hector_epochs:c_0410282b,
-        hector_epochs:c_0973dde6,
-        hector_epochs:c_0b717943,
-        hector_epochs:c_7ff0d7b8,
-        hector_epochs:c_95cb51b0,
-        hector_epochs:c_a4872b9d,
-        hector_epochs:c_cd4da2f7,
-        hector_epochs:c_eb2bc168 ;
-    skos:prefLabel "18. Jahrhundert n. Chr."@de,
-        "18th Century AD"@en .
-
 hector_epochs:c_12cd0776 a skos:Concept ;
     skos:broader hector_epochs:c_b750d7f6 ;
     skos:definition "Ägypten im Altertum"@de,
@@ -10708,6 +10528,30 @@ hector_epochs:c_28268fb6 a skos:Concept ;
         hector_epochs:c_e054f809 ;
     skos:prefLabel "8. Dynastie"@de,
         "Eighth Dynasty of Egypt"@en .
+
+hector_epochs:c_de995c0a a skos:Concept ;
+    skos:broader hector_epochs:c_12cd0776 ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:c_1004aa4b,
+        hector_epochs:c_1a3af5b3,
+        hector_epochs:c_249db504,
+        hector_epochs:c_29d13793,
+        hector_epochs:c_377c1450,
+        hector_epochs:c_4162121f,
+        hector_epochs:c_4f3c6dbf,
+        hector_epochs:c_7bea2bde,
+        hector_epochs:c_7fa99fe0,
+        hector_epochs:c_8f31fa25,
+        hector_epochs:c_9928a818,
+        hector_epochs:c_9df48f8d,
+        hector_epochs:c_ab5689ce,
+        hector_epochs:c_c726cd78,
+        hector_epochs:c_cc2026ea,
+        hector_epochs:c_cf624ea0,
+        hector_epochs:c_d695ac00,
+        hector_epochs:c_d7d1e8f9 ;
+    skos:prefLabel "Ptolemäische Zeit"@de,
+        "Ptolemaic Period"@en .
 
 hector_epochs:c_21373bb3 a skos:Concept ;
     skos:broader hector_epochs:c_41f3ff90 ;
@@ -11028,7 +10872,6 @@ hector_epochs:c_499db5e1 a skos:Concept ;
         hector_epochs:c_0787c040,
         hector_epochs:c_0873605d,
         hector_epochs:c_0ae0bb84,
-        hector_epochs:c_1004aa4b,
         hector_epochs:c_11875a27,
         hector_epochs:c_11e3e64b,
         hector_epochs:c_12cb6489,
@@ -11040,29 +10883,24 @@ hector_epochs:c_499db5e1 a skos:Concept ;
         hector_epochs:c_17c2191a,
         hector_epochs:c_17ff41b5,
         hector_epochs:c_1a022456,
-        hector_epochs:c_1a3af5b3,
         hector_epochs:c_20065bf8,
         hector_epochs:c_2067140d,
         hector_epochs:c_20f6e17e,
-        hector_epochs:c_249db504,
         hector_epochs:c_24b3fe88,
         hector_epochs:c_2631cd0d,
         hector_epochs:c_27ccc5f4,
         hector_epochs:c_27d560f9,
         hector_epochs:c_28268fb6,
         hector_epochs:c_2886fb45,
-        hector_epochs:c_29d13793,
         hector_epochs:c_2acd96ed,
         hector_epochs:c_2b93053e,
         hector_epochs:c_2c0c72e2,
         hector_epochs:c_2cdea4a7,
         hector_epochs:c_2f5c1a89,
-        hector_epochs:c_2fed4141,
         hector_epochs:c_30df03f8,
         hector_epochs:c_3281f1a7,
         hector_epochs:c_35f8ff74,
         hector_epochs:c_36f2415e,
-        hector_epochs:c_377c1450,
         hector_epochs:c_390d5b79,
         hector_epochs:c_39d8ab92,
         hector_epochs:c_3bcc3299,
@@ -11072,7 +10910,6 @@ hector_epochs:c_499db5e1 a skos:Concept ;
         hector_epochs:c_3f60aad4,
         hector_epochs:c_410603b4,
         hector_epochs:c_4150346b,
-        hector_epochs:c_4162121f,
         hector_epochs:c_42025510,
         hector_epochs:c_423e8800,
         hector_epochs:c_4255d71c,
@@ -11080,7 +10917,6 @@ hector_epochs:c_499db5e1 a skos:Concept ;
         hector_epochs:c_48001fc7,
         hector_epochs:c_49ed184f,
         hector_epochs:c_4d89497d,
-        hector_epochs:c_4f3c6dbf,
         hector_epochs:c_4fc79408,
         hector_epochs:c_514e8fac,
         hector_epochs:c_51e68dc0,
@@ -11111,9 +10947,7 @@ hector_epochs:c_499db5e1 a skos:Concept ;
         hector_epochs:c_79673b1f,
         hector_epochs:c_7aa49bcc,
         hector_epochs:c_7b4eb764,
-        hector_epochs:c_7bea2bde,
         hector_epochs:c_7ccb319e,
-        hector_epochs:c_7fa99fe0,
         hector_epochs:c_8135bfa2,
         hector_epochs:c_85a8e2c2,
         hector_epochs:c_85be056b,
@@ -11125,23 +10959,19 @@ hector_epochs:c_499db5e1 a skos:Concept ;
         hector_epochs:c_8caaa66f,
         hector_epochs:c_8d1327f5,
         hector_epochs:c_8d1c442a,
-        hector_epochs:c_8f31fa25,
         hector_epochs:c_934fca89,
         hector_epochs:c_95325cdd,
         hector_epochs:c_962ad51f,
         hector_epochs:c_96aaceec,
         hector_epochs:c_98283bfc,
-        hector_epochs:c_9928a818,
         hector_epochs:c_9b765574,
         hector_epochs:c_9c81faa0,
-        hector_epochs:c_9df48f8d,
         hector_epochs:c_9e90a7da,
         hector_epochs:c_9f319bcc,
         hector_epochs:c_a16163af,
         hector_epochs:c_a1a0d762,
         hector_epochs:c_a4eea4ff,
         hector_epochs:c_aa355211,
-        hector_epochs:c_ab5689ce,
         hector_epochs:c_ae75a275,
         hector_epochs:c_ae83cf6d,
         hector_epochs:c_b0596ccf,
@@ -11165,20 +10995,15 @@ hector_epochs:c_499db5e1 a skos:Concept ;
         hector_epochs:c_c12994f8,
         hector_epochs:c_c3a093e6,
         hector_epochs:c_c5a11c65,
-        hector_epochs:c_c726cd78,
         hector_epochs:c_c781b555,
         hector_epochs:c_c807d28c,
         hector_epochs:c_c965cba1,
         hector_epochs:c_cb26dcb1,
         hector_epochs:c_cb835a80,
         hector_epochs:c_cb8b93ec,
-        hector_epochs:c_cc2026ea,
         hector_epochs:c_ce99b70d,
-        hector_epochs:c_cf624ea0,
         hector_epochs:c_d1b98faf,
         hector_epochs:c_d2999297,
-        hector_epochs:c_d695ac00,
-        hector_epochs:c_d7d1e8f9,
         hector_epochs:c_d8135a44,
         hector_epochs:c_d88ac93b,
         hector_epochs:c_d9856129,
