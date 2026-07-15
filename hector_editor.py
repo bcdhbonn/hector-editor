@@ -571,7 +571,7 @@ class HECTOREditor:
         api_url = f"https://www.wikidata.org/w/api.php?action=wbsearchentities&search={encoded_term}&language={search_lang}&format=json&limit=15"
 
         try:
-            req = urllib.request.Request(api_url, headers={'User-Agent': 'HECTOR-Editor/1.0'})
+            req = urllib.request.Request(api_url, headers={'User-Agent': 'HECTOR-Editor/1.0 (https://github.com/bcdhbonn/hector-editor-skos; matthias.lang@uni-bonn.de)'})
             with urllib.request.urlopen(req) as response:
                 data = json.loads(response.read().decode())
                 results = data.get("search", [])
@@ -618,7 +618,7 @@ class HECTOREditor:
         detail_url = f"https://www.wikidata.org/w/api.php?action=wbgetentities&ids={q_id}&props=labels|descriptions|claims&languages={languages_query}&format=json"
 
         try:
-            req = urllib.request.Request(detail_url, headers={'User-Agent': 'HECTOR-Editor/1.0'})
+            req = urllib.request.Request(detail_url, headers={'User-Agent': 'HECTOR-Editor/1.0 (https://github.com/bcdhbonn/hector-editor-skos; matthias.lang@uni-bonn.de)'})
             with urllib.request.urlopen(req) as response:
                 data = json.loads(response.read().decode())
                 entity = data["entities"][q_id]
