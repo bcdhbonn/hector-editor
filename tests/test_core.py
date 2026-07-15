@@ -159,13 +159,23 @@ class TestVocabularyManager(unittest.TestCase):
         # Add a narrower relation without reciprocal
         self.mgr.g.add((c3, SKOS.narrower, c4))
         self.assertNotIn((c4, SKOS.broader, c3), self.mgr.g)
+
+        # Add a hasTopConcept relation without reciprocal
+        self.mgr.g.add((self.mgr.scheme_uri, SKOS.hasTopConcept, c1))
+        self.assertNotIn((c1, SKOS.topConceptOf, self.mgr.scheme_uri), self.mgr.g)
+
+        # Add a topConceptOf relation without reciprocal
+        self.mgr.g.add((c3, SKOS.topConceptOf, self.mgr.scheme_uri))
+        self.assertNotIn((self.mgr.scheme_uri, SKOS.hasTopConcept, c3), self.mgr.g)
         
         # Run sync
         added = self.mgr.sync_reciprocal_relations(auto_serialize=False)
-        self.assertEqual(added, 2)
+        self.assertEqual(added, 4)
         
         self.assertIn((c2, SKOS.narrower, c1), self.mgr.g)
         self.assertIn((c4, SKOS.broader, c3), self.mgr.g)
+        self.assertIn((c1, SKOS.topConceptOf, self.mgr.scheme_uri), self.mgr.g)
+        self.assertIn((self.mgr.scheme_uri, SKOS.hasTopConcept, c3), self.mgr.g)
 
     def test_save_concept_reciprocal(self):
         self.mgr.create_new_vocabulary(self.vocab_path, "http://example.org/test/", "Test Vocab")

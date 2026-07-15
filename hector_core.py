@@ -34,7 +34,7 @@ class VocabularyManager:
         return sorted(list(detected_langs))
 
     def sync_reciprocal_relations(self, auto_serialize=True):
-        """Synchronizes skos:broader and skos:narrower relations in both directions."""
+        """Synchronizes reciprocal relations (broader/narrower and hasTopConcept/topConceptOf) in both directions."""
         added_count = 0
         to_add = []
         # From broader to narrower
@@ -45,6 +45,14 @@ class VocabularyManager:
         for s, o in self.g.subject_objects(SKOS.narrower):
             if not (o, SKOS.broader, s) in self.g:
                 to_add.append((o, SKOS.broader, s))
+        # From hasTopConcept to topConceptOf
+        for s, o in self.g.subject_objects(SKOS.hasTopConcept):
+            if not (o, SKOS.topConceptOf, s) in self.g:
+                to_add.append((o, SKOS.topConceptOf, s))
+        # From topConceptOf to hasTopConcept
+        for s, o in self.g.subject_objects(SKOS.topConceptOf):
+            if not (o, SKOS.hasTopConcept, s) in self.g:
+                to_add.append((o, SKOS.hasTopConcept, s))
                 
         for s, p, o in to_add:
             self.g.add((s, p, o))
