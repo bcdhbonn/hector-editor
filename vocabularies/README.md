@@ -12,6 +12,10 @@ This directory contains semantic SKOS vocabularies managed and developed by the 
 * **Description:** An integrated archaeological epoch vocabulary comprising core baseline epochs, Roman emperors, medieval dynasties and rulers (HRR, England, France, Spain, Italy), Ancient Egypt dynasties/pharaohs, and a fine-grained chronological grid.
 * **Namespace:** `http://vocabs.bcdh.uni-bonn.de/hector_epochs/`
 
----
+### 2. **[HECTOR 3D Documentation SKOS Vocabulary](hector_3d_documentation/README.md)**
+* **Directory:** `hector_3d_documentation/`
+* **File:** `hector_3d_documentation/HECTOR_3D_Documentation.ttl`
+* **Description:** A hierarchical technical documentation and processing vocabulary for 3D modeling, photogrammetry, structured light scanning, 3D file formats, and hardware devices.
+* **Namespace:** `http://vocabs.bcdh.uni-bonn.de/hector_3d_documentation/`
 
-*More vocabularies will be added here in the future.*
+---
