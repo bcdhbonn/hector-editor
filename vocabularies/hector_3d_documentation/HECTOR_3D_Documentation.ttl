@@ -745,8 +745,8 @@
 
 :concept_199de53d a skos:Concept ;
     skos:broader :concept_0f86e6c8 ;
-    skos:definition "controlled deflection of laser beams"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1361664> ;
+    skos:definition "device that scans objects using laser light to obtain three-dimensional coordinates"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2726352> ;
     skos:inScheme :scheme ;
     skos:narrower :concept_25ff81b4,
         :concept_bb50f46d,
@@ -755,7 +755,7 @@
         :concept_e6a595e8,
         :concept_eb6c0d7a ;
     skos:prefLabel "Laserscanner"@de,
-        "laser scanning"@en .
+        "laser scanner"@en .
 
 :concept_f680c28a a skos:Concept ;
     skos:definition "die realitätsgetreue und dreidimensionale Abbildung von Körpern in digitaler Form"@de,
