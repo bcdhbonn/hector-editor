@@ -727,12 +727,6 @@ th:agrigento_painter a skos:Concept ;
     skos:prefLabel "Agrigent-Maler"@de,
         "Agrigento Painter"@en .
 
-th:agrios a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Agrios"@de,
-        "Agrios"@en .
-
 th:air_hole a skos:Concept ;
     skos:broader th:construction_-_lamp_parts ;
     skos:inScheme th:scheme ;
@@ -814,12 +808,6 @@ th:albertinum_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Albertinum-Gruppe"@de,
         "Albertinum Group"@en .
-
-th:alcyoneus a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Alkyoneus"@de,
-        "Alcyoneus"@en .
 
 th:alexandre_group a skos:Concept ;
     skos:broader th:red-figure ;
@@ -2186,12 +2174,6 @@ th:cactus_painter a skos:Concept ;
     skos:prefLabel "Kaktus-Maler"@de,
         "Cactus Painter"@en .
 
-th:cadmus a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Kadmos"@de,
-        "Cadmus"@en .
-
 th:caeretan_hydria a skos:Concept ;
     skos:broader th:black-figure_style ;
     skos:inScheme th:scheme ;
@@ -3316,12 +3298,6 @@ th:clockwise_meander a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Rechtsläufiger Mäander"@de,
         "Clockwise meander"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/clytius,_the_giant> a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Klytios, der Gigant"@de,
-        "Clytius, the giant"@en .
 
 th:cock_group a skos:Concept ;
     skos:broader th:black-figure ;
@@ -4984,12 +4960,6 @@ th:epinetron a skos:Concept ;
     skos:prefLabel "Epinetron"@de,
         "Epinetron"@en .
 
-th:epiphaltes a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Epiphaltes"@de,
-        "Epiphaltes"@en .
-
 th:epiphysis a skos:Concept ;
     skos:broader th:pot ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1346946> ;
@@ -5839,12 +5809,6 @@ th:geras_painter a skos:Concept ;
     skos:prefLabel "Geras-Maler"@de,
         "Geras Painter"@en .
 
-th:giant_fight a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gigantenkampf"@de,
-        "Giant fight"@en .
-
 th:giessen-providence_painter a skos:Concept ;
     skos:broader th:eastern_greek_vase_painter ;
     skos:inScheme th:scheme ;
@@ -5969,18 +5933,6 @@ th:gotha_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gotha-Maler"@de,
         "Gotha Painter"@en .
-
-th:grandchildren a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Enkelados"@de,
-        "Grandchildren"@en .
-
-th:gration a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gration"@de,
-        "Gration"@en .
 
 th:grave_pillar a skos:Concept ;
     skos:broader th:tomb_construction ;
@@ -8439,12 +8391,6 @@ th:hippolytos_painter a skos:Concept ;
     skos:prefLabel "Hippolytos-Maler"@de,
         "Hippolytos Painter"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/hippolytus,_giant> a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Hippolytos, Gigant"@de,
-        "Hippolytus, giant"@en .
-
 th:hirsch_class_of_head_vases a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -10852,12 +10798,6 @@ th:milonidas a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Milonidas"@de,
         "Milonidas"@en .
-
-th:mimas a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Mimas"@de,
-        "Mimas"@en .
 
 th:mina_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -16293,12 +16233,6 @@ th:peleus_painter a skos:Concept ;
     skos:prefLabel "Peleus-Maler"@de,
         "Peleus Painter"@en .
 
-th:peloros a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Peloros"@de,
-        "Peloros"@en .
-
 th:penelope_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q37631991> ;
@@ -16786,12 +16720,6 @@ th:polos_painter a skos:Concept ;
     skos:prefLabel "Polos-Maler"@de,
         "Polos Painter"@en .
 
-th:polybotes a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Polybotes"@de,
-        "Polybotes"@en .
-
 th:polydektes_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -16840,12 +16768,6 @@ th:populonia_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Populonia-Maler"@de,
         "Populonia Painter"@en .
-
-th:porphyrion a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Porphyrion"@de,
-        "Porphyrion"@en .
 
 th:port_sunlight_group a skos:Concept ;
     skos:broader th:red-figure ;
@@ -17401,12 +17323,6 @@ th:rhomboid_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Rhomboid-Gruppe"@de,
         "Rhomboid Group"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/rhotos,_giant> a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Rhötos, Gigant"@de,
-        "Rhotos, giant"@en .
 
 th:ribbed_vault a skos:Concept ;
     skos:broader th:cross_vault ;
@@ -18929,12 +18845,6 @@ th:theozotes_potter a skos:Concept ;
     skos:prefLabel "Theozotos Töpfer"@de,
         "Theozotes Potter"@en .
 
-th:theseus_with_minos a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Theseus bei Minos"@de,
-        "Theseus with Minos"@en .
-
 th:thessalian_protogeometric a skos:Concept ;
     skos:broader th:thessalian_ceramics ;
     skos:inScheme th:scheme ;
@@ -18946,12 +18856,6 @@ th:thirteen_thousand_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Thirteen Thousand-Maler"@de,
         "Thirteen Thousand Painter"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/thoas,_the_giant> a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Thoas, der Gigant"@de,
-        "Thoas, the giant"@en .
 
 th:tholos a skos:Concept ;
     skos:broader th:types_of_greco-roman_temples ;
@@ -19389,12 +19293,6 @@ th:tymbos_workshop a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Tymbos-Werkstatt"@de,
         "Tymbos Workshop"@en .
-
-th:typhoeus a skos:Concept ;
-    skos:broader th:giants ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Typhoeus"@de,
-        "Typhoeus"@en .
 
 th:tyszkiewicz_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -22498,7 +22396,6 @@ th:trumpe a skos:Concept ;
         "Trumpe"@en .
 
 th:vase_painter a skos:Concept ;
-    skos:broader th:heritageasset ;
     skos:definition "Zeichner von Bildern und Ornamenten auf antiken Vasen"@de,
         "profession"@en ;
     skos:exactMatch <http://vocab.getty.edu/aat/300263263>,
@@ -22508,7 +22405,8 @@ th:vase_painter a skos:Concept ;
     skos:narrower th:greek_vase_painter,
         th:italian_vase_painter ;
     skos:prefLabel "Vasenmaler"@de,
-        "vase painter"@en .
+        "vase painter"@en ;
+    skos:topConceptOf th:scheme .
 
 th:vegetable a skos:Concept ;
     skos:altLabel "Floral"@de ;
@@ -23138,16 +23036,6 @@ th:storage_vessel a skos:Concept ;
     skos:prefLabel "Aufbewahrungsgefäß"@de,
         "Storage vessel"@en .
 
-th:subject a skos:Concept ;
-    skos:broader th:heritageasset ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:cadmus,
-        th:giant_fight,
-        th:giants,
-        th:theseus_with_minos ;
-    skos:prefLabel "Bildthema"@de,
-        "Subject"@en .
-
 th:thermal_spring_type a skos:Concept ;
     skos:broader th:roman_thermal_baths ;
     skos:inScheme th:scheme ;
@@ -23420,6 +23308,18 @@ th:greek_vase_painter a skos:Concept ;
     skos:prefLabel "Vasenmaler griechisch"@de,
         "Greek vase painter"@en .
 
+th:heritageasset a skos:Concept ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:architecture_and_urbanism,
+        th:ceramic,
+        th:container,
+        th:lighting_device,
+        th:ornament,
+        th:sculpture ;
+    skos:prefLabel "Kulturgut"@de,
+        "HeritageAsset"@en ;
+    skos:topConceptOf th:scheme .
+
 th:red-figure_style a skos:Concept ;
     skos:broader th:greek_ceramics_class ;
     skos:inScheme th:scheme ;
@@ -23641,20 +23541,6 @@ th:fastening a skos:Concept ;
         th:palisade ;
     skos:prefLabel "Befestigung"@de,
         "Fortification"@en .
-
-th:heritageasset a skos:Concept ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:architecture_and_urbanism,
-        th:ceramic,
-        th:container,
-        th:lighting_device,
-        th:ornament,
-        th:sculpture,
-        th:subject,
-        th:vase_painter ;
-    skos:prefLabel "Kulturgut"@de,
-        "HeritageAsset"@en ;
-    skos:topConceptOf th:scheme .
 
 th:roman_house_room a skos:Concept ;
     skos:broader th:roman_house ;
@@ -24013,26 +23899,6 @@ th:black-figure_style a skos:Concept ;
     skos:prefLabel "Schwarzfiguriger Stil"@de,
         "Black-figure style"@en ;
     skos:related th:etruscan_ceramics .
-
-th:giants a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:agrios,
-        th:alcyoneus,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/clytius,_the_giant>,
-        th:epiphaltes,
-        th:grandchildren,
-        th:gration,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/hippolytus,_giant>,
-        th:mimas,
-        th:peloros,
-        th:polybotes,
-        th:porphyrion,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/rhotos,_giant>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/thoas,_the_giant>,
-        th:typhoeus ;
-    skos:prefLabel "Giganten"@de,
-        "Giants"@en .
 
 th:drinking_bowl a skos:Concept ;
     skos:altLabel "Schale"@de ;
@@ -27231,7 +27097,8 @@ th:red-figure a skos:Concept ;
         "Red-figure"@en .
 
 th:scheme a skos:ConceptScheme ;
-    skos:hasTopConcept th:heritageasset ;
+    skos:hasTopConcept th:heritageasset,
+        th:vase_painter ;
     skos:prefLabel "BCDH Heritage Assets Vocabulary"@de,
         "BCDH Heritage Assets Vocabulary"@en .
 
