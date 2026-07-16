@@ -52,6 +52,7 @@ class HECTOREditor:
         self.delete_target_uri = None  
         self.search_popup = None
         self.wiki_window = None
+        self.aat_window = None
         self.lang_popup = None
         self.import_align_uris = False
 
@@ -331,10 +332,6 @@ class HECTOREditor:
         )
         self.btn_add_lang_direct.grid(row=0, column=1, sticky="e")
         
-        self.btn_wikidata = ctk.CTkButton(self.form_frame, text="🔍 Query Wikidata API", width=160, height=26, font=("Arial", 12), fg_color="#8a3ab9", hover_color="#6d2d93", command=self.fetch_from_wikidata)
-        self.btn_wikidata.grid(row=current_row, column=2, padx=(5, 15), pady=4, sticky="e")
-        current_row += 1
-
         self.lang_entries = {}
         self.alt_label_frames = {}
         self.alt_label_widgets = {}
@@ -404,14 +401,18 @@ class HECTOREditor:
 
         tk.Label(self.form_frame, text="Wikidata Match:", font=("Arial", 12), bg=bg_color, fg=text_color, anchor="w").grid(row=current_row, column=0, padx=(15, 5), pady=3, sticky="w")
         self.entries["match_wiki"] = ctk.CTkEntry(self.form_frame, height=28, font=("Arial", 12), placeholder_text="http://www.wikidata.org/entity/Q...")
-        self.entries["match_wiki"].grid(row=current_row, column=1, columnspan=2, padx=(5, 15), pady=3, sticky="ew")
+        self.entries["match_wiki"].grid(row=current_row, column=1, padx=(5, 5), pady=3, sticky="ew")
         if "match_wiki" in cached_vals: self.entries["match_wiki"].insert(0, cached_vals["match_wiki"])
+        self.btn_wikidata = ctk.CTkButton(self.form_frame, text="🔍 Query Wikidata", width=140, height=26, font=("Arial", 11), fg_color="#8a3ab9", hover_color="#6d2d93", command=self.fetch_from_wikidata)
+        self.btn_wikidata.grid(row=current_row, column=2, padx=(5, 15), pady=3, sticky="e")
         current_row += 1
 
         tk.Label(self.form_frame, text="Getty AAT Match:", font=("Arial", 12), bg=bg_color, fg=text_color, anchor="w").grid(row=current_row, column=0, padx=(15, 5), pady=3, sticky="w")
         self.entries["match_aat"] = ctk.CTkEntry(self.form_frame, height=28, font=("Arial", 12), placeholder_text="http://vocab.getty.edu/aat/...")
-        self.entries["match_aat"].grid(row=current_row, column=1, columnspan=2, padx=(5, 15), pady=3, sticky="ew")
+        self.entries["match_aat"].grid(row=current_row, column=1, padx=(5, 5), pady=3, sticky="ew")
         if "match_aat" in cached_vals: self.entries["match_aat"].insert(0, cached_vals["match_aat"])
+        self.btn_aat = ctk.CTkButton(self.form_frame, text="🔍 Query Getty AAT", width=140, height=26, font=("Arial", 11), fg_color="#006699", hover_color="#004d73", command=self.fetch_from_aat)
+        self.btn_aat.grid(row=current_row, column=2, padx=(5, 15), pady=3, sticky="e")
         current_row += 1
 
         tk.Label(self.form_frame, text="GND Match:", font=("Arial", 12), bg=bg_color, fg=text_color, anchor="w").grid(row=current_row, column=0, padx=(15, 5), pady=3, sticky="w")
@@ -662,6 +663,179 @@ class HECTOREditor:
                 self.log(f"✅ Context extraction finished for {q_id}.")
         except Exception as e: self.log(f"❌ Claim parsing disruption: {e}")
 
+    def fetch_from_aat(self):
+        search_term = ""
+        search_lang = "en"
+        for lang in self.active_languages:
+            if lang in self.lang_entries and self.lang_entries[lang].get().strip():
+                search_term = self.lang_entries[lang].get().strip()
+                search_lang = lang
+                break
+        if not search_term:
+            messagebox.showwarning("Getty AAT Search", "Please enter a concept label into the fields to execute API query!")
+            return
+
+        self.log(f"🌐 Querying Wikidata for Getty AAT mappings (Scope: '{search_lang}') for: '{search_term}'...")
+        # Query Wikidata for entities matching the label that have AAT IDs
+        sparql_query = f"""
+        SELECT ?item ?itemLabel ?itemDescription ?aatId WHERE {{
+          SERVICE wikibase:mwapi {{
+            bd:serviceParam wikibase:api "EntitySearch" .
+            bd:serviceParam wikibase:endpoint "www.wikidata.org" .
+            bd:serviceParam mwapi:search "{search_term}" .
+            bd:serviceParam mwapi:language "{search_lang}" .
+            ?item wikibase:apiOutputItem mwapi:item .
+          }}
+          ?item wdt:P1014 ?aatId .
+          SERVICE wikibase:label {{ bd:serviceParam wikibase:language "{search_lang},en". }}
+        }}
+        LIMIT 15
+        """
+        encoded_query = urllib.parse.quote(sparql_query)
+        api_url = f"https://query.wikidata.org/sparql?query={encoded_query}"
+
+        try:
+            req = urllib.request.Request(api_url, headers={
+                'User-Agent': 'HECTOR-Editor/1.0 (https://github.com/bcdhbonn/hector-editor-skos; matthias.lang@uni-bonn.de)',
+                'Accept': 'application/sparql-results+json'
+            })
+            with urllib.request.urlopen(req) as response:
+                data = json.loads(response.read().decode())
+                bindings = data.get("results", {}).get("bindings", [])
+                if not bindings:
+                    messagebox.showinfo("Getty AAT Search", f"No Getty AAT mapped records found for '{search_term}'.")
+                    return
+                
+                results = []
+                for b in bindings:
+                    results.append({
+                        "wiki_uri": b.get("item", {}).get("value"),
+                        "label": b.get("itemLabel", {}).get("value"),
+                        "desc": b.get("itemDescription", {}).get("value", "No description available"),
+                        "aat_id": b.get("aatId", {}).get("value")
+                    })
+                self.open_aat_selection_window(results)
+        except Exception as e:
+            self.log(f"❌ AAT search API failure: {e}")
+
+    def open_aat_selection_window(self, results):
+        if self.aat_window: self.aat_window.destroy()
+        self.aat_window = ctk.CTkToplevel(self.root)
+        self.aat_window.title("Getty AAT Entity Disambiguation")
+        self.aat_window.geometry("750x480")
+        self.aat_window.lift()
+        self.aat_window.attributes("-topmost", True)
+
+        lbl = ctk.CTkLabel(self.aat_window, text="Select the exact matching Getty AAT authority node:", font=("Arial", 12))
+        lbl.pack(pady=10)
+
+        scroll_box = ctk.CTkScrollableFrame(self.aat_window, width=700, height=380)
+        scroll_box.pack(fill="both", expand=True, padx=15, pady=10)
+
+        for match in results:
+            aat_id = match["aat_id"]
+            label = match["label"]
+            desc = match["desc"]
+            wiki_uri = match["wiki_uri"]
+            q_id = wiki_uri.split("/")[-1]
+
+            frame_item = ctk.CTkFrame(scroll_box, fg_color=("white", "#2e2e2e"), corner_radius=8)
+            frame_item.pack(fill="x", pady=4, padx=5)
+
+            txt_info = f"🆔 AAT {aat_id} (Wikidata: {q_id}) -- {label}\nScope Note: {desc}"
+            lbl_info = ctk.CTkLabel(frame_item, text=txt_info, justify="left", anchor="w", wraplength=520, font=("Arial", 12))
+            lbl_info.pack(side="left", padx=10, pady=5, fill="x", expand=True)
+
+            btn_select = ctk.CTkButton(
+                frame_item, 
+                text="Select Concept", 
+                width=110, 
+                font=("Arial", 12), 
+                command=lambda a=aat_id, q=q_id, u=wiki_uri: self.process_selected_aat(a, q, u)
+            )
+            btn_select.pack(side="right", padx=10, pady=5)
+
+    def process_selected_aat(self, aat_id, q_id, wiki_uri):
+        if self.aat_window:
+            self.aat_window.destroy()
+            self.aat_window = None
+            
+        self.log(f"🔄 Resolving Getty AAT details for concept {aat_id}...")
+        
+        # 1. Update matching fields in GUI
+        if "match_aat" in self.entries and self.entries["match_aat"].winfo_exists():
+            self.entries["match_aat"].delete(0, "end")
+            self.entries["match_aat"].insert(0, f"http://vocab.getty.edu/aat/{aat_id}")
+            
+        if "match_wiki" in self.entries and self.entries["match_wiki"].winfo_exists():
+            self.entries["match_wiki"].delete(0, "end")
+            self.entries["match_wiki"].insert(0, wiki_uri)
+            
+        # 2. Fetch details from Getty SPARQL
+        details = self.fetch_getty_aat_details(aat_id)
+        if details:
+            # PrefLabels
+            for lang in self.active_languages:
+                val = details["prefLabel"].get(lang)
+                if val and lang in self.lang_entries and self.lang_entries[lang].winfo_exists():
+                    # Only insert if field is currently empty
+                    if not self.lang_entries[lang].get().strip():
+                        self.lang_entries[lang].insert(0, val)
+                        self.log(f"  Added prefLabel ({lang}) from Getty AAT: '{val}'")
+            
+            # Scope Notes
+            for lang in self.active_languages:
+                val = details["scopeNote"].get(lang)
+                if val and lang in self.def_entries and self.def_entries[lang].winfo_exists():
+                    # Only insert if field is currently empty
+                    if not self.def_entries[lang].get().strip():
+                        self.def_entries[lang].insert(0, val)
+                        self.log(f"  Added definition ({lang}) from Getty AAT: '{val[:60]}...'")
+                        
+        self.log(f"✅ Getty AAT mapping finished for {aat_id}.")
+
+    def fetch_getty_aat_details(self, aat_id):
+        sparql_query = f"""
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        PREFIX xl: <http://www.w3.org/2008/05/skos-xl#>
+        PREFIX gvp: <http://vocab.getty.edu/ontology#>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        
+        SELECT ?p ?val ?lang WHERE {{
+          {{
+            <http://vocab.getty.edu/aat/{aat_id}> xl:prefLabel ?labelObj .
+            ?labelObj gvp:term ?val .
+            BIND(skos:prefLabel AS ?p)
+            BIND(lang(?val) AS ?lang)
+          }} UNION {{
+            <http://vocab.getty.edu/aat/{aat_id}> skos:scopeNote ?note .
+            ?note rdf:value ?val .
+            BIND(skos:scopeNote AS ?p)
+            BIND(lang(?val) AS ?lang)
+          }}
+        }}
+        """
+        encoded_query = urllib.parse.quote(sparql_query)
+        url = f"http://vocab.getty.edu/sparql?query={encoded_query}"
+        
+        req = urllib.request.Request(url, headers={
+            'User-Agent': 'HECTOR-Editor/1.0',
+            'Accept': 'application/sparql-results+json'
+        })
+        try:
+            with urllib.request.urlopen(req) as response:
+                res_data = json.loads(response.read().decode('utf-8'))
+                results = {"prefLabel": {}, "scopeNote": {}}
+                for b in res_data.get("results", {}).get("bindings", []):
+                    p = b.get("p", {}).get("value").split("#")[-1]
+                    val = b.get("val", {}).get("value")
+                    lang = b.get("lang", {}).get("value")
+                    results[p][lang] = val
+                return results
+        except Exception as e:
+            self.log(f"❌ Getty AAT details query failure: {e}")
+            return None
+
     def on_save(self):
         if "uri" not in self.entries or not self.entries["uri"].winfo_exists(): return
         uri_str = self.entries["uri"].get()
@@ -883,6 +1057,7 @@ class HECTOREditor:
     def on_close_app(self):
         if self.search_popup: self.search_popup.destroy()
         if self.wiki_window: self.wiki_window.destroy()
+        if self.aat_window: self.aat_window.destroy()
         if self.lang_popup: self.lang_popup.destroy()
         self.save_config()
         self.root.destroy()
