@@ -121,7 +121,8 @@ th:abacus_throat a skos:Concept ;
 th:abdominal_lekythos a skos:Concept ;
     skos:broader th:lekythos ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Bauchlekythos"@de .
+    skos:prefLabel "Bauchlekythos"@de,
+        "Abdominal lekythos"@en .
 
 th:aberdeen_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -154,13 +155,21 @@ th:acorn_lekythos a skos:Concept ;
     skos:altLabel "Eichel-Lekythos" ;
     skos:broader th:lekythos ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Eichellekythos"@de .
+    skos:prefLabel "Eichellekythos"@de,
+        "Acorn lekythos"@en .
 
 th:acrobat_painter a skos:Concept ;
     skos:broader th:lucanian ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Akrobaten-Maler"@de,
         "Acrobat Painter"@en .
+
+th:acrolite a skos:Concept ;
+    skos:broader th:statue_technique ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q420816> ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Akrolit"@de,
+        "Acrolite"@en .
 
 th:acropolis a skos:Concept ;
     skos:broader th:architecture_type ;
@@ -284,14 +293,15 @@ th:agathon_potter a skos:Concept ;
 
 th:agora a skos:Concept ;
     skos:broader th:place ;
-    skos:definition "zentraler Platz in antiken griechischen Städten"@de,
+    skos:definition "In einer Siedlung der griechischen Antike ein offener Platz für Märkte wie auch öffentliche Versammlungen. \"Forum\" bezeichnet einen vergleichbaren Raum in antiken römischen Siedlungen."@de,
+        "zentraler Platz in antiken griechischen Städten"@de,
+        "In ancient Greek settlements, open spaces used as marketplaces or general public meeting places. For similar spaces in ancient Roman settlements, use \"forums.\""@en,
         "central public space in ancient Greek city-states"@en,
         "piazza del mercato nelle antiche città greche"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300008074>,
-        <http://www.wikidata.org/entity/Q187909>,
-        <https://d-nb.info/gnd/4141631-4> ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300008074> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Agora"@de,
+        "Agora"@en,
         "agora"@en,
         "agorà"@it .
 
@@ -815,8 +825,7 @@ th:alabastron a skos:Concept ;
     skos:broader th:ointment_vessel ;
     skos:definition "Kleines, antikes, römisches oder griechisches Gefäß für Salböl oder Parfüm; üblicherweise mit hoher, fast zylindrischer Form und gerundetem Boden. Es gibt auch einige Exemplare mit Fuß. Alabastra haben entweder keinen oder einen kleinen Henkel an einer Seite. Alabastra waren klein genug, um in einer Hand getragen zu werden, alternativ konnten sie an einer Schnur getragen werden, die um den schmalen Hals geschlungen oder durch kleine Ösen an der Schulter gezogen wurde. Die Form stammt aus Ägypten, wo diese Gefäße aus Glas, Fayence oder Alabaster (daher der Name) gefertigt wurden."@de,
         "Small ancient Greek or Roman vessels for holding oils, ointments, or perfumes; usually elongated in form, almost cylindrical, and rounded at the bottom. Some footed examples also exist. They either have no handles or one small handle at the side. Alabastra are small enough to be held in one hand or it could be carried by a string looped around its narrow neck or passed through smal lugs on the shoulder. The shape originated in Egypt, where it was made in glass, faience, or alabaster (it takes its name from this stone)."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198887>,
-        <http://www.wikidata.org/entity/Q673338> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q673338> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Alabastron"@de,
         "Alabastron"@en .
@@ -1421,7 +1430,8 @@ th:arkesilas_painter a skos:Concept ;
 th:arkosol_grave a skos:Concept ;
     skos:broader th:body_burial ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Arkosolgrab"@de .
+    skos:prefLabel "Arkosolgrab"@de,
+        "Arkosol grave"@en .
 
 th:arm_of_stairs a skos:Concept ;
     skos:broader th:stairs ;
@@ -1765,7 +1775,8 @@ th:barrel_vault a skos:Concept ;
 th:base_floor a skos:Concept ;
     skos:broader th:projectile ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Sockelgeschoß"@de .
+    skos:prefLabel "Sockelgeschoß"@de,
+        "base floor"@en .
 
 th:base_monumental a skos:Concept ;
     skos:broader th:architecture_type ;
@@ -2500,7 +2511,8 @@ th:butera_head_group a skos:Concept ;
 th:button_handle_bowl a skos:Concept ;
     skos:broader th:drinking_bowl ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Knopfhänkelschale"@de .
+    skos:prefLabel "Knopfhänkelschale"@de,
+        "Button handle bowl"@en .
 
 th:béziers_frauenfest_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -2648,9 +2660,9 @@ th:calyx a skos:Concept ;
     skos:broader th:drinking_bowl ;
     skos:definition "Variante der antiken Keramik"@de,
         "shape of ancient Greek vases"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1722790> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kalyx"@de,
+        "Calyx"@en,
         "chalice"@en .
 
 th:camarina_heads_group a skos:Concept ;
@@ -2731,10 +2743,11 @@ th:canessa_painter a skos:Concept ;
 th:canosine_vase a skos:Concept ;
     skos:broader th:apulian_red-figure ;
     skos:definition "funerary pottery of ancient Apulia"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1033600> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Canosiner Keramik"@de,
+        "Canosiner Vase"@de,
         "Canosa vases"@en,
+        "Canosine vase"@en,
         "Vasi canosini"@it .
 
 th:cantabrer a skos:Concept ;
@@ -3054,11 +3067,11 @@ th:centuriper_vase a skos:Concept ;
     skos:definition "Gattung buntbemalter Keramik aus Sizilien des 3. und 2. Jahrhunderts v. Chr."@de,
         "Class of polychome paintet sicilian pottery"@en,
         "Stile ceramico antico"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300387153>,
-        <http://www.wikidata.org/entity/Q1054451> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Centuripe-Gattung"@de,
+        "Centuriper Vase"@de,
         "Centuripe Class"@en,
+        "Centuriper vase"@en,
         "ceramica di Centuripe"@it .
 
 th:ceramicus_painter a skos:Concept ;
@@ -3155,11 +3168,9 @@ th:chamber_tomb a skos:Concept ;
     skos:broader th:tomb_construction ;
     skos:definition "ober- oder unterirdischer Raum oder Bereich, der für Begräbnisse vorgesehen und in der Regel so groß ist, dass in ihm ein oder mehrere Leichname Platz finden"@de,
         "communal burial places, cut into rock or hillslopes or constructed of masonry, whose chamber may or may not have an entry passage, usually covered by a mound"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300005935>,
-        <http://www.wikidata.org/entity/Q358316>,
-        <https://d-nb.info/gnd/4157976-8> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kammergrab"@de,
+        "Chamber tomb"@en,
         "chamber tomb"@en,
         "tomba a camera"@it .
 
@@ -3924,11 +3935,9 @@ th:coffin a skos:Concept ;
     skos:definition "Behältnis für den Transport, die Aufbahrung und die Beisetzung eines Leichnams"@de,
         "container for transport, laying out and the burial of a corpse"@en,
         "contenitore atto alla conservazione, al trasporto e alla tumulazione di una salma"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300197585>,
-        <http://www.wikidata.org/entity/Q184418>,
-        <https://d-nb.info/gnd/4179120-4> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Sarg"@de,
+        "Coffin"@en,
         "coffin"@en,
         "bara"@it .
 
@@ -3972,11 +3981,9 @@ th:colony a skos:Concept ;
     skos:definition "in der Neuzeit ein auswärtiges abhängiges Gebiet eines Staates ohne eigene politische und wirtschaftliche Macht"@de,
         "territory under the political control of an overseas state, generally with its own subordinate colonial government"@en,
         "insieme di persone che si trasferiscono in un altro luogo dove rimangono uniti in una comunità"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300235115>,
-        <http://www.wikidata.org/entity/Q133156>,
-        <https://d-nb.info/gnd/4031790-0> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kolonie"@de,
+        "Colony"@en,
         "colony"@en,
         "colonia"@it .
 
@@ -4020,10 +4027,10 @@ th:comacchio_painter a skos:Concept ;
 
 th:comast_dish a skos:Concept ;
     skos:broader th:drinking_bowl ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300264991>,
-        <http://www.wikidata.org/entity/Q1779794> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1779794> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Komastenschale"@de,
+        "Comast dish"@en,
         "Komast Cup"@en .
 
 th:comitium a skos:Concept ;
@@ -4080,6 +4087,7 @@ th:consecration_relief a skos:Concept ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2555530> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Weihrelief"@de,
+        "Consecration relief"@en,
         "votive relief"@en .
 
 th:conservatori_class a skos:Concept ;
@@ -4106,7 +4114,8 @@ th:cooking_ceramics a skos:Concept ;
         "Küchenware"@de ;
     skos:broader th:coarse_pottery ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Kochkeramik"@de .
+    skos:prefLabel "Kochkeramik"@de,
+        "Cooking ceramics"@en .
 
 th:copenhagen_group a skos:Concept ;
     skos:broader th:apulian ;
@@ -4320,6 +4329,12 @@ th:cubiculum a skos:Concept ;
     skos:prefLabel "Cubiculum"@de,
         "Cubiculum"@en .
 
+th:cult_image a skos:Concept ;
+    skos:broader th:statue_context ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Kultbild"@de,
+        "Cult image"@en .
+
 th:cumae_group a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -4331,18 +4346,6 @@ th:cuneus a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Cuneus"@de,
         "Cuneus"@en .
-
-th:cup a skos:Concept ;
-    skos:broader th:types_of_vessels ;
-    skos:definition "Gefäß, das von Einzelpersonen zum Trinken von Wein, Bier oder anderen Getränken genutzt wird."@de,
-        "Vessels intended for an individual to use for drinking wine, water, or other beverage."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300043230>,
-        <http://www.wikidata.org/entity/Q81707>,
-        <http://www.wikidata.org/entity/Q81727>,
-        <https://d-nb.info/gnd/4184488-9> ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tasse"@de,
-        "Cup"@en .
 
 th:curia a skos:Concept ;
     skos:altLabel "Curie",
@@ -4559,7 +4562,8 @@ th:deepdene_painter a skos:Concept ;
 th:deianeira_type a skos:Concept ;
     skos:broader th:lekythos ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Deianeira-Typus"@de .
+    skos:prefLabel "Deianeira-Typus"@de,
+        "Deianeira type"@en .
 
 th:deiniades_potter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -4767,7 +4771,8 @@ th:doclaeans a skos:Concept ;
 th:document_relief a skos:Concept ;
     skos:broader th:relief ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Urkundenrelief"@de .
+    skos:prefLabel "Urkundenrelief"@de,
+        "Document relief"@en .
 
 th:dodwell_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -4892,8 +4897,7 @@ th:drinking_horn a skos:Concept ;
     skos:broader th:drinking_vessel ;
     skos:definition "Trinkgefäß, aus Horn gefertigt, insbesondere solche, die aufwendig in Silber oder Bronze gefaßt sind."@de,
         "Drinking vessels made of horn, especially those elaborately mounted in bronze or silver."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300043229>,
-        <http://www.wikidata.org/entity/Q192771> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q192771> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Trinkhorn"@de,
         "Drinking horn"@en .
@@ -4908,11 +4912,12 @@ th:droop_bowl a skos:Concept ;
     skos:broader th:drinking_bowl ;
     skos:definition "Unterart altgriechischer Schalen"@de,
         "type of ancient Greek pottery"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198904>,
-        <http://www.wikidata.org/entity/Q1260235> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1260235> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Droop-Schale"@de,
-        "Droop Cup"@en .
+        "Droopschale"@de,
+        "Droop Cup"@en,
+        "Droop bowl"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/drop_group,_hanging> a skos:Concept ;
     skos:broader th:strokes ;
@@ -5585,20 +5590,19 @@ th:edge a skos:Concept ;
     skos:altLabel "Gefäßrand"@de ;
     skos:broader th:vessel_parts ;
     skos:definition "The outer edges of a container, especially a vessel, as well as the adjacent narrow margin. A single object may have more than one rim; a goblet has rims on its bowl and its foot."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300203193>,
-        <http://www.wikidata.org/entity/Q100709623> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Rand"@de,
+        "Edge"@en,
         "rim"@en .
 
 th:edge_bowl a skos:Concept ;
     skos:broader th:drinking_bowl ;
     skos:definition "Unterart altgriechischer Schalen"@de,
         "type of ancient Greek pottery"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198912>,
-        <http://www.wikidata.org/entity/Q981230> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q981230> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Randschale"@de,
+        "Edge bowl"@en,
         "Lip Cup"@en .
 
 th:edinburgh_painter a skos:Concept ;
@@ -5692,6 +5696,12 @@ th:empedocles_painter a skos:Concept ;
     skos:prefLabel "Empedokles-Maler"@de,
         "Empedocles Painter"@en .
 
+th:emperor_statue a skos:Concept ;
+    skos:broader th:ruler_statue ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Kaiserstatue"@de,
+        "Emperor statue"@en .
+
 th:emporion_painter a skos:Concept ;
     skos:broader th:black-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1339403> ;
@@ -5772,8 +5782,6 @@ th:epinetron a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Bezieht sich auf antike griechische Oberschenkel- und Knieschützer der Wollarbeiter. Sie nehmen die Form eines dicken Terrakotta-Halbzylinders an, der an einem Ende offen ist und am anderen geschlossen; das geschlossene Ende gehörte zum Knie. Ihre genaue Anwendung ist nicht sicher, aber an einem Punkt innerhalb des Prozesses der Wollherstellung, nach dem Kardieren und möglicherweise vor dem Spinnen, wurden die Fasern über die Oberseite eines Epinetron gerieben, das durch ein eingeritztes Muster aufgeraut war. Das Knieendstück war bisweilen mit einem geformten Frauenkopf geschmückt, passend, denn Weben und Wollarbeiten wurden von Frauen erledigt. Einige der figürlichen und kunstvoller bemalten Epinetra wurden vermutlich jungen Frauen als Hochzeitsgeschenk gegeben. Obwohl der Begriff Onos häufig synonym zu Epinetron verwendet wird, war der Onos eine Fußbank der Wollarbeiter."@de,
         "Refers to ancient Greek woolworker's thigh- and knee-guards. They take the form of a thick terracotta half-cylinder open at one end and closed at the other, the closed end corresponding to the knee. Their precise use is uncertain, but at some point in the woolmaking process after carding and perhaps before spinning, the fibers were rubbed across the top of an epinetron, which was roughened by an incised pattern. The knee end was occasionally decorated with a moldmade female head, appropriate since weaving and woolworking were done by women. Some of the figured and more elaborately painted epinetra were probably given as wedding presents to young women. Although the term onos is often used synonymously with epinetron, an onos was the woolworker's footrest."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300265016>,
-        <http://www.wikidata.org/entity/Q1280826> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Epinetron"@de,
         "Epinetron"@en .
@@ -5803,9 +5811,7 @@ th:equestrian_statue a skos:Concept ;
     skos:definition "Skulpturengruppe, die aus Pferd und Reiter besteht."@de,
         "Sculptural groups consisting of a horse and rider."@en,
         "Gruppi scultorei composti da un cavallo e un fantino. Sculture raffiguranti una figura umana in sella al suo destriero"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300047606>,
-        <http://www.wikidata.org/entity/Q659396>,
-        <https://d-nb.info/gnd/4136435-1> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q659396> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Reiterstatue"@de,
         "Equestrian statue"@en,
@@ -6068,9 +6074,7 @@ th:eye-siren_group a skos:Concept ;
 th:eyecup a skos:Concept ;
     skos:broader th:drinking_bowl ;
     skos:definition "Small oval cups that have a rim curved to fit the orbit of the eye. Used to bathe the eye or for applying liquid remedies."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198993>,
-        <http://www.wikidata.org/entity/Q52666202>,
-        <http://www.wikidata.org/entity/Q65941143> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q52666202> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Augenschale"@de,
         "Eyecup"@en .
@@ -6124,7 +6128,6 @@ th:falaieff_bell-kraters a skos:Concept ;
 
 th:faliscan_pottery a skos:Concept ;
     skos:broader th:etruscan_red-figure ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q55510367> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Faliskische Keramik"@de,
         "Faliscan pottery"@en .
@@ -6214,11 +6217,9 @@ th:field a skos:Concept ;
     skos:definition "landwirtschaftlich genutzter Boden"@de,
         "area of land used for agricultural purposes"@en,
         "zona di terra destinata all'agricoltura"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300343519>,
-        <http://www.wikidata.org/entity/Q188869>,
-        <https://d-nb.info/gnd/4141288-6> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Acker"@de,
+        "Field"@en,
         "field"@en,
         "campo"@it .
 
@@ -6299,9 +6300,7 @@ th:flacon a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Der Begriff wird für eine große Auswahl von Flaschen verschiedener Größe und Gestalt verwendet, die in erster Linie zur Aufbewahrung und zur Abgabe von Parfüm gedacht sind, er umfasst auch solche, die zum Verkauf an Kosmetikhersteller gedacht sind wie auch dekorative Formen, die man auf einen Frisiertisch stellt und die manchmal Teil einer Toilettengarnitur sein können."@de,
         "Term applied to a wide variety of bottles of different size and shape intended primarily for holding or dispersing perfume. Includes those made for sale to cosmetics manufacturers as well as those often decorative forms meant to be placed on the dressing table and sometimes part of a toilet set."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300197635>,
-        <http://www.wikidata.org/entity/Q29512262>,
-        <http://www.wikidata.org/entity/Q335201> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q335201> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Flakon"@de,
         "Flacon"@en,
@@ -6331,6 +6330,12 @@ th:flax a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Flachs"@de,
         "Flax"@en .
+
+th:flaxsand_settlement a skos:Concept ;
+    skos:broader th:settlement ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Flachsandsiedlung"@de,
+        "Flaxsand settlement"@en .
 
 th:floor a skos:Concept ;
     skos:broader th:construction_-_lamp_parts ;
@@ -6410,7 +6415,9 @@ th:footless_bowl a skos:Concept ;
         "subform of ancient Greek cups"@en ;
     skos:exactMatch <http://www.wikidata.org/entity/Q55627962> ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "fußlose Schale"@de,
+    skos:prefLabel "Fußlose Schale"@de,
+        "fußlose Schale"@de,
+        "Footless bowl"@en,
         "stemless cups"@en .
 
 th:forli_group a skos:Concept ;
@@ -6441,8 +6448,6 @@ th:forum a skos:Concept ;
     skos:broader th:urbanistics ;
     skos:definition "In antiken römischen Siedlungen wird so eine unbebaute Fläche bezeichnet, die als Markt- oder Versammlungsplatz oder als Ort für öffentliche oder Rechtsgeschäfte dient. Für einen Stadtraum mit ähnlicher Funktion in der griechischen Antike ist \"Agora\" zu verwenden."@de,
         "In ancient Roman settlements, open spaces used as marketplaces or general public meeting places and places for judicial and public business. For similar spaces in ancient Greek settlements, use \"agoras.\""@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300008085>,
-        <http://www.wikidata.org/entity/Q1062780> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Forum"@de,
         "Forum"@en .
@@ -6559,7 +6564,8 @@ th:gabaler a skos:Concept ;
 th:gable_acroter a skos:Concept ;
     skos:broader th:acroter ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Giebelakroter"@de .
+    skos:prefLabel "Giebelakroter"@de,
+        "Gable acroter"@en .
 
 th:gable_sima a skos:Concept ;
     skos:broader th:sima ;
@@ -6634,9 +6640,6 @@ th:ganymede_painter a skos:Concept ;
 th:garden a skos:Concept ;
     skos:broader th:urbanistics ;
     skos:definition "Area of ground or open space; usually, but not always, where flowers, shrubs, trees, vegetables, or fruits are grown and cultivated."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300008090>,
-        <http://www.wikidata.org/entity/Q1107656>,
-        <https://d-nb.info/gnd/4019286-6> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Garten"@de,
         "Garden"@en .
@@ -6839,6 +6842,13 @@ th:gold_glass_vessel a skos:Concept ;
     skos:prefLabel "Goldglasgefäß"@de,
         "Gold glass vessel"@en .
 
+th:gold_ivory_statue a skos:Concept ;
+    skos:altLabel "Chryselefantine Statue"@de ;
+    skos:broader th:statue_technique ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Goldelfenbeinstatue"@de,
+        "Gold ivory statue"@en .
+
 th:goleta_group a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -6868,11 +6878,11 @@ th:gordion_bowl a skos:Concept ;
     skos:broader th:drinking_bowl ;
     skos:definition "früheste Form der griechischen attischen Kleinmeister-Schalen"@de,
         "type of ancient Greek pottery cups"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198913>,
-        <http://www.wikidata.org/entity/Q920179> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q920179> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gordionschale"@de,
-        "Gordion Cup"@en .
+        "Gordion Cup"@en,
+        "Gordion bowl"@en .
 
 th:gorgon_painter a skos:Concept ;
     skos:broader th:black-figure ;
@@ -6921,27 +6931,27 @@ th:gration a skos:Concept ;
 th:grave_pillar a skos:Concept ;
     skos:broader th:tomb_construction ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Grabpfeiler"@de .
+    skos:prefLabel "Grabpfeiler"@de,
+        "Grave pillar"@en .
 
 th:grave_relief a skos:Concept ;
     skos:broader th:relief ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q758193>,
-        <http://www.wikidata.org/entity/Q84553090> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q758193> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Grabrelief"@de,
+        "Grave relief"@en,
         "funeral relief"@en,
         "rilievo funerario"@it .
 
 th:grave_stele a skos:Concept ;
+    skos:altLabel "Cippus"@de ;
     skos:broader th:grave ;
     skos:definition "Steinplatte mit Grabinschrift und/oder Dekor"@de,
         "stone or wooden slab erected for funerals purposes"@en,
         "tipo di scultura funebre"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300266769>,
-        <http://www.wikidata.org/entity/Q98929143>,
-        <https://d-nb.info/gnd/4157988-4> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Grabstele"@de,
+        "Grave stele"@en,
         "funerary stele"@en,
         "stele funeraria"@it .
 
@@ -8928,11 +8938,9 @@ th:hamlet a skos:Concept ;
     skos:definition "kompakte ländliche Wohnsiedlung aus wenigen Gebäuden"@de,
         "small settlement in a rural area"@en,
         "insediamento rurale"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300008369>,
-        <http://www.wikidata.org/entity/Q5084>,
-        <https://d-nb.info/gnd/4230450-7> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Weiler"@de,
+        "Hamlet"@en,
         "hamlet"@en,
         "borgata"@it .
 
@@ -9463,9 +9471,9 @@ th:hilltop_settlement a skos:Concept ;
     skos:broader th:settlement ;
     skos:definition "prähistorischer Siedlungstyp"@de,
         "prehistoric settlement type"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q19285917> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Höhensiedlung"@de,
+        "Hilltop settlement"@en,
         "hilltop settlement"@en .
 
 th:hippacontist_painter a skos:Concept ;
@@ -9646,6 +9654,12 @@ th:hound_painter a skos:Concept ;
     skos:prefLabel "Hunde-Maler"@de,
         "Hound Painter"@en .
 
+th:house_grave a skos:Concept ;
+    skos:broader th:tomb_construction ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Hausgrab"@de,
+        "House grave"@en .
+
 th:houston_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -9683,6 +9697,12 @@ th:hyblaea_class a skos:Concept ;
     skos:prefLabel "Hyblaea-Klasse"@de,
         "Hyblaea Class"@en .
 
+th:hybrid_creature_statue a skos:Concept ;
+    skos:broader th:plastic ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Mischwesenstatue"@de,
+        "Hybrid creature statue"@en .
+
 th:hyller a skos:Concept ;
     skos:broader th:illyrians ;
     skos:inScheme th:scheme ;
@@ -9701,11 +9721,10 @@ th:hypogeum a skos:Concept ;
     skos:definition "Unterirdischer Grabbau mit Gewölben"@de,
         "underground temple or tomb"@en,
         "costruzione sotterranea"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300005931>,
-        <http://www.wikidata.org/entity/Q665247>,
-        <https://d-nb.info/gnd/4266684-3> ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Hypogäum"@de,
+    skos:prefLabel "Hypogaeum"@de,
+        "Hypogäum"@de,
+        "Hypogeum"@en,
         "hypogeum"@en,
         "ipogeo"@it .
 
@@ -10765,7 +10784,9 @@ th:kassel_bowl a skos:Concept ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1486592> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kassel-Schale"@de,
-        "Kassel Cup"@en .
+        "Kasselschale"@de,
+        "Kassel Cup"@en,
+        "Kassel bowl"@en .
 
 th:kaulos_potter a skos:Concept ;
     skos:broader th:black-figure ;
@@ -11055,9 +11076,6 @@ th:kore a skos:Concept ;
     skos:broader th:robe_statue_female ;
     skos:definition "Skulptur der griechischen Antike, die eine stehende, bekleidete weibliche Figur darstellt."@de,
         "Sculptures of the Archaic Greek period depicting standing draped female figures."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300184818>,
-        <http://www.wikidata.org/entity/Q921657>,
-        <https://d-nb.info/gnd/4165306-3> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kore"@de,
         "Kore"@en .
@@ -11072,10 +11090,10 @@ th:kothon a skos:Concept ;
     skos:broader th:drinking_vessel ;
     skos:definition "antikes griechisches Trinkgefäß mit einem Henkel"@de,
         "shape of ancient Greek vases"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q106810865>,
-        <http://www.wikidata.org/entity/Q1601459> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q106810865> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kothon"@de,
+        "Kothon"@en,
         "kothon"@en .
 
 th:kothons a skos:Concept ;
@@ -11100,9 +11118,7 @@ th:kouros a skos:Concept ;
     skos:broader th:male_unclothed ;
     skos:definition "Skulptur der Griechischen Antike, die einen stehenden jungen Mann nackt darstellt."@de,
         "Sculptures of the Archaic Greek period depicting standing nude male youths."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300047570>,
-        <http://www.wikidata.org/entity/Q1024387>,
-        <http://www.wikidata.org/entity/Q937330> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1024387> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kouros"@de,
         "Kouros"@en .
@@ -11236,8 +11252,6 @@ th:lagynos a skos:Concept ;
     skos:broader th:bottle ;
     skos:definition "Ein antiker griechischer und römischer Gefäßtypus, zumeist genutzt um Wein auszugießen; er war besonders populär in der hellenistischen Periode. Er weist einen engen Hals, einen bauchigen Körper, weite Schultern, einen langen Hals und einen horizontalen Griff auf. Die Lagynos Form kommt aus dem östlichen Griechenland. Es sind wenigstens zwei Orte im Mittelmeerraum bekannt, wo man ihn herstellte."@de,
         "An ancient Greek and Roman vessel type often used to pour wine; it was particularly popular in the Hellenistic period. It features a narrow neck, swelling body, broad shoulder, long neck, and horizontal handle. The lagynos form originates in eastern Greece. At least two places where it was manufactured in the Mediterranean are known."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300264932>,
-        <http://www.wikidata.org/entity/Q1519294> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Lagynos"@de,
         "Lagynos"@en .
@@ -11258,9 +11272,9 @@ th:lakaina a skos:Concept ;
     skos:broader th:drinking_bowl ;
     skos:definition "Form der griechischen Keramik"@de,
         "shape of Greek vases"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q612218> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Lakaina"@de,
+        "Lakaina"@en,
         "lakaina"@en,
         "lakaina"@it .
 
@@ -11438,9 +11452,9 @@ th:lead a skos:Concept ;
 
 th:leaf_stick a skos:Concept ;
     skos:broader th:vegetable ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q20182152> ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Blattstab"@de .
+    skos:prefLabel "Blattstab"@de,
+        "Leaf stick"@en .
 
 th:leafless_group a skos:Concept ;
     skos:broader th:black-figure ;
@@ -11609,11 +11623,9 @@ th:lid a skos:Concept ;
     skos:definition "Verschluss für ein Gefäß"@de,
         "part of a container that closes or seals it by fitting over and around the opening"@en,
         "elemento che serve a chiudere un recipiente"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300045712>,
-        <http://www.wikidata.org/entity/Q2488579>,
-        <https://d-nb.info/gnd/4344172-5> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Deckel"@de,
+        "Lid"@en,
         "lid"@en,
         "coperchio"@it .
 
@@ -12170,8 +12182,7 @@ th:luterion a skos:Concept ;
     skos:broader th:pool ;
     skos:definition "Gefäß, das wahrscheinlich zum Transportieren von Wasser für das Baden oder Waschen gedacht war, weil der Name vermutlich vom griechischen Wort für Bad abgeleitet ist. Louterion scheint auch der antike Name für ein Handfass oder Waschbecken auf einem Säulenfuß zu sein. Heute wird der Name eher, wenn auch ungesichert, für zwei weitere Formen benutzt. Bei der ersten handelt es sich um ein großes, weites Becken, das mit einem Ausguss und zwei aufrechten Henkeln ausgestattet ist. Es handelt sich in erster Linie um eine frühe schwarzfigurige Form und ist relativ selten. Die zweite Gefäßform kommt als schwarz- und rotfigurige Form vor, ist aber ebenfalls selten. Sie ist mit einem Lebes Gamikos (Hochzeitskessel) vergleichbar, unterscheidet sich aber von ihm durch ihren Ausgussrand, ihre Höhe, und die aufgerichteten flachen Henkel mit schlaufenförmigen Ansätzen. Die letztere Form war möglicherweise mit Bestattungsriten verknüpft; vielleicht hatte sie Wasser enthalten, das den Toten angeboten oder für zeremonielle Totenwaschung genutzt wird."@de,
         "Vessels probably used for carrying water for bathing or washing, since the name is presumably derived from the Greek word for bath. Louterion also seems to be the ancient name for a laver or washbasin on a pedestal. Today the name is more commonly, although uncertainly, applied to two additional shapes. The first is a large, broad basin featuring a spout and two upright handles. It is primarily an early black-figure shape and is relatively rare. The second shape is known in black- and red-figure but is also rare. It is similar to a lebes gamikos but differs in its spouted rim and high, upright flat handles with looped adjuncts. The latter shape may be connected to funerary rites; it may have held water for an offering to the dead or for the ceremonial bathing of the corpse."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198902>,
-        <http://www.wikidata.org/entity/Q1877790> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1877790> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Luterion"@de,
         "Luterion"@en .
@@ -12205,10 +12216,10 @@ th:lydian a skos:Concept ;
     skos:broader th:ointment_vessel ;
     skos:definition "griechische bzw. kleinasiatische Keramikform, die als Salbgefäß verwendet wurde"@de,
         "vessels on a high pedestal with a bulbous body and a disk-shaped rim for the mouth from Ancient Greece and Asia Minor"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198874>,
-        <http://www.wikidata.org/entity/Q910961> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q910961> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Lydion"@de,
+        "Lydian"@en,
         "lydion"@en .
 
 th:lydos a skos:Concept ;
@@ -12453,7 +12464,8 @@ th:mannheim_painter a skos:Concept ;
 th:mantle_youth a skos:Concept ;
     skos:broader th:robe_statue_male ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Manteljüngling"@de .
+    skos:prefLabel "Manteljüngling"@de,
+        "Mantle youth"@en .
 
 th:maplewood_painter a skos:Concept ;
     skos:broader th:apulian ;
@@ -12492,11 +12504,9 @@ th:marketplace a skos:Concept ;
     skos:definition "Handelsplatz"@de,
         "space in which a market operates"@en,
         "luogo in cui le persone si riuniscono regolarmente per l'acquisto e la vendita di provviste, bestiame e altri beni"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300005238>,
-        <http://www.wikidata.org/entity/Q330284>,
-        <https://d-nb.info/gnd/4066702-9> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Marktplatz"@de,
+        "Marketplace"@en,
         "marketplace"@en,
         "mercato"@it .
 
@@ -12544,7 +12554,6 @@ th:mastoid a skos:Concept ;
     skos:broader th:drinking_vessel ;
     skos:definition "vor allem im Athen der spätarchaischen Zeit beliebte Form eines Trinkgefäßes; Abwandlung der Form Mastos"@de,
         "shape of ancient Greek vases"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1907958> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Mastoid"@de,
         "Mastoid"@en .
@@ -12553,8 +12562,6 @@ th:mastos a skos:Concept ;
     skos:broader th:drinking_vessel ;
     skos:definition "Antike griechische zweihenkelige Schale, die wie eine Frauenbrust geformt ist. Diese Form wird üblicherweise schwarzfigurig mit weißem Grund angetroffen."@de,
         "Ancient Greek two-handled cups shaped like a woman's breast. The shape is principally known in black-figure and white-ground."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198903>,
-        <http://www.wikidata.org/entity/Q1545569> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Mastos"@de,
         "Mastos"@en .
@@ -12588,11 +12595,9 @@ th:mausoleum a skos:Concept ;
     skos:definition "monumentales Grabmal in Gebäudeform"@de,
         "monument enclosing the interment space or burial chamber of a deceased person or people"@en,
         "tomba di eccezionale monumentalità"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300005891>,
-        <http://www.wikidata.org/entity/Q162875>,
-        <https://d-nb.info/gnd/4169153-2> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Mausoleum"@de,
+        "Mausoleum"@en,
         "mausoleum"@en,
         "mausoleo"@it .
 
@@ -12698,8 +12703,7 @@ th:meleager_painter a skos:Concept ;
 th:melting_pot a skos:Concept ;
     skos:broader th:crucible ;
     skos:definition "Vessels made of a refractory material, such as clay, graphite, or porcelain, or a relatively infusible metal, that may vary in size and that are used for melting, calcining, or filtering a substance at high temperatures."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300196462>,
-        <http://www.wikidata.org/entity/Q390417> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q390417> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Schmelztiegel"@de,
         "Melting pot"@en .
@@ -12759,7 +12763,6 @@ th:messapian_pottery a skos:Concept ;
     skos:definition "die von der Mitte des 7. Jahrhunderts bis ins 3. Jahrhundert v. Chr. auf der italienischen Halbinsel Salento (Messapia) produziert wurde"@de,
         "type of pottery from 7th century BC"@en,
         "genere di ceramiche"@it ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1923968> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Messapische Keramik"@de,
         "Messapian pottery"@en,
@@ -12900,10 +12903,9 @@ th:minniti_group a skos:Concept ;
 th:minoan_ceramics a skos:Concept ;
     skos:broader th:fine_ceramics ;
     skos:definition "pottery from Bronze Age Crete"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300107114>,
-        <http://www.wikidata.org/entity/Q1937490> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Minoische Keramik"@de,
+        "Minoan ceramics"@en,
         "Minoan pottery"@en,
         "Ceramica minoica"@it .
 
@@ -13102,10 +13104,9 @@ th:mouth a skos:Concept ;
     skos:broader th:vessel_parts ;
     skos:definition "Öffnung von Hohlräumen für den Auslass von Inhalten"@de,
         "opening on objects such as vessels, through which the contents enter the cavity"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300203331>,
-        <http://www.wikidata.org/entity/Q54951669> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Mündung"@de,
+        "Mouth"@en,
         "mouth"@en .
 
 th:mu-pi_series a skos:Concept ;
@@ -13173,7 +13174,6 @@ th:mycenaean_pottery a skos:Concept ;
     skos:definition "Tongefäße griechischer Kultur"@de,
         "pottery tradition associated with the Mycenaean civilization"@en,
         "tradizione ceramica associata alla civiltà micenea"@it ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1425742> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Mykenische Keramik"@de,
         "Mycenaean pottery"@en,
@@ -13240,10 +13240,9 @@ th:naiskos a skos:Concept ;
         "Ädikula"@de ;
     skos:broader th:tomb_construction ;
     skos:definition "little temple or shrine"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300108367>,
-        <http://www.wikidata.org/entity/Q1972777> ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Naïskos"@de,
+    skos:prefLabel "Naiskos"@de,
+        "Naïskos"@de,
         "Naiskos"@en,
         "naiskos"@it .
 
@@ -13316,8 +13315,6 @@ th:neck a skos:Concept ;
     skos:altLabel "Gefäßhals"@de ;
     skos:broader th:vessel_parts ;
     skos:definition "Relatively narrow, or constricted parts of containers, such as the slender portion of a bottle or vase between the mouth and the shoulders."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300203464>,
-        <http://www.wikidata.org/entity/Q100709235> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Hals"@de,
         "Neck"@en .
@@ -13717,10 +13714,9 @@ th:oppidum a skos:Concept ;
     skos:broader th:settlement ;
     skos:definition "befestigte, stadtartig angelegte Siedlung vorrömischer Zeit"@de,
         "large hilltop and fortified Iron Age settlement in Western Europe"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300008396>,
-        <http://www.wikidata.org/entity/Q192601> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Oppidum"@de,
+        "Oppidum"@en,
         "oppidum"@en,
         "oppidum"@it .
 
@@ -18657,10 +18653,11 @@ th:peplophore a skos:Concept ;
     skos:broader th:robe_statue_female ;
     skos:definition "female figure dressed in a peplos"@en,
         "figura femminile vestita con un peplo"@it ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q131400348>,
-        <http://www.wikidata.org/entity/Q87658027> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q87658027> ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "peplophoros"@de,
+    skos:prefLabel "Peplophore"@de,
+        "peplophoros"@de,
+        "Peplophore"@en,
         "peplophoros"@en,
         "peplophoros"@it .
 
@@ -18811,9 +18808,9 @@ th:petworth_group a skos:Concept ;
 th:peucetian_ceramics a skos:Concept ;
     skos:broader th:sub-italian_indigenous_ceramics ;
     skos:definition "indigene italische Keramikgattung des östlichen Apennin, die vom beginnenden 7. bis zum 6. Jahrhundert v. Chr. produziert wurde"@de ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q2081772> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Peuketische Keramik"@de,
+        "Peucetian ceramics"@en,
         "Peucetian pottery"@en .
 
 th:pezzino_group a skos:Concept ;
@@ -18954,8 +18951,6 @@ th:pighadhi_painter a skos:Concept ;
 th:pillar_tomb a skos:Concept ;
     skos:broader th:tomb_construction ;
     skos:definition "Tombs characterized by a single pillar or obelisk extending from the burial chamber, usually on the north or east side of the structure. This form is wholly distinctive to East Africa, being particularly typical of Swahili funerary architecture."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300263483>,
-        <http://www.wikidata.org/entity/Q16962047> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Pfeilergrabmal"@de,
         "Pillar tomb"@en .
@@ -18989,7 +18984,8 @@ th:pipe_bowl_lekythos a skos:Concept ;
     skos:altLabel "Pfeifenkopf-Lekythos" ;
     skos:broader th:lekythos ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Pfeifenkopflekythos"@de .
+    skos:prefLabel "Pfeifenkopflekythos"@de,
+        "Pipe bowl lekythos"@en .
 
 th:piraeus_painter a skos:Concept ;
     skos:broader th:black-figure ;
@@ -19046,8 +19042,6 @@ th:pithecusa_painter a skos:Concept ;
 th:pithos a skos:Concept ;
     skos:broader th:storage_vessel ;
     skos:definition "Large ancient Greek earthenware storage jars, spherical in form and having a wide mouth, for bulk storage of liquids and solids."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198882>,
-        <http://www.wikidata.org/entity/Q1160695> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Pithos"@de,
         "Pithos"@en .
@@ -19557,10 +19551,7 @@ th:python_potter a skos:Concept ;
 th:pyxis a skos:Concept ;
     skos:broader th:storage_vessel ;
     skos:definition "Relatively small, squat lidded boxlike vessels for holding cosmetics and toilet articles in ancient Greece. Generally cylindrical in shape. Often found in the graves of women and warriors."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198889>,
-        <http://www.wikidata.org/entity/Q1350279>,
-        <http://www.wikidata.org/entity/Q736513>,
-        <https://d-nb.info/gnd/4197964-3> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q736513> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Pyxis"@de,
         "Pyxis"@en .
@@ -19933,11 +19924,10 @@ th:rock_tomb a skos:Concept ;
     skos:definition "Grab oder Grabanlage, die sich im Fels befindet"@de,
         "tomb cut out in rock"@en,
         "tomba scavata nella roccia"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300120624>,
-        <http://www.wikidata.org/entity/Q1404229>,
-        <https://d-nb.info/gnd/4153977-1> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Felsengrab"@de,
+        "Felsgrab"@de,
+        "Rock tomb"@en,
         "rock-cut tomb"@en,
         "tomba rupestre"@it .
 
@@ -20004,6 +19994,12 @@ th:round_ear_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Rundes Ohr-Gruppe"@de,
         "Round Ear Group"@en .
+
+th:round_grave a skos:Concept ;
+    skos:broader th:tomb_construction ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Rundgrab"@de,
+        "Round grave"@en .
 
 th:round_shoulder_lamp a skos:Concept ;
     skos:broader th:lamp_type_greek ;
@@ -20229,11 +20225,9 @@ th:sarcophagus a skos:Concept ;
     skos:definition "Leichenbehälter, häufig aus Stein"@de,
         "box-like funeral receptacle"@en,
         "bara funeraria"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300005947>,
-        <http://www.wikidata.org/entity/Q48634>,
-        <https://d-nb.info/gnd/4051698-2> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Sarkophag"@de,
+        "Sarcophagus"@en,
         "sarcophagus"@en,
         "sarcofago"@it .
 
@@ -20294,10 +20288,9 @@ th:scattered_settlement a skos:Concept ;
     skos:broader th:settlement ;
     skos:definition "Siedlung, die aus weit auseinander liegenden Bauernhöfen und Weilern ohne eigentlichen Ortskern besteht"@de,
         "rural settlement type, typically consists of widely spaced farmsteads without an actual nucleus"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1372205>,
-        <https://d-nb.info/gnd/4523921-6> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Streusiedlung"@de,
+        "Scattered settlement"@en,
         "dispersed settlement"@en .
 
 th:schacky_painter a skos:Concept ;
@@ -20401,7 +20394,8 @@ th:scoglitti_group a skos:Concept ;
 th:scooping_vessel a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Schöpfgefäß"@de .
+    skos:prefLabel "Schöpfgefäß"@de,
+        "Scooping vessel"@en .
 
 th:sculponea a skos:Concept ;
     skos:broader th:Schuhroemisch ;
@@ -20536,17 +20530,20 @@ th:shell a skos:Concept ;
 th:shell_type_a a skos:Concept ;
     skos:broader th:drinking_bowl ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Schale Typ A"@de .
+    skos:prefLabel "Schale Typ A"@de,
+        "Shell Type A"@en .
 
 th:shell_type_b a skos:Concept ;
     skos:broader th:drinking_bowl ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Schale Typ B"@de .
+    skos:prefLabel "Schale Typ B"@de,
+        "Shell Type B"@en .
 
 th:shell_type_c a skos:Concept ;
     skos:broader th:drinking_bowl ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Schale Typ C"@de .
+    skos:prefLabel "Schale Typ C"@de,
+        "Shell Type C"@en .
 
 th:ship_lamp a skos:Concept ;
     skos:broader th:lamp_type_roman ;
@@ -20581,7 +20578,8 @@ th:shoulder_hydria a skos:Concept ;
 th:shoulder_lekythos a skos:Concept ;
     skos:broader th:lekythos ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Schulterlekythos"@de .
+    skos:prefLabel "Schulterlekythos"@de,
+        "Shoulder lekythos"@en .
 
 th:shuvalov_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -20599,16 +20597,18 @@ th:siana_shell a skos:Concept ;
     skos:broader th:drinking_bowl ;
     skos:definition "Gattung von antiken attischen Schalen"@de,
         "form of ancient attic cups"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198906>,
-        <http://www.wikidata.org/entity/Q505584> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q505584> ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Sianaschalen"@de,
-        "Siana cup"@en .
+    skos:prefLabel "Sianaschale"@de,
+        "Sianaschalen"@de,
+        "Siana cup"@en,
+        "Siana shell"@en .
 
 th:sicilian_indigenous_ceramics a skos:Concept ;
     skos:broader th:fine_ceramics ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Sizilisch indigene Keramik"@de .
+    skos:prefLabel "Sizilisch indigene Keramik"@de,
+        "Sicilian indigenous ceramics"@en .
 
 th:sicilian_roof a skos:Concept ;
     skos:broader th:roofing_type ;
@@ -20626,8 +20626,6 @@ th:sieve a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Netzartiges oder mit Löchern versehenes Gerät oder Utensil, durch das trockene, lose Substanzen (wie Mehl) getrennt oder verfeinert, Substanzen, die Flüssigkeit enthalten, gesiebt, oder weiche, nicht flüssige Speisen (wie hart gekochte Eier) zerkleinert werden (wie zum Beispiel mit einem Stößel)."@de,
         "Meshed or perforated devices or utensils through which dry loose material (as flour) is winnowed or refined, material containing liquid is strained, or soft solids (as hard-boiled eggs) are comminuted by forcing (as with a pestle)."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300201088>,
-        <http://www.wikidata.org/entity/Q381155> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Sieb"@de,
         "Sieve"@en .
@@ -20698,9 +20696,7 @@ th:simos_group a skos:Concept ;
 th:siphon a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Bottles for holding pressurized water that is driven out through a siphon by the pressure of the gas when a valve in the tube is opened."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300220910>,
-        <http://www.wikidata.org/entity/Q2061094>,
-        <http://www.wikidata.org/entity/Q426656> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2061094> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Siphon"@de,
         "Siphon"@en .
@@ -20722,10 +20718,7 @@ th:situla a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Eimerähnliches oder konisch geformtes Gefäß, oft mit Henkeln versehen und aus Bronze, Silber, Keramik, Glas oder einem anderen Material gefertigt. Es war häufig dekoriert und wurde in der Eisenzeit, im alten Ägypten, in Asien, der antiken römischen Welt und während christlicher religiöser Rituale genutzt."@de,
         "Pail-like or cone-shaped vessels, often having handles, made of bronze, silver, ceramic, glass, or another material. They were often decorated; used in the Iron Age, ancient Egypt, Asia, in the ancient Roman world, and in Christian religious rituals."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198870>,
-        <http://www.wikidata.org/entity/Q1650313>,
-        <http://www.wikidata.org/entity/Q47107>,
-        <https://d-nb.info/gnd/4455700-0> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q47107> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Situla"@de,
         "Situla"@en .
@@ -20751,8 +20744,7 @@ th:skiron_group a skos:Concept ;
 th:skyphos a skos:Concept ;
     skos:broader th:drinking_vessel ;
     skos:definition "A type of drinking vessel in the shape of a deep cup, usually with two horizontal handles attached to the lip and a small integral foot. In all-black or unglossed plain wares the skyphos was the most common type of cup."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300265001>,
-        <http://www.wikidata.org/entity/Q1136095> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1136095> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Skyphos"@de,
         "Skyphos"@en .
@@ -20943,6 +20935,12 @@ th:sphortos_painter a skos:Concept ;
     skos:prefLabel "Sphortos-Maler"@de,
         "Sphortos Painter"@en .
 
+th:sphyrelaton a skos:Concept ;
+    skos:broader th:statue_technique ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Sphyrelaton"@de,
+        "Sphyrelaton"@en .
+
 th:spinelli_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -20978,10 +20976,10 @@ th:spout a skos:Concept ;
     skos:broader th:vessel_parts ;
     skos:definition "Ausguss an einem Behälter für Flüssigkeiten"@de,
         "tubular protruberances through which the contents of a vessel may be poured or sometimes drunk"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300197224>,
-        <http://www.wikidata.org/entity/Q54803638> ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Tülle"@de,
+    skos:prefLabel "Ausguß"@de,
+        "Tülle"@de,
+        "Spout"@en,
         "spout"@en .
 
 th:spouted_skyphos_group a skos:Concept ;
@@ -21054,9 +21052,7 @@ th:staircase a skos:Concept ;
 th:stamnos a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Ancient Greek vessels for the storage of liquids usually having an ovoid body with high shoulders, a short neck, wide mouth, two side handles, and sometimes a cover. Generally smaller than amphorae."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198881>,
-        <http://www.wikidata.org/entity/Q1421582>,
-        <http://www.wikidata.org/entity/Q20012281> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q20012281> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Stamnos"@de,
         "Stamnos"@en .
@@ -21072,6 +21068,13 @@ th:star_vault a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Sterngewölbe"@de,
         "Star vault"@en .
+
+th:statue_group a skos:Concept ;
+    skos:broader th:statue_context ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2293362> ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Statuengruppe"@de,
+        "Statue group"@en .
 
 th:steel a skos:Concept ;
     skos:broader th:metal ;
@@ -21089,9 +21092,9 @@ th:step_pyramid a skos:Concept ;
     skos:broader th:pyramid ;
     skos:definition "architectural structure that uses flat platforms or steps to form geometric pyramid"@en,
         "Architettura antica"@it ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1456099> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Stufenpyramide"@de,
+        "Step pyramid"@en,
         "step pyramid"@en,
         "piramide a gradoni"@it .
 
@@ -21422,7 +21425,8 @@ th:tanagraean a skos:Concept ;
 th:tank_statue a skos:Concept ;
     skos:broader th:robe_statue_male ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Panzerstatue"@de .
+    skos:prefLabel "Panzerstatue"@de,
+        "Tank statue"@en .
 
 th:tar a skos:Concept ;
     skos:broader th:bitumen ;
@@ -21507,7 +21511,6 @@ th:tectosages a skos:Concept ;
 
 th:teganon a skos:Concept ;
     skos:broader th:crucible ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q2400276> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Teganon"@de,
         "Teganon"@en .
@@ -21548,11 +21551,9 @@ th:tell a skos:Concept ;
     skos:definition "Siedlungshügel"@de,
         "ancient settlement mound"@en,
         "termine archeologico che designa un sito a forma di collinetta"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300008545>,
-        <http://www.wikidata.org/entity/Q755017>,
-        <https://d-nb.info/gnd/4190167-8> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Tell"@de,
+        "Tell"@en,
         "tell"@en,
         "tell"@it .
 
@@ -21567,6 +21568,12 @@ th:telos_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Telos-Maler"@de,
         "Telos Painter"@en .
+
+th:temple_tomb a skos:Concept ;
+    skos:broader th:tomb_construction ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Tempelgrab"@de,
+        "Temple tomb"@en .
 
 th:tenements a skos:Concept ;
     skos:altLabel "Insula"@de ;
@@ -21744,10 +21751,9 @@ th:threshing_floor a skos:Concept ;
     skos:broader th:homestead ;
     skos:definition "Dreschplatz"@de,
         "agricultural site"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1350230>,
-        <https://d-nb.info/gnd/4184714-3> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Tenne"@de,
+        "Threshing floor"@en,
         "threshing floor"@en,
         "Aia (agricoltura)"@it .
 
@@ -21769,8 +21775,6 @@ th:thymiaterion a skos:Concept ;
     skos:broader th:ritual_vessel ;
     skos:definition "Typ eines antiken griechischen Räuchergefäßes oder kleinen Rauchaltars, der aus Bronze, Silber oder Terrakotta gefertigt sein kann; parfümierter Rauch des Räucherwerks konnte hier durch die dekorativen Öffnungen abziehen. Thymiaterioen waren funktionale Objekte, sie konnten aber auch als Opfergaben in den Grüften während einer Bestattung aufgestellt werden."@de,
         "A type of ancient Greek incense burner or small incense altar made of bronze, silver, or terracotta; the perfumed smoke of the incense would escape through decorative openings. Thymiateria were functional objects but may also have been placed in tombs as funerary offerings."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300265006>,
-        <http://www.wikidata.org/entity/Q662620> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Thymiaterion"@de,
         "Thymiaterion"@en .
@@ -21867,9 +21871,9 @@ th:tocra_painter a skos:Concept ;
 th:togatus a skos:Concept ;
     skos:altLabel "Toga-Statue"@de ;
     skos:broader th:robe_statue_male ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q115607603> ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Togatus"@en .
+    skos:prefLabel "Togatus"@de,
+        "Togatus"@en .
 
 th:tolistogians a skos:Concept ;
     skos:broader th:galatians ;
@@ -22135,11 +22139,10 @@ th:tumulus a skos:Concept ;
     skos:definition "Grabhügel, als Aufschüttung zur Grablegung, mit einem stark gewölbten Profil"@de,
         "artificial mound of earth and/or stones erected over one or more graves"@en,
         "monticello di terra e pietre"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300391495>,
-        <http://www.wikidata.org/entity/Q34023>,
-        <https://d-nb.info/gnd/4160740-5> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Hügelgrab"@de,
+        "Tumulus"@de,
+        "Tumulus"@en,
         "tumulus"@en,
         "tumulo"@it .
 
@@ -22543,11 +22546,9 @@ th:village a skos:Concept ;
     skos:definition "zumeist kleine Gruppensiedlung"@de,
         "small clustered human settlement smaller than a town"@en,
         "insediamento di modesta entità"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300008372>,
-        <http://www.wikidata.org/entity/Q532>,
-        <https://d-nb.info/gnd/4012775-8> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Dorf"@de,
+        "Village"@en,
         "village"@en,
         "villaggio"@it .
 
@@ -22668,6 +22669,13 @@ th:votadiner a skos:Concept ;
     skos:prefLabel "Votadiner"@de,
         "Votadiner"@en .
 
+th:votive_statue a skos:Concept ;
+    skos:broader th:statue_context ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1561067> ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Votivstatue"@de,
+        "Votive statue"@en .
+
 th:vouni_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q136530458> ;
@@ -22775,6 +22783,12 @@ th:washington_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Washington-Maler"@de,
         "Washington Painter"@en .
+
+th:watering_cup a skos:Concept ;
+    skos:broader th:cup ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Gießtasse"@de,
+        "Watering cup"@en .
 
 th:waterkeyn_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -23123,6 +23137,12 @@ th:xenotimos_potter a skos:Concept ;
     skos:prefLabel "Xenotimos Töpfer"@de,
         "Xenotimos Potter"@en .
 
+th:xoanon a skos:Concept ;
+    skos:broader th:statue_technique ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Xoanon"@de,
+        "Xoanon"@en .
+
 th:yalta_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -23133,7 +23153,8 @@ th:yanks a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Amis"@de,
-        "Amis"@en .
+        "Amis"@en,
+        "Yanks"@en .
 
 th:yellow_gold a skos:Concept ;
     skos:broader th:gold ;
@@ -23280,8 +23301,7 @@ th:arybalos a skos:Concept ;
     skos:broader th:ointment_vessel ;
     skos:definition "Relativ kleines, antikes griechisches Gefäß mit einem kugelförmigen Körper, einem kurzen Hals, einer flachen, scheibenförmigen Mündung und einem Henkel (oder manchmal auch zwei), der vom Rand zur Schulter verläuft. Aryballoi wurden als Gefäße für Salböle und Parfüms verwendet. Sie wurden üblicherweise aus Keramik hergestellt und beispielsweise bei Bestattungsritualen oder von Athleten verwendet, die sie an einer Schnur am Handgelenk trugen."@de,
         "Relatively small ancient Greek vessels with a globular body, a short neck, a flat disk-shaped mouth with a small orifice, and a handle (or sometimes two) extending from the shoulder to the rim; used for holding oils, perfumes, and ointments. They are usually made of terracotta. Uses of the aryballoi included in funeral rituals and by athletes who wore them on their wrists, suspended by thongs or strings."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198885>,
-        <http://www.wikidata.org/entity/Q717954> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q717954> ;
     skos:inScheme th:scheme ;
     skos:narrower th:headaryballos ;
     skos:prefLabel "Arybalos"@de,
@@ -23344,9 +23364,7 @@ th:bowl a skos:Concept ;
     skos:altLabel "Schüssel"@de ;
     skos:broader th:drinking_vessel ;
     skos:definition "Rounded vessels that are generally wider than they are high, usually hemispherical or nearly so. A bowl may have a spreading base or foot ring and sometimes two handles or a cover. Distinguished from a cup, which is rather deep than wide."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300203596>,
-        <http://www.wikidata.org/entity/Q140565>,
-        <http://www.wikidata.org/entity/Q153988> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q140565> ;
     skos:inScheme th:scheme ;
     skos:narrower th:lekanis ;
     skos:prefLabel "Napf"@de,
@@ -23380,7 +23398,8 @@ th:campanian_red-figure a skos:Concept ;
     skos:broader th:campanian_ceramics,
         th:lower_italian_red-figure ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Campanisch Rotfigurig"@de .
+    skos:prefLabel "Campanisch Rotfigurig"@de,
+        "Campanian red-figure"@en .
 
 th:candle a skos:Concept ;
     skos:altLabel "Candela"@de ;
@@ -23404,11 +23423,9 @@ th:catacomb a skos:Concept ;
     skos:definition "unterirdische Gewölbekomplexe, die der Bestattung von Toten dienen"@de,
         "subterranean passageways used as burial place"@en,
         "aree cimiteriali utilizzate nell'antichità"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300000367>,
-        <http://www.wikidata.org/entity/Q172896>,
-        <https://d-nb.info/gnd/4029914-4> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Katakombe"@de,
+        "Catacomb"@en,
         "catacombs"@en,
         "catacombe"@it .
 
@@ -23461,11 +23478,9 @@ th:city a skos:Concept ;
     skos:definition "größere, zentralisierte und abgegrenzte Siedlung (nach Anzahl der Einwohner)"@de,
         "large human settlement"@en,
         "insediamento umano esteso e stabile"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300008389>,
-        <http://www.wikidata.org/entity/Q515>,
-        <https://d-nb.info/gnd/4056723-0> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Stadt"@de,
+        "City"@en,
         "city"@en,
         "città"@it ;
     skos:related th:polis .
@@ -23474,11 +23489,10 @@ th:coarse_pottery a skos:Concept ;
     skos:altLabel "Grobe Ware"@de ;
     skos:broader th:ceramic ;
     skos:definition "Unterscheidungsmerkmal von Keramik"@de ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q125275163>,
-        <https://d-nb.info/gnd/4158215-9> ;
     skos:inScheme th:scheme ;
     skos:narrower th:cooking_ceramics ;
     skos:prefLabel "Grobkeramik"@de,
+        "Coarse pottery"@en,
         "heavy clay ceramic"@en .
 
 th:cock_painter a skos:Concept ;
@@ -23494,12 +23508,10 @@ th:container a skos:Concept ;
     skos:definition "Gegenstand, der in seinem Inneren einen Hohlraum aufweist, der insbesondere dem Zweck dient, seinen Inhalt von seiner Umwelt zu trennen"@de,
         "device creating a partially or fully enclosed space that can be used to contain, store, and transport objects or materials"@en,
         "oggetto cavo atto a contenere e trasportare oggetti e/o materiali"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300197197>,
-        <http://www.wikidata.org/entity/Q987767>,
-        <https://d-nb.info/gnd/4005255-2> ;
     skos:inScheme th:scheme ;
     skos:narrower th:vessel ;
     skos:prefLabel "Behälter"@de,
+        "Container"@en,
         "container"@en,
         "contenitore"@it .
 
@@ -23529,12 +23541,11 @@ th:cremation a skos:Concept ;
     skos:definition "Form der Bestattung"@de,
         "technique or ceremony involving burning of human remains"@en,
         "pratica per ridurre il corpo di un defunto in cenere"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300266356>,
-        <http://www.wikidata.org/entity/Q207315>,
-        <https://d-nb.info/gnd/4154259-9> ;
     skos:inScheme th:scheme ;
     skos:narrower th:urn ;
-    skos:prefLabel "Feuerbestattung"@de,
+    skos:prefLabel "Brandbestattung"@de,
+        "Feuerbestattung"@de,
+        "Cremation"@en,
         "cremation"@en,
         "cremazione"@it .
 
@@ -23551,11 +23562,20 @@ th:crypt a skos:Concept ;
         th:tomb_construction ;
     skos:definition "Räumlichkeit, die zur Bestattung von Särgen, Sarkophagen und Urnen von Verstorbenen dient"@de,
         "structural underground tomb"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1578744>,
-        <https://d-nb.info/gnd/4274860-4> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gruft"@de,
+        "Crypt"@en,
         "burial vault"@en .
+
+th:cup a skos:Concept ;
+    skos:broader th:types_of_vessels ;
+    skos:definition "Gefäß, das von Einzelpersonen zum Trinken von Wein, Bier oder anderen Getränken genutzt wird."@de,
+        "Vessels intended for an individual to use for drinking wine, water, or other beverage."@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q81707> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:watering_cup ;
+    skos:prefLabel "Tasse"@de,
+        "Cup"@en .
 
 th:cycladic_geometric a skos:Concept ;
     skos:broader th:cycladic_ceramics,
@@ -23642,7 +23662,8 @@ th:etruscan_pseudo-red-figure a skos:Concept ;
     skos:broader th:etruscan_ceramics,
         th:red-figure_style ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Etruskisch Pseudo-rotfigurig"@de .
+    skos:prefLabel "Etruskisch Pseudo-rotfigurig"@de,
+        "Etruscan pseudo-red-figure"@en .
 
 th:euboian_subprotogeometric a skos:Concept ;
     skos:broader th:euboean_ceramics,
@@ -23655,9 +23676,7 @@ th:exaleiptron a skos:Concept ;
     skos:broader th:storage_vessel ;
     skos:definition "Antiker griechischer Behälter für Flüssigkeiten, möglicherweise Parfüm (Duftöl), mit einer sehr markanten Form: eine abgeflachte kugelförmige Schale mit eingebogenem Rand, kurzem oder hohem Fuß und Deckel mit Finial. Der Deckel hat sich selten erhalten. Auf Vasenmalereien erscheint das Exaleiptron in der Regel in Szenen mit Frauen beim Bad oder bei Begräbnisritualen. Auch andere antike Bezeichnungen werden in heutiger Zeit manchmal für diese Gefäßform genutzt: Kothon, Plemochoe und Smematotheke (oder Smegmatotheke)."@de,
         "Ancient Greek containers for liquid, perhaps perfume (scented oil), with a very distinctive shape: an oblate spheroid bowl with turned-in rim, short or tall foot, and lid with finial. The lids are rarely preserved. In vase paintings the exaleiptron most often appears in scenes of women bathing or participating in funerary rituals. Other ancient names have sometimes been used in modern times to refer to this vessel shape: kothon, plemochoe, and smematotheke (or smegmatotheke)."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300264928>,
-        <http://www.wikidata.org/entity/Q1383360>,
-        <http://www.wikidata.org/entity/Q2099266> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2099266> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Exaleiptron"@de,
         "Exaleiptron"@en ;
@@ -23729,16 +23748,17 @@ th:head_kantharos a skos:Concept ;
     skos:broader th:kantharos,
         th:plastic_vessel ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Kopfkantharos"@de .
+    skos:prefLabel "Kopfkantharos"@de,
+        "Head Kantharos"@en .
 
 th:headaryballos a skos:Concept ;
     skos:altLabel "Kopf-Aryballos" ;
     skos:broader th:arybalos,
         th:plastic_vessel ;
     skos:definition "Variante des Aryballos (griechische Vasenform, Behälter für Kosmetika)"@de ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q55619561> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kopfaryballos"@de,
+        "Headaryballos"@en,
         "aryballos in the form of a head"@en .
 
 th:horseman_painter a skos:Concept ;
@@ -23767,7 +23787,8 @@ th:ischiotic_ceramics a skos:Concept ;
     skos:broader th:western_greek_landscape ;
     skos:inScheme th:scheme ;
     skos:narrower th:ischiotic_geomtric ;
-    skos:prefLabel "Ischiotische Keramik"@de .
+    skos:prefLabel "Ischiotische Keramik"@de,
+        "Ischiotic ceramics"@en .
 
 th:ischiotic_geomtric a skos:Concept ;
     skos:broader th:ischiotic_ceramics,
@@ -23805,8 +23826,7 @@ th:kantharos a skos:Concept ;
     skos:broader th:drinking_vessel ;
     skos:definition "Altgriechische Trinkgefäße mit einer tiefen Schale auf einem hohen Fuß und zwei vertikalen seitlichen Henkeln, die vom Boden des Gefäßes bis zum Rand reichen. Der Kantharos ist eng mit dem Weingott Dionysos verbunden, der auf Vasen oft mit einem Kantharos des Typs A oder einem Rhyton abgebildet ist."@de,
         "Ancient Greek drinking vessels featuring a deep, footed bowl set on a tall footed stem and two vertical side handles extending from the bottom of the vessel to the rim. The kantharos is intimately associated with the wine god Dionysos, who is often depicted on vases holding a kantharos of type A or a rhyton."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198840>,
-        <http://www.wikidata.org/entity/Q755706> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q755706> ;
     skos:inScheme th:scheme ;
     skos:narrower th:head_kantharos ;
     skos:prefLabel "Kantharos"@de,
@@ -23884,7 +23904,8 @@ th:lucanian_ceramics a skos:Concept ;
     skos:broader th:western_greek_landscape ;
     skos:inScheme th:scheme ;
     skos:narrower th:lucanian_red-figure ;
-    skos:prefLabel "Lukanische Keramik"@de .
+    skos:prefLabel "Lukanische Keramik"@de,
+        "Lucanian ceramics"@en .
 
 th:lucanian_red-figure a skos:Concept ;
     skos:broader th:lower_italian_red-figure,
@@ -24012,8 +24033,6 @@ th:necropolis a skos:Concept ;
     skos:definition "Großer, ausgedehnter Friedhofsbereich antiker Städte oder prähistorische Begräbnisplatz."@de,
         "Large elaborate cemeteries of ancient cities or ancient or prehistoric burying places."@en,
         "Luoghi dedicati alla sepoltura e venerazione dei defunti, riemersi da scavi archeologici"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300000372>,
-        <http://www.wikidata.org/entity/Q200141> ;
     skos:inScheme th:scheme ;
     skos:narrower th:grave ;
     skos:prefLabel "Nekropole"@de,
@@ -24059,7 +24078,8 @@ th:paestan_ceramics a skos:Concept ;
     skos:broader th:western_greek_landscape ;
     skos:inScheme th:scheme ;
     skos:narrower th:palestinian_red-figure ;
-    skos:prefLabel "Päastanische Keramik"@de .
+    skos:prefLabel "Päastanische Keramik"@de,
+        "Paestan ceramics"@en .
 
 th:painter_of_berkeley a skos:Concept ;
     skos:broader th:apulian,
@@ -24086,15 +24106,16 @@ th:palestinian_red-figure a skos:Concept ;
     skos:broader th:lower_italian_red-figure,
         th:paestan_ceramics ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Pästanisch Rotfigurig"@de .
+    skos:prefLabel "Pästanisch Rotfigurig"@de,
+        "Palestinian red-figure"@en .
 
 th:perirrhanterion a skos:Concept ;
     skos:broader th:pool,
         th:ritual_vessel ;
     skos:definition "water basin for purification in ancient Greece"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q942522> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Perirrhanterion"@de,
+        "Perirrhanterion"@en,
         "perirrhanterion"@en .
 
 th:phiale a skos:Concept ;
@@ -24104,8 +24125,7 @@ th:phiale a skos:Concept ;
         th:ritual_vessel ;
     skos:definition "Antiker griechischer Behälter in Form einer flachen Schale ohne Henkel, oft mit einer Bodenfläche, deren Mittelpunkt in den Körper hinein gedrückt wurde; er wurde zum Trinken oder zum Vergießen von Trankopfern in Form von Wein oder Olivenöl während religiöser Zeremonien genutzt; die Trankopfer wurden über einem Altar vergossen, um die Götter zu ehren oder um den Seelen der Verstorbenen Genüge zu tun.  Für einen ähnlichen antiken römischen Behälter verwende \"Patera\"."@de,
         "Ancient Greek containers in the form of a shallow bowl without handles, often with a base whose center is pushed up into the body. It is used for drinking or pouring libations of wine or olive oil in ancient Greek ritual; the libations were poured over an altar to honor the gods or a burial site to satisfy the souls of the deceased. For similar ancient Roman containers, use \"paterae (containers).\""@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198871>,
-        <http://www.wikidata.org/entity/Q1151252> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1151252> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Phiale"@de,
         "Phiale"@en .
@@ -24113,9 +24133,9 @@ th:phiale a skos:Concept ;
 th:phormiskos a skos:Concept ;
     skos:broader th:bottle,
         th:ritual_vessel ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q2088717> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Phormiskos"@de,
+        "Phormiskos"@en,
         "phormiskoi"@en,
         "phormiskos"@it .
 
@@ -24144,9 +24164,7 @@ th:plemochoe a skos:Concept ;
     skos:broader th:storage_vessel ;
     skos:definition "Antiker griechischer Behälter für Flüssigkeiten, möglicherweise Parfüm (Duftöl), mit einer sehr markanten Form: eine abgeflachte kugelförmige Schale mit eingebogenem Rand, kurzem oder hohem Fuß und Deckel mit Finial. Der Deckel hat sich selten erhalten. Auf Vasenmalereien erscheint das Exaleiptron in der Regel in Szenen mit Frauen beim Bad oder bei Begräbnisritualen. Auch andere antike Bezeichnungen werden in heutiger Zeit manchmal für diese Gefäßform genutzt: Kothon, Plemochoe und Smematotheke (oder Smegmatotheke)."@de,
         "Ancient Greek containers for liquid, perhaps perfume (scented oil), with a very distinctive shape: an oblate spheroid bowl with turned-in rim, short or tall foot, and lid with finial. The lids are rarely preserved. In vase paintings the exaleiptron most often appears in scenes of women bathing or participating in funerary rituals. Other ancient names have sometimes been used in modern times to refer to this vessel shape: kothon, plemochoe, and smematotheke (or smegmatotheke)."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300264928>,
-        <http://www.wikidata.org/entity/Q1383360>,
-        <http://www.wikidata.org/entity/Q2099266> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2099266> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Plemochoe"@de,
         "Plemochoe"@en ;
@@ -24157,10 +24175,9 @@ th:polis a skos:Concept ;
     skos:definition "Staatsverband um einen städtischen Siedlungskern mit Umland im antiken Griechenland"@de,
         "ancient Greek social and political organisation"@en,
         "tipo di organizzazione politica e sociale sviluppatasi nell'antica Grecia"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300008397>,
-        <http://www.wikidata.org/entity/Q148837> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Polis"@de,
+        "Polis"@en,
         "polis"@en,
         "polis"@it ;
     skos:related th:city .
@@ -24206,12 +24223,10 @@ th:pyramid a skos:Concept ;
     skos:definition "Bauform mit quadratischer Basis und dreieckigen Seiten, die in einer Spitze zusammenlaufen, meist von alten Kulturen als Grabform bekannt ist"@de,
         "structure whose shape is roughly that of a pyramid in the geometric sense"@en,
         "struttura la cui forma ricalca quella di una piramide in senso geometrico"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300004838>,
-        <http://www.wikidata.org/entity/Q12516>,
-        <https://d-nb.info/gnd/4047908-0> ;
     skos:inScheme th:scheme ;
     skos:narrower th:step_pyramid ;
     skos:prefLabel "Pyramide"@de,
+        "Pyramid"@en,
         "pyramid"@en,
         "piramide"@it .
 
@@ -24241,8 +24256,7 @@ th:rhyton a skos:Concept ;
         th:plastic_vessel ;
     skos:definition "Verweist auf ein Gefäß aus dem antiken Griechenland, Osteuropa oder dem Mittleren Osten, das typischerweise eine geschlossene Form mit zwei Öffnungen hat, eine auf der Oberseite zum Einfüllen, eine auf der Unterseite, damit die Flüssigkeit herauslaufen kann. Es hat oft die Form eines Horns oder Tierkopfes und wurde typischerweise als Trinkgefäß oder zum Ausgießen von Wein in ein anderes Gefäß benutzt. Getrunken wurde, indem das Rhyton über den Kopf des Trinkenden gehalten und die Flüssigkeit mit dem Mund aufgefangen wurde."@de,
         "Vessels from Ancient Greece, eastern Europe, or the Middle East that were typically made as a closed form with two openings, one at the top for filling and one at the base so that liquid could stream out. They are often in the shape of a horn or an animal's head, and were typically used as a drinking cup or for pouring wine into another vessel. Drinking was done by holding the rhyton above the drinker's head and catching the stream of liquid in the mouth."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300198841>,
-        <http://www.wikidata.org/entity/Q828450> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q828450> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Rhyton"@de,
         "Rhyton"@en .
@@ -24260,6 +24274,13 @@ th:rosette a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Rosette"@de,
         "rosette"@en .
+
+th:ruler_statue a skos:Concept ;
+    skos:broader th:statue_context ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:emperor_statue ;
+    skos:prefLabel "Herrscherstatue"@de,
+        "Ruler statue"@en .
 
 th:salting_painter a skos:Concept ;
     skos:broader th:apulian,
@@ -24308,13 +24329,15 @@ th:sicilian_orientalizing a skos:Concept ;
     skos:broader th:oriental_ceramics,
         th:sicilian_ceramics ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Sizilisch Orientalisierend"@de .
+    skos:prefLabel "Sizilisch Orientalisierend"@de,
+        "Sicilian Orientalizing"@en .
 
 th:sicilian_red-figure a skos:Concept ;
     skos:broader th:lower_italian_red-figure,
         th:sicilian_ceramics ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Sizilisch Rotfigurig"@de .
+    skos:prefLabel "Sizilisch Rotfigurig"@de,
+        "Sicilian red-figure"@en .
 
 th:sitting_statue a skos:Concept ;
     skos:altLabel "Sitzstandbild"@de ;
@@ -24374,12 +24397,11 @@ th:statuette a skos:Concept ;
     skos:definition "kleine, stark unterlebensgroße Statue"@de,
         "small item resembling a person or animal, sometimes part of a larger work"@en,
         "piccolo oggetto raffigurante una persona o un animale, senza parti snodabili"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300047455>,
-        <http://www.wikidata.org/entity/Q1066288>,
-        <http://www.wikidata.org/entity/Q179700> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q179700> ;
     skos:inScheme th:scheme ;
     skos:narrower th:tanagraean ;
     skos:prefLabel "Statuette"@de,
+        "Statuette"@en,
         "figurine"@en,
         "statuetta"@it .
 
@@ -24484,8 +24506,6 @@ th:transport_vessel a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Zusammenstellung von Deskriptoren für Wasserfahrzeuge, die für den Transport von Truppen oder Pferden in Überseeregionen genutzt werden."@de,
         "Collocates descriptors for vessels used to transport troops or horses to overseas locations."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300232815>,
-        <http://www.wikidata.org/entity/Q10701315> ;
     skos:inScheme th:scheme ;
     skos:narrower th:transport_amphora ;
     skos:prefLabel "Transportgefäß"@de,
@@ -24517,9 +24537,7 @@ th:urn a skos:Concept ;
         th:types_of_vessels ;
     skos:definition "Large or decorative vessels, especially ones with an ornamental foot or pedestal, that usually have a mouth that is smaller than the body, and which often have two side handles."@en,
         "Recipienti grandi o decorativi, in particolare quelli con un piede o un piedistallo ornamentale, che di solito hanno una bocca più piccola del corpo e che spesso hanno due manici."@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300129425>,
-        <http://www.wikidata.org/entity/Q11083119>,
-        <https://d-nb.info/gnd/4187243-5> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q11083119> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Urne"@de,
         "Urn"@en,
@@ -24553,7 +24571,8 @@ th:western_greek_orientalizing a skos:Concept ;
     skos:broader th:oriental_ceramics,
         th:western_greek_ceramics ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Westgriechisch Orientalsierend"@de .
+    skos:prefLabel "Westgriechisch Orientalsierend"@de,
+        "Western Greek Orientalizing"@en .
 
 th:white-ground_vase a skos:Concept ;
     skos:altLabel "Weißgrundige Keramik"@de,
@@ -24572,18 +24591,6 @@ th:achilles_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Achilles-Maler"@de,
         "Achilles Painter"@en .
-
-th:acroter a skos:Concept ;
-    skos:broader th:plastic,
-        th:roof ;
-    skos:definition "Figur oder Ornament an der unteren Dachschräge oder auf dem Giebelfirst, steht üblicherweise auf einer Plinthe."@de,
-        "The figures or ornaments at the lower angles or apex of a pediment, generally supported on plinths."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300002214>,
-        <http://www.wikidata.org/entity/Q421214> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:gable_acroter ;
-    skos:prefLabel "Akroter"@de,
-        "Acroter"@en .
 
 th:aegisthus_painter a skos:Concept ;
     skos:altLabel "Aegisthus-Maler"@de ;
@@ -24730,10 +24737,7 @@ th:bottle a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Gefäß mit einem Hals und einer Mündung, die bedeutend schmaler als der Körper ist, genutzt zum Verpacken und Vorhalten von Flüssigkeit und trockenen Präparaten. Für ein Gefäß mit weitem Hals und Mündung, verwende \"Vorratsglas\"."@de,
         "Vessels having a neck and mouth considerably narrower than the body, used for packaging and containing liquid and dry preparations. For vessels having wider necks and mouths, use \"jars.\""@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300045627>,
-        <http://www.wikidata.org/entity/Q1309660>,
-        <http://www.wikidata.org/entity/Q80228>,
-        <https://d-nb.info/gnd/4154567-9> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1309660> ;
     skos:inScheme th:scheme ;
     skos:narrower th:lagynos,
         th:phormiskos ;
@@ -24781,7 +24785,8 @@ th:campanian_ceramics a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:narrower th:campanian_red-figure,
         th:kemai ;
-    skos:prefLabel "Campanische Keramik"@de .
+    skos:prefLabel "Campanische Keramik"@de,
+        "Campanian ceramics"@en .
 
 th:candlesticks a skos:Concept ;
     skos:broader th:lighting_device ;
@@ -24816,13 +24821,12 @@ th:ceramic a skos:Concept ;
     skos:broader th:heritageasset ;
     skos:definition "aus Ton geformtes und gebranntes Objekt"@de,
         "class of physical objects, as distinguished from the craft of pottery"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300010666>,
-        <http://www.wikidata.org/entity/Q17379525>,
-        <https://d-nb.info/gnd/4265686-2> ;
     skos:inScheme th:scheme ;
     skos:narrower th:coarse_pottery,
         th:fine_ceramics ;
-    skos:prefLabel "Töpferware"@de,
+    skos:prefLabel "Keramik"@de,
+        "Töpferware"@de,
+        "Ceramic"@en,
         "pottery ware"@en .
 
 th:charinos_potter a skos:Concept ;
@@ -24870,8 +24874,7 @@ th:corinthian_geometric a skos:Concept ;
 th:crucible a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Vessels made of a refractory material, such as clay, graphite, or porcelain, or a relatively infusible metal, that may vary in size and that are used for melting, calcining, or filtering a substance at high temperatures."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300196462>,
-        <http://www.wikidata.org/entity/Q390417> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q390417> ;
     skos:inScheme th:scheme ;
     skos:narrower th:melting_pot,
         th:teganon ;
@@ -24882,11 +24885,11 @@ th:daunian_ceramics a skos:Concept ;
     skos:broader th:sub-italian_indigenous_ceramics ;
     skos:definition "antike lokale Keramikgattung der Daunier in den heutigen süditalienischen Provinzen Bari und Foggia"@de,
         "local ancient ceramics style in south Italy"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1172998> ;
     skos:inScheme th:scheme ;
     skos:narrower th:north_daunian_ceramics,
         th:south_daunian_ceramics ;
     skos:prefLabel "Daunische Keramik"@de,
+        "Daunian ceramics"@en,
         "Daunian pottery"@en .
 
 th:dikaios_painter a skos:Concept ;
@@ -25327,13 +25330,11 @@ th:place a skos:Concept ;
     skos:definition "freie Fläche im urbanen Raum"@de,
         "open public spaces in cities or towns, usually rectilinear, surrounded by buildings, and often located at the junction of two or more thoroughfares"@en,
         "spazio pubblico di raccolta racchiuso all'interno di un centro abitato"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300164841>,
-        <http://www.wikidata.org/entity/Q174782>,
-        <https://d-nb.info/gnd/4046326-6> ;
     skos:inScheme th:scheme ;
     skos:narrower th:agora,
         th:marketplace ;
     skos:prefLabel "Platz"@de,
+        "Place"@en,
         "square"@en,
         "piazza"@it .
 
@@ -25358,12 +25359,11 @@ th:pool a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Offenes, rundes Gefäß, breiter als tief, mit konischer oder gebauchter Wandung, genutzt um fließendes Wasser aufzunehmen oder um Wasser oder andere Flüssigkeiten vorzuhalten; insbesondere zum Waschen."@de,
         "Open, rounded vessels of greater width than depth, with sloping or curving sides, used for receiving running water or holding water and other liquids, especially for washing purposes."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300045614>,
-        <http://www.wikidata.org/entity/Q32133950> ;
     skos:inScheme th:scheme ;
     skos:narrower th:luterion,
         th:perirrhanterion ;
     skos:prefLabel "Becken"@de,
+        "Pool"@en,
         "basins"@en .
 
 th:proklees_potter a skos:Concept ;
@@ -25448,12 +25448,11 @@ th:sanctuary a skos:Concept ;
     skos:definition "Ort, Gebäude, Gegenstand o. ä. von zentraler religiöser Bedeutung"@de,
         "Sacred or safe place, often revered, protected and/or preserved. Includes buildings, places of refuge, reservations, and other areas often associated with worship, protection, and/or safety."@en,
         "luogo considerato sacro"@it ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q29553>,
-        <https://d-nb.info/gnd/4072395-1> ;
     skos:inScheme th:scheme ;
     skos:narrower th:altis,
         th:temenos ;
     skos:prefLabel "Heiligtum"@de,
+        "Sanctuary"@en,
         "sanctuary"@en,
         "santuario"@it .
 
@@ -25499,20 +25498,6 @@ th:soklees_potter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Sokles Töpfer"@de,
         "Soklees Potter"@en .
-
-th:statue a skos:Concept ;
-    skos:broader th:plastic ;
-    skos:definition "Sculpture in the round, usually but not always depicting humans, animals, mythical beings, or small figure groups. Statues are relatively large in scale, being life-size, larger than life-size, or only slightly smaller than life-size. For small-scale representations of humans, animals, or mythical beings, use \"figurines,\" \"statuettes,\" or another appropriate term. For depictions of humans, animals, or mythical beings in media other than sculpture, use \"figures (representations).\""@en,
-        "Scultura a tutto tondo, di solito ma non sempre di umani, animali, esseri mitici, o piccoli gruppi di figure. Statue hanno dimensioni relativamente grandi. Per rappresentazioni piccole di umani, animali, o esseri mitici, usa \"figurine\", \"statuettes\" o un altro termine appropriato. Per rappresentazioni di umani, animali, o esseri mitici nei media diversi dalla scultura, usa \"figures (representations)\". Sculture a tutto rilievo che possono raffigurare un oggetto, una figura umana o animale, o un'entità astratta e idealizzata"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300047600>,
-        <http://www.wikidata.org/entity/Q179700>,
-        <https://d-nb.info/gnd/4129665-5> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:gable_figure,
-        th:statue_type ;
-    skos:prefLabel "Statue"@de,
-        "Statue"@en,
-        "statua"@it .
 
 th:statue_type a skos:Concept ;
     skos:broader th:statue ;
@@ -25648,12 +25633,11 @@ th:vessel a skos:Concept ;
     skos:definition "Behälter insbesondere für Hausarbeiten oder das Servieren von Essen und Trinken"@de,
         "container, especially for domestic preparation or serving of food and drink"@en,
         "cavità che contiene un'entità e che la separa dall'ambiente in cui è inserita"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300193015>,
-        <http://www.wikidata.org/entity/Q96952903> ;
     skos:inScheme th:scheme ;
     skos:narrower th:types_of_vessels,
         th:vessel_parts ;
     skos:prefLabel "Gefäß"@de,
+        "Vessel"@en,
         "vessel"@en,
         "recipiente"@it .
 
@@ -25689,6 +25673,17 @@ th:woman_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Frauen-Maler"@de,
         "Woman Painter"@en .
+
+th:acroter a skos:Concept ;
+    skos:broader th:building_plastic,
+        th:plastic,
+        th:roof ;
+    skos:definition "Figur oder Ornament an der unteren Dachschräge oder auf dem Giebelfirst, steht üblicherweise auf einer Plinthe."@de,
+        "The figures or ornaments at the lower angles or apex of a pediment, generally supported on plinths."@en ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:gable_acroter ;
+    skos:prefLabel "Akroter"@de,
+        "Acroter"@en .
 
 th:architecture_and_urbanism a skos:Concept ;
     skos:broader th:heritageasset ;
@@ -25754,12 +25749,11 @@ th:bucchero a skos:Concept ;
     skos:definition "etruskischer Keramikstil"@de,
         "Etruscan ceramics style"@en,
         "tipo di ceramica etrusca"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300387149>,
-        <http://www.wikidata.org/entity/Q683238> ;
     skos:inScheme th:scheme ;
     skos:narrower th:bucchero_pesante,
         th:bucchero_sottile ;
     skos:prefLabel "Bucchero"@de,
+        "Bucchero"@en,
         "bucchero"@en,
         "bucchero"@it ;
     skos:related th:bilingue .
@@ -25907,13 +25901,11 @@ th:homestead a skos:Concept ;
         th:settlement ;
     skos:definition "Ein Gehöft ist ein bebautes Grundstück ländlichen Typs, das als Wohn- und Arbeitsstätte angelegt ist"@de,
         "Designates the dwelling, land, and outbuildings, if any, where a family lives."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300000291>,
-        <http://www.wikidata.org/entity/Q5890494>,
-        <https://d-nb.info/gnd/4013770-3> ;
     skos:inScheme th:scheme ;
     skos:narrower th:field,
         th:threshing_floor ;
     skos:prefLabel "Gehöft"@de,
+        "Homestead"@en,
         "homestead"@en .
 
 th:ionic_column_base a skos:Concept ;
@@ -25994,7 +25986,8 @@ th:sicilian_ceramics a skos:Concept ;
     skos:narrower th:centuriper_vase,
         th:sicilian_orientalizing,
         th:sicilian_red-figure ;
-    skos:prefLabel "Sizilische Keramik"@de .
+    skos:prefLabel "Sizilische Keramik"@de,
+        "Sicilian ceramics"@en .
 
 th:sima a skos:Concept ;
     skos:broader th:roof ;
@@ -26011,7 +26004,8 @@ th:sub-italian_indigenous_ceramics a skos:Concept ;
     skos:narrower th:daunian_ceramics,
         th:messapian_pottery,
         th:peucetian_ceramics ;
-    skos:prefLabel "Unteritalisch indigene Keramik"@de .
+    skos:prefLabel "Unteritalisch indigene Keramik"@de,
+        "Sub-Italian indigenous ceramics"@en .
 
 th:traffic a skos:Concept ;
     skos:broader th:infrastructure ;
@@ -26062,17 +26056,6 @@ th:boeotian_ceramics a skos:Concept ;
     skos:prefLabel "Böotische Keramik"@de,
         "Boeotian ceramics"@en .
 
-th:building_plastic a skos:Concept ;
-    skos:broader th:architectural_part,
-        th:sculpture ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q3476515> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:frieze,
-        th:gable_figure,
-        th:metope ;
-    skos:prefLabel "Bauplastik"@de,
-        "Building plastic"@en .
-
 th:building_regulations a skos:Concept ;
     skos:broader th:greco-roman_temple ;
     skos:inScheme th:scheme ;
@@ -26098,9 +26081,6 @@ th:grave a skos:Concept ;
     skos:broader th:necropolis ;
     skos:definition "Für eine Beerdigung genutzter Aushub der Erde. Für Konstruktionen die über oder um die Grabstätte errichtet sind, ist \"Gruft\" zu verwenden."@de,
         "Excavations in the earth used for burial of a deceased human, sometimes of animals; for constructions raised over or around burial sites, use \"tombs.\""@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300005907>,
-        <http://www.wikidata.org/entity/Q173387>,
-        <https://d-nb.info/gnd/4021716-4> ;
     skos:inScheme th:scheme ;
     skos:narrower th:body_burial,
         th:cremation,
@@ -26225,17 +26205,49 @@ th:sculpture a skos:Concept ;
     skos:altLabel "Kunststoff" ;
     skos:broader th:heritageasset ;
     skos:definition "Refers to the process of creating sculptures, which are three-dimensional works. It refers particularly to carving or engraving a hard material, or with molding or casting a malleable material, so as to produce designs or figures in relief, in intaglio, or in the round. It is typically used to refer to the production of large or medium-sized objects in stone, clay, or bronze. The production of small objects in bronze or stone is typically referred to by a specific term, such as \"stone carving\" or \"die sinking.\" The production of sculpture in wood or ivory is typically referred to as \"carving,\" even though the finished work in these materials may be called \"sculpture (visual work).\""@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300264383>,
-        <http://www.wikidata.org/entity/Q11634>,
-        <http://www.wikidata.org/entity/Q350268>,
-        <https://d-nb.info/gnd/4046277-8> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q350268> ;
     skos:inScheme th:scheme ;
     skos:narrower th:building_plastic,
         th:plastic,
         th:portrait,
         th:relief ;
-    skos:prefLabel "Plastik"@de,
+    skos:prefLabel "Bildhauerei"@de,
+        "Plastik"@de,
         "Sculpture"@en .
+
+th:statue a skos:Concept ;
+    skos:broader th:plastic ;
+    skos:definition "Sculpture in the round, usually but not always depicting humans, animals, mythical beings, or small figure groups. Statues are relatively large in scale, being life-size, larger than life-size, or only slightly smaller than life-size. For small-scale representations of humans, animals, or mythical beings, use \"figurines,\" \"statuettes,\" or another appropriate term. For depictions of humans, animals, or mythical beings in media other than sculpture, use \"figures (representations).\""@en,
+        "Scultura a tutto tondo, di solito ma non sempre di umani, animali, esseri mitici, o piccoli gruppi di figure. Statue hanno dimensioni relativamente grandi. Per rappresentazioni piccole di umani, animali, o esseri mitici, usa \"figurine\", \"statuettes\" o un altro termine appropriato. Per rappresentazioni di umani, animali, o esseri mitici nei media diversi dalla scultura, usa \"figures (representations)\". Sculture a tutto rilievo che possono raffigurare un oggetto, una figura umana o animale, o un'entità astratta e idealizzata"@it ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q179700> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:gable_figure,
+        th:statue_context,
+        th:statue_technique,
+        th:statue_type ;
+    skos:prefLabel "Statue"@de,
+        "Statue"@en,
+        "statua"@it .
+
+th:statue_context a skos:Concept ;
+    skos:broader th:statue ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:cult_image,
+        th:ruler_statue,
+        th:statue_group,
+        th:votive_statue ;
+    skos:prefLabel "Statue Kontext"@de,
+        "Statue context"@en .
+
+th:statue_technique a skos:Concept ;
+    skos:broader th:statue ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:acrolite,
+        th:gold_ivory_statue,
+        th:sphyrelaton,
+        th:xoanon ;
+    skos:prefLabel "Statue Technik"@de,
+        "Statue technique"@en .
 
 th:storage_vessel a skos:Concept ;
     skos:broader th:types_of_vessels ;
@@ -26309,6 +26321,18 @@ th:attic_ceramics a skos:Concept ;
         th:six_vase ;
     skos:prefLabel "Attische Keramik"@de,
         "Attic ceramics"@en .
+
+th:building_plastic a skos:Concept ;
+    skos:broader th:architectural_part,
+        th:sculpture ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q3476515> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:acroter,
+        th:frieze,
+        th:gable_figure,
+        th:metope ;
+    skos:prefLabel "Bauplastik"@de,
+        "Building plastic"@en .
 
 th:church a skos:Concept ;
     skos:broader th:sacred_building ;
@@ -26388,8 +26412,7 @@ th:lekythos a skos:Concept ;
     skos:definition "Antikes griechisches einhenkeliges Gefäß, gewöhnlich hoch und enghalsig für Öle und Salben und als Totengabe genutzt. Die Form erinnert an den Aryballos dadurch, dass sie einen engen Hals und einen einzelnen Henkel besitzt, aber der Lekythos ist im allgemeinen ein höheres Gefäß mit einer kleineren Mündung. Das griechische Wort Lekythos wurde ohne Zweifel für verschiedene Formen genutzt, die heute \"Lekythos\" genannt werden, während der Begriff in antiken Zeiten vermutlich für Ölgefäße im Allgemeinen verwendet wurde."@de,
         "Ancient Greek one-handled, usually tall and slender narrow-necked vessels used for oil and unguents and as an offering for the dead. The form resembles the aryballos in that it has a narrow neck and a single handle, but the lekythos is generally a taller vessel with a small, deep mouth. The Greek word lekythos was undoubtedly used for the various forms called \"lekythos\" today, although it also appears that the term was used for oil vessels in general in Ancient times."@en,
         "Vasi dal corpo allungato, stretto collo con un'unica ansa e ampio orlo svasato, utilizzati nella Grecia antica e nelle zone magno-greche per conservare e versare olio profumato e unguenti."@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300264937>,
-        <http://www.wikidata.org/entity/Q579418> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q579418> ;
     skos:inScheme th:scheme ;
     skos:narrower th:abdominal_lekythos,
         th:acorn_lekythos,
@@ -26404,9 +26427,7 @@ th:relief a skos:Concept ;
     skos:definition "Skulptur, bei dem die Ornamente oder Figuren am Hintergrund, von dem sie sich mehr oder weniger hoch abheben, befestigt sind. Reliefs werden oft als architektonische Dekoration verwendet und wegen ihrer Erzählfähigkeit oft zu malerisch-erzählerischen Zwecken."@de,
         "Sculptures in which the ornaments or figures are attached to a background from which they stand out to a greater or lesser degree. Reliefs are often used as architectural decoration and because of their capacity for narration they are often used for pictorial narrative purposes."@en,
         "Sculture ornamentali o figurate emergenti con maggiore o minore aggetto (altorilievi o bassorilievi) da un piano di fondo"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300047230>,
-        <http://www.wikidata.org/entity/Q245117>,
-        <https://d-nb.info/gnd/4049373-8> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q245117> ;
     skos:inScheme th:scheme ;
     skos:narrower th:consecration_relief,
         th:document_relief,
@@ -26570,23 +26591,6 @@ th:greek_vase_painter a skos:Concept ;
     skos:prefLabel "Vasenmaler griechisch"@de,
         "Greek vase painter"@en .
 
-th:plastic a skos:Concept ;
-    skos:broader th:sculpture ;
-    skos:definition "Figur an einem Bauwerk"@de,
-        "type of sculpture"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300379328>,
-        <http://www.wikidata.org/entity/Q3476515>,
-        <https://d-nb.info/gnd/4004913-9> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:acroter,
-        th:animal_statue,
-        th:equestrian_statue,
-        th:sitting_statue,
-        th:statue,
-        th:statuette ;
-    skos:prefLabel "Bauplastik"@de,
-        "architectural sculpture"@en .
-
 th:red-figure_style a skos:Concept ;
     skos:broader th:greek_ceramics_class ;
     skos:inScheme th:scheme ;
@@ -26658,7 +26662,8 @@ th:etruscan_ceramics a skos:Concept ;
         th:etruscan_pseudo-red-figure,
         th:etruscan_red-figure,
         th:impasto ;
-    skos:prefLabel "Etruskische Keramik"@de ;
+    skos:prefLabel "Etruskische Keramik"@de,
+        "Etruscan ceramics"@en ;
     skos:related th:black-figure_style,
         th:pontic_vase .
 
@@ -26678,6 +26683,24 @@ th:fine_ceramics a skos:Concept ;
         th:sub-italian_indigenous_ceramics ;
     skos:prefLabel "Feinkeramik"@de,
         "fine ceramic"@en .
+
+th:plastic a skos:Concept ;
+    skos:broader th:sculpture ;
+    skos:definition "Figur an einem Bauwerk"@de,
+        "type of sculpture"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300379328>,
+        <http://www.wikidata.org/entity/Q3476515>,
+        <https://d-nb.info/gnd/4004913-9> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:acroter,
+        th:animal_statue,
+        th:equestrian_statue,
+        th:hybrid_creature_statue,
+        th:sitting_statue,
+        th:statue,
+        th:statuette ;
+    skos:prefLabel "Bauplastik"@de,
+        "architectural sculpture"@en .
 
 th:projectile a skos:Concept ;
     skos:altLabel "Etage"@de,
@@ -26903,9 +26926,7 @@ th:drinking_vessel a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Gefäß zum Trinken von Flüssigkeiten."@de,
         "Vessels used for drinking liquids."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300194567>,
-        <http://www.wikidata.org/entity/Q2453629>,
-        <https://d-nb.info/gnd/4186181-4> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2453629> ;
     skos:inScheme th:scheme ;
     skos:narrower th:bowl,
         th:drinking_bowl,
@@ -26952,29 +26973,6 @@ th:lower_italian_red-figure a skos:Concept ;
         th:xenon_group ;
     skos:prefLabel "Unteritalisch Rotfigurig"@de,
         "Lower Italian red-figure"@en .
-
-th:settlement a skos:Concept ;
-    skos:broader th:urbanistics ;
-    skos:definition "geographischer Ort, an dem Menschen zusammen leben"@de,
-        "place of any size, in which people permanently live"@en,
-        "luogo in cui una comunità di persone vive o ha vissuto"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300008347>,
-        <http://www.wikidata.org/entity/Q486972>,
-        <https://d-nb.info/gnd/4054858-2> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:city,
-        th:colony,
-        th:hamlet,
-        th:hilltop_settlement,
-        th:homestead,
-        th:oppidum,
-        th:polis,
-        th:scattered_settlement,
-        th:tell,
-        th:village ;
-    skos:prefLabel "Siedlung"@de,
-        "human settlement"@en,
-        "insediamento umano"@it .
 
 th:Schuhroemisch a skos:Concept ;
     skos:broader th:footwear ;
@@ -27048,6 +27046,28 @@ th:noriker a skos:Concept ;
         th:uperaker ;
     skos:prefLabel "Noriker"@de,
         "Noriker"@en .
+
+th:settlement a skos:Concept ;
+    skos:broader th:urbanistics ;
+    skos:definition "geographischer Ort, an dem Menschen zusammen leben"@de,
+        "place of any size, in which people permanently live"@en,
+        "luogo in cui una comunità di persone vive o ha vissuto"@it ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:city,
+        th:colony,
+        th:flaxsand_settlement,
+        th:hamlet,
+        th:hilltop_settlement,
+        th:homestead,
+        th:oppidum,
+        th:polis,
+        th:scattered_settlement,
+        th:tell,
+        th:village ;
+    skos:prefLabel "Siedlung"@de,
+        "Settlement"@en,
+        "human settlement"@en,
+        "insediamento umano"@it .
 
 th:types_of_greco-roman_temples a skos:Concept ;
     skos:broader th:greco-roman_temple ;
@@ -27221,31 +27241,6 @@ th:strokes a skos:Concept ;
     skos:prefLabel "Striche"@de,
         "Strokes"@en .
 
-th:tomb_construction a skos:Concept ;
-    skos:altLabel "Grab",
-        "Gräber" ;
-    skos:broader th:architecture_type,
-        th:grave ;
-    skos:definition "ceremonial structure built for funerals or burials"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300122208>,
-        <http://www.wikidata.org/entity/Q6023295> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:altar_tomb,
-        th:catacomb,
-        th:chamber_tomb,
-        th:crypt,
-        th:grave_pillar,
-        th:hypogeum,
-        th:mausoleum,
-        th:naiskos,
-        th:pillar_tomb,
-        th:pyramid,
-        th:rock_tomb,
-        th:tumulus ;
-    skos:prefLabel "Grabbau"@de,
-        "funerary structure"@en,
-        "struttura funeraria"@it .
-
 th:black-figure_style a skos:Concept ;
     skos:altLabel "Schwarzfigurige Keramik"@de ;
     skos:broader th:greek_ceramics_class ;
@@ -27330,9 +27325,7 @@ th:metal a skos:Concept ;
 th:drinking_bowl a skos:Concept ;
     skos:altLabel "Schale"@de ;
     skos:broader th:drinking_vessel ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300423789>,
-        <http://www.wikidata.org/entity/Q668349>,
-        <http://www.wikidata.org/entity/Q99317954> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q668349> ;
     skos:inScheme th:scheme ;
     skos:narrower th:button_handle_bowl,
         th:calyx,
@@ -27416,6 +27409,33 @@ th:material a skos:Concept ;
         th:wool ;
     skos:prefLabel "Stoff"@de,
         "Material"@en .
+
+th:tomb_construction a skos:Concept ;
+    skos:altLabel "Grab",
+        "Gräber" ;
+    skos:broader th:architecture_type,
+        th:grave ;
+    skos:definition "ceremonial structure built for funerals or burials"@en ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:altar_tomb,
+        th:catacomb,
+        th:chamber_tomb,
+        th:crypt,
+        th:grave_pillar,
+        th:house_grave,
+        th:hypogeum,
+        th:mausoleum,
+        th:naiskos,
+        th:pillar_tomb,
+        th:pyramid,
+        th:rock_tomb,
+        th:round_grave,
+        th:temple_tomb,
+        th:tumulus ;
+    skos:prefLabel "Grabbau"@de,
+        "Tomb construction"@en,
+        "funerary structure"@en,
+        "struttura funeraria"@it .
 
 th:corinthian_capital a skos:Concept ;
     skos:broader th:capital ;
@@ -29509,8 +29529,6 @@ th:apulian a skos:Concept ;
 th:black-figure a skos:Concept ;
     skos:broader th:attic_vase_painter ;
     skos:definition "Refers to a style of Greek vase painting that developed from the Geometric and Orientalizing styles. It appeared in Corinth around 720 BCE, flourished in Attica by 600 BCE, and was found in Sparta, eastern Greece, and elsewhere, until the Red-figure style gradually replaced it in the late sixth century BCE. The style is characterized by a particular technique, which is characterized by the use of a refined slip, a two-stage firing process, and sintering to create black figures in silhouette on a red ground. Details were incised into the black figures or applied in purple or white pigment."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300020195>,
-        <http://www.wikidata.org/entity/Q629602> ;
     skos:inScheme th:scheme ;
     skos:narrower th:a._d._painter,
         th:acheloos_painter,
@@ -30000,8 +30018,6 @@ th:black-figure a skos:Concept ;
 th:red-figure a skos:Concept ;
     skos:broader th:attic_vase_painter ;
     skos:definition "Refers to a style of Greek vase painting that developed from the Black-figure style. It appeared in Athens around 530 BCE and spread to other areas of Greece, southern Italy, Etruria, and elsewhere in the Mediterranean area, until it disappeared in the third century BCE. The style is characterized by a particular technique, which involves the use of refined slip and a two-phase firing process to create a black ground through sintering, with figures reserved in red. The details of the figures are more fluid than in the Black-figure style, and are typically drawn with a brush, using both a defined, black relief line and a more dilute line that varies in color from dark gold to black."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300020201>,
-        <http://www.wikidata.org/entity/Q633683> ;
     skos:inScheme th:scheme ;
     skos:narrower th:aberdeen_painter,
         th:academy_painter,
