@@ -16,9 +16,9 @@ This directory contains the compiled and integrated SKOS vocabulary: **`heritage
 
 ## 📂 Vocabulary Facets & Focus
 
-The vocabulary contains a hierarchical classification of cultural heritage assets, architecture, ceramic wares, and artistic/mythological representation subjects. **The current focus of this vocabulary is on the classical archaeology of the Mediterranean region (Mittelmeerraum).**
+The vocabulary contains a hierarchical classification of cultural heritage assets, architecture, and ceramic wares. **The current focus of this vocabulary is on the classical archaeology of the Mediterranean region (Mittelmeerraum).**
 
-The vocabulary is structured into 8 core facets:
+The vocabulary is structured into 7 core facets:
 
 1. **Container (Vessels):** 
    * A comprehensive classification of ancient vessel forms, focusing particularly on ancient Greek, Etruscan, and Roman pottery shapes (e.g., amphorae, lekythoi, kraters, hydriai, pyxides, cups, and bowls).
@@ -30,11 +30,9 @@ The vocabulary is structured into 8 core facets:
    * Classical sculptural categories (statuettes/figurines, statues, portraiture, reliefs) and architectural-sculptural elements (e.g., acroteria, peplophoroi).
 5. **Architecture and Urbanism:**
    * Ancient building typologies (temples, theaters, catacombs, curias, fortifications) and specific structural components (columns, capitals, bases, cornices, roofing systems).
-6. **Subject (Iconography):**
-   * Mythological and narrative iconographies depicted on ancient artifacts (e.g., the Giant Fight/Gigantomachy, individual Giants like Agrios and Alcyoneus, Theseus with Minos, and Cadmus).
-7. **Material:**
+6. **Material:**
    * Raw materials used in the production of heritage assets, including metals, glass, ores, and organic materials (e.g., bone, ivory, wood, leather).
-8. **Ornament:**
+7. **Ornament:**
    * Decorative patterns, friezes, and motifs (geometric, floral, and figurative) used on ancient architecture and pottery.
 
 ---
