@@ -1,5 +1,5 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix th: <http://vocabs.bcdh.uni-bonn.de/heritage_assets/> .
+@prefix th: <http://vocabs.bcdh.uni-bonn.de/hector_heritage_assets/> .
 
 th:1.1 a skos:Concept ;
     skos:broader th:vase_painter_klazomenisch ;
@@ -9587,7 +9587,7 @@ th:lavello_group a skos:Concept ;
         "Lavello Group"@en .
 
 th:leaf_stick a skos:Concept ;
-    skos:broader th:vegetable ;
+    skos:broader th:floral ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Blattstab"@de,
         "Leaf stick"@en .
@@ -21152,7 +21152,7 @@ th:rosette a skos:Concept ;
     skos:altLabel "Blattrosette"@de,
         "Rosettenfeld"@de ;
     skos:broader th:geometric,
-        th:vegetable ;
+        th:floral ;
     skos:definition "rundes, stilisiertes Blumendesign"@de,
         "round, stylized flower design"@en ;
     skos:exactMatch <http://vocab.getty.edu/aat/300009972>,
@@ -22072,7 +22072,7 @@ th:ornament a skos:Concept ;
     skos:broader th:heritageasset ;
     skos:inScheme th:scheme ;
     skos:narrower th:geometric,
-        th:vegetable ;
+        th:floral ;
     skos:prefLabel "Ornament"@de,
         "Ornament"@en .
 
@@ -22390,20 +22390,20 @@ th:vase_painter a skos:Concept ;
         <http://www.wikidata.org/entity/Q15301511>,
         <https://d-nb.info/gnd/4807542-5> ;
     skos:inScheme th:scheme ;
+    skos:broader th:fine_ceramics ;
     skos:narrower th:greek_vase_painter,
         th:italian_vase_painter ;
     skos:prefLabel "Vasenmaler"@de,
-        "vase painter"@en ;
-    skos:topConceptOf th:scheme .
+        "vase painter"@en .
 
-th:vegetable a skos:Concept ;
+th:floral a skos:Concept ;
     skos:altLabel "Floral"@de ;
     skos:broader th:ornament ;
     skos:inScheme th:scheme ;
     skos:narrower th:leaf_stick,
         th:rosette ;
     skos:prefLabel "Vegetabil"@de,
-        "Vegetable"@en .
+        "Floral"@en .
 
 th:vessel a skos:Concept ;
     skos:broader th:container ;
