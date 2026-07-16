@@ -2940,6 +2940,16 @@ th:cistern a skos:Concept ;
     skos:prefLabel "Zisterne"@de,
         "Cistern"@en .
 
+th:city a skos:Concept ;
+    skos:broader th:settlement ;
+    skos:definition "größere, zentralisierte und abgegrenzte Siedlung (nach Anzahl der Einwohner)"@de,
+        "large human settlement"@en,
+        "insediamento umano esteso e stabile"@it ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Stadt"@de,
+        "city"@en,
+        "città"@it .
+
 th:city_gate a skos:Concept ;
     skos:broader th:city_fortifications ;
     skos:inScheme th:scheme ;
@@ -5203,6 +5213,15 @@ th:evelyn_painter a skos:Concept ;
     skos:prefLabel "Evelyn-Maler"@de,
         "Evelyn Painter"@en .
 
+th:exaleiptron a skos:Concept ;
+    skos:broader th:storage_vessel ;
+    skos:definition "Antiker griechischer Behälter für Flüssigkeiten, möglicherweise Parfüm (Duftöl), mit einer sehr markanten Form: eine abgeflachte kugelförmige Schale mit eingebogenem Rand, kurzem oder hohem Fuß und Deckel mit Finial. Der Deckel hat sich selten erhalten. Auf Vasenmalereien erscheint das Exaleiptron in der Regel in Szenen mit Frauen beim Bad oder bei Begräbnisritualen. Auch andere antike Bezeichnungen werden in heutiger Zeit manchmal für diese Gefäßform genutzt: Kothon, Plemochoe und Smematotheke (oder Smegmatotheke)."@de,
+        "Ancient Greek containers for liquid, perhaps perfume (scented oil), with a very distinctive shape: an oblate spheroid bowl with turned-in rim, short or tall foot, and lid with finial. The lids are rarely preserved. In vase paintings the exaleiptron most often appears in scenes of women bathing or participating in funerary rituals. Other ancient names have sometimes been used in modern times to refer to this vessel shape: kothon, plemochoe, and smematotheke (or smegmatotheke)."@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2099266> ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Exaleiptron"@de,
+        "Exaleiptron"@en .
+
 th:exedra a skos:Concept ;
     skos:broader th:architectural_part ;
     skos:definition "nischenartiger, sich auf einen Hof, Platz oder eine Halle öffnender Raum"@de,
@@ -5595,8 +5614,7 @@ th:foundling_group a skos:Concept ;
         "Foundling Group"@en .
 
 th:foundry_painter a skos:Concept ;
-    skos:altLabel "Erzgießerei-Maler"@de,
-        "Gießen-Maler"@de ;
+    skos:altLabel "Erzgießerei-Maler"@de ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gießer-Maler"@de,
@@ -8449,8 +8467,7 @@ th:hopkinson_painter a skos:Concept ;
         "Hopkinson Painter"@en .
 
 th:hoplite-leaving-home_group a skos:Concept ;
-    skos:altLabel "Gruppe der Hoplitenabfahrt"@de,
-        "Phanyllis-Gruppe"@de ;
+    skos:altLabel "Gruppe der Hoplitenabfahrt"@de ;
     skos:broader th:black-figure ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Hoplite-leaving-home Gruppe"@de,
@@ -9754,6 +9771,13 @@ th:little_lion_lekythoi a skos:Concept ;
     skos:prefLabel "Kleine Löwen Lekythen"@de,
         "Little Lion Lekythoi"@en .
 
+th:live a skos:Concept ;
+    skos:broader th:mixing_vessel ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1811150> ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Lebes"@de,
+        "Live"@en .
+
 th:live_gamikos a skos:Concept ;
     skos:broader th:ritual_vessel ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1811150> ;
@@ -10774,6 +10798,12 @@ th:mikion_potter a skos:Concept ;
     skos:prefLabel "Mikion Töpfer"@de,
         "Mikion Potter"@en .
 
+th:mikveh a skos:Concept ;
+    skos:broader th:sacred_building ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Mikwe"@de,
+        "Mikveh"@en .
+
 th:milazzo_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -11101,8 +11131,7 @@ th:naples_painter a skos:Concept ;
         "Naples Painter"@en .
 
 th:natatio a skos:Concept ;
-    skos:altLabel "Piscina"@de,
-        "Schwimmbecken"@de ;
+    skos:altLabel "Schwimmbecken"@de ;
     skos:broader th:thermal_room ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Natatio"@de,
@@ -14763,8 +14792,6 @@ th:painter_of_salonica_38.290 a skos:Concept ;
         "Painter of Salonica 38.290"@en .
 
 th:painter_of_samos a skos:Concept ;
-    skos:altLabel "Samos-Maler"@de,
-        "Samos Painter"@en ;
     skos:broader th:vase_painter_laconic ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Maler von Samos"@de,
@@ -16513,6 +16540,12 @@ th:picture_lamp a skos:Concept ;
     skos:prefLabel "Bildlampe"@de,
         "Picture lamp"@en .
 
+th:pier a skos:Concept ;
+    skos:broader th:support ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Pfeiler"@de,
+        "Pier"@en .
+
 th:pig_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q24937935> ;
@@ -16525,6 +16558,12 @@ th:pighadhi_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Pighadhi-Maler"@de,
         "Pighadhi Painter"@en .
+
+th:pilaster a skos:Concept ;
+    skos:broader th:support ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Pilaster"@de,
+        "Pilaster"@en .
 
 th:pillar_tomb a skos:Concept ;
     skos:broader th:tomb_construction ;
@@ -16661,6 +16700,15 @@ th:plate_and_pyxis_painter a skos:Concept ;
     skos:prefLabel "Teller und Pyxis-Maler"@de,
         "Plate and Pyxis Painter"@en .
 
+th:plemochoe a skos:Concept ;
+    skos:broader th:storage_vessel ;
+    skos:definition "Antiker griechischer Behälter für Flüssigkeiten, möglicherweise Parfüm (Duftöl), mit einer sehr markanten Form: eine abgeflachte kugelförmige Schale mit eingebogenem Rand, kurzem oder hohem Fuß und Deckel mit Finial. Der Deckel hat sich selten erhalten. Auf Vasenmalereien erscheint das Exaleiptron in der Regel in Szenen mit Frauen beim Bad oder bei Begräbnisritualen. Auch andere antike Bezeichnungen werden in heutiger Zeit manchmal für diese Gefäßform genutzt: Kothon, Plemochoe und Smematotheke (oder Smegmatotheke)."@de,
+        "Ancient Greek containers for liquid, perhaps perfume (scented oil), with a very distinctive shape: an oblate spheroid bowl with turned-in rim, short or tall foot, and lid with finial. The lids are rarely preserved. In vase paintings the exaleiptron most often appears in scenes of women bathing or participating in funerary rituals. Other ancient names have sometimes been used in modern times to refer to this vessel shape: kothon, plemochoe, and smematotheke (or smegmatotheke)."@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2099266> ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Plemochoe"@de,
+        "Plemochoe"@en .
+
 th:plinth a skos:Concept ;
     skos:altLabel "Standplatte"@de ;
     skos:broader th:ionic_column_base ;
@@ -16700,6 +16748,16 @@ th:polion a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Polion"@de,
         "Polion"@en .
+
+th:polis a skos:Concept ;
+    skos:broader th:settlement ;
+    skos:definition "Staatsverband um einen städtischen Siedlungskern mit Umland im antiken Griechenland"@de,
+        "ancient Greek social and political organisation"@en,
+        "tipo di organizzazione politica e sociale sviluppatasi nell'antica Grecia"@it ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Polis"@de,
+        "polis"@en,
+        "polis"@it .
 
 th:politis_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -18833,6 +18891,12 @@ th:thanatos_painter a skos:Concept ;
     skos:prefLabel "Thanatos-Maler"@de,
         "Thanatos Painter"@en .
 
+<http://vocabs.bcdh.uni-bonn.de/heritage_assets/thapso's_group> a skos:Concept ;
+    skos:broader th:geometric_ceramics ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Thapsos Gruppe"@de,
+        "Thapso's group"@en .
+
 th:thasian_black_figure a skos:Concept ;
     skos:broader th:black-figure_style ;
     skos:inScheme th:scheme ;
@@ -19028,7 +19092,6 @@ th:torchmen_painter a skos:Concept ;
         "Torchmen Painter"@en .
 
 th:torino_painter a skos:Concept ;
-    skos:altLabel "Turin-Maler"@de ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Torino-Maler"@de,
@@ -19472,7 +19535,6 @@ th:vertical_lines a skos:Concept ;
         "Vertical parallel lines, various intermediate ornaments"@en .
 
 th:vessel_bottom a skos:Concept ;
-    skos:altLabel "Boden"@de ;
     skos:broader th:vessel_parts ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gefäßboden"@de,
@@ -20200,6 +20262,13 @@ th:attic_white_ground a skos:Concept ;
     skos:prefLabel "Attisch Weißgrundig"@de,
         "Attic white ground"@en .
 
+th:baptistery a skos:Concept ;
+    skos:broader th:sacred_building ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:piscina ;
+    skos:prefLabel "Baptisterium"@de,
+        "Baptistery"@en .
+
 th:body a skos:Concept ;
     skos:altLabel "Gefäßkörper"@de ;
     skos:broader th:construction_-_lamp_parts,
@@ -20294,7 +20363,7 @@ th:catacomb a skos:Concept ;
         "catacombe"@it .
 
 th:cavea a skos:Concept ;
-    skos:altLabel "Tribüne"@de ;
+    skos:altLabel "Zuschauertribüne"@de ;
     skos:broader th:roman_theater ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Cavea"@de,
@@ -20337,17 +20406,6 @@ th:choen_pot a skos:Concept ;
     skos:prefLabel "Choenkännchen"@de,
         "Choen pot"@en .
 
-th:city a skos:Concept ;
-    skos:broader th:settlement ;
-    skos:definition "größere, zentralisierte und abgegrenzte Siedlung (nach Anzahl der Einwohner)"@de,
-        "large human settlement"@en,
-        "insediamento umano esteso e stabile"@it ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Stadt"@de,
-        "city"@en,
-        "città"@it ;
-    skos:related th:polis .
-
 th:coarse_pottery a skos:Concept ;
     skos:altLabel "Grobe Ware"@de,
         "heavy clay ceramic"@en ;
@@ -20383,6 +20441,13 @@ th:cooling_vessel a skos:Concept ;
     skos:narrower th:psycter ;
     skos:prefLabel "Kühlgefäß"@de,
         "Cooling vessel"@en .
+
+th:corinthian_geometric a skos:Concept ;
+    skos:broader th:corinthian_ceramics,
+        th:geometric_ceramics ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Korinthisch geometrisch"@de,
+        "Corinthian geometric"@en .
 
 th:corinthian_red-figure a skos:Concept ;
     skos:broader th:corinthian_ceramics,
@@ -20466,9 +20531,15 @@ th:detroit_painter a skos:Concept ;
     skos:prefLabel "Detroit-Maler"@de,
         "Detroit Painter"@en .
 
+th:dinosaurs a skos:Concept ;
+    skos:broader th:mixing_vessel ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q664088> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:dinosaur_stand ;
+    skos:prefLabel "Dinos"@de,
+        "Dinosaurs"@en .
+
 th:dolphin_group a skos:Concept ;
-    skos:altLabel "Delphin-Klasse"@de,
-        "Delphin Class"@en ;
     skos:broader th:black-figure,
         th:euboean_vase_painter ;
     skos:inScheme th:scheme ;
@@ -20532,16 +20603,6 @@ th:euboian_subprotogeometric a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Euböisch Subprotogeometrisch"@de,
         "Euboian Subprotogeometric"@en .
-
-th:exaleiptron a skos:Concept ;
-    skos:broader th:storage_vessel ;
-    skos:definition "Antiker griechischer Behälter für Flüssigkeiten, möglicherweise Parfüm (Duftöl), mit einer sehr markanten Form: eine abgeflachte kugelförmige Schale mit eingebogenem Rand, kurzem oder hohem Fuß und Deckel mit Finial. Der Deckel hat sich selten erhalten. Auf Vasenmalereien erscheint das Exaleiptron in der Regel in Szenen mit Frauen beim Bad oder bei Begräbnisritualen. Auch andere antike Bezeichnungen werden in heutiger Zeit manchmal für diese Gefäßform genutzt: Kothon, Plemochoe und Smematotheke (oder Smegmatotheke)."@de,
-        "Ancient Greek containers for liquid, perhaps perfume (scented oil), with a very distinctive shape: an oblate spheroid bowl with turned-in rim, short or tall foot, and lid with finial. The lids are rarely preserved. In vase paintings the exaleiptron most often appears in scenes of women bathing or participating in funerary rituals. Other ancient names have sometimes been used in modern times to refer to this vessel shape: kothon, plemochoe, and smematotheke (or smegmatotheke)."@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q2099266> ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Exaleiptron"@de,
-        "Exaleiptron"@en ;
-    skos:related th:plemochoe .
 
 th:fikellura a skos:Concept ;
     skos:broader th:eastern_greek_black_figure,
@@ -20731,14 +20792,6 @@ th:light_house a skos:Concept ;
     skos:prefLabel "Lichthäuschen"@de,
         "Light house"@en .
 
-th:live a skos:Concept ;
-    skos:broader th:mixing_vessel ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1811150> ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lebes"@de,
-        "Live"@en ;
-    skos:related th:dinosaurs .
-
 th:lucanian_ceramics a skos:Concept ;
     skos:broader th:western_greek_landscape ;
     skos:inScheme th:scheme ;
@@ -20802,13 +20855,6 @@ th:menon_potter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Menon Töpfer"@de,
         "Menon Potter"@en .
-
-th:mikveh a skos:Concept ;
-    skos:broader th:sacred_building ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Mikwe"@de,
-        "Mikveh"@en ;
-    skos:related th:baptistery .
 
 th:mortar a skos:Concept ;
     skos:altLabel "Mörtel"@de ;
@@ -20970,47 +21016,12 @@ th:phormiskos a skos:Concept ;
         "Phormiskos"@en,
         "phormiskos"@it .
 
-th:pier a skos:Concept ;
-    skos:broader th:support ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Pfeiler"@de,
-        "Pier"@en ;
-    skos:related th:pilaster .
-
-th:pilaster a skos:Concept ;
-    skos:broader th:support ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Pilaster"@de,
-        "Pilaster"@en ;
-    skos:related th:pier .
-
 th:piscina a skos:Concept ;
     skos:broader th:baptistery ;
     skos:inScheme th:scheme ;
     skos:narrower th:sacrarium ;
     skos:prefLabel "Piscina"@de,
         "Piscina"@en .
-
-th:plemochoe a skos:Concept ;
-    skos:broader th:storage_vessel ;
-    skos:definition "Antiker griechischer Behälter für Flüssigkeiten, möglicherweise Parfüm (Duftöl), mit einer sehr markanten Form: eine abgeflachte kugelförmige Schale mit eingebogenem Rand, kurzem oder hohem Fuß und Deckel mit Finial. Der Deckel hat sich selten erhalten. Auf Vasenmalereien erscheint das Exaleiptron in der Regel in Szenen mit Frauen beim Bad oder bei Begräbnisritualen. Auch andere antike Bezeichnungen werden in heutiger Zeit manchmal für diese Gefäßform genutzt: Kothon, Plemochoe und Smematotheke (oder Smegmatotheke)."@de,
-        "Ancient Greek containers for liquid, perhaps perfume (scented oil), with a very distinctive shape: an oblate spheroid bowl with turned-in rim, short or tall foot, and lid with finial. The lids are rarely preserved. In vase paintings the exaleiptron most often appears in scenes of women bathing or participating in funerary rituals. Other ancient names have sometimes been used in modern times to refer to this vessel shape: kothon, plemochoe, and smematotheke (or smegmatotheke)."@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q2099266> ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Plemochoe"@de,
-        "Plemochoe"@en ;
-    skos:related th:exaleiptron .
-
-th:polis a skos:Concept ;
-    skos:broader th:settlement ;
-    skos:definition "Staatsverband um einen städtischen Siedlungskern mit Umland im antiken Griechenland"@de,
-        "ancient Greek social and political organisation"@en,
-        "tipo di organizzazione politica e sociale sviluppatasi nell'antica Grecia"@it ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Polis"@de,
-        "polis"@en,
-        "polis"@it ;
-    skos:related th:city .
 
 th:proscenium a skos:Concept ;
     skos:broader th:roman_theater ;
@@ -21248,13 +21259,6 @@ th:temenos a skos:Concept ;
     skos:narrower th:peribolos ;
     skos:prefLabel "Temenos"@de,
         "Temenos"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/thapso's_group> a skos:Concept ;
-    skos:broader th:geometric_ceramics ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Thapsos Gruppe"@de,
-        "Thapso's group"@en ;
-    skos:related th:corinthian_geometric .
 
 th:thasian_ceramics a skos:Concept ;
     skos:broader th:greek_ceramic_landscape ;
@@ -21504,14 +21508,6 @@ th:atrium a skos:Concept ;
     skos:prefLabel "Atrium"@de,
         "Atrium"@en .
 
-th:baptistery a skos:Concept ;
-    skos:broader th:sacred_building ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:piscina ;
-    skos:prefLabel "Baptisterium"@de,
-        "Baptistery"@en ;
-    skos:related th:mikveh .
-
 th:beldam_painter a skos:Concept ;
     skos:broader th:bilingual,
         th:black-figure,
@@ -21677,14 +21673,6 @@ th:class_of_vatican_g_47 a skos:Concept ;
     skos:prefLabel "Klasse Vatikan G 47"@de,
         "Class of Vatican G 47"@en .
 
-th:corinthian_geometric a skos:Concept ;
-    skos:broader th:corinthian_ceramics,
-        th:geometric_ceramics ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Korinthisch geometrisch"@de,
-        "Corinthian geometric"@en ;
-    skos:related <http://vocabs.bcdh.uni-bonn.de/heritage_assets/thapso's_group> .
-
 th:crucible a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Vessels made of a refractory material, such as clay, graphite, or porcelain, or a relatively infusible metal, that may vary in size and that are used for melting, calcining, or filtering a substance at high temperatures."@en ;
@@ -21714,15 +21702,6 @@ th:dikaios_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Dikaios-Maler"@de,
         "Dikaios Painter"@en .
-
-th:dinosaurs a skos:Concept ;
-    skos:broader th:mixing_vessel ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q664088> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:dinosaur_stand ;
-    skos:prefLabel "Dinos"@de,
-        "Dinosaurs"@en ;
-    skos:related th:live .
 
 th:diosphos_painter a skos:Concept ;
     skos:broader th:bilingual,
@@ -22115,8 +22094,7 @@ th:phintias a skos:Concept ;
 
 th:place a skos:Concept ;
     skos:altLabel "Platzanlage"@de,
-        "public square"@en,
-        "square"@en ;
+        "public square"@en ;
     skos:broader th:urbanistics ;
     skos:definition "freie Fläche im urbanen Raum"@de,
         "open public spaces in cities or towns, usually rectilinear, surrounded by buildings, and often located at the junction of two or more thoroughfares"@en,
@@ -23090,7 +23068,6 @@ th:attic_ceramics a skos:Concept ;
         "Attic ceramics"@en .
 
 th:building_plastic a skos:Concept ;
-    skos:altLabel "Bauplastik"@de ;
     skos:broader th:architectural_part,
         th:sculpture ;
     skos:exactMatch <http://www.wikidata.org/entity/Q3476515> ;
@@ -23151,7 +23128,7 @@ th:ionic_capital a skos:Concept ;
 
 th:koilon a skos:Concept ;
     skos:altLabel "Theatron"@de,
-        "Tribüne"@de ;
+        "Zuschauerraum"@de ;
     skos:broader th:greek_theater ;
     skos:inScheme th:scheme ;
     skos:narrower th:analemmas,
@@ -23967,8 +23944,7 @@ th:greek_ceramic_landscape a skos:Concept ;
         "Greek ceramic landscape"@en .
 
 th:tomb_construction a skos:Concept ;
-    skos:altLabel "Grab"@de,
-        "Gräber"@de,
+    skos:altLabel "Gräber"@de,
         "funerary structure"@en ;
     skos:broader th:architecture_type,
         th:grave ;
