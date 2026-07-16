@@ -14,6 +14,12 @@ th:cornice a skos:Concept ;
     skos:prefLabel "Gesims"@de,
         "Cornice"@en .
 
+th:giant_fight a skos:Concept ;
+    skos:broader th:subject ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Gigantenkampf"@de,
+        "Giant fight"@en .
+
 th:theseus_with_minos a skos:Concept ;
     skos:broader th:subject ;
     skos:inScheme th:scheme ;
@@ -112,7 +118,6 @@ th:a._d._painter a skos:Concept ;
         "A. D. Painter"@en .
 
 th:abacus a skos:Concept ;
-    skos:altLabel "Abacus" ;
     skos:broader th:doric_capital ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Abakus"@de,
@@ -2814,7 +2819,6 @@ th:carner a skos:Concept ;
         "Carner"@en .
 
 th:carnunter a skos:Concept ;
-    skos:altLabel "Carnunter" ;
     skos:broader th:gauls ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Carnunter"@de,
@@ -4282,7 +4286,6 @@ th:crucible_lamp a skos:Concept ;
         "Crucible lamp"@en .
 
 th:cryptoporticus a skos:Concept ;
-    skos:altLabel "Cryptoporticus" ;
     skos:broader th:architecture_type ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kryptoportikus"@de,
@@ -6654,13 +6657,6 @@ th:geras_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Geras-Maler"@de,
         "Geras Painter"@en .
-
-th:giant_fight a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:giants ;
-    skos:prefLabel "Gigantenkampf"@de,
-        "Giant fight"@en .
 
 th:gibil_gabib_group a skos:Concept ;
     skos:broader th:sicilian ;
@@ -10856,7 +10852,6 @@ th:kleisophos a skos:Concept ;
         "Kleisophos"@en .
 
 th:kleitias a skos:Concept ;
-    skos:altLabel "Kleitias"@de ;
     skos:broader th:black-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q722963> ;
     skos:inScheme th:scheme ;
@@ -13132,7 +13127,6 @@ th:navantaer a skos:Concept ;
         "Navantaer"@en .
 
 th:nazi_swastika a skos:Concept ;
-    skos:altLabel "Swastika"@de ;
     skos:broader th:geometric ;
     skos:definition "Kreuz"@de,
         "ancient Eurasian icon and later used as Nazi symbol"@en ;
@@ -20448,7 +20442,6 @@ th:sigambrians a skos:Concept ;
         "Sigambrians"@en .
 
 th:sikaner a skos:Concept ;
-    skos:altLabel "Sikaner"@de ;
     skos:broader th:sicilian ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Sikaner"@de,
@@ -20475,10 +20468,8 @@ th:sikon_painter a skos:Concept ;
         "Sikon Painter"@en .
 
 th:sikuler a skos:Concept ;
-    skos:altLabel "Sikuler"@de ;
     skos:broader th:sicilian ;
     skos:inScheme th:scheme ;
-    skos:narrower th:sculpture ;
     skos:prefLabel "Sikuler"@de,
         "Siculi"@en .
 
@@ -23020,7 +23011,6 @@ th:zevros_group a skos:Concept ;
 
 th:ziggurat a skos:Concept ;
     skos:altLabel "Schiggorat"@de,
-        "Ziggurat"@de,
         "Zikkurrat"@de,
         "Ziqqurrat"@de ;
     skos:broader th:temple ;
@@ -23550,8 +23540,7 @@ th:istanbul_painter a skos:Concept ;
 
 th:kabiren_group a skos:Concept ;
     skos:altLabel "Kabiren Vase"@de,
-        "Kabiren-Grupped"@de,
-        "Kabiren group"@en ;
+        "Kabiren-Grupped"@de ;
     skos:broader th:boeotian_black_figure,
         th:boeotian_vase_painter ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1720831> ;
@@ -24745,7 +24734,6 @@ th:group_of_vatican_g_57 a skos:Concept ;
         "Group of Vatican G 57"@en .
 
 th:gymnasium a skos:Concept ;
-    skos:altLabel "Gymnasium" ;
     skos:broader th:architecture_type ;
     skos:inScheme th:scheme ;
     skos:narrower th:dromos,
@@ -26792,6 +26780,26 @@ th:oriental_ceramics a skos:Concept ;
     skos:prefLabel "Orientalsierende Keramik"@de,
         "Oriental ceramics"@en .
 
+th:sculpture a skos:Concept ;
+    skos:altLabel "Kunststoff" ;
+    skos:broader th:heritageasset ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q350268> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:acroter,
+        th:animal_statue,
+        th:building_plastic,
+        th:equestrian_statue,
+        th:hybrid_creature_statue,
+        th:plastic,
+        th:portrait,
+        th:relief,
+        th:sitting_statue,
+        th:statue,
+        th:statuette ;
+    skos:prefLabel "Bildhauerei"@de,
+        "Plastik"@de,
+        "Sculpture"@en .
+
 th:construction_-_lamp_parts a skos:Concept ;
     skos:broader th:lamp ;
     skos:inScheme th:scheme ;
@@ -26829,6 +26837,26 @@ th:geometric_ceramics a skos:Concept ;
         th:western_greek_geometric ;
     skos:prefLabel "Geometrische Keramik"@de,
         "Geometric ceramics"@en .
+
+th:giants a skos:Concept ;
+    skos:broader th:subject ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:agrios,
+        th:alcyoneus,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/clytius,_the_giant>,
+        th:epiphaltes,
+        th:grandchildren,
+        th:gration,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/hippolytus,_giant>,
+        th:mimas,
+        th:peloros,
+        th:polybotes,
+        th:porphyrion,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/rhotos,_giant>,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/thoas,_the_giant>,
+        th:typhoeus ;
+    skos:prefLabel "Giganten"@de,
+        "Giants"@en .
 
 th:greek_ceramics_class a skos:Concept ;
     skos:broader th:greek_ceramics ;
@@ -26872,26 +26900,6 @@ th:meander a skos:Concept ;
     skos:prefLabel "Mäander"@de,
         "meander"@en .
 
-th:sculpture a skos:Concept ;
-    skos:altLabel "Kunststoff" ;
-    skos:broader th:heritageasset ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q350268> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:acroter,
-        th:animal_statue,
-        th:building_plastic,
-        th:equestrian_statue,
-        th:hybrid_creature_statue,
-        th:plastic,
-        th:portrait,
-        th:relief,
-        th:sitting_statue,
-        th:statue,
-        th:statuette ;
-    skos:prefLabel "Bildhauerei"@de,
-        "Plastik"@de,
-        "Sculpture"@en .
-
 th:strokes a skos:Concept ;
     skos:altLabel "Balken"@de,
         "Linien"@de ;
@@ -26933,27 +26941,6 @@ th:black-figure_style a skos:Concept ;
     skos:prefLabel "Schwarzfiguriger Stil"@de,
         "Black-figure style"@en ;
     skos:related th:etruscan_ceramics .
-
-th:giants a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:agrios,
-        th:alcyoneus,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/clytius,_the_giant>,
-        th:epiphaltes,
-        th:giant_fight,
-        th:grandchildren,
-        th:gration,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/hippolytus,_giant>,
-        th:mimas,
-        th:peloros,
-        th:polybotes,
-        th:porphyrion,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/rhotos,_giant>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/thoas,_the_giant>,
-        th:typhoeus ;
-    skos:prefLabel "Giganten"@de,
-        "Giants"@en .
 
 th:glass a skos:Concept ;
     skos:broader th:material ;
@@ -27061,6 +27048,29 @@ th:greek_ceramic_landscape a skos:Concept ;
     skos:prefLabel "Griechische Keramik Landschaft"@de,
         "Greek ceramic landscape"@en .
 
+th:material a skos:Concept ;
+    skos:broader th:heritageasset ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:e-mail,
+        th:faience,
+        th:flax,
+        th:glass,
+        th:glass_frit,
+        th:hemp,
+        th:jute,
+        th:linen,
+        th:metal,
+        th:ore,
+        th:organic_material,
+        th:plastic,
+        th:quartz,
+        th:sculpture,
+        th:silk,
+        th:waste,
+        th:wool ;
+    skos:prefLabel "Stoff"@de,
+        "Material"@en .
+
 th:tomb_construction a skos:Concept ;
     skos:altLabel "Grab",
         "Gräber" ;
@@ -27084,30 +27094,6 @@ th:tomb_construction a skos:Concept ;
         th:tumulus ;
     skos:prefLabel "Grabbau"@de,
         "Tomb construction"@en .
-
-th:material a skos:Concept ;
-    skos:altLabel "Material"@de ;
-    skos:broader th:heritageasset ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:e-mail,
-        th:faience,
-        th:flax,
-        th:glass,
-        th:glass_frit,
-        th:hemp,
-        th:jute,
-        th:linen,
-        th:metal,
-        th:ore,
-        th:organic_material,
-        th:plastic,
-        th:quartz,
-        th:sculpture,
-        th:silk,
-        th:waste,
-        th:wool ;
-    skos:prefLabel "Stoff"@de,
-        "Material"@en .
 
 th:corinthian_capital a skos:Concept ;
     skos:broader th:capital ;
@@ -27142,7 +27128,6 @@ th:organic_material a skos:Concept ;
         th:fur,
         th:leather,
         th:leg,
-        th:material,
         th:mother_of_pearl,
         th:mummy,
         th:nut,
