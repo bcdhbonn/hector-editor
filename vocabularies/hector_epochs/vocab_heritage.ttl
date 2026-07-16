@@ -23195,6 +23195,14 @@ th:catacomb a skos:Concept ;
     skos:prefLabel "Katakombe"@de,
         "Catacomb"@en .
 
+th:cavea a skos:Concept ;
+    skos:altLabel "Tribüne"@de ;
+    skos:broader th:roman_theater ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Cavea"@de,
+        "Cavea"@en ;
+    skos:related th:koilon .
+
 th:channel a skos:Concept ;
     skos:broader th:sewerage ;
     skos:inScheme th:scheme ;
@@ -23274,6 +23282,13 @@ th:corinthian_red-figure a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Korinthisch Rotfigurig"@de,
         "Corinthian red-figure"@en .
+
+th:crateriskos a skos:Concept ;
+    skos:broader th:crater,
+        th:miniature_vessels ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Krateriskos"@de,
+        "Crateriskos"@en .
 
 th:cremation a skos:Concept ;
     skos:altLabel "Feuerbestattung" ;
@@ -23687,6 +23702,13 @@ th:menon_potter a skos:Concept ;
     skos:prefLabel "Menon Töpfer"@de,
         "Menon Potter"@en .
 
+th:mikveh a skos:Concept ;
+    skos:broader th:sacred_building ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Mikwe"@de,
+        "Mikveh"@en ;
+    skos:related th:baptistery .
+
 th:mortar a skos:Concept ;
     skos:altLabel "Mörtel"@de ;
     skos:broader th:types_of_vessels ;
@@ -23845,6 +23867,20 @@ th:phormiskos a skos:Concept ;
     skos:prefLabel "Phormiskos"@de,
         "Phormiskos"@en .
 
+th:pier a skos:Concept ;
+    skos:broader th:support ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Pfeiler"@de,
+        "Pier"@en ;
+    skos:related th:pilaster .
+
+th:pilaster a skos:Concept ;
+    skos:broader th:support ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Pilaster"@de,
+        "Pilaster"@en ;
+    skos:related th:pier .
+
 th:piscina a skos:Concept ;
     skos:broader th:baptistery ;
     skos:inScheme th:scheme ;
@@ -23866,6 +23902,20 @@ th:polis a skos:Concept ;
     skos:prefLabel "Polis"@de,
         "Polis"@en ;
     skos:related th:city .
+
+th:proscenium a skos:Concept ;
+    skos:broader th:roman_theater ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Proscenium"@de,
+        "Proscenium"@en ;
+    skos:related th:proskenion .
+
+th:proskenion a skos:Concept ;
+    skos:broader th:greek_theater ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Proskenion"@de,
+        "Proskenion"@en ;
+    skos:related th:proscenium .
 
 th:proto-attic_pottery a skos:Concept ;
     skos:broader th:attic_black-figure,
@@ -23975,6 +24025,13 @@ th:sami_vase_painter a skos:Concept ;
     skos:prefLabel "Vasenmaler samisch"@de,
         "Sami vase painter"@en .
 
+th:scenae_frons a skos:Concept ;
+    skos:broader th:roman_theater ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Scenae frons"@de,
+        "Scenae frons"@en ;
+    skos:related th:skene .
+
 th:sewerage a skos:Concept ;
     skos:broader th:hydraulic_engineering ;
     skos:inScheme th:scheme ;
@@ -24013,6 +24070,13 @@ th:six_vase a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Six Vase"@de,
         "Six vase"@en .
+
+th:skene a skos:Concept ;
+    skos:broader th:greek_theater ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Skene"@de,
+        "Skene"@en ;
+    skos:related th:scenae_frons .
 
 th:slag a skos:Concept ;
     skos:broader th:waste ;
@@ -24322,6 +24386,14 @@ th:atrium a skos:Concept ;
     skos:prefLabel "Atrium"@de,
         "Atrium"@en .
 
+th:baptistery a skos:Concept ;
+    skos:broader th:sacred_building ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:piscina ;
+    skos:prefLabel "Baptisterium"@de,
+        "Baptistery"@en ;
+    skos:related th:mikveh .
+
 th:beldam_painter a skos:Concept ;
     skos:broader th:bilingual,
         th:black-figure,
@@ -24434,15 +24506,6 @@ th:cast_masonry a skos:Concept ;
     skos:prefLabel "Gußmauerwerk"@de,
         "Cast masonry"@en .
 
-th:cavea a skos:Concept ;
-    skos:altLabel "Tribüne"@de ;
-    skos:broader th:roman_theater ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Cavea"@de,
-        "Cavea"@en ;
-    skos:related th:koilon ;
-    skos:relatedMatch th:koilon .
-
 th:ceiling a skos:Concept ;
     skos:broader th:architectural_part ;
     skos:definition "horizontales Bauteil, das einen Raum nach oben abschließt"@de,
@@ -24505,14 +24568,6 @@ th:corinthian_geometric a skos:Concept ;
     skos:prefLabel "Korinthisch geometrisch"@de,
         "Corinthian geometric"@en ;
     skos:related <http://vocabs.bcdh.uni-bonn.de/heritage_assets/thapso's_group> .
-
-th:crateriskos a skos:Concept ;
-    skos:broadMatch th:miniature_vessels ;
-    skos:broader th:crater,
-        th:miniature_vessels ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Krateriskos"@de,
-        "Crateriskos"@en .
 
 th:crucible a skos:Concept ;
     skos:broader th:types_of_vessels ;
@@ -24879,13 +24934,13 @@ th:metope a skos:Concept ;
     skos:prefLabel "Metope"@de,
         "metope"@en .
 
-th:mikveh a skos:Concept ;
-    skos:broader th:sacred_building ;
+th:miniature_vessels a skos:Concept ;
+    skos:broader th:types_of_vessels ;
     skos:inScheme th:scheme ;
-    skos:prefLabel "Mikwe"@de,
-        "Mikveh"@en ;
-    skos:related th:baptistery ;
-    skos:relatedMatch th:baptistery .
+    skos:narrower th:choen_pot,
+        th:crateriskos ;
+    skos:prefLabel "Miniaturgefäße"@de,
+        "Miniature vessels"@en .
 
 th:mnesiades_potter a skos:Concept ;
     skos:broader th:bilingual,
@@ -24963,22 +25018,6 @@ th:phintias a skos:Concept ;
     skos:prefLabel "Phintias"@de,
         "Phintias"@en .
 
-th:pier a skos:Concept ;
-    skos:broader th:support ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Pfeiler"@de,
-        "Pier"@en ;
-    skos:related th:pilaster ;
-    skos:relatedMatch th:pilaster .
-
-th:pilaster a skos:Concept ;
-    skos:broader th:support ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Pilaster"@de,
-        "Pilaster"@en ;
-    skos:related th:pier ;
-    skos:relatedMatch th:pier .
-
 th:place a skos:Concept ;
     skos:altLabel "Platzanlage"@de ;
     skos:broader th:urbanistics ;
@@ -25020,22 +25059,6 @@ th:proklees_potter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Proklees Töpfer"@de,
         "Proklees Potter"@en .
-
-th:proscenium a skos:Concept ;
-    skos:broader th:roman_theater ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Proscenium"@de,
-        "Proscenium"@en ;
-    skos:related th:proskenion ;
-    skos:relatedMatch th:proskenion .
-
-th:proskenion a skos:Concept ;
-    skos:broader th:greek_theater ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Proskenion"@de,
-        "Proskenion"@en ;
-    skos:related th:proscenium ;
-    skos:relatedMatch th:proscenium .
 
 th:psiax a skos:Concept ;
     skos:broader th:bilingual,
@@ -25123,14 +25146,6 @@ th:sappho_painter a skos:Concept ;
     skos:prefLabel "Sappho-Maler"@de,
         "Sappho Painter"@en .
 
-th:scenae_frons a skos:Concept ;
-    skos:broader th:roman_theater ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Scenae frons"@de,
-        "Scenae frons"@en ;
-    skos:related th:skene ;
-    skos:relatedMatch th:skene .
-
 th:segment_class a skos:Concept ;
     skos:broader th:bilingual,
         th:black-figure,
@@ -25147,14 +25162,6 @@ th:ship a skos:Concept ;
         th:central_nave ;
     skos:prefLabel "Schiff"@de,
         "Ship"@en .
-
-th:skene a skos:Concept ;
-    skos:broader th:greek_theater ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Skene"@de,
-        "Skene"@en ;
-    skos:related th:scenae_frons ;
-    skos:relatedMatch th:scenae_frons .
 
 th:skythes a skos:Concept ;
     skos:broader th:bilingual,
@@ -25401,15 +25408,6 @@ th:attic_vase_painter a skos:Concept ;
     skos:prefLabel "Vasenmaler attisch"@de,
         "Attic vase painter"@en .
 
-th:baptistery a skos:Concept ;
-    skos:broader th:sacred_building ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:piscina ;
-    skos:prefLabel "Baptisterium"@de,
-        "Baptistery"@en ;
-    skos:related th:mikveh ;
-    skos:relatedMatch th:mikveh .
-
 th:body_burial a skos:Concept ;
     skos:broader th:grave ;
     skos:inScheme th:scheme ;
@@ -25602,15 +25600,6 @@ th:italian_vase_painter a skos:Concept ;
         th:lucanian ;
     skos:prefLabel "Vasenmaler italisch"@de,
         "Italian vase painter"@en .
-
-th:miniature_vessels a skos:Concept ;
-    skos:broader th:types_of_vessels ;
-    skos:inScheme th:scheme ;
-    skos:narrowMatch th:crateriskos ;
-    skos:narrower th:choen_pot,
-        th:crateriskos ;
-    skos:prefLabel "Miniaturgefäße"@de,
-        "Miniature vessels"@en .
 
 th:opus_mixtum a skos:Concept ;
     skos:broader th:wall ;
@@ -26064,6 +26053,19 @@ th:ionic_capital a skos:Concept ;
     skos:prefLabel "Ionisches Kapitell"@de,
         "Ionic capital"@en .
 
+th:koilon a skos:Concept ;
+    skos:altLabel "Theatron"@de,
+        "Tribüne"@de ;
+    skos:broader th:greek_theater ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:analemmas,
+        th:diazometa,
+        th:kercides,
+        th:klimakes ;
+    skos:prefLabel "Koilon"@de,
+        "Koilon"@en ;
+    skos:related th:cavea .
+
 th:lekythos a skos:Concept ;
     skos:broader th:ointment_vessel ;
     skos:exactMatch <http://www.wikidata.org/entity/Q579418> ;
@@ -26240,20 +26242,6 @@ th:greek_vase_painter a skos:Concept ;
         th:vase_painter_laconic ;
     skos:prefLabel "Vasenmaler griechisch"@de,
         "Greek vase painter"@en .
-
-th:koilon a skos:Concept ;
-    skos:altLabel "Theatron"@de,
-        "Tribüne"@de ;
-    skos:broader th:greek_theater ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:analemmas,
-        th:diazometa,
-        th:kercides,
-        th:klimakes ;
-    skos:prefLabel "Koilon"@de,
-        "Koilon"@en ;
-    skos:related th:cavea ;
-    skos:relatedMatch th:cavea .
 
 th:red-figure_style a skos:Concept ;
     skos:broader th:greek_ceramics_class ;
