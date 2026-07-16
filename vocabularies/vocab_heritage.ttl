@@ -1,6 +1,25 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix th: <http://vocabs.bcdh.uni-bonn.de/heritage_assets/> .
 
+th:cadmus a skos:Concept ;
+    skos:broader th:subject ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Kadmos"@de,
+        "Cadmus"@en .
+
+th:cornice a skos:Concept ;
+    skos:altLabel "Kranzgesims"@de ;
+    skos:broader th:architectural_part ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Gesims"@de,
+        "Cornice"@en .
+
+th:theseus_with_minos a skos:Concept ;
+    skos:broader th:subject ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Theseus bei Minos"@de,
+        "Theseus with Minos"@en .
+
 th:1.1 a skos:Concept ;
     skos:broader th:vase_painter_klazomenisch ;
     skos:inScheme th:scheme ;
@@ -2327,6 +2346,14 @@ th:breuker a skos:Concept ;
     skos:prefLabel "Breuker"@de,
         "Breuker"@en .
 
+th:brick a skos:Concept ;
+    skos:altLabel "Backstein"@de ;
+    skos:broader th:material ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:clay_bricks ;
+    skos:prefLabel "Ziegel"@de,
+        "Brick"@en .
+
 th:bridge a skos:Concept ;
     skos:broader th:traffic ;
     skos:inScheme th:scheme ;
@@ -2536,13 +2563,6 @@ th:cactus_painter a skos:Concept ;
     skos:prefLabel "Kaktus-Maler"@de,
         "Cactus Painter"@en .
 
-th:cadmus a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:cadmus ;
-    skos:prefLabel "Kadmos"@de,
-        "Cadmus"@en .
-
 th:cadurker a skos:Concept ;
     skos:broader th:gauls ;
     skos:inScheme th:scheme ;
@@ -2725,7 +2745,6 @@ th:canessa_painter a skos:Concept ;
         "Canessa Painter"@en .
 
 th:canosine_vase a skos:Concept ;
-    skos:altLabel "Canosiner Keramik"@de ;
     skos:broader th:apulian_red-figure ;
     skos:definition "funerary pottery of ancient Apulia"@en ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1033600> ;
@@ -4189,14 +4208,6 @@ th:corneto_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Corneto-Maler"@de,
         "Corneto Painter"@en .
-
-th:cornice a skos:Concept ;
-    skos:altLabel "Kranzgesims"@de ;
-    skos:broader th:architectural_part ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:cornice ;
-    skos:prefLabel "Gesims"@de,
-        "Cornice"@en .
 
 th:cornovier a skos:Concept ;
     skos:broader th:british ;
@@ -21651,13 +21662,6 @@ th:theozotes_potter a skos:Concept ;
     skos:prefLabel "Theozotos Töpfer"@de,
         "Theozotes Potter"@en .
 
-th:theseus_with_minos a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:theseus_with_minos ;
-    skos:prefLabel "Theseus bei Minos"@de,
-        "Theseus with Minos"@en .
-
 th:thessalian_protogeometric a skos:Concept ;
     skos:broader th:thessalian_ceramics ;
     skos:inScheme th:scheme ;
@@ -23352,15 +23356,6 @@ th:bowl a skos:Concept ;
     skos:narrower th:lekanis ;
     skos:prefLabel "Napf"@de,
         "Bowl"@en .
-
-th:brick a skos:Concept ;
-    skos:altLabel "Backstein"@de ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:brick,
-        th:clay_bricks ;
-    skos:prefLabel "Ziegel"@de,
-        "Brick"@en .
 
 th:camel_painter a skos:Concept ;
     skos:broader th:black-figure,
@@ -25996,6 +25991,16 @@ th:robe_statue_male a skos:Concept ;
     skos:prefLabel "Gewandstatue männlich"@de,
         "Robe statue male"@en .
 
+th:roofing a skos:Concept ;
+    skos:broader th:architectural_part ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:calypter,
+        th:calypter_hegemon,
+        th:roofing_type,
+        th:stroter ;
+    skos:prefLabel "Dachdeckung"@de,
+        "Roofing"@en .
+
 th:roofing_type a skos:Concept ;
     skos:broader th:roofing ;
     skos:inScheme th:scheme ;
@@ -26239,17 +26244,6 @@ th:roman_house_type a skos:Concept ;
     skos:prefLabel "Typ römisches Haus"@de,
         "Roman house type"@en .
 
-th:roofing a skos:Concept ;
-    skos:broader th:architectural_part ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:calypter,
-        th:calypter_hegemon,
-        th:roofing,
-        th:roofing_type,
-        th:stroter ;
-    skos:prefLabel "Dachdeckung"@de,
-        "Roofing"@en .
-
 th:room_greek_house a skos:Concept ;
     skos:broader th:greek_house ;
     skos:inScheme th:scheme ;
@@ -26359,6 +26353,19 @@ th:column_base a skos:Concept ;
         th:sami_column_base ;
     skos:prefLabel "Säulenbasis"@de,
         "Column base"@en .
+
+th:corinthian_ceramics a skos:Concept ;
+    skos:altLabel "Korinthisch Schwarzfigurug"@de ;
+    skos:broader th:greek_ceramics ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:corinthian_geometric,
+        th:corinthian_red-figure,
+        th:early_corinthian,
+        th:late_corinthian,
+        th:middle_corinthian,
+        th:proto-corinthian_pottery ;
+    skos:prefLabel "Korinthische Keramik"@de,
+        "Corinthian ceramics"@en .
 
 th:cycladic_orientalizing a skos:Concept ;
     skos:broader th:cycladic_ceramics,
@@ -26506,20 +26513,6 @@ th:wall a skos:Concept ;
         th:wall_painting ;
     skos:prefLabel "Wand- Boden- und Deckenverkleidung"@de,
         "Wall, floor and ceiling cladding"@en .
-
-th:corinthian_ceramics a skos:Concept ;
-    skos:altLabel "Korinthisch Schwarzfigurug"@de ;
-    skos:broader th:greek_ceramics ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:corinthian_ceramics,
-        th:corinthian_geometric,
-        th:corinthian_red-figure,
-        th:early_corinthian,
-        th:late_corinthian,
-        th:middle_corinthian,
-        th:proto-corinthian_pottery ;
-    skos:prefLabel "Korinthische Keramik"@de,
-        "Corinthian ceramics"@en .
 
 th:galatians a skos:Concept ;
     skos:altLabel "Galatien"@de,
@@ -27078,6 +27071,28 @@ th:noriker a skos:Concept ;
     skos:prefLabel "Noriker"@de,
         "Noriker"@en .
 
+th:sculpture a skos:Concept ;
+    skos:altLabel "Kunststoff" ;
+    skos:broader th:heritageasset ;
+    skos:definition "Refers to the process of creating sculptures, which are three-dimensional works. It refers particularly to carving or engraving a hard material, or with molding or casting a malleable material, so as to produce designs or figures in relief, in intaglio, or in the round. It is typically used to refer to the production of large or medium-sized objects in stone, clay, or bronze. The production of small objects in bronze or stone is typically referred to by a specific term, such as \"stone carving\" or \"die sinking.\" The production of sculpture in wood or ivory is typically referred to as \"carving,\" even though the finished work in these materials may be called \"sculpture (visual work).\""@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300264383>,
+        <http://www.wikidata.org/entity/Q11634>,
+        <http://www.wikidata.org/entity/Q350268>,
+        <https://d-nb.info/gnd/4046277-8> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:acroter,
+        th:animal_statue,
+        th:building_plastic,
+        th:equestrian_statue,
+        th:plastic,
+        th:portrait,
+        th:relief,
+        th:sitting_statue,
+        th:statue,
+        th:statuette ;
+    skos:prefLabel "Plastik"@de,
+        "Sculpture"@en .
+
 th:types_of_greco-roman_temples a skos:Concept ;
     skos:broader th:greco-roman_temple ;
     skos:inScheme th:scheme ;
@@ -27130,29 +27145,6 @@ th:oriental_ceramics a skos:Concept ;
         th:western_greek_orientalizing ;
     skos:prefLabel "Orientalsierende Keramik"@de,
         "Oriental ceramics"@en .
-
-th:sculpture a skos:Concept ;
-    skos:altLabel "Kunststoff" ;
-    skos:broader th:heritageasset ;
-    skos:definition "Refers to the process of creating sculptures, which are three-dimensional works. It refers particularly to carving or engraving a hard material, or with molding or casting a malleable material, so as to produce designs or figures in relief, in intaglio, or in the round. It is typically used to refer to the production of large or medium-sized objects in stone, clay, or bronze. The production of small objects in bronze or stone is typically referred to by a specific term, such as \"stone carving\" or \"die sinking.\" The production of sculpture in wood or ivory is typically referred to as \"carving,\" even though the finished work in these materials may be called \"sculpture (visual work).\""@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300264383>,
-        <http://www.wikidata.org/entity/Q11634>,
-        <http://www.wikidata.org/entity/Q350268>,
-        <https://d-nb.info/gnd/4046277-8> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:acroter,
-        th:animal_statue,
-        th:building_plastic,
-        th:equestrian_statue,
-        th:plastic,
-        th:portrait,
-        th:relief,
-        th:sculpture,
-        th:sitting_statue,
-        th:statue,
-        th:statuette ;
-    skos:prefLabel "Plastik"@de,
-        "Sculpture"@en .
 
 th:construction_-_lamp_parts a skos:Concept ;
     skos:broader th:lamp ;
@@ -27937,7 +27929,6 @@ th:teutons a skos:Concept ;
         th:sigambrians,
         th:suebi,
         th:sugambrer,
-        th:teutons,
         th:thuringian,
         th:trenkter,
         th:tungrian,
