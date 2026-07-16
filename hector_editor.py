@@ -666,19 +666,24 @@ class HECTOREditor:
     def fetch_from_aat(self):
         search_term = ""
         search_lang = "en"
-        for lang in self.active_languages:
-            if lang in self.lang_entries and self.lang_entries[lang].get().strip():
-                search_term = self.lang_entries[lang].get().strip()
-                search_lang = lang
-                break
+        # Search primarily in English
+        if "en" in self.lang_entries and self.lang_entries["en"].get().strip():
+            search_term = self.lang_entries["en"].get().strip()
+            search_lang = "en"
+        else:
+            for lang in self.active_languages:
+                if lang in self.lang_entries and self.lang_entries[lang].get().strip():
+                    search_term = self.lang_entries[lang].get().strip()
+                    search_lang = lang
+                    break
         if not search_term:
             messagebox.showwarning("Getty AAT Search", "Please enter a concept label into the fields to execute API query!")
             return
 
-        self.log(f"🌐 Querying Wikidata for Getty AAT mappings (Scope: '{search_lang}') for: '{search_term}'...")
-        # Query Wikidata for entities matching the label that have AAT IDs
+        self.log(f"🌐 Querying Wikidata for Getty AAT and GND mappings (Scope: '{search_lang}') for: '{search_term}'...")
+        # Query Wikidata for entities matching the label that have AAT IDs and optional GND IDs
         sparql_query = f"""
-        SELECT ?item ?itemLabel ?itemDescription ?aatId WHERE {{
+        SELECT ?item ?itemLabel ?itemDescription ?aatId ?gndId WHERE {{
           SERVICE wikibase:mwapi {{
             bd:serviceParam wikibase:api "EntitySearch" .
             bd:serviceParam wikibase:endpoint "www.wikidata.org" .
@@ -687,6 +692,7 @@ class HECTOREditor:
             ?item wikibase:apiOutputItem mwapi:item .
           }}
           ?item wdt:P1014 ?aatId .
+          OPTIONAL {{ ?item wdt:P227 ?gndId . }}
           SERVICE wikibase:label {{ bd:serviceParam wikibase:language "{search_lang},en". }}
         }}
         LIMIT 15
@@ -708,11 +714,14 @@ class HECTOREditor:
                 
                 results = []
                 for b in bindings:
+                    gnd_val = b.get("gndId", {}).get("value")
+                    gnd_uri = f"https://d-nb.info/gnd/{gnd_val}" if gnd_val else ""
                     results.append({
                         "wiki_uri": b.get("item", {}).get("value"),
                         "label": b.get("itemLabel", {}).get("value"),
                         "desc": b.get("itemDescription", {}).get("value", "No description available"),
-                        "aat_id": b.get("aatId", {}).get("value")
+                        "aat_id": b.get("aatId", {}).get("value"),
+                        "gnd_uri": gnd_uri
                     })
                 self.open_aat_selection_window(results)
         except Exception as e:
@@ -738,11 +747,15 @@ class HECTOREditor:
             desc = match["desc"]
             wiki_uri = match["wiki_uri"]
             q_id = wiki_uri.split("/")[-1]
+            gnd_uri = match["gnd_uri"]
 
             frame_item = ctk.CTkFrame(scroll_box, fg_color=("white", "#2e2e2e"), corner_radius=8)
             frame_item.pack(fill="x", pady=4, padx=5)
 
             txt_info = f"🆔 AAT {aat_id} (Wikidata: {q_id}) -- {label}\nScope Note: {desc}"
+            if gnd_uri:
+                gnd_id = gnd_uri.split("/")[-1]
+                txt_info += f"\nGND: {gnd_id}"
             lbl_info = ctk.CTkLabel(frame_item, text=txt_info, justify="left", anchor="w", wraplength=520, font=("Arial", 12))
             lbl_info.pack(side="left", padx=10, pady=5, fill="x", expand=True)
 
@@ -751,11 +764,11 @@ class HECTOREditor:
                 text="Select Concept", 
                 width=110, 
                 font=("Arial", 12), 
-                command=lambda a=aat_id, q=q_id, u=wiki_uri: self.process_selected_aat(a, q, u)
+                command=lambda a=aat_id, q=q_id, u=wiki_uri, g=gnd_uri: self.process_selected_aat(a, q, u, g)
             )
             btn_select.pack(side="right", padx=10, pady=5)
 
-    def process_selected_aat(self, aat_id, q_id, wiki_uri):
+    def process_selected_aat(self, aat_id, q_id, wiki_uri, gnd_uri=""):
         if self.aat_window:
             self.aat_window.destroy()
             self.aat_window = None
@@ -770,10 +783,25 @@ class HECTOREditor:
         if "match_wiki" in self.entries and self.entries["match_wiki"].winfo_exists():
             self.entries["match_wiki"].delete(0, "end")
             self.entries["match_wiki"].insert(0, wiki_uri)
+
+        if gnd_uri and "match_gnd" in self.entries and self.entries["match_gnd"].winfo_exists():
+            self.entries["match_gnd"].delete(0, "end")
+            self.entries["match_gnd"].insert(0, gnd_uri)
             
         # 2. Fetch details from Getty SPARQL
         details = self.fetch_getty_aat_details(aat_id)
         if details:
+            # Auto-detect and activate any languages present in vocabulary for which scope notes are available
+            activated_any = False
+            for lang in self.all_possible_languages:
+                val = details["scopeNote"].get(lang)
+                if val and lang not in self.active_languages:
+                    self.active_languages.append(lang)
+                    activated_any = True
+            
+            if activated_any:
+                self.rebuild_form_grid()
+                
             # PrefLabels
             for lang in self.active_languages:
                 val = details["prefLabel"].get(lang)

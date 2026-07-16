@@ -24451,11 +24451,16 @@ th:ceiling a skos:Concept ;
 
 th:ceramic a skos:Concept ;
     skos:broader th:heritageasset ;
+    skos:definition "aus Ton geformtes und gebranntes Objekt"@de,
+        "class of physical objects, as distinguished from the craft of pottery"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300010666>,
+        <http://www.wikidata.org/entity/Q17379525>,
+        <https://d-nb.info/gnd/4265686-2> ;
     skos:inScheme th:MassivGeilerThesaurus ;
     skos:narrower th:coarse_pottery,
         th:fine_ceramics ;
-    skos:prefLabel "Keramik"@de,
-        "Ceramic"@en .
+    skos:prefLabel "Töpferware"@de,
+        "pottery ware"@en .
 
 th:charinos_potter a skos:Concept ;
     skos:broader th:bilingual,
@@ -29188,6 +29193,9 @@ th:apulian a skos:Concept ;
 
 th:black-figure a skos:Concept ;
     skos:broader th:attic_vase_painter ;
+    skos:definition "Refers to a style of Greek vase painting that developed from the Geometric and Orientalizing styles. It appeared in Corinth around 720 BCE, flourished in Attica by 600 BCE, and was found in Sparta, eastern Greece, and elsewhere, until the Red-figure style gradually replaced it in the late sixth century BCE. The style is characterized by a particular technique, which is characterized by the use of a refined slip, a two-stage firing process, and sintering to create black figures in silhouette on a red ground. Details were incised into the black figures or applied in purple or white pigment."@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300020195>,
+        <http://www.wikidata.org/entity/Q629602> ;
     skos:inScheme th:MassivGeilerThesaurus ;
     skos:narrower th:a._d._painter,
         th:acheloos_painter,
@@ -29676,6 +29684,9 @@ th:black-figure a skos:Concept ;
 
 th:red-figure a skos:Concept ;
     skos:broader th:attic_vase_painter ;
+    skos:definition "Refers to a style of Greek vase painting that developed from the Black-figure style. It appeared in Athens around 530 BCE and spread to other areas of Greece, southern Italy, Etruria, and elsewhere in the Mediterranean area, until it disappeared in the third century BCE. The style is characterized by a particular technique, which involves the use of refined slip and a two-phase firing process to create a black ground through sintering, with figures reserved in red. The details of the figures are more fluid than in the Black-figure style, and are typically drawn with a brush, using both a defined, black relief line and a more dilute line that varies in color from dark gold to black."@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300020201>,
+        <http://www.wikidata.org/entity/Q633683> ;
     skos:inScheme th:MassivGeilerThesaurus ;
     skos:narrower th:aberdeen_painter,
         th:academy_painter,
