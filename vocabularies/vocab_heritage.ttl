@@ -1315,12 +1315,6 @@ th:ascoli_satriano_painter a skos:Concept ;
     skos:prefLabel "Ascoli Satriano-Maler"@de,
         "Ascoli Satriano Painter"@en .
 
-th:ash a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Asche"@de,
-        "Ash"@en .
-
 th:ash_altar a skos:Concept ;
     skos:broader th:altar ;
     skos:inScheme th:scheme ;
@@ -1339,12 +1333,6 @@ th:askos a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Askos"@de,
         "Askos"@en .
-
-th:asphalt a skos:Concept ;
-    skos:broader th:bitumen ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Asphalt"@de,
-        "Asphalt"@en .
 
 th:astarita_painter a skos:Concept ;
     skos:broader th:campanian ;
@@ -1498,12 +1486,6 @@ th:baltimore_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Baltimore-Maler"@de,
         "Baltimore Painter"@en .
-
-th:bar_shaped a skos:Concept ;
-    skos:broader th:glass_jar ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Stabgeformt"@de,
-        "Bar shaped"@en .
 
 th:barcelona_group a skos:Concept ;
     skos:broader th:apulian ;
@@ -2015,12 +1997,6 @@ th:branicki_painter a skos:Concept ;
     skos:prefLabel "Branicki-Maler"@de,
         "Branicki Painter"@en .
 
-th:brass a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Messing"@de,
-        "Brass"@en .
-
 th:braunsberg_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -2064,12 +2040,6 @@ th:brno_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Brno-Maler"@de,
         "Brno Painter"@en .
-
-th:bronze a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Bronze"@de,
-        "Bronze"@en .
 
 th:brooklyn-budapest_painter a skos:Concept ;
     skos:broader th:lucanian ;
@@ -2297,18 +2267,6 @@ th:camarina_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Camarina-Maler"@de,
         "Camarina Painter"@en .
-
-th:cameo_glass a skos:Concept ;
-    skos:broader th:glass ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Kameoglas"@de,
-        "Cameo glass"@en .
-
-th:cameo_glass_vessel a skos:Concept ;
-    skos:broader th:glass_jar ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Kameoglasgefäß"@de,
-        "Cameo glass vessel"@en .
 
 th:camtar_painter a skos:Concept ;
     skos:broader th:black-figure ;
@@ -3310,12 +3268,6 @@ th:class_of_würzburg_351 a skos:Concept ;
     skos:prefLabel "Klasse Würzburg 351"@de,
         "Class of Würzburg 351"@en .
 
-th:clay_bricks a skos:Concept ;
-    skos:broader th:brick ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lehmziegel"@de,
-        "Clay bricks"@en .
-
 th:clazomenian_group a skos:Concept ;
     skos:broader th:vase_painter_klazomenisch ;
     skos:inScheme th:scheme ;
@@ -3597,23 +3549,11 @@ th:copenhagen_sub-group a skos:Concept ;
     skos:prefLabel "Kopenhagen-Untergruppe"@de,
         "Copenhagen Sub-Group"@en .
 
-th:copper a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Kupfer"@de,
-        "Copper"@en .
-
 th:corchiano_group a skos:Concept ;
     skos:broader th:black-figure ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Corchiano-Gruppe"@de,
         "Corchiano Group"@en .
-
-th:core_formed a skos:Concept ;
-    skos:broader th:glass_jar ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Kerngeformt"@de,
-        "Core formed"@en .
 
 th:corinthian_altar-painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -3663,12 +3603,6 @@ th:cornice a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gesims"@de,
         "Cornice"@en .
-
-th:corpse_burning a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Leichenbrand"@de,
-        "Corpse burning"@en .
 
 th:cotugno_painter a skos:Concept ;
     skos:broader th:apulian ;
@@ -3788,12 +3722,6 @@ th:curtius_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Curtius-Maler"@de,
         "Curtius Painter"@en .
-
-th:cut_glass a skos:Concept ;
-    skos:broader th:glass_jar ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Schliffglas"@de,
-        "Cut glass"@en .
 
 th:cycladic_subprotogeometric a skos:Concept ;
     skos:broader th:subprotogeometric_ceramics ;
@@ -3922,12 +3850,6 @@ th:dechter_painter a skos:Concept ;
     skos:prefLabel "Dechter-Maler"@de,
         "Dechter Painter"@en .
 
-th:decorative_glass_vessel a skos:Concept ;
-    skos:broader th:glass_jar ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Dekorloses Glasgefäß"@de,
-        "Decorative glass vessel"@en .
-
 th:deepdene_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -3983,12 +3905,6 @@ th:diagonal_lines_with_black_gussets a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Schrägliegende Striche mit schwarzen Zwickeln"@de,
         "Diagonal lines with black gussets"@en .
-
-th:diatret_glass a skos:Concept ;
-    skos:broader th:glass_jar ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Diatretglas"@de,
-        "Diatret glass"@en .
 
 th:diazometa a skos:Concept ;
     skos:broader th:koilon ;
@@ -4348,12 +4264,6 @@ th:déri_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Déri-Gruppe"@de,
         "Déri Group"@en .
-
-th:e-mail a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Email"@de,
-        "E-mail"@en .
 
 th:e_group a skos:Concept ;
     skos:broader th:red-figure ;
@@ -5396,12 +5306,6 @@ th:face_lamp a skos:Concept ;
     skos:prefLabel "Gesichtslampe"@de,
         "Face lamp"@en .
 
-th:faience a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Fayence"@de,
-        "Faience"@en .
-
 th:falaieff_bell-kraters a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -5594,12 +5498,6 @@ th:flat_shoulder_lamp a skos:Concept ;
     skos:prefLabel "Flachschulterlampe"@de,
         "Flat shoulder lamp"@en .
 
-th:flax a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Flachs"@de,
-        "Flax"@en .
-
 th:flaxsand_settlement a skos:Concept ;
     skos:broader th:settlement ;
     skos:inScheme th:scheme ;
@@ -5777,13 +5675,6 @@ th:fröhner_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Fröhner-Maler"@de,
         "Fröhner Painter"@en .
-
-th:fur a skos:Concept ;
-    skos:altLabel "Pelz"@de ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Fell"@de,
-        "Fur"@en .
 
 th:fuscillo_painter a skos:Concept ;
     skos:broader th:campanian ;
@@ -5993,48 +5884,6 @@ th:gioia_del_colle_painter a skos:Concept ;
     skos:prefLabel "Gioia del Colle-Maler"@de,
         "Gioia del Colle Painter"@en .
 
-th:glass_bead a skos:Concept ;
-    skos:broader th:glass ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Glasperle"@de,
-        "Glass bead"@en .
-
-th:glass_mosaic a skos:Concept ;
-    skos:broader th:glass ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Glasmosaik"@de,
-        "Glass mosaic"@en .
-
-th:glass_paste a skos:Concept ;
-    skos:broader th:glass ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Glaspaste"@de,
-        "Glass paste"@en .
-
-th:glass_pipe a skos:Concept ;
-    skos:broader th:glass ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Glaspfeife"@de,
-        "Glass pipe"@en .
-
-th:glass_ring a skos:Concept ;
-    skos:broader th:glass ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Glasring"@de,
-        "Glass ring"@en .
-
-th:glass_sculpture a skos:Concept ;
-    skos:broader th:glass ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Glasskulptur"@de,
-        "Glass sculpture"@en .
-
-th:glass_window a skos:Concept ;
-    skos:broader th:glass ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Glasfenster"@de,
-        "Glass window"@en .
-
 th:glaukytes_potter a skos:Concept ;
     skos:broader th:black-figure ;
     skos:inScheme th:scheme ;
@@ -6046,18 +5895,6 @@ th:goettingen_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Göttinger-Maler"@de,
         "Goettingen Painter"@en .
-
-th:gold_glass a skos:Concept ;
-    skos:broader th:glass ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Goldglas"@de,
-        "Gold glass"@en .
-
-th:gold_glass_vessel a skos:Concept ;
-    skos:broader th:glass_jar ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Goldglasgefäß"@de,
-        "Gold glass vessel"@en .
 
 th:gold_ivory_statue a skos:Concept ;
     skos:altLabel "Chryselefantine Statue"@de ;
@@ -6177,12 +6014,6 @@ th:gravina_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gravina-Maler"@de,
         "Gravina Painter"@en .
-
-th:gray_gold a skos:Concept ;
-    skos:broader th:gold ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Graugold"@de,
-        "Gray gold"@en .
 
 th:graz_group a skos:Concept ;
     skos:broader th:campanian ;
@@ -7960,12 +7791,6 @@ th:grp_painter a skos:Concept ;
     skos:prefLabel "GRP-Maler"@de,
         "GRP Painter"@en .
 
-th:gruengold a skos:Concept ;
-    skos:broader th:gold ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gruengold"@de,
-        "Gruengold"@en .
-
 th:gryton a skos:Concept ;
     skos:broader th:boeotian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -8473,12 +8298,6 @@ th:helmet_painter a skos:Concept ;
     skos:prefLabel "Helm-Maler"@de,
         "Helmet Painter"@en .
 
-th:hemp a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Hanf"@de,
-        "Hemp"@en .
-
 th:henderson_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -8956,12 +8775,6 @@ th:iris_painter a skos:Concept ;
     skos:prefLabel "Iris-Maler"@de,
         "Iris Painter"@en .
 
-th:iron a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Eisen"@de,
-        "Iron"@en .
-
 th:ironing_pot a skos:Concept ;
     skos:broader th:pot ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2430908> ;
@@ -8969,677 +8782,11 @@ th:ironing_pot a skos:Concept ;
     skos:prefLabel "Bügelkanne"@de,
         "Ironing pot"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/ising's_100> a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 100"@de,
-        "Ising's 100"@en .
-
-th:isings_001 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 001"@de,
-        "Isings 001"@en .
-
-th:isings_002 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 002"@de,
-        "Isings 002"@en .
-
-th:isings_003 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 003"@de,
-        "Isings 003"@en .
-
-th:isings_004 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 004"@de,
-        "Isings 004"@en .
-
-th:isings_005 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 005"@de,
-        "Isings 005"@en .
-
-th:isings_006 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 006"@de,
-        "Isings 006"@en .
-
-th:isings_007 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 007"@de,
-        "Isings 007"@en .
-
-th:isings_008 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 008"@de,
-        "Isings 008"@en .
-
-th:isings_009 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 009"@de,
-        "Isings 009"@en .
-
-th:isings_010 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 010"@de,
-        "Isings 010"@en .
-
-th:isings_011 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 011"@de,
-        "Isings 011"@en .
-
-th:isings_012 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 012"@de,
-        "Isings 012"@en .
-
-th:isings_013 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 013"@de,
-        "Isings 013"@en .
-
-th:isings_014 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 014"@de,
-        "Isings 014"@en .
-
-th:isings_015 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 015"@de,
-        "Isings 015"@en .
-
-th:isings_016 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 016"@de,
-        "Isings 016"@en .
-
-th:isings_017 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 017"@de,
-        "Isings 017"@en .
-
-th:isings_018 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 018"@de,
-        "Isings 018"@en .
-
-th:isings_019 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 019"@de,
-        "Isings 019"@en .
-
-th:isings_020 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 020"@de,
-        "Isings 020"@en .
-
-th:isings_021 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 021"@de,
-        "Isings 021"@en .
-
-th:isings_022 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 022"@de,
-        "Isings 022"@en .
-
-th:isings_023 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 023"@de,
-        "Isings 023"@en .
-
-th:isings_024 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 024"@de,
-        "Isings 024"@en .
-
-th:isings_025 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 025"@de,
-        "Isings 025"@en .
-
-th:isings_026 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 026"@de,
-        "Isings 026"@en .
-
-th:isings_027 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 027"@de,
-        "Isings 027"@en .
-
-th:isings_028 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 028"@de,
-        "Isings 028"@en .
-
-th:isings_029 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 029"@de,
-        "Isings 029"@en .
-
-th:isings_030 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 030"@de,
-        "Isings 030"@en .
-
-th:isings_031 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 031"@de,
-        "Isings 031"@en .
-
-th:isings_032 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 032"@de,
-        "Isings 032"@en .
-
-th:isings_033 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 033"@de,
-        "Isings 033"@en .
-
-th:isings_034 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 034"@de,
-        "Isings 034"@en .
-
-th:isings_035 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 035"@de,
-        "Isings 035"@en .
-
-th:isings_036 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 036"@de,
-        "Isings 036"@en .
-
-th:isings_037 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 037"@de,
-        "Isings 037"@en .
-
-th:isings_038 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 038"@de,
-        "Isings 038"@en .
-
-th:isings_039 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 039"@de,
-        "Isings 039"@en .
-
-th:isings_040 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 040"@de,
-        "Isings 040"@en .
-
-th:isings_041 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 041"@de,
-        "Isings 041"@en .
-
-th:isings_042 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 042"@de,
-        "Isings 042"@en .
-
-th:isings_043 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 043"@de,
-        "Isings 043"@en .
-
-th:isings_044 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 044"@de,
-        "Isings 044"@en .
-
-th:isings_045 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 045"@de,
-        "Isings 045"@en .
-
-th:isings_046 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 046"@de,
-        "Isings 046"@en .
-
-th:isings_047 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 047"@de,
-        "Isings 047"@en .
-
-th:isings_048 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 048"@de,
-        "Isings 048"@en .
-
-th:isings_049 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 049"@de,
-        "Isings 049"@en .
-
-th:isings_050 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 050"@de,
-        "Isings 050"@en .
-
-th:isings_051 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 051"@de,
-        "Isings 051"@en .
-
-th:isings_052 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 052"@de,
-        "Isings 052"@en .
-
-th:isings_053 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 053"@de,
-        "Isings 053"@en .
-
-th:isings_054 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 054"@de,
-        "Isings 054"@en .
-
-th:isings_055 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 055"@de,
-        "Isings 055"@en .
-
-th:isings_056 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 056"@de,
-        "Isings 056"@en .
-
-th:isings_057 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 057"@de,
-        "Isings 057"@en .
-
-th:isings_058 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 058"@de,
-        "Isings 058"@en .
-
-th:isings_059 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 059"@de,
-        "Isings 059"@en .
-
-th:isings_060 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 060"@de,
-        "Isings 060"@en .
-
-th:isings_061 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 061"@de,
-        "Isings 061"@en .
-
-th:isings_062 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 062"@de,
-        "Isings 062"@en .
-
-th:isings_063 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 063"@de,
-        "Isings 063"@en .
-
-th:isings_064 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 064"@de,
-        "Isings 064"@en .
-
-th:isings_065 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 065"@de,
-        "Isings 065"@en .
-
-th:isings_066 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 066"@de,
-        "Isings 066"@en .
-
-th:isings_067 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 067"@de,
-        "Isings 067"@en .
-
-th:isings_068 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 068"@de,
-        "Isings 068"@en .
-
-th:isings_069 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 069"@de,
-        "Isings 069"@en .
-
-th:isings_070 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 070"@de,
-        "Isings 070"@en .
-
-th:isings_071 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 071"@de,
-        "Isings 071"@en .
-
-th:isings_072 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 072"@de,
-        "Isings 072"@en .
-
-th:isings_073 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 073"@de,
-        "Isings 073"@en .
-
-th:isings_074 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 074"@de,
-        "Isings 074"@en .
-
-th:isings_075 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 075"@de,
-        "Isings 075"@en .
-
-th:isings_076 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 076"@de,
-        "Isings 076"@en .
-
-th:isings_077 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 077"@de,
-        "Isings 077"@en .
-
-th:isings_078 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 078"@de,
-        "Isings 078"@en .
-
-th:isings_079 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 079"@de,
-        "Isings 079"@en .
-
-th:isings_080 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 080"@de,
-        "Isings 080"@en .
-
-th:isings_081 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 081"@de,
-        "Isings 081"@en .
-
-th:isings_082 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 082"@de,
-        "Isings 082"@en .
-
-th:isings_083 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 083"@de,
-        "Isings 083"@en .
-
-th:isings_084 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 084"@de,
-        "Isings 084"@en .
-
-th:isings_085 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 085"@de,
-        "Isings 085"@en .
-
-th:isings_086 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 086"@de,
-        "Isings 086"@en .
-
-th:isings_087 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 087"@de,
-        "Isings 087"@en .
-
-th:isings_088 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 088"@de,
-        "Isings 088"@en .
-
-th:isings_089 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 089"@de,
-        "Isings 089"@en .
-
-th:isings_090 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 090"@de,
-        "Isings 090"@en .
-
-th:isings_091 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 091"@de,
-        "Isings 091"@en .
-
-th:isings_092 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 092"@de,
-        "Isings 092"@en .
-
-th:isings_093 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 093"@de,
-        "Isings 093"@en .
-
-th:isings_094 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 094"@de,
-        "Isings 094"@en .
-
-th:isings_095 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 095"@de,
-        "Isings 095"@en .
-
-th:isings_096 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 096"@de,
-        "Isings 096"@en .
-
-th:isings_097 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 097"@de,
-        "Isings 097"@en .
-
-th:isings_098 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 098"@de,
-        "Isings 098"@en .
-
-th:isings_099 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 099"@de,
-        "Isings 099"@en .
-
-th:isings_101 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 101"@de,
-        "Isings 101"@en .
-
-th:isings_102 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 102"@de,
-        "Isings 102"@en .
-
-th:isings_103 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 103"@de,
-        "Isings 103"@en .
-
-th:isings_104 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 104"@de,
-        "Isings 104"@en .
-
-th:isings_105 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 105"@de,
-        "Isings 105"@en .
-
-th:isings_106 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 106"@de,
-        "Isings 106"@en .
-
-th:isings_107 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 107"@de,
-        "Isings 107"@en .
-
-th:isings_108 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 108"@de,
-        "Isings 108"@en .
-
-th:isings_109 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 109"@de,
-        "Isings 109"@en .
-
-th:isings_110 a skos:Concept ;
-    skos:broader th:glass_vessel_shape_according_to_isings ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Isings 110"@de,
-        "Isings 110"@en .
-
 th:iudica_painter a skos:Concept ;
     skos:broader th:campanian ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Iudica-Maler"@de,
         "Iudica Painter"@en .
-
-th:ivory a skos:Concept ;
-    skos:broader th:leg ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Elfenbein"@de,
-        "Ivory"@en .
 
 th:ivy_leaf_painter a skos:Concept ;
     skos:broader th:campanian ;
@@ -9710,12 +8857,6 @@ th:jug a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kännchen"@de,
         "Jug"@en .
-
-th:jute a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Jute"@de,
-        "Jute"@en .
 
 th:k-s_painter a skos:Concept ;
     skos:broader th:apulian ;
@@ -10475,12 +9616,6 @@ th:lavello_group a skos:Concept ;
     skos:prefLabel "Lavello-Gruppe"@de,
         "Lavello Group"@en .
 
-th:lead a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Blei"@de,
-        "Lead"@en .
-
 th:leaf_stick a skos:Concept ;
     skos:broader th:vegetable ;
     skos:inScheme th:scheme ;
@@ -10493,12 +9628,6 @@ th:leafless_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Leafless-Gruppe"@de,
         "Leafless Group"@en .
-
-th:leather a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Leder"@de,
-        "Leather"@en .
 
 th:lecce_painter a skos:Concept ;
     skos:broader th:apulian ;
@@ -10646,12 +9775,6 @@ th:lindos_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Lindos-Gruppe"@de,
         "Lindos Group"@en .
-
-th:linen a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Leinen"@de,
-        "Linen"@en .
 
 th:lion_group a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -11794,18 +10917,6 @@ th:modica_painter a skos:Concept ;
     skos:prefLabel "Modica-Maler"@de,
         "Modica Painter"@en .
 
-th:mold_blown a skos:Concept ;
-    skos:broader th:glass_jar ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Formgeblasen"@de,
-        "Mold blown"@en .
-
-th:mold_melted a skos:Concept ;
-    skos:broader th:glass_jar ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Formgeschmolzen"@de,
-        "Mold melted"@en .
-
 th:mole a skos:Concept ;
     skos:altLabel "Hafenmole"@de ;
     skos:broader th:harbor ;
@@ -11904,12 +11015,6 @@ th:moth a skos:Concept ;
     skos:prefLabel "Motte"@de,
         "Moth"@en .
 
-th:mother_of_pearl a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Perlmutt"@de,
-        "Mother of pearl"@en .
-
 th:mound_painter a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -11959,12 +11064,6 @@ th:multiple_meanders a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Vielfachmäander"@de,
         "Multiple meanders"@en .
-
-th:mummy a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Mumie"@de,
-        "Mummy"@en .
 
 th:murcia_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -12183,12 +11282,6 @@ th:nicholson_painter a skos:Concept ;
     skos:prefLabel "Nicholson-Maler"@de,
         "Nicholson Painter"@en .
 
-th:nickel a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Nickel"@de,
-        "Nickel"@en .
-
 th:nike-torch_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -12270,23 +11363,11 @@ th:nostell_painter a skos:Concept ;
     skos:prefLabel "Nostell-Maler"@de,
         "Nostell Painter"@en .
 
-th:nuppenglas a skos:Concept ;
-    skos:broader th:glass_jar ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Nuppenglas"@de,
-        "Nuppenglas"@en .
-
 th:nuptial_lekanides a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Hochzeits-Lekanen"@de,
         "Nuptial Lekanides"@en .
-
-th:nut a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Nuß"@de,
-        "Nut"@en .
 
 th:nymphaeum_grotto a skos:Concept ;
     skos:altLabel "Grotte"@de,
@@ -12358,12 +11439,6 @@ th:oikos a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Oikos"@de,
         "Oikos"@en .
-
-th:oil a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Öl"@de,
-        "Oil"@en .
 
 th:oil_hole a skos:Concept ;
     skos:broader th:construction_-_lamp_parts ;
@@ -12730,12 +11805,6 @@ th:paidikos a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Paidikos"@de,
         "Paidikos"@en .
-
-th:painted_glass_vessel a skos:Concept ;
-    skos:broader th:glass_jar ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Bemaltes Glasgefäß"@de,
-        "Painted glass vessel"@en .
 
 th:painter_a a skos:Concept ;
     skos:broader th:black-figure ;
@@ -17006,12 +16075,6 @@ th:palazzolo_painter a skos:Concept ;
     skos:prefLabel "Palazzolo-Maler"@de,
         "Palazzolo Painter"@en .
 
-th:pale_gold a skos:Concept ;
-    skos:broader th:gold ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Blassgold"@de,
-        "Pale gold"@en .
-
 th:palermo_painter a skos:Concept ;
     skos:broader th:lucanian ;
     skos:exactMatch <http://www.wikidata.org/entity/Q130628843> ;
@@ -17084,18 +16147,6 @@ th:panther_painter a skos:Concept ;
     skos:prefLabel "Panther-Maler"@de,
         "Panther Painter"@en .
 
-th:paper a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Papier"@de,
-        "Paper"@en .
-
-th:papyrus a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Papyrus"@de,
-        "Papyrus"@en .
-
 th:papyrus_painter a skos:Concept ;
     skos:broader th:rhodian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -17113,12 +16164,6 @@ th:parasol_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Parasol-Maler"@de,
         "Parasol Painter"@en .
-
-th:parchment a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Pergament"@de,
-        "Parchment"@en .
 
 th:parian_ceramics a skos:Concept ;
     skos:broader th:cycladic_ceramics ;
@@ -17202,12 +16247,6 @@ th:pavia_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Pavia-Maler"@de,
         "Pavia Painter"@en .
-
-th:pearl a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Perle"@de,
-        "Pearl"@en .
 
 th:pebble_mosaic a skos:Concept ;
     skos:broader th:mosaic ;
@@ -17852,12 +16891,6 @@ th:pothos_painter a skos:Concept ;
     skos:prefLabel "Pothos-Maler"@de,
         "Pothos Painter"@en .
 
-th:potin a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Potin"@de,
-        "Potin"@en .
-
 th:potnia_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -18162,12 +17195,6 @@ th:quarry_stone_wall a skos:Concept ;
     skos:prefLabel "Bruchsteinmauer"@de,
         "Quarry stone wall"@en .
 
-th:quartz a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Quartz"@de,
-        "Quartz"@en .
-
 th:r._s._painter a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -18215,12 +17242,6 @@ th:raptor_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Greifenvogel-Gruppe"@de,
         "Raptor group"@en .
-
-th:raw_glass a skos:Concept ;
-    skos:broader th:glass ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Rohglas"@de,
-        "Raw glass"@en .
 
 th:rayet_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -18491,12 +17512,6 @@ th:room a skos:Concept ;
     skos:prefLabel "Saal"@de,
         "Room"@en .
 
-th:rose_gold a skos:Concept ;
-    skos:broader th:gold ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Rotgold"@de,
-        "Rose gold"@en .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/rostra_bema_speaker's_stand> a skos:Concept ;
     skos:altLabel "Bema"@de,
         "Rostra"@de ;
@@ -18546,13 +17561,6 @@ th:royal_library_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Royal Library Maler"@de,
         "Royal Library Painter"@en .
-
-th:rubble a skos:Concept ;
-    skos:altLabel "Bauschutt"@de ;
-    skos:broader th:waste ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Schutt"@de,
-        "Rubble"@en .
 
 th:rueff_painter a skos:Concept ;
     skos:broader th:apulian ;
@@ -18727,12 +17735,6 @@ th:satyriskion_painter a skos:Concept ;
     skos:prefLabel "Satyriskion-Maler"@de,
         "Satyriskion Painter"@en .
 
-th:sausage_skin a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Wursthaut"@de,
-        "Sausage skin"@en .
-
 th:scaglione_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -18877,12 +17879,6 @@ th:second_outline_group a skos:Concept ;
     skos:prefLabel "Zweite Umriß-Gruppe"@de,
         "Second Outline Group"@en .
 
-th:seeds a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Samen"@de,
-        "Seeds"@en .
-
 th:seireniske_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q53437292> ;
@@ -18932,12 +17928,6 @@ th:shambling_bull_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Shambling-Bull-Maler"@de,
         "Shambling Bull Painter"@en .
-
-th:shell a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Muschel"@de,
-        "Shell"@en .
 
 th:shell_type_a a skos:Concept ;
     skos:broader th:drinking_bowl ;
@@ -19062,18 +18052,6 @@ th:sikon_painter a skos:Concept ;
     skos:prefLabel "Sikon-Maler"@de,
         "Sikon Painter"@en .
 
-th:silk a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Seide"@de,
-        "Silk"@en .
-
-th:silver a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Silber"@de,
-        "Silver"@en .
-
 th:simos_group a skos:Concept ;
     skos:broader th:black-figure ;
     skos:inScheme th:scheme ;
@@ -19154,12 +18132,6 @@ th:smikros a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Smikros"@de,
         "Smikros"@en .
-
-th:snail a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Schnecke"@de,
-        "Snail"@en .
 
 th:snake_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -19393,12 +18365,6 @@ th:st._audries_painter a skos:Concept ;
     skos:prefLabel "St. Audries-Maler"@de,
         "St. Audries Painter"@en .
 
-th:stained_glass a skos:Concept ;
-    skos:broader th:glass_jar ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Fleckenglas"@de,
-        "Stained glass"@en .
-
 th:stair_stringer a skos:Concept ;
     skos:broader th:stairs ;
     skos:inScheme th:scheme ;
@@ -19437,12 +18403,6 @@ th:statue_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Statuengruppe"@de,
         "Statue group"@en .
-
-th:steel a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Stahl"@de,
-        "Steel"@en .
 
 th:stemmed_group a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -19756,12 +18716,6 @@ th:tank_statue a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Panzerstatue"@de,
         "Tank statue"@en .
-
-th:tar a skos:Concept ;
-    skos:broader th:bitumen ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Teer"@de,
-        "Tar"@en .
 
 th:taranto_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -20124,18 +19078,6 @@ th:timonidas a skos:Concept ;
     skos:prefLabel "Timonidas"@de,
         "Timonidas"@en .
 
-th:tin a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Zinn"@de,
-        "Tin"@en .
-
-th:tin_bronze a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Zinnbronze"@de,
-        "Tin bronze"@en .
-
 th:tithonos_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q7809958> ;
@@ -20169,12 +19111,6 @@ th:togatus a skos:Concept ;
     skos:prefLabel "Togatus"@de,
         "Togatus"@en .
 
-th:tooth a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Zahn"@de,
-        "Tooth"@en .
-
 th:torch_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -20205,13 +19141,6 @@ th:torr_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Torr-Maler"@de,
         "Torr Painter"@en .
-
-th:tortoiseshell a skos:Concept ;
-    skos:altLabel "Schildkrott"@de ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Schildpatt"@de,
-        "Tortoiseshell"@en .
 
 th:torus a skos:Concept ;
     skos:altLabel "Toros"@de,
@@ -20915,12 +19844,6 @@ th:wave-pattern_group a skos:Concept ;
     skos:prefLabel "Wellen-Muster-Gruppe"@de,
         "Wave-pattern Group"@en .
 
-th:wax a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Wachs"@de,
-        "Wax"@en .
-
 th:wax_candle a skos:Concept ;
     skos:broader th:candle ;
     skos:inScheme th:scheme ;
@@ -21000,12 +19923,6 @@ th:white_bull_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Maler des weißen Bullen"@de,
         "White Bull Painter"@en .
-
-th:white_gold a skos:Concept ;
-    skos:broader th:gold ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Weissgold"@de,
-        "White gold"@en .
 
 th:white_horses_group a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -21142,12 +20059,6 @@ th:woman-eros_painter a skos:Concept ;
     skos:prefLabel "Frauen-Eros-Maler"@de,
         "Woman-Eros Painter"@en .
 
-th:wool a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Wolle"@de,
-        "Wool"@en .
-
 th:workshop_of_the_hunt_painter a skos:Concept ;
     skos:broader th:vase_painter_laconic ;
     skos:inScheme th:scheme ;
@@ -21250,12 +20161,6 @@ th:yanks a skos:Concept ;
     skos:prefLabel "Amis"@de,
         "Yanks"@en .
 
-th:yellow_gold a skos:Concept ;
-    skos:broader th:gold ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gelbgold"@de,
-        "Yellow gold"@en .
-
 th:york_group a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -21343,12 +20248,6 @@ th:ziggurat a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Zikkurat"@de,
         "Ziggurat"@en .
-
-th:zinc a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Zink"@de,
-        "Zinc"@en .
 
 th:zurich_painter a skos:Concept ;
     skos:broader th:black-figure ;
@@ -21444,14 +20343,6 @@ th:bowl a skos:Concept ;
     skos:narrower th:lekanis ;
     skos:prefLabel "Napf"@de,
         "Bowl"@en .
-
-th:brick a skos:Concept ;
-    skos:altLabel "Backstein"@de ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:clay_bricks ;
-    skos:prefLabel "Ziegel"@de,
-        "Brick"@en .
 
 th:camel_painter a skos:Concept ;
     skos:broader th:black-figure,
@@ -21761,13 +20652,6 @@ th:fikellura a skos:Concept ;
     skos:prefLabel "Fikellura"@de,
         "Fikellura"@en .
 
-th:floss a skos:Concept ;
-    skos:broader th:slag ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Glasschlacke"@de,
-        "Floss"@en ;
-    skos:related th:glass .
-
 th:foundation a skos:Concept ;
     skos:altLabel "Fundamentierung"@de ;
     skos:broader th:architectural_part ;
@@ -21779,13 +20663,6 @@ th:foundation a skos:Concept ;
     skos:narrower th:lattice_foundation ;
     skos:prefLabel "Fundament"@de,
         "foundation"@en .
-
-th:glass_frit a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Glasfritte"@de,
-        "Glass frit"@en ;
-    skos:related th:glass .
 
 th:grape-vine_group a skos:Concept ;
     skos:broader th:apulian,
@@ -21938,14 +20815,6 @@ th:laconic_ceramics a skos:Concept ;
     skos:narrower th:laconic_black_figure ;
     skos:prefLabel "Lakonische Keramik"@de,
         "Laconic ceramics"@en .
-
-th:leg a skos:Concept ;
-    skos:altLabel "Knochen"@de ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:ivory ;
-    skos:prefLabel "Bein"@de,
-        "Leg"@en .
 
 th:leiden_painter a skos:Concept ;
     skos:broader th:campanian,
@@ -22138,13 +21007,6 @@ th:nîmes_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Nîmes-Maler"@de,
         "Nîmes Painter"@en .
-
-th:ore a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Erz"@de,
-        "Ore"@en ;
-    skos:related th:metal .
 
 th:paestan_ceramics a skos:Concept ;
     skos:broader th:western_greek_landscape ;
@@ -22432,13 +21294,6 @@ th:skene a skos:Concept ;
     skos:prefLabel "Skene"@de,
         "Skene"@en ;
     skos:related th:scenae_frons .
-
-th:slag a skos:Concept ;
-    skos:broader th:waste ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:floss ;
-    skos:prefLabel "Schlacke"@de,
-        "Slag"@en .
 
 th:south_ionian_geometric a skos:Concept ;
     skos:broader th:eastern_greek_geometric,
@@ -22784,14 +21639,6 @@ th:bilingue a skos:Concept ;
     skos:prefLabel "Bilingue"@de,
         "Bilingue"@en ;
     skos:related th:bucchero .
-
-th:bitumen a skos:Concept ;
-    skos:broader th:organic_material ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:asphalt,
-        th:tar ;
-    skos:prefLabel "Bitumen"@de,
-        "Bitumen"@en .
 
 th:boeotian_black_figure a skos:Concept ;
     skos:altLabel "Boiotisch Schwarzfigurig"@de ;
@@ -23684,15 +22531,6 @@ th:vessel a skos:Concept ;
         "vessel"@en,
         "recipiente"@it .
 
-th:waste a skos:Concept ;
-    skos:altLabel "Müll"@de ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:rubble,
-        th:slag ;
-    skos:prefLabel "Abfall"@de,
-        "Waste"@en .
-
 th:western_greek_class a skos:Concept ;
     skos:broader th:western_greek_ceramics ;
     skos:inScheme th:scheme ;
@@ -24570,18 +23408,6 @@ th:geometric a skos:Concept ;
     skos:prefLabel "Geometrisch"@de,
         "Geometric"@en .
 
-th:gold a skos:Concept ;
-    skos:broader th:metal ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:gray_gold,
-        th:gruengold,
-        th:pale_gold,
-        th:rose_gold,
-        th:white_gold,
-        th:yellow_gold ;
-    skos:prefLabel "Gold"@de,
-        "Gold"@en .
-
 th:greek_vase_painter a skos:Concept ;
     skos:broader th:vase_painter ;
     skos:inScheme th:scheme ;
@@ -24816,6 +23642,20 @@ th:fastening a skos:Concept ;
     skos:prefLabel "Befestigung"@de,
         "Fortification"@en .
 
+th:heritageasset a skos:Concept ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:architecture_and_urbanism,
+        th:ceramic,
+        th:container,
+        th:lighting_device,
+        th:ornament,
+        th:sculpture,
+        th:subject,
+        th:vase_painter ;
+    skos:prefLabel "Kulturgut"@de,
+        "HeritageAsset"@en ;
+    skos:topConceptOf th:scheme .
+
 th:roman_house_room a skos:Concept ;
     skos:broader th:roman_house ;
     skos:inScheme th:scheme ;
@@ -24887,21 +23727,6 @@ th:column a skos:Concept ;
         th:kannelurtal ;
     skos:prefLabel "Säule"@de,
         "Column"@en .
-
-th:heritageasset a skos:Concept ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:architecture_and_urbanism,
-        th:ceramic,
-        th:container,
-        th:lighting_device,
-        th:material,
-        th:ornament,
-        th:sculpture,
-        th:subject,
-        th:vase_painter ;
-    skos:prefLabel "Kulturgut"@de,
-        "HeritageAsset"@en ;
-    skos:topConceptOf th:scheme .
 
 th:pot a skos:Concept ;
     skos:broader th:types_of_vessels ;
@@ -25030,24 +23855,6 @@ th:types_of_greco-roman_temples a skos:Concept ;
         th:tholos ;
     skos:prefLabel "Typen Griechisch-römischer Tempel"@de,
         "Types of Greco-Roman temples"@en .
-
-th:glass_jar a skos:Concept ;
-    skos:broader th:glass ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:bar_shaped,
-        th:cameo_glass_vessel,
-        th:core_formed,
-        th:cut_glass,
-        th:decorative_glass_vessel,
-        th:diatret_glass,
-        th:gold_glass_vessel,
-        th:mold_blown,
-        th:mold_melted,
-        th:nuppenglas,
-        th:painted_glass_vessel,
-        th:stained_glass ;
-    skos:prefLabel "Glasgefäß"@de,
-        "Glass jar"@en .
 
 th:lighting_device a skos:Concept ;
     skos:broader th:heritageasset ;
@@ -25227,46 +24034,6 @@ th:giants a skos:Concept ;
     skos:prefLabel "Giganten"@de,
         "Giants"@en .
 
-th:glass a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:cameo_glass,
-        th:glass_bead,
-        th:glass_jar,
-        th:glass_mosaic,
-        th:glass_paste,
-        th:glass_pipe,
-        th:glass_ring,
-        th:glass_sculpture,
-        th:glass_vessel_shape_according_to_isings,
-        th:glass_window,
-        th:gold_glass,
-        th:raw_glass ;
-    skos:prefLabel "Glas"@de,
-        "Glass"@en ;
-    skos:related th:floss,
-        th:glass_frit .
-
-th:metal a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:brass,
-        th:bronze,
-        th:copper,
-        th:gold,
-        th:iron,
-        th:lead,
-        th:nickel,
-        th:potin,
-        th:silver,
-        th:steel,
-        th:tin,
-        th:tin_bronze,
-        th:zinc ;
-    skos:prefLabel "Metall"@de,
-        "Metal"@en ;
-    skos:related th:ore .
-
 th:drinking_bowl a skos:Concept ;
     skos:altLabel "Schale"@de ;
     skos:broader th:drinking_vessel ;
@@ -25333,28 +24100,6 @@ th:greek_ceramic_landscape a skos:Concept ;
     skos:prefLabel "Griechische Keramik Landschaft"@de,
         "Greek ceramic landscape"@en .
 
-th:material a skos:Concept ;
-    skos:broader th:heritageasset ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:brick,
-        th:e-mail,
-        th:faience,
-        th:flax,
-        th:glass,
-        th:glass_frit,
-        th:hemp,
-        th:jute,
-        th:linen,
-        th:metal,
-        th:ore,
-        th:organic_material,
-        th:quartz,
-        th:silk,
-        th:waste,
-        th:wool ;
-    skos:prefLabel "Stoff"@de,
-        "Material"@en .
-
 th:tomb_construction a skos:Concept ;
     skos:altLabel "Grab"@de,
         "Gräber"@de,
@@ -25405,33 +24150,6 @@ th:corinthian_capital a skos:Concept ;
         th:wreath_leaf ;
     skos:prefLabel "Korinthisches Kapitell"@de,
         "Corinthian capital"@en .
-
-th:organic_material a skos:Concept ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:ash,
-        th:bitumen,
-        th:corpse_burning,
-        th:fur,
-        th:leather,
-        th:leg,
-        th:mother_of_pearl,
-        th:mummy,
-        th:nut,
-        th:oil,
-        th:paper,
-        th:papyrus,
-        th:parchment,
-        th:pearl,
-        th:sausage_skin,
-        th:seeds,
-        th:shell,
-        th:snail,
-        th:tooth,
-        th:tortoiseshell,
-        th:wax ;
-    skos:prefLabel "Organisches_Material"@de,
-        "Organic material"@en .
 
 th:lamp_type_roman a skos:Concept ;
     skos:broader th:lamp ;
@@ -26046,122 +24764,6 @@ th:types_of_north_african_ts_lamps_according_to_eaa_atlante_i a skos:Concept ;
         th:eaa_typus_x_a1_c ;
     skos:prefLabel "Typen nordafrikanische TS-Lampen nach EAA Atlante I"@de,
         "Types of North African TS lamps according to EAA Atlante I"@en .
-
-th:glass_vessel_shape_according_to_isings a skos:Concept ;
-    skos:broader th:glass ;
-    skos:inScheme th:scheme ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/ising's_100>,
-        th:isings_001,
-        th:isings_002,
-        th:isings_003,
-        th:isings_004,
-        th:isings_005,
-        th:isings_006,
-        th:isings_007,
-        th:isings_008,
-        th:isings_009,
-        th:isings_010,
-        th:isings_011,
-        th:isings_012,
-        th:isings_013,
-        th:isings_014,
-        th:isings_015,
-        th:isings_016,
-        th:isings_017,
-        th:isings_018,
-        th:isings_019,
-        th:isings_020,
-        th:isings_021,
-        th:isings_022,
-        th:isings_023,
-        th:isings_024,
-        th:isings_025,
-        th:isings_026,
-        th:isings_027,
-        th:isings_028,
-        th:isings_029,
-        th:isings_030,
-        th:isings_031,
-        th:isings_032,
-        th:isings_033,
-        th:isings_034,
-        th:isings_035,
-        th:isings_036,
-        th:isings_037,
-        th:isings_038,
-        th:isings_039,
-        th:isings_040,
-        th:isings_041,
-        th:isings_042,
-        th:isings_043,
-        th:isings_044,
-        th:isings_045,
-        th:isings_046,
-        th:isings_047,
-        th:isings_048,
-        th:isings_049,
-        th:isings_050,
-        th:isings_051,
-        th:isings_052,
-        th:isings_053,
-        th:isings_054,
-        th:isings_055,
-        th:isings_056,
-        th:isings_057,
-        th:isings_058,
-        th:isings_059,
-        th:isings_060,
-        th:isings_061,
-        th:isings_062,
-        th:isings_063,
-        th:isings_064,
-        th:isings_065,
-        th:isings_066,
-        th:isings_067,
-        th:isings_068,
-        th:isings_069,
-        th:isings_070,
-        th:isings_071,
-        th:isings_072,
-        th:isings_073,
-        th:isings_074,
-        th:isings_075,
-        th:isings_076,
-        th:isings_077,
-        th:isings_078,
-        th:isings_079,
-        th:isings_080,
-        th:isings_081,
-        th:isings_082,
-        th:isings_083,
-        th:isings_084,
-        th:isings_085,
-        th:isings_086,
-        th:isings_087,
-        th:isings_088,
-        th:isings_089,
-        th:isings_090,
-        th:isings_091,
-        th:isings_092,
-        th:isings_093,
-        th:isings_094,
-        th:isings_095,
-        th:isings_096,
-        th:isings_097,
-        th:isings_098,
-        th:isings_099,
-        th:isings_101,
-        th:isings_102,
-        th:isings_103,
-        th:isings_104,
-        th:isings_105,
-        th:isings_106,
-        th:isings_107,
-        th:isings_108,
-        th:isings_109,
-        th:isings_110 ;
-    skos:prefLabel "Glasgefäßform nach Isings"@de,
-        "Glass vessel shape according to Isings"@en .
 
 th:campanian a skos:Concept ;
     skos:broader th:italian_vase_painter ;
