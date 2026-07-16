@@ -196,12 +196,6 @@ th:adolphseck_painter a skos:Concept ;
     skos:prefLabel "Adolphseck-Maler"@de,
         "Adolphseck Painter"@en .
 
-th:adrano_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Adrano-Gruppe"@de,
-        "Adrano Group"@en .
-
 th:adria_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q63066438> ;
@@ -209,23 +203,11 @@ th:adria_painter a skos:Concept ;
     skos:prefLabel "Adria-Maler"@de,
         "Adria Painter"@en .
 
-th:aduatuker a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Aduatuker"@de,
-        "Aduatuker"@en .
-
 th:adyton a skos:Concept ;
     skos:broader th:construction_of_greco-roman_temples ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Adyton"@de,
         "Adyton"@en .
-
-th:aeduer a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Haeduer"@de,
-        "Aeduer"@en .
 
 th:aegina_bellerophon_painter a skos:Concept ;
     skos:altLabel "Ägina-Bellerophon-Maler"@de ;
@@ -264,14 +246,6 @@ th:affecter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Affecter"@de,
         "Affecter"@en .
-
-th:african a skos:Concept ;
-    skos:altLabel "Afrika"@de,
-        "afrikanisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Afrikaner"@de,
-        "African"@en .
 
 th:agamemnoeion_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -829,12 +803,6 @@ th:alabastron a skos:Concept ;
     skos:prefLabel "Alabastron"@de,
         "Alabastron"@en .
 
-th:alans a skos:Concept ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Alanen"@de,
-        "Alans"@en .
-
 th:alas a skos:Concept ;
     skos:broader th:roman_house_room ;
     skos:inScheme th:scheme ;
@@ -852,17 +820,6 @@ th:alcyoneus a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Alkyoneus"@de,
         "Alcyoneus"@en .
-
-th:alemanni a skos:Concept ;
-    skos:altLabel "Alamannen"@de,
-        "Alemannisch"@de,
-        "Allemannen"@de,
-        "alamannisch"@de,
-        "allemanisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Alemannen"@de,
-        "Alemanni"@en .
 
 th:alexandre_group a skos:Concept ;
     skos:broader th:red-figure ;
@@ -889,12 +846,6 @@ th:allard_pierson_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Allard Pierson-Maler"@de,
         "Allard Pierson Painter"@en .
-
-th:allobroger a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Allobroger"@de,
-        "Allobroger"@en .
 
 th:altamura_group a skos:Concept ;
     skos:broader th:apulian ;
@@ -934,24 +885,12 @@ th:altrock_painter a skos:Concept ;
     skos:prefLabel "Altrock-Maler"@de,
         "Altrock Painter"@en .
 
-th:alumians a skos:Concept ;
-    skos:broader th:noriker ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Alaunier"@de,
-        "Alumians"@en .
-
 th:ama_group a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q93918928> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Ama-Gruppe"@de,
         "Ama Group"@en .
-
-th:amantier a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Amantier"@de,
-        "Amantier"@en .
 
 th:amasis_potter a skos:Concept ;
     skos:broader th:black-figure ;
@@ -964,50 +903,6 @@ th:amazon_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Amazonen-Maler"@de,
         "Amazon Painter"@en .
-
-th:ambarrier a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ambarrier"@de,
-        "Ambarrier"@en .
-
-th:ambians a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ambianer"@de,
-        "Ambians"@en .
-
-th:ambidravier a skos:Concept ;
-    skos:broader th:noriker ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ambidravier"@de,
-        "Ambidravier"@en .
-
-th:ambilic a skos:Concept ;
-    skos:altLabel "Ambiliner"@de ;
-    skos:broader th:noriker ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ambiliker"@de,
-        "Ambilic"@en .
-
-th:ambisonter a skos:Concept ;
-    skos:broader th:noriker ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ambisonter"@de,
-        "Ambisonter"@en .
-
-th:ambitoutier a skos:Concept ;
-    skos:broader th:galatians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ambitoutier"@de,
-        "Ambitoutier"@en .
-
-th:ambronen a skos:Concept ;
-    skos:altLabel "abronisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ambronen"@de,
-        "Ambronen"@en .
 
 th:ambrosios_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -1141,20 +1036,6 @@ th:angers_painter a skos:Concept ;
     skos:prefLabel "Angers-Maler"@de,
         "Angers Painter"@en .
 
-th:anglo-saxons a skos:Concept ;
-    skos:altLabel "angelsächsisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Angelsachsen"@de,
-        "Anglo-Saxons"@en .
-
-th:angrivarian a skos:Concept ;
-    skos:altLabel "angrivarisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Angrivarier"@de,
-        "Angrivarian"@en .
-
 th:angular_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -1270,26 +1151,6 @@ th:aqueduct a skos:Concept ;
     skos:prefLabel "Aquädukt"@de,
         "Aqueduct"@en .
 
-th:arabs a skos:Concept ;
-    skos:altLabel "Arabien"@de,
-        "arabisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Araber"@de,
-        "Arabs"@en .
-
-th:arber a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Arber"@de,
-        "Arber"@en .
-
-th:arbyle a skos:Concept ;
-    skos:broader th:Schuhgriechisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Arbyle"@de,
-        "Arbyle"@en .
-
 th:arch_monument a skos:Concept ;
     skos:broader th:architecture_type ;
     skos:inScheme th:scheme ;
@@ -1337,24 +1198,6 @@ th:ardea_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Ardea-Maler"@de,
         "Ardea Painter"@en .
-
-th:ardians a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ardianen"@de,
-        "Ardians"@en .
-
-th:arecomicians a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Arecomiker"@de,
-        "Arecomicians"@en .
-
-th:aremorians a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Aremorier"@de,
-        "Aremorians"@en .
 
 th:argive_geometric a skos:Concept ;
     skos:broader th:argive_ceramics ;
@@ -1465,12 +1308,6 @@ th:arsenal_sub-group a skos:Concept ;
     skos:prefLabel "Arsenal-Untergruppe"@de,
         "Arsenal Sub-Group"@en .
 
-th:arverni a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Arverner"@de,
-        "Arverni"@en .
-
 th:ascoli_satriano_painter a skos:Concept ;
     skos:broader th:apulian ;
     skos:exactMatch <http://www.wikidata.org/entity/Q18507875> ;
@@ -1522,24 +1359,11 @@ th:asteios_group a skos:Concept ;
     skos:prefLabel "Asteios-Gruppe"@de,
         "Asteios Group"@en .
 
-th:asturian a skos:Concept ;
-    skos:altLabel "asturisch"@de ;
-    skos:broader th:iberians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Asturer"@de,
-        "Asturian"@en .
-
 th:astuto_group a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Astuto-Gruppe"@de,
         "Astuto Group"@en .
-
-th:at_the a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ander"@de,
-        "At the"@en .
 
 th:atalanta_group a skos:Concept ;
     skos:broader th:black-figure ;
@@ -1572,29 +1396,11 @@ th:athena_mugs_painter a skos:Concept ;
     skos:prefLabel "Athena-Kannen-Maler"@de,
         "Athena mugs Painter"@en .
 
-th:atiutan a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Atiutaner"@de,
-        "Atiutan"@en .
-
 th:atl_class a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
     skos:prefLabel "ATL-Klasse"@de,
         "ATL Class"@en .
-
-th:atrebater a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Atrebater"@de,
-        "Atrebater"@en .
-
-th:atrebates a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "ATREBATEN"@de,
-        "ATREBATES"@en .
 
 th:atrium_house a skos:Concept ;
     skos:broader th:roman_house_type ;
@@ -1614,24 +1420,6 @@ th:attic_floor a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Attikageschoß"@de,
         "Attic floor"@en .
-
-th:aulerkier a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Aulerkier"@de,
-        "Aulerkier"@en .
-
-th:auscier a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Auscier"@de,
-        "Auscier"@en .
-
-th:autariats a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Autariaten"@de,
-        "Autariats"@en .
 
 th:av_group a skos:Concept ;
     skos:broader th:campanian ;
@@ -1703,13 +1491,6 @@ th:balcony a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Balkon"@de,
         "balcony"@en .
-
-th:balearic_islands a skos:Concept ;
-    skos:altLabel "Balearenkultur"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Balearen"@de,
-        "Balearic Islands"@en .
 
 th:baltimore_painter a skos:Concept ;
     skos:broader th:apulian ;
@@ -1814,13 +1595,6 @@ th:bassano_group a skos:Concept ;
     skos:prefLabel "Bassano-Gruppe"@de,
         "Bassano Group"@en .
 
-th:bastarnen a skos:Concept ;
-    skos:altLabel "bastarnisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Bastarnen"@de,
-        "Bastarnen"@en .
-
 th:batanion a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Form antiker griechischer Keramik"@de,
@@ -1829,13 +1603,6 @@ th:batanion a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Batanion"@de,
         "Batanion"@en .
-
-th:batavian a skos:Concept ;
-    skos:altLabel "batavisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Bataver"@de,
-        "Batavian"@en .
 
 th:bateman_group a skos:Concept ;
     skos:broader th:black-figure ;
@@ -1848,18 +1615,6 @@ th:bath_greek a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Bad griechisches"@de,
         "Bath Greek"@en .
-
-th:bavarians a skos:Concept ;
-    skos:altLabel "Baier"@de,
-        "Baiern"@de,
-        "Bayer"@de,
-        "Bayern"@de,
-        "bairisch"@de,
-        "bajuwarisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Bajuwaren"@de,
-        "Bavarians"@en .
 
 th:bead_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -1880,14 +1635,6 @@ th:beldam_class a skos:Concept ;
     skos:prefLabel "Beldam-Klasse"@de,
         "Beldam Class"@en .
 
-th:belgen a skos:Concept ;
-    skos:altLabel "Belger"@de,
-        "belgisch"@de ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Belgen"@de,
-        "Belgen"@en .
-
 th:bell_crater a skos:Concept ;
     skos:broader th:crater ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1531905> ;
@@ -1907,12 +1654,6 @@ th:bellerophon_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Bellerophon-Maler"@de,
         "Bellerophon Painter"@en .
-
-th:bellovacier a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Bellovacier"@de,
-        "Bellovacier"@en .
 
 th:bendis_painter a skos:Concept ;
     skos:broader th:apulian ;
@@ -1945,12 +1686,6 @@ th:berlin_ganymede_group a skos:Concept ;
     skos:prefLabel "Berliner Ganymed-Gruppe"@de,
         "Berlin Ganymede Group"@en .
 
-th:berlin_heads_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Berlin-Köpfe Gruppe"@de,
-        "Berlin Heads Group"@en .
-
 th:berne_painter a skos:Concept ;
     skos:altLabel "Bern-Maler"@de ;
     skos:broader th:red-figure ;
@@ -1969,24 +1704,6 @@ th:beth_pelet_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Beth Pelet-Maler"@de,
         "Beth Pelet Painter"@en .
-
-th:biancavilla_painter a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Biancavilla-Maler"@de,
-        "Biancavilla Painter"@en .
-
-th:bigarrioner a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Bigarrioner"@de,
-        "Bigarrioner"@en .
-
-th:billions a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Byllionen"@de,
-        "Billions"@en .
 
 th:binder a skos:Concept ;
     skos:broader th:ashlar_wall ;
@@ -2036,25 +1753,11 @@ th:bitalemi_painter a skos:Concept ;
     skos:prefLabel "Bitalemi-Maler"@de,
         "Bitalemi Painter"@en .
 
-th:bithynians a skos:Concept ;
-    skos:altLabel "Bithynien"@de,
-        "bithynisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Bithynier"@de,
-        "Bithynians"@en .
-
 th:bitonto_group a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Bitonto-Gruppe"@de,
         "Bitonto Group"@en .
-
-th:bituriger a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Bituriger"@de,
-        "Bituriger"@en .
 
 th:black_fury_group a skos:Concept ;
     skos:broader th:apulian ;
@@ -2236,12 +1939,6 @@ th:boreas_painter a skos:Concept ;
     skos:prefLabel "Boreas-Maler"@de,
         "Boreas Painter"@en .
 
-th:borelli_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Borelli-Gruppe"@de,
-        "Borelli Group"@en .
-
 th:bosanquet_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q136530421> ;
@@ -2336,12 +2033,6 @@ th:braunschweig_painter a skos:Concept ;
     skos:prefLabel "Braunschweig-Maler"@de,
         "Braunschweig Painter"@en .
 
-th:breuker a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Breuker"@de,
-        "Breuker"@en .
-
 th:bridge a skos:Concept ;
     skos:broader th:traffic ;
     skos:inScheme th:scheme ;
@@ -2392,13 +2083,6 @@ th:brown-egg_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Braune-Eier-Maler"@de,
         "Brown-Egg Painter"@en .
-
-th:bructerer a skos:Concept ;
-    skos:altLabel "bruktisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Brukterer"@de,
-        "Bructerer"@en .
 
 th:brygos_potter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -2457,12 +2141,6 @@ th:buleuterion a skos:Concept ;
     skos:prefLabel "Buleuterion"@de,
         "Buleuterion"@en .
 
-th:buliner a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Buliner"@de,
-        "Buliner"@en .
-
 th:bull_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -2487,25 +2165,11 @@ th:burgon_group a skos:Concept ;
     skos:prefLabel "Burgon-Gruppe"@de,
         "Burgon Group"@en .
 
-th:burgundy a skos:Concept ;
-    skos:altLabel "Burgund"@de,
-        "burgundisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Burgunder"@de,
-        "Burgundy"@en .
-
 th:burn_hole a skos:Concept ;
     skos:broader th:construction_-_lamp_parts ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Brennloch"@de,
         "Burn hole"@en .
-
-th:butera_head_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Butera Köpfe-Gruppe"@de,
-        "Butera Head Group"@en .
 
 th:button_handle_bowl a skos:Concept ;
     skos:broader th:drinking_bowl ;
@@ -2558,12 +2222,6 @@ th:cadmus a skos:Concept ;
     skos:prefLabel "Kadmos"@de,
         "Cadmus"@en .
 
-th:cadurker a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Cadurker"@de,
-        "Cadurker"@en .
-
 th:caeretan_hydria a skos:Concept ;
     skos:broader th:black-figure_style ;
     skos:inScheme th:scheme ;
@@ -2590,24 +2248,6 @@ th:caivano_painter a skos:Concept ;
     skos:prefLabel "Caivano-Maler"@de,
         "Caivano Painter"@en .
 
-th:calatier a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Calatier"@de,
-        "Calatier"@en .
-
-th:calceus_equester a skos:Concept ;
-    skos:broader th:Schuhroemisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Calceus equester"@de,
-        "Calceus equester"@en .
-
-th:calceus_senatorius a skos:Concept ;
-    skos:broader th:Schuhroemisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Calceus senatorius"@de,
-        "Calceus senatorius"@en .
-
 th:caldarium a skos:Concept ;
     skos:altLabel "Warmbad"@de,
         "Warmbaderaum"@de ;
@@ -2615,18 +2255,6 @@ th:caldarium a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Caldarium"@de,
         "Caldarium"@en .
-
-th:caledonians a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Caledonier"@de,
-        "Caledonians"@en .
-
-th:caliga a skos:Concept ;
-    skos:broader th:Schuhroemisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Caliga"@de,
-        "Caliga"@en .
 
 th:calliope_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -2664,12 +2292,6 @@ th:calyx a skos:Concept ;
     skos:prefLabel "Kalyx"@de,
         "Calyx"@en .
 
-th:camarina_heads_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Kamarina Köpfe-Gruppe"@de,
-        "Camarina heads Group"@en .
-
 th:camarina_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -2700,12 +2322,6 @@ th:camucia_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Camucia-Maler"@de,
         "Camucia Painter"@en .
-
-th:canberra_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Canberra-Gruppe"@de,
-        "Canberra Group"@en .
 
 th:candelabra a skos:Concept ;
     skos:altLabel "Candelaber"@de,
@@ -2749,19 +2365,6 @@ th:canosine_vase a skos:Concept ;
         "Canosine vase"@en,
         "Vasi canosini"@it .
 
-th:cantabrer a skos:Concept ;
-    skos:altLabel "cantabrisch"@de ;
-    skos:broader th:iberians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Cantabrer"@de,
-        "Cantabrer"@en .
-
-th:cantiaker a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Cantiaker"@de,
-        "Cantiaker"@en .
-
 th:cantilever_vault a skos:Concept ;
     skos:broader th:vault ;
     skos:inScheme th:scheme ;
@@ -2779,14 +2382,6 @@ th:capodimonte_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Capodimonte-Maler"@de,
         "Capodimonte Painter"@en .
-
-th:cappadocian a skos:Concept ;
-    skos:altLabel "Kappadokien"@de,
-        "kappadokisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Kappadoker"@de,
-        "Cappadocian"@en .
 
 th:capua_painter a skos:Concept ;
     skos:broader th:campanian ;
@@ -2806,18 +2401,6 @@ th:carlsruhe_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Karlsruhe-Maler"@de,
         "Carlsruhe Painter"@en .
-
-th:carner a skos:Concept ;
-    skos:broader th:noriker ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Carner"@de,
-        "Carner"@en .
-
-th:carnunter a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Carnunter"@de,
-        "Carnunter"@en .
 
 th:carpenter_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -2843,22 +2426,6 @@ th:carthage_comast_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Karthago-Komasten-Maler"@de,
         "Carthage Comast Painter"@en .
-
-th:carthaginians a skos:Concept ;
-    skos:altLabel "Karthago"@de,
-        "Punier"@de,
-        "karthagisch"@de,
-        "punisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Karthager"@de,
-        "Carthaginians"@en .
-
-th:carvetier a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Carvetier"@de,
-        "Carvetier"@en .
 
 th:cassandra_group a skos:Concept ;
     skos:altLabel "Cassandra-Gruppe"@de ;
@@ -2923,18 +2490,6 @@ th:cat-and-dog_painter a skos:Concept ;
     skos:prefLabel "Hund und Katze-Maler"@de,
         "Cat-and-Dog Painter"@en .
 
-th:catalaunians a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Catalaunier"@de,
-        "Catalaunians"@en .
-
-th:cataler a skos:Concept ;
-    skos:broader th:noriker ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Cataler"@de,
-        "Cataler"@en .
-
 th:catania_class a skos:Concept ;
     skos:broader th:black-figure ;
     skos:inScheme th:scheme ;
@@ -2947,12 +2502,6 @@ th:cathedral a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Dom"@de,
         "Cathedral"@en .
-
-th:catuvellauner a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Catuvellauner"@de,
-        "Catuvellauner"@en .
 
 th:caulis a skos:Concept ;
     skos:altLabel "Caules"@de ;
@@ -2992,18 +2541,6 @@ th:caylus_painter a skos:Concept ;
     skos:prefLabel "Caylus-Maler"@de,
         "Caylus Painter"@en .
 
-th:cefalù_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Cefalù-Gruppe"@de,
-        "Cefalù Group"@en .
-
-th:cefalù_painter a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Cefalù-Maler"@de,
-        "Cefalù Painter"@en .
-
 th:ceglie_group a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -3021,19 +2558,6 @@ th:cella a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Cella"@de,
         "Cella"@en .
-
-th:celomanian a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Celomanier"@de,
-        "Celomanian"@en .
-
-th:celtiberians a skos:Concept ;
-    skos:altLabel "keltiberisch"@de ;
-    skos:broader th:iberians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Keltiberer"@de,
-        "Celtiberians"@en .
 
 th:cenaculum a skos:Concept ;
     skos:broader th:roman_house_room ;
@@ -3053,12 +2577,6 @@ th:central_nave a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Mittelschiff"@de,
         "Central nave"@en .
-
-th:centuripe_heads_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Centuripe Köpfe-Gruppe"@de,
-        "Centuripe Heads Group"@en .
 
 th:centuriper_vase a skos:Concept ;
     skos:altLabel "Centuripe-Gattung"@de,
@@ -3150,13 +2668,6 @@ th:chalkis_group a skos:Concept ;
     skos:prefLabel "Chalkis-Gruppe"@de,
         "Chalkis Group"@en .
 
-th:chamaren a skos:Concept ;
-    skos:altLabel "chamarisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Chamaren"@de,
-        "Chamaren"@en .
-
 th:chamay_painter a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -3177,12 +2688,6 @@ th:chania_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Chania-Maler"@de,
         "Chania Painter"@en .
-
-th:chaonians a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Chaonier"@de,
-        "Chaonians"@en .
 
 th:chapel a skos:Concept ;
     skos:broader th:church ;
@@ -3246,26 +2751,6 @@ th:charterhouse_painter a skos:Concept ;
     skos:prefLabel "Charterhouse-Maler"@de,
         "Charterhouse Painter"@en .
 
-th:chat a skos:Concept ;
-    skos:altLabel "chattisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Chatten"@de,
-        "Chat"@en .
-
-th:chattuarian a skos:Concept ;
-    skos:altLabel "chattuarisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Chattuarier"@de,
-        "Chattuarian"@en .
-
-th:chauken a skos:Concept ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Chauken"@de,
-        "Chauken"@en .
-
 th:chc_group a skos:Concept ;
     skos:broader th:black-figure ;
     skos:inScheme th:scheme ;
@@ -3283,12 +2768,6 @@ th:cheiron_potter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Cheiron Töpfer"@de,
         "Cheiron Potter"@en .
-
-th:chelidonians a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Chelidonier"@de,
-        "Chelidonians"@en .
 
 th:chelis_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -3315,12 +2794,6 @@ th:chequer_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Chequer-Maler"@de,
         "Chequer Painter"@en .
-
-th:cherusci a skos:Concept ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Cherusker"@de,
-        "Cherusci"@en .
 
 th:chevron_group a skos:Concept ;
     skos:broader th:apulian ;
@@ -3471,13 +2944,6 @@ th:chytra a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Chytra"@de,
         "Chytra"@en .
-
-th:cimbri a skos:Concept ;
-    skos:altLabel "kimbrisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Kimbern"@de,
-        "Cimbri"@en .
 
 th:circle_of_the_antimenes_painter a skos:Concept ;
     skos:broader th:black-figure ;
@@ -4173,12 +3639,6 @@ th:corinthizing_capital a skos:Concept ;
     skos:prefLabel "Korinthisierendes Kapitell"@de,
         "Corinthizing capital"@en .
 
-th:coritans a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Coritaner"@de,
-        "Coritans"@en .
-
 th:corner_trumpet a skos:Concept ;
     skos:broader th:trumpe ;
     skos:inScheme th:scheme ;
@@ -4204,39 +3664,17 @@ th:cornice a skos:Concept ;
     skos:prefLabel "Gesims"@de,
         "Cornice"@en .
 
-th:cornovier a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Cornovier"@de,
-        "Cornovier"@en .
-
 th:corpse_burning a skos:Concept ;
     skos:broader th:organic_material ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Leichenbrand"@de,
         "Corpse burning"@en .
 
-th:corsica a skos:Concept ;
-    skos:altLabel "Korsika"@de,
-        "korisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Korsen"@de,
-        "Corsica"@en .
-
 th:cotugno_painter a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Cotugno-Maler"@de,
         "Cotugno Painter"@en .
-
-th:councilor a skos:Concept ;
-    skos:altLabel "Raetien"@de,
-        "raetisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Räter"@de,
-        "Councilor"@en .
 
 th:counter a skos:Concept ;
     skos:broader th:taberna ;
@@ -4268,12 +3706,6 @@ th:crenellated_pattern a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Zinnenmuster"@de,
         "Crenellated pattern"@en .
-
-th:crepida a skos:Concept ;
-    skos:broader th:Schuhroemisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Crepida"@de,
-        "Crepida"@en .
 
 th:cretan_orientalizing a skos:Concept ;
     skos:broader th:oriental_ceramics ;
@@ -4313,12 +3745,6 @@ th:cryptoporticus a skos:Concept ;
     skos:prefLabel "Kryptoportikus"@de,
         "Cryptoporticus"@en .
 
-th:cuber a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Cuber"@de,
-        "Cuber"@en .
-
 th:cubiculum a skos:Concept ;
     skos:broader th:roman_house_room ;
     skos:inScheme th:scheme ;
@@ -4350,12 +3776,6 @@ th:curia a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Curia"@de,
         "Curia"@en .
-
-th:curiosoliters a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Curiosoliter"@de,
-        "Curiosoliters"@en .
 
 th:curti_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -4413,34 +3833,11 @@ th:d._v._painter a skos:Concept ;
     skos:prefLabel "D. V.-Maler"@de,
         "D. V. Painter"@en .
 
-th:dacian a skos:Concept ;
-    skos:altLabel "Dakien"@de,
-        "dakisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Daker"@de,
-        "Dacian"@en .
-
 th:dallas_sub-group a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Dallas-Untergruppe"@de,
         "Dallas Sub-Group"@en .
-
-th:dalmatian a skos:Concept ;
-    skos:altLabel "Dalmatien"@de,
-        "Dalmatiner"@de,
-        "dalmatisch"@de ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Dalmatier"@de,
-        "Dalmatian"@en .
-
-th:damnonians a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Damnonier"@de,
-        "Damnonians"@en .
 
 th:damocrates a skos:Concept ;
     skos:broader th:eastern_greek_vase_painter ;
@@ -4487,18 +3884,6 @@ th:darius_painter a skos:Concept ;
     skos:prefLabel "Dareios-Maler"@de,
         "Darius Painter"@en .
 
-th:dassaretes a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Dassareten"@de,
-        "Dassaretes"@en .
-
-th:daunier a skos:Concept ;
-    skos:broader th:italian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Daunier"@de,
-        "Daunier"@en .
-
 th:dawlish_painter a skos:Concept ;
     skos:broader th:lucanian ;
     skos:exactMatch <http://www.wikidata.org/entity/Q41799175> ;
@@ -4524,12 +3909,6 @@ th:de_young_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "De Young-Maler"@de,
         "De Young Painter"@en .
-
-th:deceangler a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Deceangler"@de,
-        "Deceangler"@en .
 
 th:dechter_group a skos:Concept ;
     skos:broader th:apulian ;
@@ -4567,12 +3946,6 @@ th:deiniades_potter a skos:Concept ;
     skos:prefLabel "Deiniades Töpfer"@de,
         "Deiniades Potter"@en .
 
-th:dekietes a skos:Concept ;
-    skos:broader th:ligurians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Dekieten"@de,
-        "Dekietes"@en .
-
 th:delos_group a skos:Concept ;
     skos:altLabel "Delosgruppe"@de ;
     skos:broader th:corinthian_vase_painter ;
@@ -4593,23 +3966,11 @@ th:delphi_group a skos:Concept ;
     skos:prefLabel "Delphi-Gruppe"@de,
         "Delphi Group"@en .
 
-th:demetaer a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Demetaer"@de,
-        "Demetaer"@en .
-
 th:dennis_painter a skos:Concept ;
     skos:broader th:vase_painter_klazomenisch ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Dennis-Maler"@de,
         "Dennis Painter"@en .
-
-th:dessidiates a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Dessidiaten"@de,
-        "Dessidiates"@en .
 
 th:dessypri_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -4750,19 +4111,6 @@ th:dl_class a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "DL-Klasse"@de,
         "DL Class"@en .
-
-th:dobumner a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Dobumner"@de,
-        "Dobumner"@en .
-
-th:doclaeans a skos:Concept ;
-    skos:altLabel "Dokläer"@de ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Docläer"@de,
-        "Doclaeans"@en .
 
 th:document_relief a skos:Concept ;
     skos:broader th:relief ;
@@ -4951,12 +4299,6 @@ th:dug_painter a skos:Concept ;
     skos:prefLabel "Enten-Maler"@de,
         "Dug Painter"@en .
 
-th:dumnonians a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Dumnonier"@de,
-        "Dumnonians"@en .
-
 th:dunedin_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -4987,12 +4329,6 @@ th:duris_potter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Duris Töpfer"@de,
         "Duris Potter"@en .
-
-th:durotriger a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Durotriger"@de,
-        "Durotriger"@en .
 
 th:dutuit_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -5564,18 +4900,6 @@ th:eaves_plate a skos:Concept ;
     skos:prefLabel "Traufplatte"@de,
         "Eaves plate"@en .
 
-th:eburones a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Eburonen"@de,
-        "Eburones"@en .
-
-th:eburoviker a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Eburoviker"@de,
-        "Eburoviker"@en .
-
 th:echekles_potter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -5633,14 +4957,6 @@ th:egnazia_group a skos:Concept ;
     skos:prefLabel "Egnazia-Gruppe"@de,
         "Egnazia Group"@en .
 
-th:egyptians a skos:Concept ;
-    skos:altLabel "Ägypten"@de,
-        "ägyptisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ägypter"@de,
-        "Egyptians"@en .
-
 th:elbows_out a skos:Concept ;
     skos:broader th:black-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1325382> ;
@@ -5674,18 +4990,6 @@ th:elvehjem_painter a skos:Concept ;
     skos:prefLabel "Elvehjem-Maler"@de,
         "Elvehjem Painter"@en .
 
-th:elymer a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Elymer"@de,
-        "Elymer"@en .
-
-th:embas a skos:Concept ;
-    skos:broader th:Schuhgriechisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Embas"@de,
-        "Embas"@en .
-
 th:empedocles_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -5705,23 +5009,11 @@ th:emporion_painter a skos:Concept ;
     skos:prefLabel "Emporion-Maler"@de,
         "Emporion Painter"@en .
 
-th:enchelean a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Encheläer"@de,
-        "Enchelean"@en .
-
 th:enmann_class a skos:Concept ;
     skos:broader th:vase_painter_klazomenisch ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Enmann-Klasse"@de,
         "Enmann Class"@en .
-
-th:eordean a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Eordäer"@de,
-        "Eordean"@en .
 
 th:epeleios_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -5886,12 +5178,6 @@ th:ethiop_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Ethiop-Maler"@de,
         "Ethiop Painter"@en .
-
-th:etna_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ätna-Gruppe"@de,
-        "Etna Group"@en .
 
 th:eton-nika_painter a skos:Concept ;
     skos:broader th:apulian ;
@@ -6128,12 +5414,6 @@ th:faliscan_pottery a skos:Concept ;
     skos:prefLabel "Faliskische Keramik"@de,
         "Faliscan pottery"@en .
 
-th:falisker a skos:Concept ;
-    skos:broader th:italian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Falisker"@de,
-        "Falisker"@en .
-
 th:falmouth_painter a skos:Concept ;
     skos:broader th:black-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q86997044> ;
@@ -6284,12 +5564,6 @@ th:fish_plate a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Fischteller"@de,
         "Fish plate"@en .
-
-th:fishing a skos:Concept ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Angeln"@de,
-        "Fishing"@en .
 
 th:flacon a skos:Concept ;
     skos:broader th:types_of_vessels ;
@@ -6460,13 +5734,6 @@ th:foundry_painter a skos:Concept ;
     skos:prefLabel "Gießer-Maler"@de,
         "Foundry Painter"@en .
 
-th:franconia a skos:Concept ;
-    skos:altLabel "fränkisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Franken"@de,
-        "Franconia"@en .
-
 th:fratte_group a skos:Concept ;
     skos:broader th:campanian ;
     skos:inScheme th:scheme ;
@@ -6505,13 +5772,6 @@ th:frignano_painter a skos:Concept ;
     skos:prefLabel "Frignano-Maler"@de,
         "Frignano Painter"@en .
 
-th:frisians a skos:Concept ;
-    skos:altLabel "friesisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Friesen"@de,
-        "Frisians"@en .
-
 th:fröhner_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -6549,12 +5809,6 @@ th:g_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "G-Gruppe"@de,
         "G Group"@en .
-
-th:gabaler a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gabaler"@de,
-        "Gabaler"@en .
 
 th:gable_acroter a skos:Concept ;
     skos:broader th:acroter ;
@@ -6598,19 +5852,6 @@ th:gallatin_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gallatin-Maler"@de,
         "Gallatin Painter"@en .
-
-th:gallica a skos:Concept ;
-    skos:broader th:Schuhroemisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gallica"@de,
-        "Gallica"@en .
-
-th:gambrivier a skos:Concept ;
-    skos:altLabel "gambrivisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gambrivier"@de,
-        "Gambrivier"@en .
 
 th:gamedes a skos:Concept ;
     skos:broader th:boeotian_vase_painter ;
@@ -6668,12 +5909,6 @@ th:geison_disguise a skos:Concept ;
     skos:prefLabel "Geisonverkleidung"@de,
         "Geison disguise"@en .
 
-th:gela_heads_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gela Köpfe-Gruppe"@de,
-        "Gela heads Group"@en .
-
 th:gela_ox-head_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -6706,13 +5941,6 @@ th:geneva_painter a skos:Concept ;
     skos:prefLabel "Genfer-Maler"@de,
         "Geneva Painter"@en .
 
-th:gepids a skos:Concept ;
-    skos:altLabel "gepidisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gepiden"@de,
-        "Gepids"@en .
-
 th:geras_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q99662192> ;
@@ -6725,12 +5953,6 @@ th:giant_fight a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gigantenkampf"@de,
         "Giant fight"@en .
-
-th:gibil_gabib_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gibil Gabib-Gruppe"@de,
-        "Gibil Gabib Group"@en .
 
 th:giessen-providence_painter a skos:Concept ;
     skos:broader th:eastern_greek_vase_painter ;
@@ -6974,16 +6196,6 @@ th:graz_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Graz-Maler"@de,
         "Graz Painter"@en .
-
-th:greeks a skos:Concept ;
-    skos:altLabel "Griechenland"@de,
-        "Hellas"@de,
-        "griechisch"@de,
-        "hellenisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Griechen"@de,
-        "Greeks"@en .
 
 th:greifswald_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -7419,12 +6631,6 @@ th:group_of_carlsruhe_280 a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gruppe Karlsruhe 280"@de,
         "Group of Carlsruhe 280"@en .
-
-th:group_of_catania_4292 a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gruppe Catania 4292"@de,
-        "Group of Catania 4292"@en .
 
 th:group_of_catania_737 a skos:Concept ;
     skos:broader th:campanian ;
@@ -8044,23 +7250,11 @@ th:group_of_sydney_71 a skos:Concept ;
     skos:prefLabel "Gruppe Sydney 71"@de,
         "Group of Sydney 71"@en .
 
-th:group_of_syracuse_51288 a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gruppe Syrakus 51288"@de,
-        "Group of Syracuse 51288"@en .
-
 th:group_of_syracuse_tomb_9 a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gruppe von Syrakus Grab 9"@de,
         "Group of Syracuse Tomb 9"@en .
-
-th:group_of_t._340 a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gruppe T. 340"@de,
-        "Group of T. 340"@en .
 
 th:group_of_taranto_7013 a skos:Concept ;
     skos:broader th:apulian ;
@@ -8260,12 +7454,6 @@ th:group_of_the_large_eye a skos:Concept ;
     skos:prefLabel "Gruppe der großen Augen"@de,
         "Group of the Large Eye"@en .
 
-th:group_of_the_lentini_hydriai a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gruppe der Lentini Hydrien"@de,
-        "Group of the Lentini Hydriai"@en .
-
 th:group_of_the_long_overfalls a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -8385,12 +7573,6 @@ th:group_of_the_st._louis_pelike a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gruppe der St. Louis Pelike"@de,
         "Group of the St. Louis Pelike"@en .
-
-th:group_of_the_sydney_bottle a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gruppe der Sydney Flasche"@de,
-        "Group of the Sydney Bottle"@en .
 
 th:group_of_the_taranto_floral_kotylai a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -9001,12 +8183,6 @@ th:hasselmann_painter a skos:Concept ;
     skos:prefLabel "Hasselmann-Maler"@de,
         "Hasselmann Painter"@en .
 
-th:havana_heads_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Havana Köpfe-Gruppe"@de,
-        "Havana heads Group"@en .
-
 th:havana_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -9253,12 +8429,6 @@ th:heimarmene_painter a skos:Concept ;
     skos:prefLabel "Heimarmene-Maler"@de,
         "Heimarmene Painter"@en .
 
-th:hekate_painter a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Hekate-Maler"@de,
-        "Hekate Painter"@en .
-
 th:helbig_painter a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -9302,18 +8472,6 @@ th:helmet_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Helm-Maler"@de,
         "Helmet Painter"@en .
-
-th:helvetii a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Helvetier"@de,
-        "Helvetii"@en .
-
-th:helvier a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Helvier"@de,
-        "Helvier"@en .
 
 th:hemp a skos:Concept ;
     skos:broader th:material ;
@@ -9379,12 +8537,6 @@ th:hermione_group a skos:Concept ;
     skos:prefLabel "Hermione-Gruppe"@de,
         "Hermione Group"@en .
 
-th:hermiones a skos:Concept ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Herminonen"@de,
-        "Hermiones"@en .
-
 th:hermitage_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -9411,25 +8563,11 @@ th:hermonax a skos:Concept ;
     skos:prefLabel "Hermonax"@de,
         "Hermonax"@en .
 
-th:hermunduren a skos:Concept ;
-    skos:altLabel "hermudurisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Hermunduren"@de,
-        "Hermunduren"@en .
-
 th:heron_class a skos:Concept ;
     skos:broader th:black-figure ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Heron-Klasse"@de,
         "Heron Class"@en .
-
-th:heruli a skos:Concept ;
-    skos:altLabel "herulisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Heruler"@de,
-        "Heruli"@en .
 
 th:herzegovina_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -9442,12 +8580,6 @@ th:hesiod_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Hesiod-Maler"@de,
         "Hesiod Painter"@en .
-
-th:hierastammer a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Hierastammer"@de,
-        "Hierastammer"@en .
 
 th:hieron_potter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -9697,12 +8829,6 @@ th:hybrid_creature_statue a skos:Concept ;
     skos:prefLabel "Mischwesenstatue"@de,
         "Hybrid creature statue"@en .
 
-th:hyller a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Hyller"@de,
-        "Hyller"@en .
-
 th:hypobibazon_class a skos:Concept ;
     skos:broader th:black-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1281214> ;
@@ -9735,12 +8861,6 @@ th:hypsis a skos:Concept ;
     skos:prefLabel "Hypsis"@de,
         "Hypsis"@en .
 
-th:iapoder a skos:Concept ;
-    skos:broader th:noriker ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Iapoder"@de,
-        "Iapoder"@en .
-
 th:icarus-seireniske_group a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -9754,12 +8874,6 @@ th:icarus_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Ikarus-Maler"@de,
         "Icarus Painter"@en .
-
-th:iceni a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Icener"@de,
-        "Iceni"@en .
 
 th:ignot_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -9798,12 +8912,6 @@ th:incrustation a skos:Concept ;
     skos:prefLabel "Inkrustation"@de,
         "Incrustation"@en .
 
-th:inguions a skos:Concept ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Inguionen"@de,
-        "Inguions"@en .
-
 th:inscription_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q131301239> ;
@@ -9841,12 +8949,6 @@ th:iphigeneia_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Iphigeneia-Maler"@de,
         "Iphigeneia Painter"@en .
-
-th:iphikratides a skos:Concept ;
-    skos:broader th:Schuhgriechisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Iphikratides"@de,
-        "Iphikratides"@en .
 
 th:iris_painter a skos:Concept ;
     skos:broader th:apulian ;
@@ -10527,12 +9629,6 @@ th:isings_110 a skos:Concept ;
     skos:prefLabel "Isings 110"@de,
         "Isings 110"@en .
 
-th:istaevonen a skos:Concept ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Istaevonen"@de,
-        "Istaevonen"@en .
-
 th:iudica_painter a skos:Concept ;
     skos:broader th:campanian ;
     skos:inScheme th:scheme ;
@@ -10564,12 +9660,6 @@ th:ixion_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Ixion-Maler"@de,
         "Ixion Painter"@en .
-
-th:japodier a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Japodier"@de,
-        "Japodier"@en .
 
 th:jason_painter a skos:Concept ;
     skos:broader th:apulian ;
@@ -10626,20 +9716,6 @@ th:jute a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Jute"@de,
         "Jute"@en .
-
-th:jutes a skos:Concept ;
-    skos:altLabel "jütisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Jüten"@de,
-        "Jutes"@en .
-
-th:juthungen a skos:Concept ;
-    skos:altLabel "juthungisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Juthungen"@de,
-        "Juthungen"@en .
 
 th:k-s_painter a skos:Concept ;
     skos:broader th:apulian ;
@@ -11094,18 +10170,6 @@ th:kothons a skos:Concept ;
     skos:prefLabel "Kothons"@de,
         "Kothons"@en .
 
-th:kothornos a skos:Concept ;
-    skos:broader th:Schuhgriechisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Kothornos"@de,
-        "Kothornos"@en .
-
-th:kothurn a skos:Concept ;
-    skos:broader th:Schuhroemisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Kothurn"@de,
-        "Kothurn"@en .
-
 th:kouros a skos:Concept ;
     skos:broader th:male_unclothed ;
     skos:definition "Skulptur der Griechischen Antike, die einen stehenden jungen Mann nackt darstellt."@de,
@@ -11248,12 +10312,6 @@ th:lagynos a skos:Concept ;
     skos:prefLabel "Lagynos"@de,
         "Lagynos"@en .
 
-th:laianker a skos:Concept ;
-    skos:broader th:noriker ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Laianker"@de,
-        "Laianker"@en .
-
 th:laing_painter a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -11268,12 +10326,6 @@ th:lakaina a skos:Concept ;
     skos:prefLabel "Lakaina"@de,
         "lakaina"@en,
         "lakaina"@it .
-
-th:lakonikai a skos:Concept ;
-    skos:broader th:Schuhgriechisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lakonikai"@de,
-        "Lakonikai"@en .
 
 th:lamp_type_punic a skos:Concept ;
     skos:broader th:lamp ;
@@ -11393,18 +10445,6 @@ th:latiano_painter a skos:Concept ;
     skos:prefLabel "Latiano-Maler"@de,
         "Latiano Painter"@en .
 
-th:latins a skos:Concept ;
-    skos:broader th:italian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Latiner"@de,
-        "Latins"@en .
-
-th:latobrig a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Latobriger"@de,
-        "Latobrig"@en .
-
 th:lattice_foundation a skos:Concept ;
     skos:broader th:foundation ;
     skos:inScheme th:scheme ;
@@ -11460,12 +10500,6 @@ th:leather a skos:Concept ;
     skos:prefLabel "Leder"@de,
         "Leather"@en .
 
-th:lebeaten a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lebeaten"@de,
-        "Lebeaten"@en .
-
 th:lecce_painter a skos:Concept ;
     skos:broader th:apulian ;
     skos:exactMatch <http://www.wikidata.org/entity/Q51716235> ;
@@ -11486,12 +10520,6 @@ th:left-handed_meander a skos:Concept ;
     skos:prefLabel "Linksläufiger Mäander"@de,
         "Left-handed meander"@en .
 
-th:leiker a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Leiker"@de,
-        "Leiker"@en .
-
 th:lekanis a skos:Concept ;
     skos:broader th:bowl ;
     skos:inScheme th:scheme ;
@@ -11504,42 +10532,12 @@ th:lemnos_painter a skos:Concept ;
     skos:prefLabel "Lemnos-Maler"@de,
         "Lemnos Painter"@en .
 
-th:lemoviker a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lemoviker"@de,
-        "Lemoviker"@en .
-
 th:leningrad_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q46001881> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Leningrad-Maler"@de,
         "Leningrad Painter"@en .
-
-th:lentini-manfria_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lentini-Manfria-Gruppe"@de,
-        "Lentini-Manfria Group"@en .
-
-th:lentini_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lentini-Gruppe"@de,
-        "Lentini Group"@en .
-
-th:lentini_painter a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lentini-Maler"@de,
-        "Lentini Painter"@en .
-
-th:leonnorian a skos:Concept ;
-    skos:broader th:galatians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Leonnorier"@de,
-        "Leonnorian"@en .
 
 th:leontinoi_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -11578,12 +10576,6 @@ th:lewis_painter a skos:Concept ;
     skos:prefLabel "Lewis-Maler"@de,
         "Lewis Painter"@en .
 
-th:lexovian a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lexovier"@de,
-        "Lexovian"@en .
-
 th:libation_group a skos:Concept ;
     skos:broader th:campanian ;
     skos:inScheme th:scheme ;
@@ -11601,12 +10593,6 @@ th:library a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Bibliothek"@de,
         "Library"@en .
-
-th:libunians a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Libuner"@de,
-        "Libunians"@en .
 
 th:lid a skos:Concept ;
     skos:altLabel "Gefäßdeckel"@de ;
@@ -11636,12 +10622,6 @@ th:light-make_class a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Light-make Klasse"@de,
         "Light-make Class"@en .
-
-th:lilibeo_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lilibeo-Gruppe"@de,
-        "Lilibeo Group"@en .
 
 th:lille_group a skos:Concept ;
     skos:broader th:campanian ;
@@ -11673,12 +10653,6 @@ th:linen a skos:Concept ;
     skos:prefLabel "Leinen"@de,
         "Linen"@en .
 
-th:lingioner a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lingioner"@de,
-        "Lingioner"@en .
-
 th:lion_group a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -11697,18 +10671,6 @@ th:lion_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Löwen-Maler"@de,
         "Lion Painter"@en .
-
-th:lipari_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lipari-Gruppe"@de,
-        "Lipari Group"@en .
-
-th:lipari_painter a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lipari-Maler"@de,
-        "Lipari Painter"@en .
 
 th:little-lion_class a skos:Concept ;
     skos:altLabel "Kleine-Löwen-Klasse"@de ;
@@ -11741,18 +10703,6 @@ th:lizard_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Eidechsen-Maler"@de,
         "Lizard Painter"@en .
-
-th:lloyd_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lloyd-Gruppe"@de,
-        "Lloyd Group"@en .
-
-th:lloyd_painter a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lloyd-Maler"@de,
-        "Lloyd Painter"@en .
 
 th:lm_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -12080,13 +11030,6 @@ th:logeion a skos:Concept ;
     skos:prefLabel "Logeion"@de,
         "Logeion"@en .
 
-th:lombards a skos:Concept ;
-    skos:altLabel "langobardisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Langobarden"@de,
-        "Lombards"@en .
-
 th:london_class_of_head-vases a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -12154,19 +11097,6 @@ th:lupoli_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Lupoli-Maler"@de,
         "Lupoli Painter"@en .
-
-th:lusitanians a skos:Concept ;
-    skos:altLabel "lusitanisch"@de ;
-    skos:broader th:iberians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lusitaner"@de,
-        "Lusitanians"@en .
-
-th:lutarians a skos:Concept ;
-    skos:broader th:galatians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lutarier"@de,
-        "Lutarians"@en .
 
 th:luterion a skos:Concept ;
     skos:broader th:pool ;
@@ -12248,12 +11178,6 @@ th:m_potter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "M Töpfer"@de,
         "M Potter"@en .
-
-th:macclesfield_painter a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Macclesfield-Maler"@de,
-        "Macclesfield Painter"@en .
 
 th:macmillan_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -12354,24 +11278,6 @@ th:manchester_painter a skos:Concept ;
     skos:prefLabel "Manchester-Maler"@de,
         "Manchester Painter"@en .
 
-th:manfria_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Manfria-Gruppe"@de,
-        "Manfria Group"@en .
-
-th:manfria_painter a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Manfria-Maler"@de,
-        "Manfria Painter"@en .
-
-th:manner a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Manier"@de,
-        "Manner"@en .
-
 th:manner_of_euergides_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -12468,13 +11374,6 @@ th:march_camp a skos:Concept ;
     skos:prefLabel "Marschlager"@de,
         "March camp"@en .
 
-th:marcomanni a skos:Concept ;
-    skos:altLabel "markomannisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Markomannen"@de,
-        "Marcomanni"@en .
-
 th:mariani_painter a skos:Concept ;
     skos:broader th:black-figure ;
     skos:inScheme th:scheme ;
@@ -12522,13 +11421,6 @@ th:marseilles_class_of_head-vases a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Marseille Klasse der Kopfvasen"@de,
         "Marseilles Class of Head-vases"@en .
-
-th:marser a skos:Concept ;
-    skos:altLabel "marsisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Marser"@de,
-        "Marser"@en .
 
 th:marsyas_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -12637,12 +11529,6 @@ th:medea_group a skos:Concept ;
     skos:prefLabel "Medea-Gruppe"@de,
         "Medea Group"@en .
 
-th:mediomatrician a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Mediomatriker"@de,
-        "Mediomatrician"@en .
-
 th:meer_group a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -12708,12 +11594,6 @@ th:menaidas a skos:Concept ;
     skos:prefLabel "Menaidas"@de,
         "Menaidas"@en .
 
-th:menapier a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Menapier"@de,
-        "Menapier"@en .
-
 th:menelaos_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -12754,12 +11634,6 @@ th:messapian_pottery a skos:Concept ;
     skos:prefLabel "Messapische Keramik"@de,
         "Messapian pottery"@en,
         "Ceramica messapica"@it .
-
-th:messapier a skos:Concept ;
-    skos:broader th:italian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Messapier"@de,
-        "Messapier"@en .
 
 th:methyse_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -12896,13 +11770,6 @@ th:minoan_ceramics a skos:Concept ;
         "Minoan ceramics"@en,
         "Ceramica minoica"@it .
 
-th:minoans a skos:Concept ;
-    skos:altLabel "monoisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Minoer"@de,
-        "Minoans"@en .
-
 th:minotaur_painter a skos:Concept ;
     skos:broader th:boeotian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -12926,14 +11793,6 @@ th:modica_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Modica-Maler"@de,
         "Modica Painter"@en .
-
-th:moeser a skos:Concept ;
-    skos:altLabel "Moesien"@de,
-        "moesisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Moeser"@de,
-        "Moeser"@en .
 
 th:mold_blown a skos:Concept ;
     skos:broader th:glass_jar ;
@@ -13027,35 +11886,11 @@ th:moore_painter a skos:Concept ;
     skos:prefLabel "Moore-Maler"@de,
         "Moore Painter"@en .
 
-th:more_brigand a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Briganter"@de,
-        "More brigand"@en .
-
 th:morin_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Morin-Maler"@de,
         "Morin Painter"@en .
-
-th:morinier a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Morinier"@de,
-        "Morinier"@en .
-
-th:mormino_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Mormino-Gruppe"@de,
-        "Mormino Group"@en .
-
-th:mormino_painter a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Mormino-Maler"@de,
-        "Mormino Painter"@en .
 
 th:moscow_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -13113,12 +11948,6 @@ th:muenster a skos:Concept ;
     skos:prefLabel "Münster"@de,
         "Muenster"@en .
 
-th:mulleus a skos:Concept ;
-    skos:broader th:Schuhroemisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Mulleus"@de,
-        "Mulleus"@en .
-
 th:multi-nosed_lamp a skos:Concept ;
     skos:broader th:lamp_type_roman ;
     skos:inScheme th:scheme ;
@@ -13164,13 +11993,6 @@ th:mycenaean_pottery a skos:Concept ;
     skos:prefLabel "Mykenische Keramik"@de,
         "Mycenaean pottery"@en,
         "ceramica micenea"@it .
-
-th:mynier a skos:Concept ;
-    skos:altLabel "mynisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Mynier"@de,
-        "Mynier"@en .
 
 th:mys a skos:Concept ;
     skos:broader th:red-figure ;
@@ -13232,12 +12054,6 @@ th:naiskos a skos:Concept ;
         "Naiskos"@en,
         "naiskos"@it .
 
-th:namneter a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Namneter"@de,
-        "Namneter"@en .
-
 th:naples_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q28555782> ;
@@ -13266,12 +12082,6 @@ th:nausicaa_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Nausikaa-Maler"@de,
         "Nausicaa Painter"@en .
-
-th:navantaer a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Navantaer"@de,
-        "Navantaer"@en .
 
 th:nazi_swastika a skos:Concept ;
     skos:broader th:geometric ;
@@ -13329,18 +12139,6 @@ th:nekyia_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Nekyia-Maler"@de,
         "Nekyia Painter"@en .
-
-th:nervier a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Nervier"@de,
-        "Nervier"@en .
-
-th:nestaeans a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Nestäer"@de,
-        "Nestaeans"@en .
 
 th:nestoris a skos:Concept ;
     skos:altLabel "Trozzella"@de ;
@@ -13454,12 +12252,6 @@ th:nisyros_group a skos:Concept ;
     skos:prefLabel "Nisyros-Gruppe"@de,
         "Nisyros Group"@en .
 
-th:nitiobroger a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Nitiobroger"@de,
-        "Nitiobroger"@en .
-
 th:north_daunian_ceramics a skos:Concept ;
     skos:broader th:daunian_ceramics ;
     skos:inScheme th:scheme ;
@@ -13477,14 +12269,6 @@ th:nostell_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Nostell-Maler"@de,
         "Nostell Painter"@en .
-
-th:numider a skos:Concept ;
-    skos:altLabel "Numidien"@de,
-        "numidisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Numider"@de,
-        "Numider"@en .
 
 th:nuppenglas a skos:Concept ;
     skos:broader th:glass_jar ;
@@ -13792,12 +12576,6 @@ th:orchestra a skos:Concept ;
     skos:prefLabel "Orchestra"@de,
         "Orchestra"@en .
 
-th:ordovician a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ordoviker"@de,
-        "Ordovician"@en .
-
 th:oreibelos_potter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -13824,12 +12602,6 @@ th:oriental_panther_painter a skos:Concept ;
     skos:prefLabel "Orientalischer Panther-Maler"@de,
         "Oriental panther painter"@en .
 
-th:oriker a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Oriker"@de,
-        "Oriker"@en .
-
 th:orleans_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -13854,30 +12626,11 @@ th:osborne_house_painter a skos:Concept ;
     skos:prefLabel "Osborne House-Maler"@de,
         "Osborne House Painter"@en .
 
-th:osismian a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Osismier"@de,
-        "Osismian"@en .
-
-th:osker a skos:Concept ;
-    skos:broader th:italian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Osker"@de,
-        "Osker"@en .
-
 th:oslo_group a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Oslo-Gruppe"@de,
         "Oslo Group"@en .
-
-th:ostrogoths a skos:Concept ;
-    skos:altLabel "ostgotisch"@de ;
-    skos:broader th:goths ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ostgoten"@de,
-        "Ostrogoths"@en .
 
 th:otago_group a skos:Concept ;
     skos:broader th:apulian ;
@@ -13950,12 +12703,6 @@ th:oxford_class_of_head-vases a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Oxford Klasse der Kopfvasen"@de,
         "Oxford Class of Head-vases"@en .
-
-th:oxybeer a skos:Concept ;
-    skos:broader th:ligurians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Oxybier"@de,
-        "Oxybeer"@en .
 
 th:padula_group a skos:Concept ;
     skos:broader th:campanian ;
@@ -14822,14 +13569,6 @@ th:painter_of_british_museum_f_465 a skos:Concept ;
     skos:prefLabel "Maler von British Museum F 465"@de,
         "Painter of British Museum F 465"@en .
 
-th:painter_of_british_museum_f_473 a skos:Concept ;
-    skos:altLabel "Maler von B. M. F 473"@de,
-        "Painter of B. M. F 473"@en ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Maler von British Museum F 473"@de,
-        "Painter of British Museum F 473"@en .
-
 th:painter_of_british_museum_f_500 a skos:Concept ;
     skos:altLabel "Maler von B. M. F 500"@de,
         "Painter of B. M. F 500"@en ;
@@ -14944,12 +13683,6 @@ th:painter_of_brüssel_a._946_a-b a skos:Concept ;
     skos:prefLabel "Maler von Brüssel A. 946 A-B"@de,
         "Painter of Brüssel A. 946 A-B"@en .
 
-th:painter_of_cambridge_253 a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Maler von Cambridge 253"@de,
-        "Painter of Cambridge 253"@en .
-
 th:painter_of_cambridge_28.2 a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -15009,24 +13742,6 @@ th:painter_of_capua_8358 a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Maler von Capua 8358"@de,
         "Painter of Capua 8358"@en .
-
-th:painter_of_catania_4295 a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Maler von Catania 4295"@de,
-        "Painter of Catania 4295"@en .
-
-th:painter_of_catania_4299 a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Maler von Catania 4299"@de,
-        "Painter of Catania 4299"@en .
-
-th:painter_of_catania_4305 a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Maler von Catania 4305"@de,
-        "Painter of Catania 4305"@en .
 
 th:painter_of_catania_737 a skos:Concept ;
     skos:broader th:campanian ;
@@ -16839,12 +15554,6 @@ th:painter_of_palermo_4 a skos:Concept ;
     skos:prefLabel "Maler von Palermo 4"@de,
         "Painter of Palermo 4"@en .
 
-th:painter_of_palermo_401 a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Maler von Palermo 401"@de,
-        "Painter of Palermo 401"@en .
-
 th:painter_of_palermo_489 a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1524283> ;
@@ -17787,13 +16496,6 @@ th:painter_of_the_taranto_troilos a skos:Concept ;
     skos:prefLabel "Maler des Taranto Troilos"@de,
         "Painter of the Taranto Troilos"@en .
 
-th:painter_of_the_three_nikai a skos:Concept ;
-    skos:altLabel "Drei Niken-Maler"@de ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Maler der drei Niken"@de,
-        "Painter of the three Nikai"@en .
-
 th:painter_of_the_truro_pelike a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -17896,12 +16598,6 @@ th:painter_of_trieste_s_432 a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Maler von Triest S 432"@de,
         "Painter of Trieste S 432"@en .
-
-th:painter_of_turin_4518 a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Maler von Turin 4518"@de,
-        "Painter of Turin 4518"@en .
 
 th:painter_of_turin_4699 a skos:Concept ;
     skos:broader th:campanian ;
@@ -18298,12 +16994,6 @@ th:painter_og_bologna_440 a skos:Concept ;
     skos:prefLabel "Maler von Bologna 440"@de,
         "Painter og Bologna 440"@en .
 
-th:paionian a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Paionier"@de,
-        "Paionian"@en .
-
 th:palace a skos:Concept ;
     skos:broader th:architecture_type ;
     skos:inScheme th:scheme ;
@@ -18366,14 +17056,6 @@ th:panaitios_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Panaitios-Maler"@de,
         "Panaitios Painter"@en .
-
-th:pannonians a skos:Concept ;
-    skos:altLabel "Pannonien"@de,
-        "pannonisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Pannonier"@de,
-        "Pannonians"@en .
 
 th:panther-bird_group a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -18444,18 +17126,6 @@ th:parian_ceramics a skos:Concept ;
     skos:prefLabel "Parische Keramik"@de,
         "Parian ceramics"@en .
 
-th:parisian a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Parisier"@de,
-        "Parisian"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/parisian,_britain> a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Parisier, Britannien"@de,
-        "Parisian, Britain"@en .
-
 th:parisian_orientalizing a skos:Concept ;
     skos:broader th:cycladic_orientalizing ;
     skos:inScheme th:scheme ;
@@ -18474,12 +17144,6 @@ th:parrish_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Parrish-Maler"@de,
         "Parrish Painter"@en .
-
-th:parthines a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Parthiner"@de,
-        "Parthines"@en .
 
 th:pasiades a skos:Concept ;
     skos:broader th:red-figure ;
@@ -18526,12 +17190,6 @@ th:patera_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Patera-Maler"@de,
         "Patera Painter"@en .
-
-th:paternò_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Paternò-Gruppe"@de,
-        "Paternò Group"@en .
 
 th:patras_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -18608,12 +17266,6 @@ th:penelope_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Penelope-Maler"@de,
         "Penelope Painter"@en .
-
-th:penestier a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Penestier"@de,
-        "Penestier"@en .
 
 th:penichros_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -18702,12 +17354,6 @@ th:perizoma_group a skos:Concept ;
     skos:prefLabel "Perizoma-Gruppe"@de,
         "Perizoma Group"@en .
 
-th:pero a skos:Concept ;
-    skos:broader th:Schuhroemisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Pero"@de,
-        "Pero"@en .
-
 th:perrone_group a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -18719,12 +17365,6 @@ th:perrone_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Perrone-Maler"@de,
         "Perrone Painter"@en .
-
-th:perschiean_shoe a skos:Concept ;
-    skos:broader th:Schuhgriechisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Perschioscher Schuh"@de,
-        "Perschiean shoe"@en .
 
 th:persephone_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -18775,12 +17415,6 @@ th:petrie_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Petrie-Maler"@de,
         "Petrie Painter"@en .
-
-th:petrocorians a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Petrocorier"@de,
-        "Petrocorians"@en .
 
 th:petworth_group a skos:Concept ;
     skos:broader th:red-figure ;
@@ -18900,18 +17534,6 @@ th:phrynos_potter a skos:Concept ;
     skos:prefLabel "Phrynos Töpfer"@de,
         "Phrynos Potter"@en .
 
-th:picener a skos:Concept ;
-    skos:broader th:italian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Picener"@de,
-        "Picener"@en .
-
-th:pictons a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Pictonen"@de,
-        "Pictons"@en .
-
 th:picture_lamp a skos:Concept ;
     skos:broader th:lamp_type_roman ;
     skos:inScheme th:scheme ;
@@ -18976,12 +17598,6 @@ th:piraeus_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Piräus-Maler"@de,
         "Piraeus Painter"@en .
-
-th:pirus_deer a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Pirustier"@de,
-        "Pirus deer"@en .
 
 th:pistias_class a skos:Concept ;
     skos:broader th:black-figure ;
@@ -19071,12 +17687,6 @@ th:plate_and_pyxis_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Teller und Pyxis-Maler"@de,
         "Plate and Pyxis Painter"@en .
-
-th:pleraean a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Pleraeer"@de,
-        "Pleraean"@en .
 
 th:plinth a skos:Concept ;
     skos:altLabel "Standplatte"@de ;
@@ -19186,14 +17796,6 @@ th:polyteleia_painter a skos:Concept ;
     skos:prefLabel "Polyteleia-Maler"@de,
         "Polyteleia Painter"@en .
 
-th:ponter a skos:Concept ;
-    skos:altLabel "Pontus"@de,
-        "pontisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ponter"@de,
-        "Ponter"@en .
-
 th:populonia_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -19211,12 +17813,6 @@ th:port_sunlight_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Port Sunlight-Gruppe"@de,
         "Port Sunlight Group"@en .
-
-th:portale_painter a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Portal-Maler"@de,
-        "Portale Painter"@en .
 
 th:portland_painter a skos:Concept ;
     skos:broader th:campanian ;
@@ -19552,13 +18148,6 @@ th:q_painter a skos:Concept ;
     skos:prefLabel "Q-Maler"@de,
         "Q Painter"@en .
 
-th:quaden a skos:Concept ;
-    skos:altLabel "quadisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Quaden"@de,
-        "Quaden"@en .
-
 th:quadrat_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q21282418> ;
@@ -19615,29 +18204,11 @@ th:rainone_painter a skos:Concept ;
     skos:prefLabel "Rainone-Maler"@de,
         "Rainone Painter"@en .
 
-th:rainseer a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Regnenseser"@de,
-        "Rainseer"@en .
-
 th:rammed_masonry a skos:Concept ;
     skos:broader th:wall ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Stampfmauerwerk"@de,
         "Rammed masonry"@en .
-
-th:rancate_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Rancate-Gruppe"@de,
-        "Rancate Group"@en .
-
-th:randazzo_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Randazzo-Gruppe"@de,
-        "Randazzo Group"@en .
 
 th:raptor_group a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -19701,12 +18272,6 @@ th:redingote_painter a skos:Concept ;
     skos:prefLabel "Redingote-Maler"@de,
         "Redingote Painter"@en .
 
-th:redoner a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Redoner"@de,
-        "Redoner"@en .
-
 th:reed_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q3196797> ;
@@ -19744,23 +18309,11 @@ th:reigenmaler a skos:Concept ;
     skos:prefLabel "Reigen-Maler"@de,
         "Reigenmaler"@en .
 
-th:remer a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Remer"@de,
-        "Remer"@en .
-
 th:rennes_painter a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Rennes-Maler"@de,
         "Rennes Painter"@en .
-
-th:report a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Meldier"@de,
-        "Report"@en .
 
 th:restauri_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -19932,14 +18485,6 @@ th:rohan_painter a skos:Concept ;
     skos:prefLabel "Rohan-Maler"@de,
         "Rohan Painter"@en .
 
-th:romans a skos:Concept ;
-    skos:altLabel "Rom"@de,
-        "römisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Römer"@de,
-        "Romans"@en .
-
 th:room a skos:Concept ;
     skos:broader th:architecture_type ;
     skos:inScheme th:scheme ;
@@ -20015,12 +18560,6 @@ th:rueff_painter a skos:Concept ;
     skos:prefLabel "Rueff-Maler"@de,
         "Rueff Painter"@en .
 
-th:rugier a skos:Concept ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Rugier"@de,
-        "Rugier"@en .
-
 th:runner_group a skos:Concept ;
     skos:broader th:vase_painter_milesian ;
     skos:inScheme th:scheme ;
@@ -20046,12 +18585,6 @@ th:rustic_group a skos:Concept ;
     skos:prefLabel "Rustikal-Gruppe"@de,
         "Rustic Group"@en .
 
-th:rutener a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Rutener"@de,
-        "Rutener"@en .
-
 th:rycroft_painter a skos:Concept ;
     skos:broader th:black-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2178176> ;
@@ -20070,12 +18603,6 @@ th:s_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "S-Maler"@de,
         "S Painter"@en .
-
-th:sabine a skos:Concept ;
-    skos:broader th:italian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sabiner"@de,
-        "Sabine"@en .
 
 th:sabouroff_class_of_head-vases a skos:Concept ;
     skos:broader th:red-figure ;
@@ -20109,12 +18636,6 @@ th:sad_sirens_group a skos:Concept ;
     skos:prefLabel "Gruppe der traurigen Sirenen"@de,
         "Sad Sirens Group"@en .
 
-th:saefather a skos:Concept ;
-    skos:broader th:noriker ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Saevater"@de,
-        "Saefather"@en .
-
 th:saffron-walden_painter a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -20147,13 +18668,6 @@ th:salax_potter a skos:Concept ;
     skos:prefLabel "Salax Töpfer"@de,
         "Salax Potter"@en .
 
-th:salluver a skos:Concept ;
-    skos:altLabel "Salver"@de ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Salluver"@de,
-        "Salluver"@en .
-
 th:sam_wide_group a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -20165,12 +18679,6 @@ th:sami_column_base a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Säulenbasis samisch"@de,
         "Sami column base"@en .
-
-th:samnites a skos:Concept ;
-    skos:broader th:italian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Samniten"@de,
-        "Samnites"@en .
 
 th:samos_group a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -20197,12 +18705,6 @@ th:santa_barbara_painter a skos:Concept ;
     skos:prefLabel "Santa Barbara-Maler"@de,
         "Santa Barbara Painter"@en .
 
-th:santonians a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Santoner"@de,
-        "Santonians"@en .
-
 th:sarcophagus a skos:Concept ;
     skos:broader th:body_burial ;
     skos:definition "Leichenbehälter, häufig aus Stein"@de,
@@ -20212,22 +18714,6 @@ th:sarcophagus a skos:Concept ;
     skos:prefLabel "Sarkophag"@de,
         "sarcophagus"@en,
         "sarcofago"@it .
-
-th:sardinia a skos:Concept ;
-    skos:altLabel "Sardinien"@de,
-        "sardisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sarden"@de,
-        "Sardinia"@en .
-
-th:sarmatians a skos:Concept ;
-    skos:altLabel "Sarmatien"@de,
-        "sarmatisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sarmaten"@de,
-        "Sarmatians"@en .
 
 th:sarpedon_painter a skos:Concept ;
     skos:broader th:apulian ;
@@ -20246,13 +18732,6 @@ th:sausage_skin a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Wursthaut"@de,
         "Sausage skin"@en .
-
-th:saxony a skos:Concept ;
-    skos:altLabel "sächsische"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sachsen"@de,
-        "Saxony"@en .
 
 th:scaglione_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -20379,12 +18858,6 @@ th:scooping_vessel a skos:Concept ;
     skos:prefLabel "Schöpfgefäß"@de,
         "Scooping vessel"@en .
 
-th:sculponea a skos:Concept ;
-    skos:broader th:Schuhroemisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sculponea"@de,
-        "Sculponea"@en .
-
 th:seated_nike_painter a skos:Concept ;
     skos:broader th:campanian ;
     skos:inScheme th:scheme ;
@@ -20410,12 +18883,6 @@ th:seeds a skos:Concept ;
     skos:prefLabel "Samen"@de,
         "Seeds"@en .
 
-th:segusiaver a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Segusiaver"@de,
-        "Segusiaver"@en .
-
 th:seireniske_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q53437292> ;
@@ -20428,12 +18895,6 @@ th:sekos a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Sekos"@de,
         "Sekos"@en .
-
-th:selgovaer a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Selgovaer"@de,
-        "Selgovaer"@en .
 
 th:selinus_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -20453,42 +18914,11 @@ th:semi-outline_lekythoi a skos:Concept ;
     skos:prefLabel "Semi-Outline Lekythen"@de,
         "Semi-outline Lekythoi"@en .
 
-th:semnones a skos:Concept ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Semnonen"@de,
-        "Semnones"@en .
-
-th:senones a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Senonen"@de,
-        "Senones"@en .
-
-th:sequani a skos:Concept ;
-    skos:altLabel "sequanisch"@de ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sequaner"@de,
-        "Sequani"@en .
-
 th:serpentine_group a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Serpentinen-Gruppe"@de,
         "Serpentine Group"@en .
-
-th:sesarether a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sesarether"@de,
-        "Sesarether"@en .
-
-th:sevaker a skos:Concept ;
-    skos:broader th:noriker ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sevaker"@de,
-        "Sevaker"@en .
 
 th:severenau_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -20612,19 +19042,6 @@ th:sieve a skos:Concept ;
     skos:prefLabel "Sieb"@de,
         "Sieve"@en .
 
-th:sigambrians a skos:Concept ;
-    skos:altLabel "sigambrisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sigambrer"@de,
-        "Sigambrians"@en .
-
-th:sikaner a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sikaner"@de,
-        "Sicani"@en .
-
 th:sikanos_potter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -20645,23 +19062,11 @@ th:sikon_painter a skos:Concept ;
     skos:prefLabel "Sikon-Maler"@de,
         "Sikon Painter"@en .
 
-th:sikuler a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sikuler"@de,
-        "Siculi"@en .
-
 th:silk a skos:Concept ;
     skos:broader th:material ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Seide"@de,
         "Silk"@en .
-
-th:silurian a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Silurer"@de,
-        "Silurian"@en .
 
 th:silver a skos:Concept ;
     skos:broader th:metal ;
@@ -20774,23 +19179,11 @@ th:snub-nose_painter a skos:Concept ;
     skos:prefLabel "Stubsnasen-Maler"@de,
         "Snub-Nose Painter"@en .
 
-th:soccus a skos:Concept ;
-    skos:broader th:Schuhroemisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Soccus"@de,
-        "Soccus"@en .
-
 th:soldier-dancer_group a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Soldat-Tänzer-Gruppe"@de,
         "Soldier-Dancer Group"@en .
-
-th:solea a skos:Concept ;
-    skos:broader th:Schuhroemisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Solea"@de,
-        "Solea"@en .
 
 th:somme-bionne_group a skos:Concept ;
     skos:broader th:red-figure ;
@@ -20836,12 +19229,6 @@ th:sophilos a skos:Concept ;
     skos:prefLabel "Sophilos"@de,
         "Sophilos"@en .
 
-th:sordoner a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sordoner"@de,
-        "Sordoner"@en .
-
 th:sosias_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2303671> ;
@@ -20886,12 +19273,6 @@ th:sotheby_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Sotheby-Maler"@de,
         "Sotheby Painter"@en .
-
-th:sotiates a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sotiaten"@de,
-        "Sotiates"@en .
 
 th:south_daunian_ceramics a skos:Concept ;
     skos:broader th:daunian_ceramics ;
@@ -21202,32 +19583,12 @@ th:suckling_painter a skos:Concept ;
     skos:prefLabel "Suckling-Maler"@de,
         "Suckling Painter"@en .
 
-th:suebi a skos:Concept ;
-    skos:altLabel "suebisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sueben"@de,
-        "Suebi"@en .
-
-th:suessioner a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Suessioner"@de,
-        "Suessioner"@en .
-
 th:suessula_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q26982427> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Suessula-Maler"@de,
         "Suessula Painter"@en .
-
-th:sugambrer a skos:Concept ;
-    skos:altLabel "sugrambisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Sugambrer"@de,
-        "Sugambrer"@en .
 
 th:swan_group a skos:Concept ;
     skos:broader th:black-figure ;
@@ -21338,12 +19699,6 @@ th:t._p._s._group a skos:Concept ;
     skos:prefLabel "T. P. S.-Gruppe"@de,
         "T. P. S. Group"@en .
 
-th:tabler a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tabeller"@de,
-        "Tabler"@en .
-
 th:tablinum a skos:Concept ;
     skos:broader th:roman_house_room ;
     skos:inScheme th:scheme ;
@@ -21356,12 +19711,6 @@ th:taenia a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Taenia"@de,
         "Taenia"@en .
-
-th:taexaler a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Taexaler"@de,
-        "Taexaler"@en .
 
 th:taleides_painter a skos:Concept ;
     skos:broader th:black-figure ;
@@ -21458,36 +19807,17 @@ th:tarrytown_group a skos:Concept ;
     skos:prefLabel "Tarrytown-Gruppe"@de,
         "Tarrytown Group"@en .
 
-th:tartesser a skos:Concept ;
-    skos:altLabel "Tartessos"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tartesser"@de,
-        "Tartesser"@en .
-
 th:taucheira_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Taucheira-Maler"@de,
         "Taucheira Painter"@en .
 
-th:taulantier a skos:Concept ;
-    skos:broader th:illyrians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Taulantier"@de,
-        "Taulantier"@en .
-
 th:teano-tübingen_group a skos:Concept ;
     skos:broader th:campanian ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Teano-Tübingen-Gruppe"@de,
         "Teano-Tübingen Group"@en .
-
-th:tectosages a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tectosagen"@de,
-        "Tectosages"@en .
 
 th:teganon a skos:Concept ;
     skos:broader th:crucible ;
@@ -21735,14 +20065,6 @@ th:threshing_floor a skos:Concept ;
         "threshing floor"@en,
         "Aia (agricoltura)"@it .
 
-th:thuringian a skos:Concept ;
-    skos:altLabel "Thüringen"@de,
-        "thüringisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Thüringer"@de,
-        "Thuringian"@en .
-
 th:thymele a skos:Concept ;
     skos:broader th:greek_theater ;
     skos:inScheme th:scheme ;
@@ -21814,12 +20136,6 @@ th:tin_bronze a skos:Concept ;
     skos:prefLabel "Zinnbronze"@de,
         "Tin bronze"@en .
 
-th:tinovanter a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tinovanter"@de,
-        "Tinovanter"@en .
-
 th:tithonos_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:exactMatch <http://www.wikidata.org/entity/Q7809958> ;
@@ -21852,12 +20168,6 @@ th:togatus a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Togatus"@de,
         "Togatus"@en .
-
-th:tolistogians a skos:Concept ;
-    skos:broader th:galatians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tolistogier"@de,
-        "Tolistogians"@en .
 
 th:tooth a skos:Concept ;
     skos:broader th:organic_material ;
@@ -21911,12 +20221,6 @@ th:torus a skos:Concept ;
     skos:prefLabel "Torus"@de,
         "Torus"@en .
 
-th:toutobadiak a skos:Concept ;
-    skos:broader th:galatians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Toutobadiaker"@de,
-        "Toutobadiak"@en .
-
 th:tower a skos:Concept ;
     skos:broader th:architectural_part ;
     skos:inScheme th:scheme ;
@@ -21956,20 +20260,6 @@ th:traufsima a skos:Concept ;
     skos:prefLabel "Traufsima"@de,
         "Traufsima"@en .
 
-th:trenkter a skos:Concept ;
-    skos:altLabel "trenktisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Trenkter"@de,
-        "Trenkter"@en .
-
-th:treverer a skos:Concept ;
-    skos:altLabel "treverisch"@de ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Treverer"@de,
-        "Treverer"@en .
-
 th:triangular_eye_sub-group a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -21981,12 +20271,6 @@ th:tribunalia a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Tribunalia"@de,
         "Tribunalia"@en .
-
-th:tricasser a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tricasser"@de,
-        "Tricasser"@en .
 
 th:trier_type_a a skos:Concept ;
     skos:broader th:trier_type ;
@@ -22100,12 +20384,6 @@ th:truro_painter a skos:Concept ;
     skos:prefLabel "Truro-Maler"@de,
         "Truro Painter"@en .
 
-th:tulinger a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tulinger"@de,
-        "Tulinger"@en .
-
 th:tumbledown_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -22122,25 +20400,11 @@ th:tumulus a skos:Concept ;
         "Tumulus"@en,
         "tumulo"@it .
 
-th:tungrian a skos:Concept ;
-    skos:altLabel "tungrisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tungrer"@de,
-        "Tungrian"@en .
-
 th:tunny-seller_painter a skos:Concept ;
     skos:broader th:campanian ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Thunfisch-Verkäufer-Maler"@de,
         "Tunny-seller Painter"@en .
-
-th:turdetans a skos:Concept ;
-    skos:altLabel "turdetanisch"@de ;
-    skos:broader th:iberians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Turdetaner"@de,
-        "Turdetans"@en .
 
 th:turin_group a skos:Concept ;
     skos:broader th:lucanian ;
@@ -22153,12 +20417,6 @@ th:turin_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Turin-Maler"@de,
         "Turin Painter"@en .
-
-th:turons a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Turonen"@de,
-        "Turons"@en .
 
 th:tuscan_capital a skos:Concept ;
     skos:broader th:capital ;
@@ -22222,13 +20480,6 @@ th:tübingen_group a skos:Concept ;
     skos:prefLabel "Tübingen-Gruppe"@de,
         "Tübingen Group"@en .
 
-th:ubier a skos:Concept ;
-    skos:altLabel "ubrisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Ubier"@de,
-        "Ubier"@en .
-
 th:ugento_painter a skos:Concept ;
     skos:broader th:apulian ;
     skos:exactMatch <http://www.wikidata.org/entity/Q40329187> ;
@@ -22236,24 +20487,12 @@ th:ugento_painter a skos:Concept ;
     skos:prefLabel "Ugento-Maler"@de,
         "Ugento Painter"@en .
 
-th:umbrian a skos:Concept ;
-    skos:broader th:italian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Umbrer"@de,
-        "Umbrian"@en .
-
 th:underworld_painter a skos:Concept ;
     skos:broader th:apulian ;
     skos:exactMatch <http://www.wikidata.org/entity/Q348728> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Unterwelt-Maler"@de,
         "Underworld Painter"@en .
-
-th:uperaker a skos:Concept ;
-    skos:broader th:noriker ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Uperaker"@de,
-        "Uperaker"@en .
 
 th:upper_floor a skos:Concept ;
     skos:broader th:projectile ;
@@ -22275,12 +20514,6 @@ th:urla_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Urla-Gruppe"@de,
         "Urla Group"@en .
-
-th:usipetus a skos:Concept ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Usipeter"@de,
-        "Usipetus"@en .
 
 th:utrecht_painter a skos:Concept ;
     skos:broader th:red-figure ;
@@ -22306,26 +20539,11 @@ th:vaccarella_painter a skos:Concept ;
     skos:prefLabel "Vaccarella-Maler"@de,
         "Vaccarella Painter"@en .
 
-th:vacomager a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Vacomager"@de,
-        "Vacomager"@en .
-
 th:valencia_group a skos:Concept ;
     skos:broader th:campanian ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Valencia-Gruppe"@de,
         "Valencia Group"@en .
-
-th:vandals a skos:Concept ;
-    skos:altLabel "Wandalen"@de,
-        "vandalisch"@de,
-        "wandalisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Vandalen"@de,
-        "Vandals"@en .
 
 th:vari_dinos a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -22358,12 +20576,6 @@ th:vatican_class_of_head-vases a skos:Concept ;
     skos:prefLabel "Vatikan Klasse der Kopfvasen"@de,
         "Vatican Class of Head-vases"@en .
 
-th:vaturians a skos:Concept ;
-    skos:broader th:galatians ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Vaturier"@de,
-        "Vaturians"@en .
-
 th:vbk_group a skos:Concept ;
     skos:broader th:campanian ;
     skos:inScheme th:scheme ;
@@ -22381,36 +20593,6 @@ th:veii_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Veii-Maler"@de,
         "Veii Painter"@en .
-
-th:velio_cashier a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Veliocassier"@de,
-        "Velio cashier"@en .
-
-th:vellaver a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Vellaver"@de,
-        "Vellaver"@en .
-
-th:venellier a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Venellier"@de,
-        "Venellier"@en .
-
-th:veneter a skos:Concept ;
-    skos:broader th:italian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Veneter"@de,
-        "Veneter"@en .
-
-th:veneto a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Venetier"@de,
-        "Veneto"@en .
 
 th:vermicular_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -22527,19 +20709,6 @@ th:village a skos:Concept ;
         "village"@en,
         "villaggio"@it .
 
-th:viromanduer a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Viromanduer"@de,
-        "Viromanduer"@en .
-
-th:visigoths a skos:Concept ;
-    skos:altLabel "westgotisch"@de ;
-    skos:broader th:goths ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Westgoten"@de,
-        "Visigoths"@en .
-
 th:vitulazio_painter a skos:Concept ;
     skos:broader th:campanian ;
     skos:inScheme th:scheme ;
@@ -22558,12 +20727,6 @@ th:vlastos_group a skos:Concept ;
     skos:prefLabel "Vlastos-Gruppe"@de,
         "Vlastos Group"@en .
 
-th:vocontier a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Vocontier"@de,
-        "Vocontier"@en .
-
 th:vogel-ungeheuer-gruppe a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -22581,24 +20744,6 @@ th:vogler_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Vogler-Maler"@de,
         "Vogler Painter"@en .
-
-th:volcaer a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Volcaer"@de,
-        "Volcaer"@en .
-
-th:volcater a skos:Concept ;
-    skos:broader th:gauls ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Volcater"@de,
-        "Volcater"@en .
-
-th:volscian a skos:Concept ;
-    skos:broader th:italian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Volsker"@de,
-        "Volscian"@en .
 
 th:volute-zone_group a skos:Concept ;
     skos:broader th:vase_painter_milesian ;
@@ -22637,12 +20782,6 @@ th:volute_support_sheet a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Volutenstützblatt"@de,
         "Volute support sheet"@en .
-
-th:votadiner a skos:Concept ;
-    skos:broader th:british ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Votadiner"@de,
-        "Votadiner"@en .
 
 th:votive_statue a skos:Concept ;
     skos:broader th:statue_context ;
@@ -22707,13 +20846,6 @@ th:walters-dresden_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Walters-Dresden-Maler"@de,
         "Walters-Dresden Painter"@en .
-
-th:warn a skos:Concept ;
-    skos:altLabel "warnisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Warnen"@de,
-        "Warn"@en .
 
 th:warrior_frieze_painter a skos:Concept ;
     skos:altLabel "Krieger-Fries-Maler"@de ;
@@ -22857,12 +20989,6 @@ th:white-dot_workshop a skos:Concept ;
     skos:prefLabel "Weißer-Punkt Werkstatt"@de,
         "White-Dot Workshop"@en .
 
-th:white-stripe_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Weißer-Streifen-Gruppe"@de,
-        "White-Stripe Group"@en .
-
 th:white_bird_group a skos:Concept ;
     skos:broader th:campanian ;
     skos:inScheme th:scheme ;
@@ -22886,12 +21012,6 @@ th:white_horses_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Weiße Pferde Gruppe"@de,
         "White Horses Group"@en .
-
-th:white_ivy_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Weißer Efeu-Gruppe"@de,
-        "White Ivy Group"@en .
 
 th:white_saccos_group a skos:Concept ;
     skos:altLabel "White Sakkos-Gruppe"@de ;
@@ -23172,12 +21292,6 @@ th:z_painter a skos:Concept ;
     skos:prefLabel "Z-Maler"@de,
         "Z Painter"@en .
 
-th:za_painter a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "ZA-Maler"@de,
-        "ZA Painter"@en .
-
 th:zaandam_group a skos:Concept ;
     skos:broader th:apulian ;
     skos:inScheme th:scheme ;
@@ -23235,12 +21349,6 @@ th:zinc a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Zink"@de,
         "Zinc"@en .
-
-th:zurich_group a skos:Concept ;
-    skos:broader th:sicilian ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Zürich-Gruppe"@de,
-        "Zurich Group"@en .
 
 th:zurich_painter a skos:Concept ;
     skos:broader th:black-figure ;
@@ -23326,13 +21434,6 @@ th:boeotian_red-figure a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Böotisch Rotfigurig"@de,
         "Boeotian red-figure"@en .
-
-th:borelli_painter a skos:Concept ;
-    skos:broader th:sicilian,
-        th:vase_painter_klazomenisch ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Borelli-Maler"@de,
-        "Borelli Painter"@en .
 
 th:bowl a skos:Concept ;
     skos:altLabel "Schüssel"@de ;
@@ -24991,14 +23092,6 @@ th:exekias a skos:Concept ;
     skos:prefLabel "Exekias"@de,
         "Exekias"@en .
 
-th:footwear a skos:Concept ;
-    skos:broader th:heritageasset ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:Schuhgriechisch,
-        th:Schuhroemisch ;
-    skos:prefLabel "Schuhwerk"@de,
-        "Footwear"@en .
-
 th:gable a skos:Concept ;
     skos:broader th:architectural_part ;
     skos:definition "Architekturelement"@de,
@@ -25044,15 +23137,6 @@ th:goluchow_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Goluchow-Maler"@de,
         "Goluchow Painter"@en .
-
-th:goths a skos:Concept ;
-    skos:altLabel "gotisch"@de ;
-    skos:broader th:teutons ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:ostrogoths,
-        th:visigoths ;
-    skos:prefLabel "Goten"@de,
-        "Goths"@en .
 
 th:greek_house a skos:Concept ;
     skos:broader th:house ;
@@ -25178,14 +23262,6 @@ th:leagros_group a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Leagros-Gruppe"@de,
         "Leagros Group"@en .
-
-th:ligurians a skos:Concept ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:dekietes,
-        th:oxybeer ;
-    skos:prefLabel "Ligurier"@de,
-        "Ligurians"@en .
 
 th:lysippides_painter a skos:Concept ;
     skos:broader th:bilingual,
@@ -26336,19 +24412,6 @@ th:cycladic_orientalizing a skos:Concept ;
     skos:prefLabel "Kykladisch Orientalsierend"@de,
         "Cycladic Orientalizing"@en .
 
-th:iberians a skos:Concept ;
-    skos:altLabel "Iberien"@de,
-        "iberisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:asturian,
-        th:cantabrer,
-        th:celtiberians,
-        th:lusitanians,
-        th:turdetans ;
-    skos:prefLabel "Iberer"@de,
-        "Iberians"@en .
-
 th:ionic_capital a skos:Concept ;
     skos:broader th:capital ;
     skos:inScheme th:scheme ;
@@ -26482,18 +24545,6 @@ th:wall a skos:Concept ;
     skos:prefLabel "Wand- Boden- und Deckenverkleidung"@de,
         "Wall, floor and ceiling cladding"@en .
 
-th:Schuhgriechisch a skos:Concept ;
-    skos:broader th:footwear ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:arbyle,
-        th:embas,
-        th:iphikratides,
-        th:kothornos,
-        th:lakonikai,
-        th:perschiean_shoe ;
-    skos:prefLabel "Griechischer Schuh"@de,
-        "Greek shoe"@en .
-
 th:corinthian_ceramics a skos:Concept ;
     skos:altLabel "Korinthisch Schwarzfigurug"@de ;
     skos:broader th:greek_ceramics ;
@@ -26506,20 +24557,6 @@ th:corinthian_ceramics a skos:Concept ;
         th:proto-corinthian_pottery ;
     skos:prefLabel "Korinthische Keramik"@de,
         "Corinthian ceramics"@en .
-
-th:galatians a skos:Concept ;
-    skos:altLabel "Galatien"@de,
-        "galatisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:ambitoutier,
-        th:leonnorian,
-        th:lutarians,
-        th:tolistogians,
-        th:toutobadiak,
-        th:vaturians ;
-    skos:prefLabel "Galater"@de,
-        "Galatians"@en .
 
 th:geometric a skos:Concept ;
     skos:broader th:ornament ;
@@ -26851,6 +24888,21 @@ th:column a skos:Concept ;
     skos:prefLabel "Säule"@de,
         "Column"@en .
 
+th:heritageasset a skos:Concept ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:architecture_and_urbanism,
+        th:ceramic,
+        th:container,
+        th:lighting_device,
+        th:material,
+        th:ornament,
+        th:sculpture,
+        th:subject,
+        th:vase_painter ;
+    skos:prefLabel "Kulturgut"@de,
+        "HeritageAsset"@en ;
+    skos:topConceptOf th:scheme .
+
 th:pot a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:definition "Standgefäß für Flüssigkeiten mit Henkel"@de,
@@ -26939,78 +24991,6 @@ th:lower_italian_red-figure a skos:Concept ;
         th:xenon_group ;
     skos:prefLabel "Unteritalisch Rotfigurig"@de,
         "Lower Italian red-figure"@en .
-
-th:Schuhroemisch a skos:Concept ;
-    skos:broader th:footwear ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:calceus_equester,
-        th:calceus_senatorius,
-        th:caliga,
-        th:crepida,
-        th:gallica,
-        th:kothurn,
-        th:mulleus,
-        th:pero,
-        th:sculponea,
-        th:soccus,
-        th:solea ;
-    skos:prefLabel "Römischer Schuh"@de,
-        "Roman shoe"@en .
-
-th:heritageasset a skos:Concept ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:architecture_and_urbanism,
-        th:ceramic,
-        th:container,
-        th:cultures,
-        th:footwear,
-        th:lighting_device,
-        th:material,
-        th:ornament,
-        th:sculpture,
-        th:subject,
-        th:vase_painter ;
-    skos:prefLabel "Kulturgut"@de,
-        "HeritageAsset"@en ;
-    skos:topConceptOf th:scheme .
-
-th:italian a skos:Concept ;
-    skos:altLabel "Italien"@de,
-        "italisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:daunier,
-        th:falisker,
-        th:latins,
-        th:messapier,
-        th:osker,
-        th:picener,
-        th:sabine,
-        th:samnites,
-        th:umbrian,
-        th:veneter,
-        th:volscian ;
-    skos:prefLabel "Italiker"@de,
-        "Italian"@en .
-
-th:noriker a skos:Concept ;
-    skos:altLabel "Norikum"@de,
-        "norisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:alumians,
-        th:ambidravier,
-        th:ambilic,
-        th:ambisonter,
-        th:carner,
-        th:cataler,
-        th:iapoder,
-        th:laianker,
-        th:saefather,
-        th:sevaker,
-        th:uperaker ;
-    skos:prefLabel "Noriker"@de,
-        "Noriker"@en .
 
 th:settlement a skos:Concept ;
     skos:altLabel "human settlement"@en ;
@@ -27453,39 +25433,6 @@ th:organic_material a skos:Concept ;
     skos:prefLabel "Organisches_Material"@de,
         "Organic material"@en .
 
-th:british a skos:Concept ;
-    skos:altLabel "Britannien"@de,
-        "britannisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:atrebater,
-        th:caledonians,
-        th:cantiaker,
-        th:carvetier,
-        th:catuvellauner,
-        th:coritans,
-        th:cornovier,
-        th:damnonians,
-        th:deceangler,
-        th:demetaer,
-        th:dobumner,
-        th:dumnonians,
-        th:durotriger,
-        th:iceni,
-        th:more_brigand,
-        th:navantaer,
-        th:ordovician,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/parisian,_britain>,
-        th:rainseer,
-        th:selgovaer,
-        th:silurian,
-        th:taexaler,
-        th:tinovanter,
-        th:vacomager,
-        th:votadiner ;
-    skos:prefLabel "Briten"@de,
-        "British"@en .
-
 th:lamp_type_roman a skos:Concept ;
     skos:broader th:lamp ;
     skos:inScheme th:scheme ;
@@ -27585,82 +25532,6 @@ th:architectural_part a skos:Concept ;
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/wall,_floor_and_ceiling_cladding> ;
     skos:prefLabel "Architekturteil"@de,
         "Architectural part"@en .
-
-th:cultures a skos:Concept ;
-    skos:broader th:heritageasset ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:african,
-        th:arabs,
-        th:balearic_islands,
-        th:bithynians,
-        th:british,
-        th:cappadocian,
-        th:carthaginians,
-        th:corsica,
-        th:councilor,
-        th:dacian,
-        th:egyptians,
-        th:galatians,
-        th:gauls,
-        th:greeks,
-        th:iberians,
-        th:illyrians,
-        th:italian,
-        th:ligurians,
-        th:minoans,
-        th:moeser,
-        th:mynier,
-        th:noriker,
-        th:numider,
-        th:pannonians,
-        th:ponter,
-        th:romans,
-        th:sardinia,
-        th:sarmatians,
-        th:sicilian,
-        th:tartesser,
-        th:teutons ;
-    skos:prefLabel "Kulturen"@de,
-        "Cultures"@en .
-
-th:illyrians a skos:Concept ;
-    skos:altLabel "Illyrien"@de,
-        "illyrisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:amantier,
-        th:arber,
-        th:ardians,
-        th:atiutan,
-        th:autariats,
-        th:billions,
-        th:breuker,
-        th:buliner,
-        th:chaonians,
-        th:chelidonians,
-        th:dalmatian,
-        th:dassaretes,
-        th:dessidiates,
-        th:doclaeans,
-        th:enchelean,
-        th:eordean,
-        th:hierastammer,
-        th:hyller,
-        th:japodier,
-        th:lebeaten,
-        th:libunians,
-        th:manner,
-        th:nestaeans,
-        th:oriker,
-        th:paionian,
-        th:parthines,
-        th:penestier,
-        th:pirus_deer,
-        th:pleraean,
-        th:sesarether,
-        th:taulantier ;
-    skos:prefLabel "Illyrer"@de,
-        "Illyrians"@en .
 
 th:architecture_type a skos:Concept ;
     skos:broader th:architecture_and_urbanism ;
@@ -27841,62 +25712,6 @@ th:boeotian_vase_painter a skos:Concept ;
     skos:prefLabel "Vasenmaler böotisch"@de,
         "Boeotian vase painter"@en .
 
-th:teutons a skos:Concept ;
-    skos:altLabel "Germanien"@de,
-        "Teutonen"@de,
-        "germanisch"@de,
-        "teutonisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:alans,
-        th:alemanni,
-        th:ambronen,
-        th:anglo-saxons,
-        th:angrivarian,
-        th:bastarnen,
-        th:batavian,
-        th:bavarians,
-        th:bructerer,
-        th:burgundy,
-        th:chamaren,
-        th:chat,
-        th:chattuarian,
-        th:chauken,
-        th:cherusci,
-        th:cimbri,
-        th:fishing,
-        th:franconia,
-        th:frisians,
-        th:gambrivier,
-        th:gepids,
-        th:goths,
-        th:hermiones,
-        th:hermunduren,
-        th:heruli,
-        th:inguions,
-        th:istaevonen,
-        th:jutes,
-        th:juthungen,
-        th:lombards,
-        th:marcomanni,
-        th:marser,
-        th:quaden,
-        th:rugier,
-        th:saxony,
-        th:semnones,
-        th:sigambrians,
-        th:suebi,
-        th:sugambrer,
-        th:thuringian,
-        th:trenkter,
-        th:tungrian,
-        th:ubier,
-        th:usipetus,
-        th:vandals,
-        th:warn ;
-    skos:prefLabel "Germanen"@de,
-        "Teutons"@en .
-
 th:types_according_to_loeschke a skos:Concept ;
     skos:broader th:lamp_type_roman ;
     skos:inScheme th:scheme ;
@@ -27963,7 +25778,6 @@ th:vase_painter_klazomenisch a skos:Concept ;
         th:_2.1-4,
         th:_3.1,
         th:albertinum_group,
-        th:borelli_painter,
         th:clazomenian_group,
         th:dennis_painter,
         th:enmann_class,
@@ -28062,145 +25876,6 @@ th:bilingual a skos:Concept ;
         th:woman_painter ;
     skos:prefLabel "Bilingue Vasen"@de,
         "bilingual vase painting"@en .
-
-th:sicilian a skos:Concept ;
-    skos:altLabel "Sizilien"@de,
-        "Sizilisch"@de,
-        "sizilisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:adrano_group,
-        th:berlin_heads_group,
-        th:biancavilla_painter,
-        th:borelli_group,
-        th:borelli_painter,
-        th:butera_head_group,
-        th:camarina_heads_group,
-        th:canberra_group,
-        th:cefalù_group,
-        th:cefalù_painter,
-        th:centuripe_heads_group,
-        th:elymer,
-        th:etna_group,
-        th:gela_heads_group,
-        th:gibil_gabib_group,
-        th:group_of_catania_4292,
-        th:group_of_syracuse_51288,
-        th:group_of_t._340,
-        th:group_of_the_lentini_hydriai,
-        th:group_of_the_sydney_bottle,
-        th:havana_heads_group,
-        th:hekate_painter,
-        th:lentini-manfria_group,
-        th:lentini_group,
-        th:lentini_painter,
-        th:lilibeo_group,
-        th:lipari_group,
-        th:lipari_painter,
-        th:lloyd_group,
-        th:lloyd_painter,
-        th:macclesfield_painter,
-        th:manfria_group,
-        th:manfria_painter,
-        th:mormino_group,
-        th:mormino_painter,
-        th:painter_of_british_museum_f_473,
-        th:painter_of_cambridge_253,
-        th:painter_of_catania_4295,
-        th:painter_of_catania_4299,
-        th:painter_of_catania_4305,
-        th:painter_of_palermo_401,
-        th:painter_of_the_three_nikai,
-        th:painter_of_turin_4518,
-        th:paternò_group,
-        th:portale_painter,
-        th:rancate_group,
-        th:randazzo_group,
-        th:sikaner,
-        th:sikuler,
-        th:white-stripe_group,
-        th:white_ivy_group,
-        th:za_painter,
-        th:zurich_group ;
-    skos:prefLabel "Sizilier"@de,
-        "Sicilian"@en .
-
-th:gauls a skos:Concept ;
-    skos:altLabel "Gallien"@de,
-        "gallisch"@de ;
-    skos:broader th:cultures ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:aduatuker,
-        th:aeduer,
-        th:allobroger,
-        th:ambarrier,
-        th:ambians,
-        th:arecomicians,
-        th:aremorians,
-        th:arverni,
-        th:at_the,
-        th:atrebates,
-        th:aulerkier,
-        th:auscier,
-        th:belgen,
-        th:bellovacier,
-        th:bigarrioner,
-        th:bituriger,
-        th:cadurker,
-        th:calatier,
-        th:carnunter,
-        th:catalaunians,
-        th:celomanian,
-        th:cuber,
-        th:curiosoliters,
-        th:eburones,
-        th:eburoviker,
-        th:gabaler,
-        th:helvetii,
-        th:helvier,
-        th:latobrig,
-        th:leiker,
-        th:lemoviker,
-        th:lexovian,
-        th:lingioner,
-        th:mediomatrician,
-        th:menapier,
-        th:morinier,
-        th:namneter,
-        th:nervier,
-        th:nitiobroger,
-        th:osismian,
-        th:parisian,
-        th:petrocorians,
-        th:pictons,
-        th:redoner,
-        th:remer,
-        th:report,
-        th:rutener,
-        th:salluver,
-        th:santonians,
-        th:segusiaver,
-        th:senones,
-        th:sequani,
-        th:sordoner,
-        th:sotiates,
-        th:suessioner,
-        th:tabler,
-        th:tectosages,
-        th:treverer,
-        th:tricasser,
-        th:tulinger,
-        th:turons,
-        th:velio_cashier,
-        th:vellaver,
-        th:venellier,
-        th:veneto,
-        th:viromanduer,
-        th:vocontier,
-        th:volcaer,
-        th:volcater ;
-    skos:prefLabel "Gallier"@de,
-        "Gauls"@en .
 
 th:athens_agora_type a skos:Concept ;
     skos:broader th:lamp_type_greek ;
