@@ -1,10 +1,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix th: <http://vocabs.bcdh.uni-bonn.de/heritage_assets/> .
 
-th:agoratypus18b skos:broader th:concept_6eec130e .
-
-th:agoratypus24aprime skos:broader th:concept_6eec130e .
-
 th:concept_000479cb a skos:Concept ;
     skos:broader th:concept_e87c9480 ;
     skos:inScheme th:scheme ;
@@ -71,6 +67,11 @@ th:concept_008842bc a skos:Concept ;
     skos:prefLabel "Kolonie"@de,
         "colony"@en,
         "colonia"@it .
+
+th:concept_00a12bda a skos:Concept ;
+    skos:broader th:concept_6eec130e ;
+    skos:prefLabel "Agora-Typ 18 B"@de,
+        "Agora type 18 B"@en .
 
 th:concept_00b07cd6 a skos:Concept ;
     skos:broader th:concept_a0948495 ;
@@ -14333,6 +14334,11 @@ th:concept_b49f061d a skos:Concept ;
     skos:prefLabel "Hermione-Gruppe"@de,
         "Hermione Group"@en .
 
+th:concept_b49faa43 a skos:Concept ;
+    skos:broader th:concept_6eec130e ;
+    skos:prefLabel "Agora-Typ 24 A'"@de,
+        "Agora type 24 A'"@en .
+
 th:concept_b4bb4191 a skos:Concept ;
     skos:broader th:concept_0e7a97e5 ;
     skos:inScheme th:scheme ;
@@ -24423,8 +24429,7 @@ th:concept_a5188803 a skos:Concept ;
 th:concept_6eec130e a skos:Concept ;
     skos:broader th:concept_b8118c47 ;
     skos:inScheme th:scheme ;
-    skos:narrower th:agoratypus18b,
-        th:agoratypus24aprime,
+    skos:narrower th:concept_00a12bda,
         th:concept_02e354a2,
         th:concept_03c3e64e,
         th:concept_08e77769,
@@ -24471,6 +24476,7 @@ th:concept_6eec130e a skos:Concept ;
         th:concept_ac13156f,
         th:concept_ad32476f,
         th:concept_af6365b1,
+        th:concept_b49faa43,
         th:concept_baa55f9c,
         th:concept_be2d2e47,
         th:concept_c307ec36,

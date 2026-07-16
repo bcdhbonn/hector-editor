@@ -1,10 +1,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix th: <http://vocabs.bcdh.uni-bonn.de/hector_heritage_assets/> .
 
-th:agoratypus18b skos:broader th:concept_6eec130e .
-
-th:agoratypus24aprime skos:broader th:concept_6eec130e .
-
 th:concept_000479cb a skos:Concept ;
     skos:broader th:concept_e87c9480 ;
     skos:inScheme th:scheme ;
@@ -24,6 +20,12 @@ th:concept_0014d071 a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kandelaber"@de,
         "Candelabra"@en .
+
+th:concept_0037ec97 a skos:Concept ;
+    skos:broader th:concept_8bf08032 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Epiktetos II."@de,
+        "Epiktetos II."@en .
 
 th:concept_004f1976 a skos:Concept ;
     skos:broader th:concept_8bf08032 ;
@@ -65,6 +67,11 @@ th:concept_008842bc a skos:Concept ;
     skos:prefLabel "Kolonie"@de,
         "colony"@en,
         "colonia"@it .
+
+th:concept_00a12bda a skos:Concept ;
+    skos:broader th:concept_6eec130e ;
+    skos:prefLabel "Agora-Typ 18 B"@de,
+        "Agora type 18 B"@en .
 
 th:concept_00b07cd6 a skos:Concept ;
     skos:broader th:concept_a0948495 ;
@@ -620,6 +627,12 @@ th:concept_068326f9 a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Spotted Rock-Gruppe"@de,
         "Spotted Rock Group"@en .
+
+th:concept_0684be96 a skos:Concept ;
+    skos:broader th:concept_22d44b3b ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Andreaskreuz und senkrechte Strichgruppe, eingestellte Winkel"@de,
+        "St. Andrew's cross and vertical line group, set angles"@en .
 
 th:concept_068c388d a skos:Concept ;
     skos:broader th:concept_e87c9480 ;
@@ -2997,7 +3010,7 @@ th:concept_2377f952 a skos:Concept ;
 
 th:concept_23928754 a skos:Concept ;
     skos:altLabel "Opus sectile"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/wall,_floor_and_ceiling_cladding> ;
+    skos:broader th:concept_2eea6398 ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Inkrustation"@de,
         "Incrustation"@en .
@@ -5902,6 +5915,12 @@ th:concept_47e9f68f a skos:Concept ;
     skos:prefLabel "Kirzenbaum-Maler"@de,
         "Kirzenbaum Painter"@en .
 
+th:concept_48601552 a skos:Concept ;
+    skos:broader th:concept_e87c9480 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Klasse der Peliken des Achilles-Malers"@de,
+        "Class of the Achilles Painter's Pelikai"@en .
+
 th:concept_4882af6f a skos:Concept ;
     skos:altLabel "Gefäßdeckel"@de ;
     skos:broader th:concept_8c485312 ;
@@ -6019,6 +6038,12 @@ th:concept_499c8fa5 a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gruppe Agora P 1073"@de,
         "Group of Agora P 1073"@en .
+
+th:concept_49a2686d a skos:Concept ;
+    skos:broader th:concept_e87c9480 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Augenschalen, spätarchaische Klasse"@de,
+        "Eye-cups, Late Archaic Class"@en .
 
 th:concept_49b144b5 a skos:Concept ;
     skos:broader th:concept_3d7316a0 ;
@@ -6312,6 +6337,14 @@ th:concept_4d55e4c7 a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Wurm-Maler"@de,
         "Vermicular Painter"@en .
+
+th:concept_4d727a8f a skos:Concept ;
+    skos:altLabel "Bema"@de,
+        "Rostra"@de ;
+    skos:broader th:concept_ba86f5eb ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Rednertribüne Rostra Bema"@de,
+        "Rostra Bema Speaker's Stand"@en .
 
 th:concept_4d81a046 a skos:Concept ;
     skos:broader th:concept_e87c9480 ;
@@ -6750,6 +6783,12 @@ th:concept_521abebf a skos:Concept ;
     skos:prefLabel "Montlaurès-Maler"@de,
         "Montlaurès Painter"@en .
 
+th:concept_52226373 a skos:Concept ;
+    skos:broader th:concept_c8066ad9 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Tropfen, hängend"@de,
+        "Drops, hanging"@en .
+
 th:concept_52367322 a skos:Concept ;
     skos:broader th:concept_e87c9480 ;
     skos:inScheme th:scheme ;
@@ -7145,6 +7184,12 @@ th:concept_574f86fb a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Schale Typ B"@de,
         "Shell Type B"@en .
+
+th:concept_576dbb2e a skos:Concept ;
+    skos:broader th:concept_8bf08032 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Klasse der Red-Line-Maler Oinochoen"@de,
+        "Class of the Red-Line Painter's Oinochoai"@en .
 
 th:concept_57757891 a skos:Concept ;
     skos:broader th:concept_e87c9480 ;
@@ -8300,6 +8345,12 @@ th:concept_65be2aa1 a skos:Concept ;
     skos:prefLabel "Arkosolgrab"@de,
         "Arkosol grave"@en .
 
+th:concept_65c77544 a skos:Concept ;
+    skos:broader th:concept_c8066ad9 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Vertikalstriche, kurze Striche einschließend"@de,
+        "Vertical lines, including short lines"@en .
+
 th:concept_65dcbd9e a skos:Concept ;
     skos:broader th:concept_bce041c4 ;
     skos:inScheme th:scheme ;
@@ -8848,6 +8899,12 @@ th:concept_6cc43987 a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Proskenion"@de,
         "Proskenion"@en .
+
+th:concept_6cdadca3 a skos:Concept ;
+    skos:broader th:concept_c8066ad9 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Vertikalstriche, freistehend"@de,
+        "Vertical lines, free-standing"@en .
 
 th:concept_6cfbf008 a skos:Concept ;
     skos:broader th:concept_8bf08032 ;
@@ -9668,6 +9725,12 @@ th:concept_7763994f a skos:Concept ;
     skos:prefLabel "Opus gallicum"@de,
         "Opus gallicum"@en .
 
+th:concept_777bcca9 a skos:Concept ;
+    skos:broader th:concept_22d44b3b ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Senkrechte Parallelstriche, verschiedene Zwischenornamente"@de,
+        "Vertical parallel lines, various intermediate ornaments"@en .
+
 th:concept_7795d406 a skos:Concept ;
     skos:broader th:concept_e48c4701 ;
     skos:inScheme th:scheme ;
@@ -10073,6 +10136,12 @@ th:concept_7c46bb2f a skos:Concept ;
     skos:prefLabel "Nikesippos-Gruppe"@de,
         "Nikesippos Group"@en .
 
+th:concept_7c6276e5 a skos:Concept ;
+    skos:broader th:concept_12175dcc ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Maler von Izmir, Basmahane 2724"@de,
+        "Painter of Izmir, Basmahane 2724"@en .
+
 th:concept_7c656eb6 a skos:Concept ;
     skos:broader th:concept_e87c9480 ;
     skos:inScheme th:scheme ;
@@ -10387,6 +10456,12 @@ th:concept_806d84cf a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Agathon-Maler"@de,
         "Agathon Painter"@en .
+
+th:concept_8086e64b a skos:Concept ;
+    skos:broader th:concept_48565033 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Thapsos Gruppe"@de,
+        "Thapso's group"@en .
 
 th:concept_80a99428 a skos:Concept ;
     skos:broader th:concept_e48c4701 ;
@@ -11071,6 +11146,12 @@ th:concept_89b63053 a skos:Concept ;
     skos:prefLabel "Dioskuren-Maler"@de,
         "Dioscures Painter"@en .
 
+th:concept_89beb29a a skos:Concept ;
+    skos:broader th:concept_22d44b3b ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Waagerechte Parallelstriche, verschiedene Zwischenornamente"@de,
+        "Horizontal parallel lines, various intermediate ornaments"@en .
+
 th:concept_89c3cd3c a skos:Concept ;
     skos:broader th:concept_e87c9480 ;
     skos:inScheme th:scheme ;
@@ -11253,6 +11334,12 @@ th:concept_8d6fef05 a skos:Concept ;
     skos:prefLabel "Gruppe Ruvo 423"@de,
         "Group of Ruvo 423"@en .
 
+th:concept_8d753c31 a skos:Concept ;
+    skos:broader th:concept_c8066ad9 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Vertikalbalken, abwechselnd schwarz und hell"@de,
+        "Vertical bars, alternating black and light"@en .
+
 th:concept_8d811cc8 a skos:Concept ;
     skos:broader th:concept_f5957897 ;
     skos:definition "type of ceiling consisting of compartments called coffers"@en ;
@@ -11303,6 +11390,12 @@ th:concept_8e513709 a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kalyx"@de,
         "Calyx"@en .
+
+th:concept_8ea68468 a skos:Concept ;
+    skos:broader th:concept_8bf08032 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Maler von Elaious I."@de,
+        "Painter of Elaious I."@en .
 
 th:concept_8ead637d a skos:Concept ;
     skos:broader th:concept_aa4ec7cb ;
@@ -11498,6 +11591,12 @@ th:concept_91916a9e a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Greifen-Gruppe"@de,
         "Griffin Group"@en .
+
+th:concept_919b4e8f a skos:Concept ;
+    skos:broader th:concept_e87c9480 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Gruppe N. H."@de,
+        "Group N. H."@en .
 
 th:concept_91ac2a87 a skos:Concept ;
     skos:broader th:concept_8bf08032 ;
@@ -11928,6 +12027,12 @@ th:concept_96d9cbab a skos:Concept ;
     skos:prefLabel "Maler von London E 2"@de,
         "Painter of London E 2"@en .
 
+th:concept_96e83107 a skos:Concept ;
+    skos:broader th:concept_ab7f53d5 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Mäander, Mischform"@de,
+        "Meander, mixed form"@en .
+
 th:concept_96edeeee a skos:Concept ;
     skos:broader th:concept_e87c9480 ;
     skos:inScheme th:scheme ;
@@ -11972,6 +12077,12 @@ th:concept_97b07228 a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gruppe der Unterwelt Hydrien"@de,
         "Group of the Underworld Hydriai"@en .
+
+th:concept_97b6b214 a skos:Concept ;
+    skos:broader th:concept_c8066ad9 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Tropfengruppe, hängend"@de,
+        "Drop group, hanging"@en .
 
 th:concept_97cea82d a skos:Concept ;
     skos:broader th:concept_8bf08032 ;
@@ -12901,6 +13012,12 @@ th:concept_a2ea0019 a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Peithinos"@de,
         "Peithinos"@en .
+
+th:concept_a3016662 a skos:Concept ;
+    skos:broader th:concept_23fef041 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Lagynos Gruppe"@de,
+        "Lagyno's group"@en .
 
 th:concept_a3537474 a skos:Concept ;
     skos:broader th:concept_aa4ec7cb ;
@@ -13881,6 +13998,12 @@ th:concept_b069b82f a skos:Concept ;
     skos:prefLabel "Poteidan-Maler"@de,
         "Poteidan Painter"@en .
 
+th:concept_b07440fa a skos:Concept ;
+    skos:broader th:concept_22d44b3b ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Andreaskreuz und senkrechte Strichgruppen"@de,
+        "St. Andrew's cross and vertical line groups"@en .
+
 th:concept_b0754ba3 a skos:Concept ;
     skos:broader th:concept_8bf08032 ;
     skos:inScheme th:scheme ;
@@ -14210,6 +14333,11 @@ th:concept_b49f061d a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Hermione-Gruppe"@de,
         "Hermione Group"@en .
+
+th:concept_b49faa43 a skos:Concept ;
+    skos:broader th:concept_6eec130e ;
+    skos:prefLabel "Agora-Typ 24 A'"@de,
+        "Agora type 24 A'"@en .
 
 th:concept_b4bb4191 a skos:Concept ;
     skos:broader th:concept_0e7a97e5 ;
@@ -14705,7 +14833,7 @@ th:concept_ba19e4ac a skos:Concept ;
         "Painter of Bari 957"@en .
 
 th:concept_ba33807b a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/wall,_floor_and_ceiling_cladding> ;
+    skos:broader th:concept_2eea6398 ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Wandmalerei"@de,
         "Wall painting"@en .
@@ -15593,6 +15721,12 @@ th:concept_c5972f3d a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Klasse der Chairete Kopf-Vasen"@de,
         "Chairete Class of Head Vases"@en .
+
+th:concept_c597cef4 a skos:Concept ;
+    skos:broader th:concept_c8066ad9 ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Senkrechte Striche und Streifen, abwechsend breit und schmal"@de,
+        "Vertical lines and stripes, alternating wide and narrow"@en .
 
 th:concept_c5b55481 a skos:Concept ;
     skos:broader th:concept_561f2a31 ;
@@ -19652,6 +19786,12 @@ th:concept_fa35c4a5 a skos:Concept ;
     skos:prefLabel "Palmetten-Augenschalen"@de,
         "Palmette-eye Cups"@en .
 
+th:concept_fa386c6c a skos:Concept ;
+    skos:broader th:concept_12175dcc ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Maler von Selcuk, Efes Museum"@de,
+        "Painter of Selcuk, Efes Museum"@en .
+
 th:concept_fa447690 a skos:Concept ;
     skos:broader th:concept_e87c9480 ;
     skos:inScheme th:scheme ;
@@ -20118,145 +20258,11 @@ th:concept_ffd06914 a skos:Concept ;
     skos:prefLabel "Maler von Berlin F 3383"@de,
         "Painter of Berlin 3383"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/class_of_the_achilles_painter's_pelikai> a skos:Concept ;
-    skos:broader th:concept_e87c9480 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Klasse der Peliken des Achilles-Malers"@de,
-        "Class of the Achilles Painter's Pelikai"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/class_of_the_red-line_painter's_oinochoai> a skos:Concept ;
-    skos:broader th:concept_8bf08032 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Klasse der Red-Line-Maler Oinochoen"@de,
-        "Class of the Red-Line Painter's Oinochoai"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/drop_group,_hanging> a skos:Concept ;
-    skos:broader th:concept_c8066ad9 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tropfengruppe, hängend"@de,
-        "Drop group, hanging"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/drops,_hanging> a skos:Concept ;
-    skos:broader th:concept_c8066ad9 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tropfen, hängend"@de,
-        "Drops, hanging"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/epiktetos_ii.> a skos:Concept ;
-    skos:broader th:concept_8bf08032 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Epiktetos II."@de,
-        "Epiktetos II."@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/eye-cups,_late_archaic_class> a skos:Concept ;
-    skos:broader th:concept_e87c9480 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Augenschalen, spätarchaische Klasse"@de,
-        "Eye-cups, Late Archaic Class"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/group_n._h.> a skos:Concept ;
-    skos:broader th:concept_e87c9480 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gruppe N. H."@de,
-        "Group N. H."@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/horizontal_parallel_lines,_various_intermediate_ornaments> a skos:Concept ;
-    skos:broader th:concept_22d44b3b ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Waagerechte Parallelstriche, verschiedene Zwischenornamente"@de,
-        "Horizontal parallel lines, various intermediate ornaments"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/lagyno's_group> a skos:Concept ;
-    skos:broader th:concept_23fef041 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Lagynos Gruppe"@de,
-        "Lagyno's group"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/meander,_mixed_form> a skos:Concept ;
-    skos:broader th:concept_ab7f53d5 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Mäander, Mischform"@de,
-        "Meander, mixed form"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/painter_of_elaious_i.> a skos:Concept ;
-    skos:broader th:concept_8bf08032 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Maler von Elaious I."@de,
-        "Painter of Elaious I."@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/painter_of_izmir,_basmahane_2724> a skos:Concept ;
-    skos:broader th:concept_12175dcc ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Maler von Izmir, Basmahane 2724"@de,
-        "Painter of Izmir, Basmahane 2724"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/painter_of_izmir,_basmahane_512> a skos:Concept ;
+th:concept_ffd2d7a0 a skos:Concept ;
     skos:broader th:concept_12175dcc ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Maler von Izmir, Basmahane 512"@de,
         "Painter of Izmir, Basmahane 512"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/painter_of_selcuk,_efes_museum> a skos:Concept ;
-    skos:broader th:concept_12175dcc ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Maler von Selcuk, Efes Museum"@de,
-        "Painter of Selcuk, Efes Museum"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/rostra_bema_speaker's_stand> a skos:Concept ;
-    skos:altLabel "Bema"@de,
-        "Rostra"@de ;
-    skos:broader th:concept_ba86f5eb ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Rednertribüne Rostra Bema"@de,
-        "Rostra Bema Speaker's Stand"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/st._andrew's_cross_and_vertical_line_group,_set_angles> a skos:Concept ;
-    skos:broader th:concept_22d44b3b ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Andreaskreuz und senkrechte Strichgruppe, eingestellte Winkel"@de,
-        "St. Andrew's cross and vertical line group, set angles"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/st._andrew's_cross_and_vertical_line_groups> a skos:Concept ;
-    skos:broader th:concept_22d44b3b ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Andreaskreuz und senkrechte Strichgruppen"@de,
-        "St. Andrew's cross and vertical line groups"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/thapso's_group> a skos:Concept ;
-    skos:broader th:concept_48565033 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Thapsos Gruppe"@de,
-        "Thapso's group"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_bars,_alternating_black_and_light> a skos:Concept ;
-    skos:broader th:concept_c8066ad9 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Vertikalbalken, abwechselnd schwarz und hell"@de,
-        "Vertical bars, alternating black and light"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_lines,_free-standing> a skos:Concept ;
-    skos:broader th:concept_c8066ad9 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Vertikalstriche, freistehend"@de,
-        "Vertical lines, free-standing"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_lines,_including_short_lines> a skos:Concept ;
-    skos:broader th:concept_c8066ad9 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Vertikalstriche, kurze Striche einschließend"@de,
-        "Vertical lines, including short lines"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_lines_and_stripes,_alternating_wide_and_narrow> a skos:Concept ;
-    skos:broader th:concept_c8066ad9 ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Senkrechte Striche und Streifen, abwechsend breit und schmal"@de,
-        "Vertical lines and stripes, alternating wide and narrow"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_parallel_lines,_various_intermediate_ornaments> a skos:Concept ;
-    skos:broader th:concept_22d44b3b ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Senkrechte Parallelstriche, verschiedene Zwischenornamente"@de,
-        "Vertical parallel lines, various intermediate ornaments"@en .
 
 th:concept_016c90f1 a skos:Concept ;
     skos:altLabel "Catacomb"@en ;
@@ -20388,7 +20394,7 @@ th:concept_19124980 a skos:Concept ;
         "Altenburg Painter"@en .
 
 th:concept_1932a2aa a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/wall,_floor_and_ceiling_cladding> ;
+    skos:broader th:concept_2eea6398 ;
     skos:inScheme th:scheme ;
     skos:narrower th:concept_c82d6d54 ;
     skos:prefLabel "Mosaik"@de,
@@ -21449,7 +21455,7 @@ th:concept_00c0a0a0 a skos:Concept ;
     skos:narrower th:concept_3a43955c,
         th:concept_fd390b01 ;
     skos:prefLabel "Vegetabil"@de,
-        "Floral"@en .
+        "Vegetable"@en .
 
 th:concept_0279cdc5 a skos:Concept ;
     skos:altLabel "Achilleus-Maler"@de ;
@@ -21825,7 +21831,7 @@ th:concept_51bd22d1 a skos:Concept ;
         "Dikaios Painter"@en .
 
 th:concept_52d8ad68 a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/wall,_floor_and_ceiling_cladding> ;
+    skos:broader th:concept_2eea6398 ;
     skos:inScheme th:scheme ;
     skos:narrower th:concept_536ca2ca,
         th:concept_733e016a ;
@@ -22145,8 +22151,8 @@ th:concept_aa223405 a skos:Concept ;
 
 th:concept_aea69b2a a skos:Concept ;
     skos:altLabel "Teller"@de ;
-    skos:broader th:concept_89023780,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/wall,_floor_and_ceiling_cladding> ;
+    skos:broader th:concept_2eea6398,
+        th:concept_89023780 ;
     skos:inScheme th:scheme ;
     skos:narrower th:concept_9262fb90 ;
     skos:prefLabel "Platte"@de,
@@ -22819,10 +22825,10 @@ th:concept_1793a8d6 a skos:Concept ;
 th:concept_22d44b3b a skos:Concept ;
     skos:broader th:concept_c8066ad9 ;
     skos:inScheme th:scheme ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/horizontal_parallel_lines,_various_intermediate_ornaments>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/st._andrew's_cross_and_vertical_line_group,_set_angles>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/st._andrew's_cross_and_vertical_line_groups>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_parallel_lines,_various_intermediate_ornaments> ;
+    skos:narrower th:concept_0684be96,
+        th:concept_777bcca9,
+        th:concept_89beb29a,
+        th:concept_b07440fa ;
     skos:prefLabel "Senkrechte Strichgruppen mit Zwischenornamenten"@de,
         "Vertical line groups with intermediate ornaments"@en .
 
@@ -23075,6 +23081,17 @@ th:concept_2ad94740 a skos:Concept ;
     skos:prefLabel "Attische Keramik"@de,
         "Attic ceramics"@en .
 
+th:concept_2eea6398 a skos:Concept ;
+    skos:broader th:concept_02c98a2e ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:concept_1932a2aa,
+        th:concept_23928754,
+        th:concept_52d8ad68,
+        th:concept_aea69b2a,
+        th:concept_ba33807b ;
+    skos:prefLabel "Wand- Boden- und Deckenverkleidung"@de,
+        "Wall, floor and ceiling cladding"@en .
+
 th:concept_3081a4fd a skos:Concept ;
     skos:broader th:concept_7e334826 ;
     skos:definition "Skulptur, bei dem die Ornamente oder Figuren am Hintergrund, von dem sie sich mehr oder weniger hoch abheben, befestigt sind. Reliefs werden oft als architektonische Dekoration verwendet und wegen ihrer Erzählfähigkeit oft zu malerisch-erzählerischen Zwecken."@de,
@@ -23233,17 +23250,6 @@ th:concept_e6623c60 a skos:Concept ;
         th:concept_96f89520 ;
     skos:prefLabel "Architekturplastik"@de,
         "Building plastic"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/wall,_floor_and_ceiling_cladding> a skos:Concept ;
-    skos:broader th:concept_02c98a2e ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:concept_1932a2aa,
-        th:concept_23928754,
-        th:concept_52d8ad68,
-        th:concept_aea69b2a,
-        th:concept_ba33807b ;
-    skos:prefLabel "Wand- Boden- und Deckenverkleidung"@de,
-        "Wall, floor and ceiling cladding"@en .
 
 th:concept_307f1d16 a skos:Concept ;
     skos:broader th:concept_23fef041 ;
@@ -23753,8 +23759,8 @@ th:concept_23fef041 a skos:Concept ;
         th:concept_6b02e968,
         th:concept_6e0f9560,
         th:concept_8c223ea8,
-        th:concept_b1dda859,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/lagyno's_group> ;
+        th:concept_a3016662,
+        th:concept_b1dda859 ;
     skos:prefLabel "Griechische Keramik Klasse"@de,
         "Greek ceramics class"@en .
 
@@ -23767,13 +23773,13 @@ th:concept_48565033 a skos:Concept ;
         th:concept_577e49f5,
         th:concept_597431fb,
         th:concept_75b57908,
+        th:concept_8086e64b,
         th:concept_930901e1,
         th:concept_bd52fe46,
         th:concept_c715db5d,
         th:concept_d40563a2,
         th:concept_f778e295,
-        th:concept_fa86675a,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/thapso's_group> ;
+        th:concept_fa86675a ;
     skos:prefLabel "Geometrische Keramik"@de,
         "Geometric ceramics"@en .
 
@@ -23813,10 +23819,10 @@ th:concept_ab7f53d5 a skos:Concept ;
         th:concept_30e3c38f,
         th:concept_729bf1ea,
         th:concept_86376a17,
+        th:concept_96e83107,
         th:concept_eeb09463,
         th:concept_f22f22ef,
-        th:concept_f8a5c783,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/meander,_mixed_form> ;
+        th:concept_f8a5c783 ;
     skos:prefLabel "Mäander"@de,
         "meander"@en .
 
@@ -23847,16 +23853,16 @@ th:concept_c8066ad9 a skos:Concept ;
     skos:narrower th:concept_122b776f,
         th:concept_22d44b3b,
         th:concept_442e1e1f,
+        th:concept_52226373,
+        th:concept_65c77544,
+        th:concept_6cdadca3,
+        th:concept_8d753c31,
+        th:concept_97b6b214,
         th:concept_98c462cb,
         th:concept_a1041b77,
         th:concept_a16c5fa5,
         th:concept_b23aabab,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/drop_group,_hanging>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/drops,_hanging>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_bars,_alternating_black_and_light>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_lines,_free-standing>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_lines,_including_short_lines>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_lines_and_stripes,_alternating_wide_and_narrow> ;
+        th:concept_c597cef4 ;
     skos:prefLabel "Striche"@de,
         "Strokes"@en .
 
@@ -24044,6 +24050,7 @@ th:concept_02c98a2e a skos:Concept ;
     skos:broader th:concept_6012dfee ;
     skos:inScheme th:scheme ;
     skos:narrower th:concept_20fb0cda,
+        th:concept_2eea6398,
         th:concept_31a62c20,
         th:concept_32e96166,
         th:concept_4b7568f8,
@@ -24071,8 +24078,7 @@ th:concept_02c98a2e a skos:Concept ;
         th:concept_e6623c60,
         th:concept_e9c744de,
         th:concept_f368b8d6,
-        th:concept_f5957897,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/wall,_floor_and_ceiling_cladding> ;
+        th:concept_f5957897 ;
     skos:prefLabel "Architekturteil"@de,
         "Architectural part"@en .
 
@@ -24088,6 +24094,7 @@ th:concept_ba86f5eb a skos:Concept ;
         th:concept_37a37188,
         th:concept_3c6e3c0b,
         th:concept_3e8bd0e8,
+        th:concept_4d727a8f,
         th:concept_64de6972,
         th:concept_6a9e41a4,
         th:concept_6cbfa386,
@@ -24112,8 +24119,7 @@ th:concept_ba86f5eb a skos:Concept ;
         th:concept_e3f6f364,
         th:concept_e7642d7c,
         th:concept_e89414c5,
-        th:concept_f17f6e04,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/rostra_bema_speaker's_stand> ;
+        th:concept_f17f6e04 ;
     skos:prefLabel "Architekturtyp"@de,
         "Architecture type"@en .
 
@@ -24330,6 +24336,7 @@ th:concept_12175dcc a skos:Concept ;
         th:concept_6970a1b9,
         th:concept_7564f04f,
         th:concept_7735c8d5,
+        th:concept_7c6276e5,
         th:concept_817b24c1,
         th:concept_8eeeef40,
         th:concept_9868b05e,
@@ -24352,10 +24359,9 @@ th:concept_12175dcc a skos:Concept ;
         th:concept_e1645ac8,
         th:concept_eef26fdc,
         th:concept_f996245e,
+        th:concept_fa386c6c,
         th:concept_fb4348e7,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/painter_of_izmir,_basmahane_2724>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/painter_of_izmir,_basmahane_512>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/painter_of_selcuk,_efes_museum> ;
+        th:concept_ffd2d7a0 ;
     skos:prefLabel "Vasenmaler Klazomenisch"@de,
         "Vase painter Klazomenisch"@en .
 
@@ -24423,8 +24429,7 @@ th:concept_a5188803 a skos:Concept ;
 th:concept_6eec130e a skos:Concept ;
     skos:broader th:concept_b8118c47 ;
     skos:inScheme th:scheme ;
-    skos:narrower th:agoratypus18b,
-        th:agoratypus24aprime,
+    skos:narrower th:concept_00a12bda,
         th:concept_02e354a2,
         th:concept_03c3e64e,
         th:concept_08e77769,
@@ -24471,6 +24476,7 @@ th:concept_6eec130e a skos:Concept ;
         th:concept_ac13156f,
         th:concept_ad32476f,
         th:concept_af6365b1,
+        th:concept_b49faa43,
         th:concept_baa55f9c,
         th:concept_be2d2e47,
         th:concept_c307ec36,
@@ -25597,7 +25603,8 @@ th:concept_8bf08032 a skos:Concept ;
     skos:broader th:concept_778bbb97 ;
     skos:definition "Refers to a style of Greek vase painting that developed from the Geometric and Orientalizing styles. It appeared in Corinth around 720 BCE, flourished in Attica by 600 BCE, and was found in Sparta, eastern Greece, and elsewhere, until the Red-figure style gradually replaced it in the late sixth century BCE. The style is characterized by a particular technique, which is characterized by the use of a refined slip, a two-stage firing process, and sintering to create black figures in silhouette on a red ground. Details were incised into the black figures or applied in purple or white pigment."@en ;
     skos:inScheme th:scheme ;
-    skos:narrower th:concept_004f1976,
+    skos:narrower th:concept_0037ec97,
+        th:concept_004f1976,
         th:concept_00e66f1d,
         th:concept_0123ed66,
         th:concept_014255e6,
@@ -25781,6 +25788,7 @@ th:concept_8bf08032 a skos:Concept ;
         th:concept_55c89481,
         th:concept_562f987f,
         th:concept_56957701,
+        th:concept_576dbb2e,
         th:concept_58086a3f,
         th:concept_5900b53d,
         th:concept_592b6e36,
@@ -25873,6 +25881,7 @@ th:concept_8bf08032 a skos:Concept ;
         th:concept_8c88fc9f,
         th:concept_8dcb9ee3,
         th:concept_8e969474,
+        th:concept_8ea68468,
         th:concept_8f6f73d7,
         th:concept_8f7d59e0,
         th:concept_8fe761d8,
@@ -26075,10 +26084,7 @@ th:concept_8bf08032 a skos:Concept ;
         th:concept_fda6ccba,
         th:concept_feb8f258,
         th:concept_fed2da29,
-        th:concept_ff34721a,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/class_of_the_red-line_painter's_oinochoai>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/epiktetos_ii.>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/painter_of_elaious_i.> ;
+        th:concept_ff34721a ;
     skos:prefLabel "Schwarzfigurig"@de,
         "Black-figure"@en .
 
@@ -26368,11 +26374,13 @@ th:concept_e87c9480 a skos:Concept ;
         th:concept_47bc05a5,
         th:concept_47ceb46c,
         th:concept_47e65bd4,
+        th:concept_48601552,
         th:concept_48ac5228,
         th:concept_48dc2b7a,
         th:concept_48f909da,
         th:concept_493b2127,
         th:concept_499c8fa5,
+        th:concept_49a2686d,
         th:concept_49e418bb,
         th:concept_4ae52321,
         th:concept_4b32c5e0,
@@ -26636,6 +26644,7 @@ th:concept_e87c9480 a skos:Concept ;
         th:concept_90627c54,
         th:concept_9185d5ba,
         th:concept_9189a9ec,
+        th:concept_919b4e8f,
         th:concept_91aecf41,
         th:concept_91c3ab91,
         th:concept_91da8e2f,
@@ -27048,10 +27057,7 @@ th:concept_e87c9480 a skos:Concept ;
         th:concept_fef48f7f,
         th:concept_ff647d74,
         th:concept_ffa9b6af,
-        th:concept_ffbd3044,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/class_of_the_achilles_painter's_pelikai>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/eye-cups,_late_archaic_class>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/group_n._h.> ;
+        th:concept_ffbd3044 ;
     skos:prefLabel "Rotfigurig"@de,
         "Red-figure"@en .
 
