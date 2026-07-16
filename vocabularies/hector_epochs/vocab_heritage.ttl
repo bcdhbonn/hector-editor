@@ -1,31 +1,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix th: <http://vocabs.bcdh.uni-bonn.de/heritage_assets/> .
 
-th:cadmus a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Kadmos"@de,
-        "Cadmus"@en .
-
-th:cornice a skos:Concept ;
-    skos:altLabel "Kranzgesims"@de ;
-    skos:broader th:architectural_part ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gesims"@de,
-        "Cornice"@en .
-
-th:giant_fight a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gigantenkampf"@de,
-        "Giant fight"@en .
-
-th:theseus_with_minos a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Theseus bei Minos"@de,
-        "Theseus with Minos"@en .
-
 th:1.1 a skos:Concept ;
     skos:broader th:vase_painter_klazomenisch ;
     skos:inScheme th:scheme ;
@@ -1185,6 +1160,12 @@ th:animal_lamp a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Tierlampe"@de,
         "Animal lamp"@en .
+
+th:animal_statue a skos:Concept ;
+    skos:broader th:plastic ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Tierstatue"@de,
+        "Animal statue"@en .
 
 th:annuli a skos:Concept ;
     skos:broader th:column ;
@@ -2352,14 +2333,6 @@ th:breuker a skos:Concept ;
     skos:prefLabel "Breuker"@de,
         "Breuker"@en .
 
-th:brick a skos:Concept ;
-    skos:altLabel "Backstein"@de ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:clay_bricks ;
-    skos:prefLabel "Ziegel"@de,
-        "Brick"@en .
-
 th:bridge a skos:Concept ;
     skos:broader th:traffic ;
     skos:inScheme th:scheme ;
@@ -2569,6 +2542,12 @@ th:cactus_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kaktus-Maler"@de,
         "Cactus Painter"@en .
+
+th:cadmus a skos:Concept ;
+    skos:broader th:subject ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Kadmos"@de,
+        "Cadmus"@en .
 
 th:cadurker a skos:Concept ;
     skos:broader th:gauls ;
@@ -4182,6 +4161,13 @@ th:corneto_painter a skos:Concept ;
     skos:prefLabel "Corneto-Maler"@de,
         "Corneto Painter"@en .
 
+th:cornice a skos:Concept ;
+    skos:altLabel "Kranzgesims"@de ;
+    skos:broader th:architectural_part ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Gesims"@de,
+        "Cornice"@en .
+
 th:cornovier a skos:Concept ;
     skos:broader th:british ;
     skos:inScheme th:scheme ;
@@ -5766,6 +5752,14 @@ th:epitimos_potter a skos:Concept ;
     skos:prefLabel "Epitimos Töpfer"@de,
         "Epitimos Potter"@en .
 
+th:equestrian_statue a skos:Concept ;
+    skos:altLabel "Reiterstandbild"@de ;
+    skos:broader th:plastic ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q659396> ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Reiterstatue"@de,
+        "Equestrian statue"@en .
+
 th:equin_constellation a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -6657,6 +6651,12 @@ th:geras_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Geras-Maler"@de,
         "Geras Painter"@en .
+
+th:giant_fight a skos:Concept ;
+    skos:broader th:subject ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Gigantenkampf"@de,
+        "Giant fight"@en .
 
 th:gibil_gabib_group a skos:Concept ;
     skos:broader th:sicilian ;
@@ -9605,6 +9605,12 @@ th:hyblaea_class a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Hyblaea-Klasse"@de,
         "Hyblaea Class"@en .
+
+th:hybrid_creature_statue a skos:Concept ;
+    skos:broader th:plastic ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Mischwesenstatue"@de,
+        "Hybrid creature statue"@en .
 
 th:hyller a skos:Concept ;
     skos:broader th:illyrians ;
@@ -21452,6 +21458,12 @@ th:theozotes_potter a skos:Concept ;
     skos:prefLabel "Theozotos Töpfer"@de,
         "Theozotes Potter"@en .
 
+th:theseus_with_minos a skos:Concept ;
+    skos:broader th:subject ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Theseus bei Minos"@de,
+        "Theseus with Minos"@en .
+
 th:thessalian_protogeometric a skos:Concept ;
     skos:broader th:thessalian_ceramics ;
     skos:inScheme th:scheme ;
@@ -23051,13 +23063,6 @@ th:andron a skos:Concept ;
     skos:prefLabel "Andron"@de,
         "Andron"@en .
 
-th:animal_statue a skos:Concept ;
-    skos:broader th:plastic,
-        th:sculpture ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tierstatue"@de,
-        "Animal statue"@en .
-
 th:apodyterium a skos:Concept ;
     skos:altLabel "Umkleideraum" ;
     skos:broader th:palaestra,
@@ -23135,6 +23140,14 @@ th:bowl a skos:Concept ;
     skos:narrower th:lekanis ;
     skos:prefLabel "Napf"@de,
         "Bowl"@en .
+
+th:brick a skos:Concept ;
+    skos:altLabel "Backstein"@de ;
+    skos:broader th:material ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:clay_bricks ;
+    skos:prefLabel "Ziegel"@de,
+        "Brick"@en .
 
 th:camel_painter a skos:Concept ;
     skos:broader th:black-figure,
@@ -23360,15 +23373,6 @@ th:echinus a skos:Concept ;
     skos:prefLabel "Echinus"@de,
         "Echinus"@en .
 
-th:equestrian_statue a skos:Concept ;
-    skos:altLabel "Reiterstandbild"@de ;
-    skos:broader th:plastic,
-        th:sculpture ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q659396> ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Reiterstatue"@de,
-        "Equestrian statue"@en .
-
 th:eretrian_ceramics a skos:Concept ;
     skos:broader th:greek_ceramic_landscape ;
     skos:inScheme th:scheme ;
@@ -23418,12 +23422,6 @@ th:floss a skos:Concept ;
     skos:prefLabel "Glasschlacke"@de,
         "Floss"@en ;
     skos:related th:glass .
-
-th:footwear a skos:Concept ;
-    skos:broader th:heritageasset ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Schuhwerk"@de,
-        "Footwear"@en .
 
 th:foundation a skos:Concept ;
     skos:altLabel "Fundamentierung"@de ;
@@ -23495,13 +23493,6 @@ th:horseman_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Reiter-Maler"@de,
         "Horseman Painter"@en .
-
-th:hybrid_creature_statue a skos:Concept ;
-    skos:broader th:plastic,
-        th:sculpture ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Mischwesenstatue"@de,
-        "Hybrid creature statue"@en .
 
 th:iliupersis_painter a skos:Concept ;
     skos:broader th:apulian,
@@ -24005,6 +23996,15 @@ th:sicilian_red-figure a skos:Concept ;
     skos:prefLabel "Sizilisch Rotfigurig"@de,
         "Sicilian red-figure"@en .
 
+th:sitting_statue a skos:Concept ;
+    skos:altLabel "Sitzstandbild"@de ;
+    skos:broader th:plastic ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q179700> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:branchide ;
+    skos:prefLabel "Sitzstatue"@de,
+        "Sitting statue"@en .
+
 th:six_vase a skos:Concept ;
     skos:altLabel "Six Keramik"@de,
         "Six-Technik"@de ;
@@ -24041,6 +24041,14 @@ th:stand_ring a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Standring"@de,
         "Stand ring"@en .
+
+th:statuette a skos:Concept ;
+    skos:broader th:plastic ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q179700> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:tanagraean ;
+    skos:prefLabel "Statuette"@de,
+        "Statuette"@en .
 
 th:taberna a skos:Concept ;
     skos:broader th:roman_house_room ;
@@ -24654,6 +24662,14 @@ th:exekias a skos:Concept ;
     skos:prefLabel "Exekias"@de,
         "Exekias"@en .
 
+th:footwear a skos:Concept ;
+    skos:broader th:heritageasset ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:Schuhgriechisch,
+        th:Schuhroemisch ;
+    skos:prefLabel "Schuhwerk"@de,
+        "Footwear"@en .
+
 th:gable a skos:Concept ;
     skos:broader th:architectural_part ;
     skos:definition "Architekturelement"@de,
@@ -25132,16 +25148,6 @@ th:ship a skos:Concept ;
     skos:prefLabel "Schiff"@de,
         "Ship"@en .
 
-th:sitting_statue a skos:Concept ;
-    skos:altLabel "Sitzstandbild"@de ;
-    skos:broader th:plastic,
-        th:sculpture ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q179700> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:branchide ;
-    skos:prefLabel "Sitzstatue"@de,
-        "Sitting statue"@en .
-
 th:skene a skos:Concept ;
     skos:broader th:greek_theater ;
     skos:inScheme th:scheme ;
@@ -25191,15 +25197,6 @@ th:statue_type_male a skos:Concept ;
         th:robe_statue_male ;
     skos:prefLabel "Statuentyp männlich"@de,
         "Statue type male"@en .
-
-th:statuette a skos:Concept ;
-    skos:broader th:plastic,
-        th:sculpture ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q179700> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:tanagraean ;
-    skos:prefLabel "Statuette"@de,
-        "Statuette"@en .
 
 th:stereobat a skos:Concept ;
     skos:broader th:architectural_part ;
@@ -25345,6 +25342,15 @@ th:woman_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Frauen-Maler"@de,
         "Woman Painter"@en .
+
+th:acroter a skos:Concept ;
+    skos:broader th:building_plastic,
+        th:plastic,
+        th:roof ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:gable_acroter ;
+    skos:prefLabel "Akroter"@de,
+        "Acroter"@en .
 
 th:architecture_and_urbanism a skos:Concept ;
     skos:broader th:heritageasset ;
@@ -25553,7 +25559,8 @@ th:greco-roman_temple a skos:Concept ;
 th:greek_ceramics a skos:Concept ;
     skos:broader th:fine_ceramics ;
     skos:inScheme th:scheme ;
-    skos:narrower th:greek_ceramic_landscape,
+    skos:narrower th:corinthian_ceramics,
+        th:greek_ceramic_landscape,
         th:greek_ceramics_class ;
     skos:prefLabel "Griechische Keramik"@de,
         "Greek ceramics"@en .
@@ -25641,16 +25648,6 @@ th:robe_statue_male a skos:Concept ;
     skos:prefLabel "Gewandstatue männlich"@de,
         "Robe statue male"@en .
 
-th:roofing a skos:Concept ;
-    skos:broader th:architectural_part ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:calypter,
-        th:calypter_hegemon,
-        th:roofing_type,
-        th:stroter ;
-    skos:prefLabel "Dachdeckung"@de,
-        "Roofing"@en .
-
 th:roofing_type a skos:Concept ;
     skos:broader th:roofing ;
     skos:inScheme th:scheme ;
@@ -25687,12 +25684,6 @@ th:sub-italian_indigenous_ceramics a skos:Concept ;
     skos:prefLabel "Unteritalisch indigene Keramik"@de,
         "Sub-Italian indigenous ceramics"@en .
 
-th:subject a skos:Concept ;
-    skos:broader th:heritageasset ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Bildthema"@de,
-        "Subject"@en .
-
 th:traffic a skos:Concept ;
     skos:broader th:infrastructure ;
     skos:inScheme th:scheme ;
@@ -25720,16 +25711,6 @@ th:wild_goat_style a skos:Concept ;
         th:middle_wild_goat_style ;
     skos:prefLabel "Wild goat style"@de,
         "Wild goat style"@en .
-
-th:acroter a skos:Concept ;
-    skos:broader th:building_plastic,
-        th:plastic,
-        th:roof,
-        th:sculpture ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:gable_acroter ;
-    skos:prefLabel "Akroter"@de,
-        "Acroter"@en .
 
 th:apulian_red-figure a skos:Concept ;
     skos:broader th:apulian_ceramics,
@@ -25874,6 +25855,16 @@ th:roman_house_type a skos:Concept ;
     skos:prefLabel "Typ römisches Haus"@de,
         "Roman house type"@en .
 
+th:roofing a skos:Concept ;
+    skos:broader th:architectural_part ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:calypter,
+        th:calypter_hegemon,
+        th:roofing_type,
+        th:stroter ;
+    skos:prefLabel "Dachdeckung"@de,
+        "Roofing"@en .
+
 th:room_greek_house a skos:Concept ;
     skos:broader th:greek_house ;
     skos:inScheme th:scheme ;
@@ -25883,6 +25874,30 @@ th:room_greek_house a skos:Concept ;
         th:prostas ;
     skos:prefLabel "Raum grieschiches Haus"@de,
         "Room Greek house"@en .
+
+th:sculpture a skos:Concept ;
+    skos:altLabel "Kunststoff" ;
+    skos:broader th:heritageasset ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q350268> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:building_plastic,
+        th:plastic,
+        th:portrait,
+        th:relief ;
+    skos:prefLabel "Bildhauerei"@de,
+        "Plastik"@de,
+        "Sculpture"@en .
+
+th:statue a skos:Concept ;
+    skos:broader th:plastic ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q179700> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:gable_figure,
+        th:statue_context,
+        th:statue_technique,
+        th:statue_type ;
+    skos:prefLabel "Statue"@de,
+        "Statue"@en .
 
 th:statue_context a skos:Concept ;
     skos:broader th:statue ;
@@ -25914,6 +25929,16 @@ th:storage_vessel a skos:Concept ;
     skos:prefLabel "Aufbewahrungsgefäß"@de,
         "Storage vessel"@en .
 
+th:subject a skos:Concept ;
+    skos:broader th:heritageasset ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:cadmus,
+        th:giant_fight,
+        th:giants,
+        th:theseus_with_minos ;
+    skos:prefLabel "Bildthema"@de,
+        "Subject"@en .
+
 th:thermal_spring_type a skos:Concept ;
     skos:broader th:roman_thermal_baths ;
     skos:inScheme th:scheme ;
@@ -25943,18 +25968,6 @@ th:vertical_line_groups_with_intermediate_ornaments a skos:Concept ;
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_parallel_lines,_various_intermediate_ornaments> ;
     skos:prefLabel "Senkrechte Strichgruppen mit Zwischenornamenten"@de,
         "Vertical line groups with intermediate ornaments"@en .
-
-th:Schuhgriechisch a skos:Concept ;
-    skos:broader th:footwear ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:arbyle,
-        th:embas,
-        th:iphikratides,
-        th:kothornos,
-        th:lakonikai,
-        th:perschiean_shoe ;
-    skos:prefLabel "Griechischer Schuh"@de,
-        "Greek shoe"@en .
 
 th:ashlar_wall a skos:Concept ;
     skos:altLabel "Opus romanum"@de ;
@@ -26015,19 +26028,6 @@ th:column_base a skos:Concept ;
         th:sami_column_base ;
     skos:prefLabel "Säulenbasis"@de,
         "Column base"@en .
-
-th:corinthian_ceramics a skos:Concept ;
-    skos:altLabel "Korinthisch Schwarzfigurug"@de ;
-    skos:broader th:greek_ceramics ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:corinthian_geometric,
-        th:corinthian_red-figure,
-        th:early_corinthian,
-        th:late_corinthian,
-        th:middle_corinthian,
-        th:proto-corinthian_pottery ;
-    skos:prefLabel "Korinthische Keramik"@de,
-        "Corinthian ceramics"@en .
 
 th:cycladic_orientalizing a skos:Concept ;
     skos:broader th:cycladic_ceramics,
@@ -26110,18 +26110,6 @@ th:roof a skos:Concept ;
     skos:prefLabel "Dach"@de,
         "Roof"@en .
 
-th:statue a skos:Concept ;
-    skos:broader th:plastic,
-        th:sculpture ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q179700> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:gable_figure,
-        th:statue_context,
-        th:statue_technique,
-        th:statue_type ;
-    skos:prefLabel "Statue"@de,
-        "Statue"@en .
-
 th:support a skos:Concept ;
     skos:broader th:architectural_part ;
     skos:inScheme th:scheme ;
@@ -26177,6 +26165,31 @@ th:wall a skos:Concept ;
         th:wall_painting ;
     skos:prefLabel "Wand- Boden- und Deckenverkleidung"@de,
         "Wall, floor and ceiling cladding"@en .
+
+th:Schuhgriechisch a skos:Concept ;
+    skos:broader th:footwear ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:arbyle,
+        th:embas,
+        th:iphikratides,
+        th:kothornos,
+        th:lakonikai,
+        th:perschiean_shoe ;
+    skos:prefLabel "Griechischer Schuh"@de,
+        "Greek shoe"@en .
+
+th:corinthian_ceramics a skos:Concept ;
+    skos:altLabel "Korinthisch Schwarzfigurug"@de ;
+    skos:broader th:greek_ceramics ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:corinthian_geometric,
+        th:corinthian_red-figure,
+        th:early_corinthian,
+        th:late_corinthian,
+        th:middle_corinthian,
+        th:proto-corinthian_pottery ;
+    skos:prefLabel "Korinthische Keramik"@de,
+        "Corinthian ceramics"@en .
 
 th:galatians a skos:Concept ;
     skos:altLabel "Galatien"@de,
@@ -26335,6 +26348,24 @@ th:fine_ceramics a skos:Concept ;
     skos:prefLabel "Feinkeramik"@de,
         "fine ceramic"@en .
 
+th:plastic a skos:Concept ;
+    skos:broader th:sculpture ;
+    skos:definition "Figur an einem Bauwerk"@de,
+        "type of sculpture"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300379328>,
+        <http://www.wikidata.org/entity/Q3476515>,
+        <https://d-nb.info/gnd/4004913-9> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:acroter,
+        th:animal_statue,
+        th:equestrian_statue,
+        th:hybrid_creature_statue,
+        th:sitting_statue,
+        th:statue,
+        th:statuette ;
+    skos:prefLabel "Bauplastik"@de,
+        "architectural sculpture"@en .
+
 th:projectile a skos:Concept ;
     skos:altLabel "Etage"@de,
         "Stockwerk"@de ;
@@ -26446,25 +26477,6 @@ th:fastening a skos:Concept ;
     skos:prefLabel "Befestigung"@de,
         "Fortification"@en .
 
-th:plastic a skos:Concept ;
-    skos:broader th:material,
-        th:sculpture ;
-    skos:definition "Figur an einem Bauwerk"@de,
-        "type of sculpture"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300379328>,
-        <http://www.wikidata.org/entity/Q3476515>,
-        <https://d-nb.info/gnd/4004913-9> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:acroter,
-        th:animal_statue,
-        th:equestrian_statue,
-        th:hybrid_creature_statue,
-        th:sitting_statue,
-        th:statue,
-        th:statuette ;
-    skos:prefLabel "Bauplastik"@de,
-        "architectural sculpture"@en .
-
 th:roman_house_room a skos:Concept ;
     skos:broader th:roman_house ;
     skos:inScheme th:scheme ;
@@ -26573,23 +26585,6 @@ th:roman_theater a skos:Concept ;
     skos:prefLabel "Theater römisch"@de,
         "Roman theater"@en .
 
-th:Schuhroemisch a skos:Concept ;
-    skos:broader th:footwear ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:calceus_equester,
-        th:calceus_senatorius,
-        th:caliga,
-        th:crepida,
-        th:gallica,
-        th:kothurn,
-        th:mulleus,
-        th:pero,
-        th:sculponea,
-        th:soccus,
-        th:solea ;
-    skos:prefLabel "Römischer Schuh"@de,
-        "Roman shoe"@en .
-
 th:drinking_vessel a skos:Concept ;
     skos:altLabel "Poterion"@de ;
     skos:broader th:types_of_vessels ;
@@ -26641,13 +26636,35 @@ th:lower_italian_red-figure a skos:Concept ;
     skos:prefLabel "Unteritalisch Rotfigurig"@de,
         "Lower Italian red-figure"@en .
 
+th:Schuhroemisch a skos:Concept ;
+    skos:broader th:footwear ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:calceus_equester,
+        th:calceus_senatorius,
+        th:caliga,
+        th:crepida,
+        th:gallica,
+        th:kothurn,
+        th:mulleus,
+        th:pero,
+        th:sculponea,
+        th:soccus,
+        th:solea ;
+    skos:prefLabel "Römischer Schuh"@de,
+        "Roman shoe"@en .
+
 th:heritageasset a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:narrower th:architecture_and_urbanism,
         th:ceramic,
         th:container,
+        th:cultures,
+        th:footwear,
+        th:lighting_device,
+        th:material,
         th:ornament,
         th:sculpture,
+        th:subject,
         th:vase_painter ;
     skos:prefLabel "HeritageAsset"@de,
         "Kulturgut"@de,
@@ -26672,24 +26689,6 @@ th:italian a skos:Concept ;
         th:volscian ;
     skos:prefLabel "Italiker"@de,
         "Italian"@en .
-
-th:lighting_device a skos:Concept ;
-    skos:broader th:heritageasset ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:bundle_of_fagots,
-        th:candelabra,
-        th:candle,
-        th:candlesticks,
-        th:fire_pit,
-        th:kienspan,
-        th:lamp,
-        th:lantern,
-        th:light_house,
-        th:lychnophoros,
-        th:tallow_bowl,
-        th:torch ;
-    skos:prefLabel "Beleuchtungsgerät"@de,
-        "Lighting Device"@en .
 
 th:noriker a skos:Concept ;
     skos:altLabel "Norikum"@de,
@@ -26762,6 +26761,24 @@ th:glass_jar a skos:Concept ;
     skos:prefLabel "Glasgefäß"@de,
         "Glass jar"@en .
 
+th:lighting_device a skos:Concept ;
+    skos:broader th:heritageasset ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:bundle_of_fagots,
+        th:candelabra,
+        th:candle,
+        th:candlesticks,
+        th:fire_pit,
+        th:kienspan,
+        th:lamp,
+        th:lantern,
+        th:light_house,
+        th:lychnophoros,
+        th:tallow_bowl,
+        th:torch ;
+    skos:prefLabel "Beleuchtungsgerät"@de,
+        "Lighting Device"@en .
+
 th:oriental_ceramics a skos:Concept ;
     skos:broader th:greek_ceramics_class ;
     skos:inScheme th:scheme ;
@@ -26779,26 +26796,6 @@ th:oriental_ceramics a skos:Concept ;
         th:western_greek_orientalizing ;
     skos:prefLabel "Orientalsierende Keramik"@de,
         "Oriental ceramics"@en .
-
-th:sculpture a skos:Concept ;
-    skos:altLabel "Kunststoff" ;
-    skos:broader th:heritageasset ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q350268> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:acroter,
-        th:animal_statue,
-        th:building_plastic,
-        th:equestrian_statue,
-        th:hybrid_creature_statue,
-        th:plastic,
-        th:portrait,
-        th:relief,
-        th:sitting_statue,
-        th:statue,
-        th:statuette ;
-    skos:prefLabel "Bildhauerei"@de,
-        "Plastik"@de,
-        "Sculpture"@en .
 
 th:construction_-_lamp_parts a skos:Concept ;
     skos:broader th:lamp ;
@@ -26837,26 +26834,6 @@ th:geometric_ceramics a skos:Concept ;
         th:western_greek_geometric ;
     skos:prefLabel "Geometrische Keramik"@de,
         "Geometric ceramics"@en .
-
-th:giants a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:agrios,
-        th:alcyoneus,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/clytius,_the_giant>,
-        th:epiphaltes,
-        th:grandchildren,
-        th:gration,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/hippolytus,_giant>,
-        th:mimas,
-        th:peloros,
-        th:polybotes,
-        th:porphyrion,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/rhotos,_giant>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/thoas,_the_giant>,
-        th:typhoeus ;
-    skos:prefLabel "Giganten"@de,
-        "Giants"@en .
 
 th:greek_ceramics_class a skos:Concept ;
     skos:broader th:greek_ceramics ;
@@ -26941,6 +26918,26 @@ th:black-figure_style a skos:Concept ;
     skos:prefLabel "Schwarzfiguriger Stil"@de,
         "Black-figure style"@en ;
     skos:related th:etruscan_ceramics .
+
+th:giants a skos:Concept ;
+    skos:broader th:subject ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:agrios,
+        th:alcyoneus,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/clytius,_the_giant>,
+        th:epiphaltes,
+        th:grandchildren,
+        th:gration,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/hippolytus,_giant>,
+        th:mimas,
+        th:peloros,
+        th:polybotes,
+        th:porphyrion,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/rhotos,_giant>,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/thoas,_the_giant>,
+        th:typhoeus ;
+    skos:prefLabel "Giganten"@de,
+        "Giants"@en .
 
 th:glass a skos:Concept ;
     skos:broader th:material ;
@@ -27051,7 +27048,8 @@ th:greek_ceramic_landscape a skos:Concept ;
 th:material a skos:Concept ;
     skos:broader th:heritageasset ;
     skos:inScheme th:scheme ;
-    skos:narrower th:e-mail,
+    skos:narrower th:brick,
+        th:e-mail,
         th:faience,
         th:flax,
         th:glass,
@@ -27062,9 +27060,7 @@ th:material a skos:Concept ;
         th:metal,
         th:ore,
         th:organic_material,
-        th:plastic,
         th:quartz,
-        th:sculpture,
         th:silk,
         th:waste,
         th:wool ;
@@ -27251,6 +27247,7 @@ th:architectural_part a skos:Concept ;
         th:building_plastic,
         th:ceiling,
         th:console,
+        th:cornice,
         th:dome,
         th:entablature,
         th:exedra,
@@ -27265,6 +27262,7 @@ th:architectural_part a skos:Concept ;
         th:projectile,
         th:risalit,
         th:roof,
+        th:roofing,
         th:rotunda,
         th:ship,
         th:stairs,
@@ -27309,7 +27307,8 @@ th:cultures a skos:Concept ;
         th:sardinia,
         th:sarmatians,
         th:sicilian,
-        th:tartesser ;
+        th:tartesser,
+        th:teutons ;
     skos:prefLabel "Kulturen"@de,
         "Cultures"@en .
 

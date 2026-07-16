@@ -1,31 +1,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix th: <http://vocabs.bcdh.uni-bonn.de/heritage_assets/> .
 
-th:cadmus a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Kadmos"@de,
-        "Cadmus"@en .
-
-th:cornice a skos:Concept ;
-    skos:altLabel "Kranzgesims"@de ;
-    skos:broader th:architectural_part ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gesims"@de,
-        "Cornice"@en .
-
-th:giant_fight a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gigantenkampf"@de,
-        "Giant fight"@en .
-
-th:theseus_with_minos a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Theseus bei Minos"@de,
-        "Theseus with Minos"@en .
-
 th:1.1 a skos:Concept ;
     skos:broader th:vase_painter_klazomenisch ;
     skos:inScheme th:scheme ;
@@ -1183,6 +1158,12 @@ th:animal_lamp a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Tierlampe"@de,
         "Animal lamp"@en .
+
+th:animal_statue a skos:Concept ;
+    skos:broader th:plastic ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Tierstatue"@de,
+        "Animal statue"@en .
 
 th:annuli a skos:Concept ;
     skos:broader th:column ;
@@ -2351,14 +2332,6 @@ th:breuker a skos:Concept ;
     skos:prefLabel "Breuker"@de,
         "Breuker"@en .
 
-th:brick a skos:Concept ;
-    skos:altLabel "Backstein"@de ;
-    skos:broader th:material ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:clay_bricks ;
-    skos:prefLabel "Ziegel"@de,
-        "Brick"@en .
-
 th:bridge a skos:Concept ;
     skos:broader th:traffic ;
     skos:inScheme th:scheme ;
@@ -2567,6 +2540,12 @@ th:cactus_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Kaktus-Maler"@de,
         "Cactus Painter"@en .
+
+th:cadmus a skos:Concept ;
+    skos:broader th:subject ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Kadmos"@de,
+        "Cadmus"@en .
 
 th:cadurker a skos:Concept ;
     skos:broader th:gauls ;
@@ -4213,6 +4192,13 @@ th:corneto_painter a skos:Concept ;
     skos:prefLabel "Corneto-Maler"@de,
         "Corneto Painter"@en .
 
+th:cornice a skos:Concept ;
+    skos:altLabel "Kranzgesims"@de ;
+    skos:broader th:architectural_part ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Gesims"@de,
+        "Cornice"@en .
+
 th:cornovier a skos:Concept ;
     skos:broader th:british ;
     skos:inScheme th:scheme ;
@@ -5811,6 +5797,20 @@ th:epitimos_potter a skos:Concept ;
     skos:prefLabel "Epitimos Töpfer"@de,
         "Epitimos Potter"@en .
 
+th:equestrian_statue a skos:Concept ;
+    skos:altLabel "Reiterstandbild"@de ;
+    skos:broader th:plastic ;
+    skos:definition "Skulpturengruppe, die aus Pferd und Reiter besteht."@de,
+        "Sculptural groups consisting of a horse and rider."@en,
+        "Gruppi scultorei composti da un cavallo e un fantino. Sculture raffiguranti una figura umana in sella al suo destriero"@it ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300047606>,
+        <http://www.wikidata.org/entity/Q659396>,
+        <https://d-nb.info/gnd/4136435-1> ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Reiterstatue"@de,
+        "Equestrian statue"@en,
+        "statue equestri"@it .
+
 th:equin_constellation a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -6721,6 +6721,12 @@ th:geras_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Geras-Maler"@de,
         "Geras Painter"@en .
+
+th:giant_fight a skos:Concept ;
+    skos:broader th:subject ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Gigantenkampf"@de,
+        "Giant fight"@en .
 
 th:gibil_gabib_group a skos:Concept ;
     skos:broader th:sicilian ;
@@ -21653,6 +21659,12 @@ th:theozotes_potter a skos:Concept ;
     skos:prefLabel "Theozotos Töpfer"@de,
         "Theozotes Potter"@en .
 
+th:theseus_with_minos a skos:Concept ;
+    skos:broader th:subject ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Theseus bei Minos"@de,
+        "Theseus with Minos"@en .
+
 th:thessalian_protogeometric a skos:Concept ;
     skos:broader th:thessalian_ceramics ;
     skos:inScheme th:scheme ;
@@ -23256,13 +23268,6 @@ th:andron a skos:Concept ;
     skos:prefLabel "Andron"@de,
         "Andron"@en .
 
-th:animal_statue a skos:Concept ;
-    skos:broader th:plastic,
-        th:sculpture ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Tierstatue"@de,
-        "Animal statue"@en .
-
 th:apodyterium a skos:Concept ;
     skos:altLabel "Umkleideraum" ;
     skos:broader th:palaestra,
@@ -23346,6 +23351,14 @@ th:bowl a skos:Concept ;
     skos:narrower th:lekanis ;
     skos:prefLabel "Napf"@de,
         "Bowl"@en .
+
+th:brick a skos:Concept ;
+    skos:altLabel "Backstein"@de ;
+    skos:broader th:material ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:clay_bricks ;
+    skos:prefLabel "Ziegel"@de,
+        "Brick"@en .
 
 th:camel_painter a skos:Concept ;
     skos:broader th:black-figure,
@@ -23596,21 +23609,6 @@ th:echinus a skos:Concept ;
     skos:prefLabel "Echinus"@de,
         "Echinus"@en .
 
-th:equestrian_statue a skos:Concept ;
-    skos:altLabel "Reiterstandbild"@de ;
-    skos:broader th:plastic,
-        th:sculpture ;
-    skos:definition "Skulpturengruppe, die aus Pferd und Reiter besteht."@de,
-        "Sculptural groups consisting of a horse and rider."@en,
-        "Gruppi scultorei composti da un cavallo e un fantino. Sculture raffiguranti una figura umana in sella al suo destriero"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300047606>,
-        <http://www.wikidata.org/entity/Q659396>,
-        <https://d-nb.info/gnd/4136435-1> ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Reiterstatue"@de,
-        "Equestrian statue"@en,
-        "statue equestri"@it .
-
 th:eretrian_ceramics a skos:Concept ;
     skos:broader th:greek_ceramic_landscape ;
     skos:inScheme th:scheme ;
@@ -23663,12 +23661,6 @@ th:floss a skos:Concept ;
     skos:prefLabel "Glasschlacke"@de,
         "Floss"@en ;
     skos:related th:glass .
-
-th:footwear a skos:Concept ;
-    skos:broader th:heritageasset ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Schuhwerk"@de,
-        "Footwear"@en .
 
 th:foundation a skos:Concept ;
     skos:altLabel "Fundamentierung"@de ;
@@ -24267,6 +24259,15 @@ th:sicilian_red-figure a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Sizilisch Rotfigurig"@de .
 
+th:sitting_statue a skos:Concept ;
+    skos:altLabel "Sitzstandbild"@de ;
+    skos:broader th:plastic ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q179700> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:branchide ;
+    skos:prefLabel "Sitzstatue"@de,
+        "Sitting statue"@en .
+
 th:six_vase a skos:Concept ;
     skos:altLabel "Six Keramik"@de,
         "Six-Technik"@de ;
@@ -24303,6 +24304,20 @@ th:stand_ring a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Standring"@de,
         "Stand ring"@en .
+
+th:statuette a skos:Concept ;
+    skos:broader th:plastic ;
+    skos:definition "kleine, stark unterlebensgroße Statue"@de,
+        "small item resembling a person or animal, sometimes part of a larger work"@en,
+        "piccolo oggetto raffigurante una persona o un animale, senza parti snodabili"@it ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300047455>,
+        <http://www.wikidata.org/entity/Q1066288>,
+        <http://www.wikidata.org/entity/Q179700> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:tanagraean ;
+    skos:prefLabel "Statuette"@de,
+        "figurine"@en,
+        "statuetta"@it .
 
 th:taberna a skos:Concept ;
     skos:broader th:roman_house_room ;
@@ -24493,6 +24508,18 @@ th:achilles_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Achilles-Maler"@de,
         "Achilles Painter"@en .
+
+th:acroter a skos:Concept ;
+    skos:broader th:plastic,
+        th:roof ;
+    skos:definition "Figur oder Ornament an der unteren Dachschräge oder auf dem Giebelfirst, steht üblicherweise auf einer Plinthe."@de,
+        "The figures or ornaments at the lower angles or apex of a pediment, generally supported on plinths."@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300002214>,
+        <http://www.wikidata.org/entity/Q421214> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:gable_acroter ;
+    skos:prefLabel "Akroter"@de,
+        "Acroter"@en .
 
 th:aegisthus_painter a skos:Concept ;
     skos:altLabel "Aegisthus-Maler"@de ;
@@ -24937,6 +24964,14 @@ th:exekias a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Exekias"@de,
         "Exekias"@en .
+
+th:footwear a skos:Concept ;
+    skos:broader th:heritageasset ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:Schuhgriechisch,
+        th:Schuhroemisch ;
+    skos:prefLabel "Schuhwerk"@de,
+        "Footwear"@en .
 
 th:gable a skos:Concept ;
     skos:broader th:architectural_part ;
@@ -25433,16 +25468,6 @@ th:ship a skos:Concept ;
     skos:prefLabel "Schiff"@de,
         "Ship"@en .
 
-th:sitting_statue a skos:Concept ;
-    skos:altLabel "Sitzstandbild"@de ;
-    skos:broader th:plastic,
-        th:sculpture ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q179700> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:branchide ;
-    skos:prefLabel "Sitzstatue"@de,
-        "Sitting statue"@en .
-
 th:skene a skos:Concept ;
     skos:broader th:greek_theater ;
     skos:inScheme th:scheme ;
@@ -25468,6 +25493,20 @@ th:soklees_potter a skos:Concept ;
     skos:prefLabel "Sokles Töpfer"@de,
         "Soklees Potter"@en .
 
+th:statue a skos:Concept ;
+    skos:broader th:plastic ;
+    skos:definition "Sculpture in the round, usually but not always depicting humans, animals, mythical beings, or small figure groups. Statues are relatively large in scale, being life-size, larger than life-size, or only slightly smaller than life-size. For small-scale representations of humans, animals, or mythical beings, use \"figurines,\" \"statuettes,\" or another appropriate term. For depictions of humans, animals, or mythical beings in media other than sculpture, use \"figures (representations).\""@en,
+        "Scultura a tutto tondo, di solito ma non sempre di umani, animali, esseri mitici, o piccoli gruppi di figure. Statue hanno dimensioni relativamente grandi. Per rappresentazioni piccole di umani, animali, o esseri mitici, usa \"figurine\", \"statuettes\" o un altro termine appropriato. Per rappresentazioni di umani, animali, o esseri mitici nei media diversi dalla scultura, usa \"figures (representations)\". Sculture a tutto rilievo che possono raffigurare un oggetto, una figura umana o animale, o un'entità astratta e idealizzata"@it ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300047600>,
+        <http://www.wikidata.org/entity/Q179700>,
+        <https://d-nb.info/gnd/4129665-5> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:gable_figure,
+        th:statue_type ;
+    skos:prefLabel "Statue"@de,
+        "Statue"@en,
+        "statua"@it .
+
 th:statue_type a skos:Concept ;
     skos:broader th:statue ;
     skos:exactMatch <http://www.wikidata.org/entity/Q18096903> ;
@@ -25492,21 +25531,6 @@ th:statue_type_male a skos:Concept ;
         th:robe_statue_male ;
     skos:prefLabel "Statuentyp männlich"@de,
         "Statue type male"@en .
-
-th:statuette a skos:Concept ;
-    skos:broader th:plastic,
-        th:sculpture ;
-    skos:definition "kleine, stark unterlebensgroße Statue"@de,
-        "small item resembling a person or animal, sometimes part of a larger work"@en,
-        "piccolo oggetto raffigurante una persona o un animale, senza parti snodabili"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300047455>,
-        <http://www.wikidata.org/entity/Q1066288>,
-        <http://www.wikidata.org/entity/Q179700> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:tanagraean ;
-    skos:prefLabel "Statuette"@de,
-        "figurine"@en,
-        "statuetta"@it .
 
 th:stereobat a skos:Concept ;
     skos:broader th:architectural_part ;
@@ -25658,19 +25682,6 @@ th:woman_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Frauen-Maler"@de,
         "Woman Painter"@en .
-
-th:acroter a skos:Concept ;
-    skos:broader th:plastic,
-        th:roof,
-        th:sculpture ;
-    skos:definition "Figur oder Ornament an der unteren Dachschräge oder auf dem Giebelfirst, steht üblicherweise auf einer Plinthe."@de,
-        "The figures or ornaments at the lower angles or apex of a pediment, generally supported on plinths."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300002214>,
-        <http://www.wikidata.org/entity/Q421214> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:gable_acroter ;
-    skos:prefLabel "Akroter"@de,
-        "Acroter"@en .
 
 th:architecture_and_urbanism a skos:Concept ;
     skos:broader th:heritageasset ;
@@ -25885,7 +25896,8 @@ th:greco-roman_temple a skos:Concept ;
 th:greek_ceramics a skos:Concept ;
     skos:broader th:fine_ceramics ;
     skos:inScheme th:scheme ;
-    skos:narrower th:greek_ceramic_landscape,
+    skos:narrower th:corinthian_ceramics,
+        th:greek_ceramic_landscape,
         th:greek_ceramics_class ;
     skos:prefLabel "Griechische Keramik"@de,
         "Greek ceramics"@en .
@@ -25978,16 +25990,6 @@ th:robe_statue_male a skos:Concept ;
     skos:prefLabel "Gewandstatue männlich"@de,
         "Robe statue male"@en .
 
-th:roofing a skos:Concept ;
-    skos:broader th:architectural_part ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:calypter,
-        th:calypter_hegemon,
-        th:roofing_type,
-        th:stroter ;
-    skos:prefLabel "Dachdeckung"@de,
-        "Roofing"@en .
-
 th:roofing_type a skos:Concept ;
     skos:broader th:roofing ;
     skos:inScheme th:scheme ;
@@ -26014,21 +26016,6 @@ th:sima a skos:Concept ;
     skos:prefLabel "Sima"@de,
         "Sima"@en .
 
-th:statue a skos:Concept ;
-    skos:broader th:plastic,
-        th:sculpture ;
-    skos:definition "Sculpture in the round, usually but not always depicting humans, animals, mythical beings, or small figure groups. Statues are relatively large in scale, being life-size, larger than life-size, or only slightly smaller than life-size. For small-scale representations of humans, animals, or mythical beings, use \"figurines,\" \"statuettes,\" or another appropriate term. For depictions of humans, animals, or mythical beings in media other than sculpture, use \"figures (representations).\""@en,
-        "Scultura a tutto tondo, di solito ma non sempre di umani, animali, esseri mitici, o piccoli gruppi di figure. Statue hanno dimensioni relativamente grandi. Per rappresentazioni piccole di umani, animali, o esseri mitici, usa \"figurine\", \"statuettes\" o un altro termine appropriato. Per rappresentazioni di umani, animali, o esseri mitici nei media diversi dalla scultura, usa \"figures (representations)\". Sculture a tutto rilievo che possono raffigurare un oggetto, una figura umana o animale, o un'entità astratta e idealizzata"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300047600>,
-        <http://www.wikidata.org/entity/Q179700>,
-        <https://d-nb.info/gnd/4129665-5> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:gable_figure,
-        th:statue_type ;
-    skos:prefLabel "Statue"@de,
-        "Statue"@en,
-        "statua"@it .
-
 th:sub-italian_indigenous_ceramics a skos:Concept ;
     skos:broader th:fine_ceramics ;
     skos:inScheme th:scheme ;
@@ -26036,12 +26023,6 @@ th:sub-italian_indigenous_ceramics a skos:Concept ;
         th:messapian_pottery,
         th:peucetian_ceramics ;
     skos:prefLabel "Unteritalisch indigene Keramik"@de .
-
-th:subject a skos:Concept ;
-    skos:broader th:heritageasset ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Bildthema"@de,
-        "Subject"@en .
 
 th:traffic a skos:Concept ;
     skos:broader th:infrastructure ;
@@ -26231,6 +26212,16 @@ th:roman_house_type a skos:Concept ;
     skos:prefLabel "Typ römisches Haus"@de,
         "Roman house type"@en .
 
+th:roofing a skos:Concept ;
+    skos:broader th:architectural_part ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:calypter,
+        th:calypter_hegemon,
+        th:roofing_type,
+        th:stroter ;
+    skos:prefLabel "Dachdeckung"@de,
+        "Roofing"@en .
+
 th:room_greek_house a skos:Concept ;
     skos:broader th:greek_house ;
     skos:inScheme th:scheme ;
@@ -26241,6 +26232,22 @@ th:room_greek_house a skos:Concept ;
     skos:prefLabel "Raum grieschiches Haus"@de,
         "Room Greek house"@en .
 
+th:sculpture a skos:Concept ;
+    skos:altLabel "Kunststoff" ;
+    skos:broader th:heritageasset ;
+    skos:definition "Refers to the process of creating sculptures, which are three-dimensional works. It refers particularly to carving or engraving a hard material, or with molding or casting a malleable material, so as to produce designs or figures in relief, in intaglio, or in the round. It is typically used to refer to the production of large or medium-sized objects in stone, clay, or bronze. The production of small objects in bronze or stone is typically referred to by a specific term, such as \"stone carving\" or \"die sinking.\" The production of sculpture in wood or ivory is typically referred to as \"carving,\" even though the finished work in these materials may be called \"sculpture (visual work).\""@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300264383>,
+        <http://www.wikidata.org/entity/Q11634>,
+        <http://www.wikidata.org/entity/Q350268>,
+        <https://d-nb.info/gnd/4046277-8> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:building_plastic,
+        th:plastic,
+        th:portrait,
+        th:relief ;
+    skos:prefLabel "Plastik"@de,
+        "Sculpture"@en .
+
 th:storage_vessel a skos:Concept ;
     skos:broader th:types_of_vessels ;
     skos:inScheme th:scheme ;
@@ -26250,6 +26257,16 @@ th:storage_vessel a skos:Concept ;
         th:pyxis ;
     skos:prefLabel "Aufbewahrungsgefäß"@de,
         "Storage vessel"@en .
+
+th:subject a skos:Concept ;
+    skos:broader th:heritageasset ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:cadmus,
+        th:giant_fight,
+        th:giants,
+        th:theseus_with_minos ;
+    skos:prefLabel "Bildthema"@de,
+        "Subject"@en .
 
 th:thermal_spring_type a skos:Concept ;
     skos:broader th:roman_thermal_baths ;
@@ -26280,18 +26297,6 @@ th:vertical_line_groups_with_intermediate_ornaments a skos:Concept ;
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_parallel_lines,_various_intermediate_ornaments> ;
     skos:prefLabel "Senkrechte Strichgruppen mit Zwischenornamenten"@de,
         "Vertical line groups with intermediate ornaments"@en .
-
-th:Schuhgriechisch a skos:Concept ;
-    skos:broader th:footwear ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:arbyle,
-        th:embas,
-        th:iphikratides,
-        th:kothornos,
-        th:lakonikai,
-        th:perschiean_shoe ;
-    skos:prefLabel "Griechischer Schuh"@de,
-        "Greek shoe"@en .
 
 th:ashlar_wall a skos:Concept ;
     skos:altLabel "Opus romanum"@de ;
@@ -26340,19 +26345,6 @@ th:column_base a skos:Concept ;
         th:sami_column_base ;
     skos:prefLabel "Säulenbasis"@de,
         "Column base"@en .
-
-th:corinthian_ceramics a skos:Concept ;
-    skos:altLabel "Korinthisch Schwarzfigurug"@de ;
-    skos:broader th:greek_ceramics ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:corinthian_geometric,
-        th:corinthian_red-figure,
-        th:early_corinthian,
-        th:late_corinthian,
-        th:middle_corinthian,
-        th:proto-corinthian_pottery ;
-    skos:prefLabel "Korinthische Keramik"@de,
-        "Corinthian ceramics"@en .
 
 th:cycladic_orientalizing a skos:Concept ;
     skos:broader th:cycladic_ceramics,
@@ -26501,6 +26493,31 @@ th:wall a skos:Concept ;
     skos:prefLabel "Wand- Boden- und Deckenverkleidung"@de,
         "Wall, floor and ceiling cladding"@en .
 
+th:Schuhgriechisch a skos:Concept ;
+    skos:broader th:footwear ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:arbyle,
+        th:embas,
+        th:iphikratides,
+        th:kothornos,
+        th:lakonikai,
+        th:perschiean_shoe ;
+    skos:prefLabel "Griechischer Schuh"@de,
+        "Greek shoe"@en .
+
+th:corinthian_ceramics a skos:Concept ;
+    skos:altLabel "Korinthisch Schwarzfigurug"@de ;
+    skos:broader th:greek_ceramics ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:corinthian_geometric,
+        th:corinthian_red-figure,
+        th:early_corinthian,
+        th:late_corinthian,
+        th:middle_corinthian,
+        th:proto-corinthian_pottery ;
+    skos:prefLabel "Korinthische Keramik"@de,
+        "Corinthian ceramics"@en .
+
 th:galatians a skos:Concept ;
     skos:altLabel "Galatien"@de,
         "galatisch"@de ;
@@ -26564,6 +26581,23 @@ th:koilon a skos:Concept ;
         "Koilon"@en ;
     skos:related th:cavea ;
     skos:relatedMatch th:cavea .
+
+th:plastic a skos:Concept ;
+    skos:broader th:sculpture ;
+    skos:definition "Figur an einem Bauwerk"@de,
+        "type of sculpture"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300379328>,
+        <http://www.wikidata.org/entity/Q3476515>,
+        <https://d-nb.info/gnd/4004913-9> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:acroter,
+        th:animal_statue,
+        th:equestrian_statue,
+        th:sitting_statue,
+        th:statue,
+        th:statuette ;
+    skos:prefLabel "Bauplastik"@de,
+        "architectural sculpture"@en .
 
 th:red-figure_style a skos:Concept ;
     skos:broader th:greek_ceramics_class ;
@@ -26656,24 +26690,6 @@ th:fine_ceramics a skos:Concept ;
         th:sub-italian_indigenous_ceramics ;
     skos:prefLabel "Feinkeramik"@de,
         "fine ceramic"@en .
-
-th:plastic a skos:Concept ;
-    skos:broader th:material,
-        th:sculpture ;
-    skos:definition "Figur an einem Bauwerk"@de,
-        "type of sculpture"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300379328>,
-        <http://www.wikidata.org/entity/Q3476515>,
-        <https://d-nb.info/gnd/4004913-9> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:acroter,
-        th:animal_statue,
-        th:equestrian_statue,
-        th:sitting_statue,
-        th:statue,
-        th:statuette ;
-    skos:prefLabel "Bauplastik"@de,
-        "architectural sculpture"@en .
 
 th:projectile a skos:Concept ;
     skos:altLabel "Etage"@de,
@@ -26894,23 +26910,6 @@ th:roman_theater a skos:Concept ;
     skos:prefLabel "Theater römisch"@de,
         "Roman theater"@en .
 
-th:Schuhroemisch a skos:Concept ;
-    skos:broader th:footwear ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:calceus_equester,
-        th:calceus_senatorius,
-        th:caliga,
-        th:crepida,
-        th:gallica,
-        th:kothurn,
-        th:mulleus,
-        th:pero,
-        th:sculponea,
-        th:soccus,
-        th:solea ;
-    skos:prefLabel "Römischer Schuh"@de,
-        "Roman shoe"@en .
-
 th:drinking_vessel a skos:Concept ;
     skos:altLabel "Poterion"@de ;
     skos:broader th:types_of_vessels ;
@@ -26989,13 +26988,35 @@ th:settlement a skos:Concept ;
         "human settlement"@en,
         "insediamento umano"@it .
 
+th:Schuhroemisch a skos:Concept ;
+    skos:broader th:footwear ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:calceus_equester,
+        th:calceus_senatorius,
+        th:caliga,
+        th:crepida,
+        th:gallica,
+        th:kothurn,
+        th:mulleus,
+        th:pero,
+        th:sculponea,
+        th:soccus,
+        th:solea ;
+    skos:prefLabel "Römischer Schuh"@de,
+        "Roman shoe"@en .
+
 th:heritageasset a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:narrower th:architecture_and_urbanism,
         th:ceramic,
         th:container,
+        th:cultures,
+        th:footwear,
+        th:lighting_device,
+        th:material,
         th:ornament,
         th:sculpture,
+        th:subject,
         th:vase_painter ;
     skos:prefLabel "HeritageAsset"@de,
         "Kulturgut"@de,
@@ -27021,24 +27042,6 @@ th:italian a skos:Concept ;
     skos:prefLabel "Italiker"@de,
         "Italian"@en .
 
-th:lighting_device a skos:Concept ;
-    skos:broader th:heritageasset ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:bundle_of_fagots,
-        th:candelabra,
-        th:candle,
-        th:candlesticks,
-        th:fire_pit,
-        th:kienspan,
-        th:lamp,
-        th:lantern,
-        th:light_house,
-        th:lychnophoros,
-        th:tallow_bowl,
-        th:torch ;
-    skos:prefLabel "Beleuchtungsgerät"@de,
-        "Lighting Device"@en .
-
 th:noriker a skos:Concept ;
     skos:altLabel "Norikum"@de,
         "norisch"@de ;
@@ -27057,28 +27060,6 @@ th:noriker a skos:Concept ;
         th:uperaker ;
     skos:prefLabel "Noriker"@de,
         "Noriker"@en .
-
-th:sculpture a skos:Concept ;
-    skos:altLabel "Kunststoff" ;
-    skos:broader th:heritageasset ;
-    skos:definition "Refers to the process of creating sculptures, which are three-dimensional works. It refers particularly to carving or engraving a hard material, or with molding or casting a malleable material, so as to produce designs or figures in relief, in intaglio, or in the round. It is typically used to refer to the production of large or medium-sized objects in stone, clay, or bronze. The production of small objects in bronze or stone is typically referred to by a specific term, such as \"stone carving\" or \"die sinking.\" The production of sculpture in wood or ivory is typically referred to as \"carving,\" even though the finished work in these materials may be called \"sculpture (visual work).\""@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300264383>,
-        <http://www.wikidata.org/entity/Q11634>,
-        <http://www.wikidata.org/entity/Q350268>,
-        <https://d-nb.info/gnd/4046277-8> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:acroter,
-        th:animal_statue,
-        th:building_plastic,
-        th:equestrian_statue,
-        th:plastic,
-        th:portrait,
-        th:relief,
-        th:sitting_statue,
-        th:statue,
-        th:statuette ;
-    skos:prefLabel "Plastik"@de,
-        "Sculpture"@en .
 
 th:types_of_greco-roman_temples a skos:Concept ;
     skos:broader th:greco-roman_temple ;
@@ -27114,6 +27095,24 @@ th:glass_jar a skos:Concept ;
         th:stained_glass ;
     skos:prefLabel "Glasgefäß"@de,
         "Glass jar"@en .
+
+th:lighting_device a skos:Concept ;
+    skos:broader th:heritageasset ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:bundle_of_fagots,
+        th:candelabra,
+        th:candle,
+        th:candlesticks,
+        th:fire_pit,
+        th:kienspan,
+        th:lamp,
+        th:lantern,
+        th:light_house,
+        th:lychnophoros,
+        th:tallow_bowl,
+        th:torch ;
+    skos:prefLabel "Beleuchtungsgerät"@de,
+        "Lighting Device"@en .
 
 th:oriental_ceramics a skos:Concept ;
     skos:broader th:greek_ceramics_class ;
@@ -27170,26 +27169,6 @@ th:geometric_ceramics a skos:Concept ;
         th:western_greek_geometric ;
     skos:prefLabel "Geometrische Keramik"@de,
         "Geometric ceramics"@en .
-
-th:giants a skos:Concept ;
-    skos:broader th:subject ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:agrios,
-        th:alcyoneus,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/clytius,_the_giant>,
-        th:epiphaltes,
-        th:grandchildren,
-        th:gration,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/hippolytus,_giant>,
-        th:mimas,
-        th:peloros,
-        th:polybotes,
-        th:porphyrion,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/rhotos,_giant>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/thoas,_the_giant>,
-        th:typhoeus ;
-    skos:prefLabel "Giganten"@de,
-        "Giants"@en .
 
 th:greek_ceramics_class a skos:Concept ;
     skos:broader th:greek_ceramics ;
@@ -27299,6 +27278,26 @@ th:black-figure_style a skos:Concept ;
     skos:prefLabel "Schwarzfiguriger Stil"@de,
         "Black-figure style"@en ;
     skos:related th:etruscan_ceramics .
+
+th:giants a skos:Concept ;
+    skos:broader th:subject ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:agrios,
+        th:alcyoneus,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/clytius,_the_giant>,
+        th:epiphaltes,
+        th:grandchildren,
+        th:gration,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/hippolytus,_giant>,
+        th:mimas,
+        th:peloros,
+        th:polybotes,
+        th:porphyrion,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/rhotos,_giant>,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/thoas,_the_giant>,
+        th:typhoeus ;
+    skos:prefLabel "Giganten"@de,
+        "Giants"@en .
 
 th:glass a skos:Concept ;
     skos:broader th:material ;
@@ -27411,7 +27410,8 @@ th:greek_ceramic_landscape a skos:Concept ;
 th:material a skos:Concept ;
     skos:broader th:heritageasset ;
     skos:inScheme th:scheme ;
-    skos:narrower th:e-mail,
+    skos:narrower th:brick,
+        th:e-mail,
         th:faience,
         th:flax,
         th:glass,
@@ -27422,9 +27422,7 @@ th:material a skos:Concept ;
         th:metal,
         th:ore,
         th:organic_material,
-        th:plastic,
         th:quartz,
-        th:sculpture,
         th:silk,
         th:waste,
         th:wool ;
@@ -27587,6 +27585,7 @@ th:architectural_part a skos:Concept ;
         th:building_plastic,
         th:ceiling,
         th:console,
+        th:cornice,
         th:dome,
         th:entablature,
         th:exedra,
@@ -27601,6 +27600,7 @@ th:architectural_part a skos:Concept ;
         th:projectile,
         th:risalit,
         th:roof,
+        th:roofing,
         th:rotunda,
         th:ship,
         th:stairs,
@@ -27645,7 +27645,8 @@ th:cultures a skos:Concept ;
         th:sardinia,
         th:sarmatians,
         th:sicilian,
-        th:tartesser ;
+        th:tartesser,
+        th:teutons ;
     skos:prefLabel "Kulturen"@de,
         "Cultures"@en .
 
