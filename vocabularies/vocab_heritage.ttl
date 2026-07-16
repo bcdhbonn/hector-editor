@@ -2475,6 +2475,13 @@ th:cave_dwelling a skos:Concept ;
     skos:prefLabel "Wohnhöhle"@de,
         "Cave dwelling"@en .
 
+th:cavea a skos:Concept ;
+    skos:altLabel "Zuschauertribüne"@de ;
+    skos:broader th:roman_theater ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Cavea"@de,
+        "Cavea"@en .
+
 th:caylus_painter a skos:Concept ;
     skos:broader th:black-figure ;
     skos:inScheme th:scheme ;
@@ -16821,6 +16828,12 @@ th:polyteleia_painter a skos:Concept ;
     skos:prefLabel "Polyteleia-Maler"@de,
         "Polyteleia Painter"@en .
 
+th:pontic_vase a skos:Concept ;
+    skos:broader th:black-figure_style ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Pontische Vase"@de,
+        "Pontic vase"@en .
+
 th:populonia_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
     skos:inScheme th:scheme ;
@@ -17009,6 +17022,18 @@ th:pronomos_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Pronomos-Maler"@de,
         "Pronomos Painter"@en .
+
+th:proscenium a skos:Concept ;
+    skos:broader th:roman_theater ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Proscenium"@de,
+        "Proscenium"@en .
+
+th:proskenion a skos:Concept ;
+    skos:broader th:greek_theater ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Proskenion"@de,
+        "Proskenion"@en .
 
 th:prostas a skos:Concept ;
     skos:broader th:room_greek_house ;
@@ -17266,6 +17291,12 @@ th:red-line_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Red-Line-Maler"@de,
         "Red-Line Painter"@en .
+
+th:red_swan_group a skos:Concept ;
+    skos:broader th:lower_italian_red-figure ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Red-Swan-Gruppe"@de,
+        "Red Swan group"@en .
 
 th:redingote_painter a skos:Concept ;
     skos:broader th:corinthian_vase_painter ;
@@ -17730,6 +17761,12 @@ th:scattered_settlement a skos:Concept ;
     skos:prefLabel "Streusiedlung"@de,
         "Scattered settlement"@en .
 
+th:scenae_frons a skos:Concept ;
+    skos:broader th:roman_theater ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Scenae frons"@de,
+        "Scenae frons"@en .
+
 th:schacky_painter a skos:Concept ;
     skos:broader th:red-figure ;
     skos:inScheme th:scheme ;
@@ -18073,6 +18110,12 @@ th:skating_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Gewandfalten-Maler"@de,
         "Skating Painter"@en .
+
+th:skene a skos:Concept ;
+    skos:broader th:greek_theater ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Skene"@de,
+        "Skene"@en .
 
 th:skiron_group a skos:Concept ;
     skos:broader th:apulian ;
@@ -20269,6 +20312,13 @@ th:baptistery a skos:Concept ;
     skos:prefLabel "Baptisterium"@de,
         "Baptistery"@en .
 
+th:bilingue a skos:Concept ;
+    skos:broader th:attic_black-figure,
+        th:attic_red-figure ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Bilingue"@de,
+        "Bilingue"@en .
+
 th:body a skos:Concept ;
     skos:altLabel "Gefäßkörper"@de ;
     skos:broader th:construction_-_lamp_parts,
@@ -20361,14 +20411,6 @@ th:catacomb a skos:Concept ;
     skos:prefLabel "Katakombe"@de,
         "catacombs"@en,
         "catacombe"@it .
-
-th:cavea a skos:Concept ;
-    skos:altLabel "Zuschauertribüne"@de ;
-    skos:broader th:roman_theater ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Cavea"@de,
-        "Cavea"@en ;
-    skos:related th:koilon .
 
 th:channel a skos:Concept ;
     skos:broader th:sewerage ;
@@ -20622,6 +20664,32 @@ th:foundation a skos:Concept ;
     skos:narrower th:lattice_foundation ;
     skos:prefLabel "Fundament"@de,
         "foundation"@en .
+
+th:gable a skos:Concept ;
+    skos:broader th:architectural_part ;
+    skos:definition "Architekturelement"@de,
+        "element in classical, neoclassical and baroque architecture"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300002726>,
+        <http://www.wikidata.org/entity/Q190996> ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:blown_gable ;
+    skos:prefLabel "Giebel"@de,
+        "pediment"@en .
+
+th:gable_figure a skos:Concept ;
+    skos:broader th:building_plastic,
+        th:statue ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q41252970> ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Giebelfigur"@de,
+        "Gable figure"@en .
+
+th:gnathia_ceramics a skos:Concept ;
+    skos:broader th:apulian_ceramics,
+        th:greek_ceramics_class ;
+    skos:inScheme th:scheme ;
+    skos:prefLabel "Gnathia Keramik"@de,
+        "Gnathia ceramics"@en .
 
 th:grape-vine_group a skos:Concept ;
     skos:broader th:apulian,
@@ -21023,20 +21091,6 @@ th:piscina a skos:Concept ;
     skos:prefLabel "Piscina"@de,
         "Piscina"@en .
 
-th:proscenium a skos:Concept ;
-    skos:broader th:roman_theater ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Proscenium"@de,
-        "Proscenium"@en ;
-    skos:related th:proskenion .
-
-th:proskenion a skos:Concept ;
-    skos:broader th:greek_theater ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Proskenion"@de,
-        "Proskenion"@en ;
-    skos:related th:proscenium .
-
 th:proto-attic_pottery a skos:Concept ;
     skos:broader th:attic_black-figure,
         th:oriental_ceramics ;
@@ -21069,13 +21123,6 @@ th:pyramid a skos:Concept ;
     skos:prefLabel "Pyramide"@de,
         "pyramid"@en,
         "piramide"@it .
-
-th:red_swan_group a skos:Concept ;
-    skos:broader th:lower_italian_red-figure ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Red-Swan-Gruppe"@de,
-        "Red Swan group"@en ;
-    skos:related th:gnathia_ceramics .
 
 th:rhodian_black_figure a skos:Concept ;
     skos:broader th:black-figure_style,
@@ -21151,13 +21198,6 @@ th:sami_vase_painter a skos:Concept ;
     skos:prefLabel "Vasenmaler samisch"@de,
         "Sami vase painter"@en .
 
-th:scenae_frons a skos:Concept ;
-    skos:broader th:roman_theater ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Scenae frons"@de,
-        "Scenae frons"@en ;
-    skos:related th:skene .
-
 th:sewerage a skos:Concept ;
     skos:broader th:hydraulic_engineering ;
     skos:inScheme th:scheme ;
@@ -21196,13 +21236,6 @@ th:six_vase a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Six Vase"@de,
         "Six vase"@en .
-
-th:skene a skos:Concept ;
-    skos:broader th:greek_theater ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Skene"@de,
-        "Skene"@en ;
-    skos:related th:scenae_frons .
 
 th:south_ionian_geometric a skos:Concept ;
     skos:broader th:eastern_greek_geometric,
@@ -21526,14 +21559,6 @@ th:berlin_painter a skos:Concept ;
     skos:prefLabel "Berliner-Maler"@de,
         "Berlin Painter"@en .
 
-th:bilingue a skos:Concept ;
-    skos:broader th:attic_black-figure,
-        th:attic_red-figure ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Bilingue"@de,
-        "Bilingue"@en ;
-    skos:related th:bucchero .
-
 th:boeotian_black_figure a skos:Concept ;
     skos:altLabel "Boiotisch Schwarzfigurig"@de ;
     skos:broader th:black-figure_style,
@@ -21588,6 +21613,19 @@ th:brygos_painter a skos:Concept ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Brygos-Maler"@de,
         "Brygos Painter"@en .
+
+th:bucchero a skos:Concept ;
+    skos:altLabel "Bucchero-Keramik"@de ;
+    skos:broader th:etruscan_ceramics ;
+    skos:definition "etruskischer Keramikstil"@de,
+        "Etruscan ceramics style"@en,
+        "tipo di ceramica etrusca"@it ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:bucchero_pesante,
+        th:bucchero_sottile ;
+    skos:prefLabel "Bucchero"@de,
+        "bucchero"@en,
+        "bucchero"@it .
 
 th:campanian_ceramics a skos:Concept ;
     skos:altLabel "Kampamische Keramik"@de ;
@@ -21738,6 +21776,15 @@ th:eastern_greek_black_figure a skos:Concept ;
     skos:prefLabel "Ostgriechisch Schwarzfigurig"@de,
         "Eastern Greek Black Figure"@en .
 
+th:eastern_greek_ceramics a skos:Concept ;
+    skos:altLabel "Ionische Keramik"@de ;
+    skos:broader th:greek_ceramic_landscape ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:eastern_greek_class,
+        th:eastern_greek_landscape ;
+    skos:prefLabel "Ostgriechische Keramik"@de,
+        "Eastern Greek ceramics"@en .
+
 th:eastern_greek_geometric a skos:Concept ;
     skos:altLabel "Ionisch Gemotrisch"@de ;
     skos:broader th:eastern_greek_class,
@@ -21816,27 +21863,6 @@ th:exekias a skos:Concept ;
     skos:prefLabel "Exekias"@de,
         "Exekias"@en .
 
-th:gable a skos:Concept ;
-    skos:broader th:architectural_part ;
-    skos:definition "Architekturelement"@de,
-        "element in classical, neoclassical and baroque architecture"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300002726>,
-        <http://www.wikidata.org/entity/Q190996> ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:blown_gable ;
-    skos:prefLabel "Giebel"@de,
-        "pediment"@en ;
-    skos:related th:gable_figure .
-
-th:gable_figure a skos:Concept ;
-    skos:broader th:building_plastic,
-        th:statue ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q41252970> ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Giebelfigur"@de,
-        "Gable figure"@en ;
-    skos:related th:gable .
-
 th:gargoyle a skos:Concept ;
     skos:broader th:roof ;
     skos:inScheme th:scheme ;
@@ -21844,14 +21870,6 @@ th:gargoyle a skos:Concept ;
         th:tube_gargoyle ;
     skos:prefLabel "Wasserspeier"@de,
         "Gargoyle"@en .
-
-th:gnathia_ceramics a skos:Concept ;
-    skos:broader th:apulian_ceramics,
-        th:greek_ceramics_class ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Gnathia Keramik"@de,
-        "Gnathia ceramics"@en ;
-    skos:related th:red_swan_group .
 
 th:goluchow_painter a skos:Concept ;
     skos:broader th:bilingual,
@@ -22114,14 +22132,6 @@ th:plate a skos:Concept ;
     skos:narrower th:fish_plate ;
     skos:prefLabel "Platte"@de,
         "Plate"@en .
-
-th:pontic_vase a skos:Concept ;
-    skos:broader th:black-figure_style ;
-    skos:inScheme th:scheme ;
-    skos:prefLabel "Pontische Vase"@de,
-        "Pontic vase"@en ;
-    skos:related th:eastern_greek_ceramics,
-        th:etruscan_ceramics .
 
 th:pool a skos:Concept ;
     skos:altLabel "basins"@en ;
@@ -22500,20 +22510,6 @@ th:body_burial a skos:Concept ;
     skos:prefLabel "Körperbestattung"@de,
         "Body burial"@en .
 
-th:bucchero a skos:Concept ;
-    skos:altLabel "Bucchero-Keramik"@de ;
-    skos:broader th:etruscan_ceramics ;
-    skos:definition "etruskischer Keramikstil"@de,
-        "Etruscan ceramics style"@en,
-        "tipo di ceramica etrusca"@it ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:bucchero_pesante,
-        th:bucchero_sottile ;
-    skos:prefLabel "Bucchero"@de,
-        "bucchero"@en,
-        "bucchero"@it ;
-    skos:related th:bilingue .
-
 th:corinthian_entablature a skos:Concept ;
     skos:broader th:entablature ;
     skos:inScheme th:scheme ;
@@ -22540,16 +22536,6 @@ th:cross_vault a skos:Concept ;
         th:ribbed_vault ;
     skos:prefLabel "Kreuzgewölbe"@de,
         "Cross vault"@en .
-
-th:eastern_greek_ceramics a skos:Concept ;
-    skos:altLabel "Ionische Keramik"@de ;
-    skos:broader th:greek_ceramic_landscape ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:eastern_greek_class,
-        th:eastern_greek_landscape ;
-    skos:prefLabel "Ostgriechische Keramik"@de,
-        "Eastern Greek ceramics"@en ;
-    skos:related th:pontic_vase .
 
 th:eastern_greek_class a skos:Concept ;
     skos:broader th:eastern_greek_ceramics ;
@@ -22865,6 +22851,18 @@ th:hydraulic_engineering a skos:Concept ;
     skos:prefLabel "Wasserbau"@de,
         "Hydraulic engineering"@en .
 
+th:koilon a skos:Concept ;
+    skos:altLabel "Theatron"@de,
+        "Zuschauerraum"@de ;
+    skos:broader th:greek_theater ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:analemmas,
+        th:diazometa,
+        th:kercides,
+        th:klimakes ;
+    skos:prefLabel "Koilon"@de,
+        "Koilon"@en .
+
 th:lamp a skos:Concept ;
     skos:broader th:lighting_device ;
     skos:inScheme th:scheme ;
@@ -23115,6 +23113,18 @@ th:cycladic_orientalizing a skos:Concept ;
     skos:prefLabel "Kykladisch Orientalsierend"@de,
         "Cycladic Orientalizing"@en .
 
+th:etruscan_ceramics a skos:Concept ;
+    skos:altLabel "Etrurische Keramik"@de ;
+    skos:broader th:fine_ceramics ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:bucchero,
+        th:etruscan_black_figure,
+        th:etruscan_pseudo-red-figure,
+        th:etruscan_red-figure,
+        th:impasto ;
+    skos:prefLabel "Etruskische Keramik"@de,
+        "Etruscan ceramics"@en .
+
 th:ionic_capital a skos:Concept ;
     skos:broader th:capital ;
     skos:inScheme th:scheme ;
@@ -23125,19 +23135,6 @@ th:ionic_capital a skos:Concept ;
         th:volute_eye ;
     skos:prefLabel "Ionisches Kapitell"@de,
         "Ionic capital"@en .
-
-th:koilon a skos:Concept ;
-    skos:altLabel "Theatron"@de,
-        "Zuschauerraum"@de ;
-    skos:broader th:greek_theater ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:analemmas,
-        th:diazometa,
-        th:kercides,
-        th:klimakes ;
-    skos:prefLabel "Koilon"@de,
-        "Koilon"@en ;
-    skos:related th:cavea .
 
 th:lekythos a skos:Concept ;
     skos:broader th:ointment_vessel ;
@@ -23358,20 +23355,6 @@ th:cycladic_ceramics a skos:Concept ;
         th:theraean_ceramics ;
     skos:prefLabel "Kykladische Keramik"@de,
         "Cycladic ceramics"@en .
-
-th:etruscan_ceramics a skos:Concept ;
-    skos:altLabel "Etrurische Keramik"@de ;
-    skos:broader th:fine_ceramics ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:bucchero,
-        th:etruscan_black_figure,
-        th:etruscan_pseudo-red-figure,
-        th:etruscan_red-figure,
-        th:impasto ;
-    skos:prefLabel "Etruskische Keramik"@de,
-        "Etruscan ceramics"@en ;
-    skos:related th:black-figure_style,
-        th:pontic_vase .
 
 th:fine_ceramics a skos:Concept ;
     skos:altLabel "Feine Ware"@de ;
@@ -23755,6 +23738,26 @@ th:oriental_ceramics a skos:Concept ;
     skos:prefLabel "Orientalsierende Keramik"@de,
         "Oriental ceramics"@en .
 
+th:black-figure_style a skos:Concept ;
+    skos:altLabel "Schwarzfigurige Keramik"@de ;
+    skos:broader th:greek_ceramics_class ;
+    skos:inScheme th:scheme ;
+    skos:narrower th:attic_black-figure,
+        th:boeotian_black_figure,
+        th:caeretan_hydria,
+        th:chalcidian_vase,
+        th:eastern_greek_black_figure,
+        th:euboian_black_figure,
+        th:laconic_black_figure,
+        th:northampton_group,
+        th:pontic_vase,
+        th:pseudo-chalcidian_vase,
+        th:rhodian_black_figure,
+        th:sami_black_figure,
+        th:thasian_black_figure ;
+    skos:prefLabel "Schwarzfiguriger Stil"@de,
+        "Black-figure style"@en .
+
 th:construction_-_lamp_parts a skos:Concept ;
     skos:broader th:lamp ;
     skos:inScheme th:scheme ;
@@ -23855,27 +23858,6 @@ th:strokes a skos:Concept ;
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/vertical_lines_and_stripes,_alternating_wide_and_narrow> ;
     skos:prefLabel "Striche"@de,
         "Strokes"@en .
-
-th:black-figure_style a skos:Concept ;
-    skos:altLabel "Schwarzfigurige Keramik"@de ;
-    skos:broader th:greek_ceramics_class ;
-    skos:inScheme th:scheme ;
-    skos:narrower th:attic_black-figure,
-        th:boeotian_black_figure,
-        th:caeretan_hydria,
-        th:chalcidian_vase,
-        th:eastern_greek_black_figure,
-        th:euboian_black_figure,
-        th:laconic_black_figure,
-        th:northampton_group,
-        th:pontic_vase,
-        th:pseudo-chalcidian_vase,
-        th:rhodian_black_figure,
-        th:sami_black_figure,
-        th:thasian_black_figure ;
-    skos:prefLabel "Schwarzfiguriger Stil"@de,
-        "Black-figure style"@en ;
-    skos:related th:etruscan_ceramics .
 
 th:drinking_bowl a skos:Concept ;
     skos:altLabel "Schale"@de ;
