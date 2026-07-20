@@ -1,1 +1,7 @@
 hector_config.json
+
+vocabularies/BJB/archaevocabNLDE.ttl
+vocabularies/hector_epochs/Liste_WNK-Datierungen.csv
+vocabularies/material.ttl
+vocabularies/test.html
+vocabularies/vocab_heritage.ttl
