@@ -15968,9 +15968,11 @@ th:concept_c8ea3e89 a skos:Concept ;
     skos:altLabel "Minoan pottery"@en ;
     skos:broader th:concept_881e389c ;
     skos:definition "pottery from Bronze Age Crete"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300107114>,
+        <http://www.wikidata.org/entity/Q1937490> ;
     skos:inScheme th:scheme ;
     skos:prefLabel "Minoische Keramik"@de,
-        "Minoan ceramics"@en,
+        "Minoan pottery"@en,
         "Ceramica minoica"@it .
 
 th:concept_c8f4b3d4 a skos:Concept ;

@@ -1,11 +1,5 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/animal_statue> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/plastic> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Tierstatue"@de,
-        "Animal statue"@en .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/ash> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/organic_material> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
@@ -17,18 +11,6 @@
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Asphalt"@de,
         "Asphalt"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/bar_shaped> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Stabgeformt"@de,
-        "Bar shaped"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/branchide> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/sitting_statue> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Branchide"@de,
-        "Branchide"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/brass> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/metal> ;
@@ -44,15 +26,14 @@
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/cameo_glass> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> ;
+    skos:definition "Flach- oder Hohlglas, das aus zwei Schichten mit unterschiedlicher Färbung besteht"@de,
+        "glass making technique where glass in different colors are layered"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300181908>,
+        <http://www.wikidata.org/entity/Q5025972>,
+        <https://d-nb.info/gnd/4758222-4> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Kameoglas"@de,
-        "Cameo glass"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/cameo_glass_vessel> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Kameoglasgefäß"@de,
-        "Cameo glass vessel"@en .
+    skos:prefLabel "Überfangglas"@de,
+        "cameo glass"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/clay_bricks> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/brick> ;
@@ -66,35 +47,11 @@
     skos:prefLabel "Kupfer"@de,
         "Copper"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/core_formed> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Kerngeformt"@de,
-        "Core formed"@en .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/corpse_burning> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/organic_material> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Leichenbrand"@de,
         "Corpse burning"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/cut_glass> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Schliffglas"@de,
-        "Cut glass"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/decorative_glass_vessel> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Dekorloses Glasgefäß"@de,
-        "Decorative glass vessel"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/diatret_glass> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Diatretglas"@de,
-        "Diatret glass"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/e-mail> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
@@ -102,32 +59,18 @@
     skos:prefLabel "Email"@de,
         "E-mail"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/equestrian_statue> a skos:Concept ;
-    skos:altLabel "Reiterstandbild"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/plastic> ;
-    skos:definition "Skulpturengruppe, die aus Pferd und Reiter besteht."@de,
-        "Sculptural groups consisting of a horse and rider."@en,
-        "Gruppi scultorei composti da un cavallo e un fantino. Sculture raffiguranti una figura umana in sella al suo destriero"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300047606>,
-        <http://www.wikidata.org/entity/Q659396>,
-        <https://d-nb.info/gnd/4136435-1> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Reiterstatue"@de,
-        "Equestrian statue"@en,
-        "statue equestri"@it .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/faience> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
+    skos:definition "mit Zinnfritte glasierte Keramik"@de,
+        "tin-glazed pottery"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300010668>,
+        <http://vocab.getty.edu/aat/300265177>,
+        <http://www.wikidata.org/entity/Q209671>,
+        <http://www.wikidata.org/entity/Q253664>,
+        <https://d-nb.info/gnd/4127928-1> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Fayence"@de,
-        "Faience"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/female_unclothed> a skos:Concept ;
-    skos:altLabel "Weiblich nackt"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue_type_female> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Weiblich unbekleidet"@de,
-        "Female unclothed"@en .
+        "faience"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/flax> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
@@ -142,42 +85,22 @@
     skos:prefLabel "Fell"@de,
         "Fur"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/gable_acroter> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/acroter> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Giebelakroter"@de .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/gable_figure> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue> ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q41252970> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Giebelfigur"@de,
-        "Gable figure"@en ;
-    skos:related <http://vocabs.bcdh.uni-bonn.de/heritage_assets/gable> .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_bead> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Glasperle"@de,
         "Glass bead"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_mosaic> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Glasmosaik"@de,
-        "Glass mosaic"@en .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_paste> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> ;
+    skos:definition "Technik in der Glasherstellung"@de,
+        "technique in glass production"@en,
+        "tecnica di lavorazione del vetro"@it ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q3411508> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Glaspaste"@de,
-        "Glass paste"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_pipe> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Glaspfeife"@de,
-        "Glass pipe"@en .
+        "glass paste"@en,
+        "pasta di vetro"@it .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_ring> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> ;
@@ -191,23 +114,10 @@
     skos:prefLabel "Glasskulptur"@de,
         "Glass sculpture"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_window> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Glasfenster"@de,
-        "Glass window"@en .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/gold_glass> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Goldglas"@de,
-        "Gold glass"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/gold_glass_vessel> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Goldglasgefäß"@de,
-        "Gold glass vessel"@en .
+    skos:prefLabel "Goldglas"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/gray_gold> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/gold> ;
@@ -222,7 +132,10 @@
         "Gruengold"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/hemp> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material/concept_a4bf16d5> ;
+    skos:definition "Fiber derived from the stalk of the species Cannabis sativa. Fibers range from 1-2 m in length and are yellow to brown in color. They have a high cellulose content with little lignin. Hemp is lustrous, strong, and durable with good resistance to water, salts, light, and insects; used for cordage, fish lines, sailcloth, canvas, burlap, packing, and as a fiber for paper or for plastic filler."@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300014043>,
+        <http://www.wikidata.org/entity/Q13414920> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Hanf"@de,
         "Hemp"@en .
@@ -232,666 +145,6 @@
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Eisen"@de,
         "Iron"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/ising's_100> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 100"@de,
-        "Ising's 100"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_001> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 001"@de,
-        "Isings 001"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_002> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 002"@de,
-        "Isings 002"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_003> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 003"@de,
-        "Isings 003"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_004> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 004"@de,
-        "Isings 004"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_005> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 005"@de,
-        "Isings 005"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_006> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 006"@de,
-        "Isings 006"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_007> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 007"@de,
-        "Isings 007"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_008> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 008"@de,
-        "Isings 008"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_009> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 009"@de,
-        "Isings 009"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_010> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 010"@de,
-        "Isings 010"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_011> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 011"@de,
-        "Isings 011"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_012> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 012"@de,
-        "Isings 012"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_013> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 013"@de,
-        "Isings 013"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_014> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 014"@de,
-        "Isings 014"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_015> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 015"@de,
-        "Isings 015"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_016> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 016"@de,
-        "Isings 016"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_017> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 017"@de,
-        "Isings 017"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_018> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 018"@de,
-        "Isings 018"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_019> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 019"@de,
-        "Isings 019"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_020> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 020"@de,
-        "Isings 020"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_021> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 021"@de,
-        "Isings 021"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_022> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 022"@de,
-        "Isings 022"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_023> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 023"@de,
-        "Isings 023"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_024> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 024"@de,
-        "Isings 024"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_025> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 025"@de,
-        "Isings 025"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_026> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 026"@de,
-        "Isings 026"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_027> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 027"@de,
-        "Isings 027"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_028> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 028"@de,
-        "Isings 028"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_029> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 029"@de,
-        "Isings 029"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_030> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 030"@de,
-        "Isings 030"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_031> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 031"@de,
-        "Isings 031"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_032> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 032"@de,
-        "Isings 032"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_033> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 033"@de,
-        "Isings 033"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_034> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 034"@de,
-        "Isings 034"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_035> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 035"@de,
-        "Isings 035"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_036> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 036"@de,
-        "Isings 036"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_037> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 037"@de,
-        "Isings 037"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_038> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 038"@de,
-        "Isings 038"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_039> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 039"@de,
-        "Isings 039"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_040> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 040"@de,
-        "Isings 040"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_041> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 041"@de,
-        "Isings 041"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_042> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 042"@de,
-        "Isings 042"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_043> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 043"@de,
-        "Isings 043"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_044> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 044"@de,
-        "Isings 044"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_045> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 045"@de,
-        "Isings 045"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_046> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 046"@de,
-        "Isings 046"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_047> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 047"@de,
-        "Isings 047"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_048> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 048"@de,
-        "Isings 048"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_049> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 049"@de,
-        "Isings 049"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_050> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 050"@de,
-        "Isings 050"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_051> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 051"@de,
-        "Isings 051"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_052> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 052"@de,
-        "Isings 052"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_053> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 053"@de,
-        "Isings 053"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_054> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 054"@de,
-        "Isings 054"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_055> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 055"@de,
-        "Isings 055"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_056> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 056"@de,
-        "Isings 056"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_057> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 057"@de,
-        "Isings 057"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_058> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 058"@de,
-        "Isings 058"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_059> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 059"@de,
-        "Isings 059"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_060> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 060"@de,
-        "Isings 060"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_061> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 061"@de,
-        "Isings 061"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_062> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 062"@de,
-        "Isings 062"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_063> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 063"@de,
-        "Isings 063"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_064> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 064"@de,
-        "Isings 064"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_065> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 065"@de,
-        "Isings 065"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_066> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 066"@de,
-        "Isings 066"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_067> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 067"@de,
-        "Isings 067"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_068> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 068"@de,
-        "Isings 068"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_069> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 069"@de,
-        "Isings 069"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_070> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 070"@de,
-        "Isings 070"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_071> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 071"@de,
-        "Isings 071"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_072> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 072"@de,
-        "Isings 072"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_073> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 073"@de,
-        "Isings 073"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_074> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 074"@de,
-        "Isings 074"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_075> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 075"@de,
-        "Isings 075"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_076> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 076"@de,
-        "Isings 076"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_077> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 077"@de,
-        "Isings 077"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_078> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 078"@de,
-        "Isings 078"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_079> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 079"@de,
-        "Isings 079"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_080> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 080"@de,
-        "Isings 080"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_081> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 081"@de,
-        "Isings 081"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_082> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 082"@de,
-        "Isings 082"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_083> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 083"@de,
-        "Isings 083"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_084> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 084"@de,
-        "Isings 084"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_085> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 085"@de,
-        "Isings 085"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_086> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 086"@de,
-        "Isings 086"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_087> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 087"@de,
-        "Isings 087"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_088> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 088"@de,
-        "Isings 088"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_089> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 089"@de,
-        "Isings 089"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_090> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 090"@de,
-        "Isings 090"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_091> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 091"@de,
-        "Isings 091"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_092> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 092"@de,
-        "Isings 092"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_093> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 093"@de,
-        "Isings 093"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_094> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 094"@de,
-        "Isings 094"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_095> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 095"@de,
-        "Isings 095"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_096> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 096"@de,
-        "Isings 096"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_097> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 097"@de,
-        "Isings 097"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_098> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 098"@de,
-        "Isings 098"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_099> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 099"@de,
-        "Isings 099"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_101> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 101"@de,
-        "Isings 101"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_102> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 102"@de,
-        "Isings 102"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_103> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 103"@de,
-        "Isings 103"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_104> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 104"@de,
-        "Isings 104"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_105> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 105"@de,
-        "Isings 105"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_106> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 106"@de,
-        "Isings 106"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_107> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 107"@de,
-        "Isings 107"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_108> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 108"@de,
-        "Isings 108"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_109> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 109"@de,
-        "Isings 109"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_110> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Isings 110"@de,
-        "Isings 110"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/ivory> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/leg> ;
@@ -904,28 +157,6 @@
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Jute"@de,
         "Jute"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/kore> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/robe_statue_female> ;
-    skos:definition "Skulptur der griechischen Antike, die eine stehende, bekleidete weibliche Figur darstellt."@de,
-        "Sculptures of the Archaic Greek period depicting standing draped female figures."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300184818>,
-        <http://www.wikidata.org/entity/Q921657>,
-        <https://d-nb.info/gnd/4165306-3> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Kore"@de,
-        "Kore"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/kouros> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/male_unclothed> ;
-    skos:definition "Skulptur der Griechischen Antike, die einen stehenden jungen Mann nackt darstellt."@de,
-        "Sculptures of the Archaic Greek period depicting standing nude male youths."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300047570>,
-        <http://www.wikidata.org/entity/Q1024387>,
-        <http://www.wikidata.org/entity/Q937330> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Kouros"@de,
-        "Kouros"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/lead> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/metal> ;
@@ -945,23 +176,6 @@
     skos:prefLabel "Leinen"@de,
         "Linen"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/mantle_youth> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/robe_statue_male> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Manteljüngling"@de .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/mold_blown> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Formgeblasen"@de,
-        "Mold blown"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/mold_melted> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Formgeschmolzen"@de,
-        "Mold melted"@en .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/mother_of_pearl> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/organic_material> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
@@ -980,12 +194,6 @@
     skos:prefLabel "Nickel"@de,
         "Nickel"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/nuppenglas> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Nuppenglas"@de,
-        "Nuppenglas"@en .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/nut> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/organic_material> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
@@ -997,12 +205,6 @@
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Öl"@de,
         "Oil"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/painted_glass_vessel> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Bemaltes Glasgefäß"@de,
-        "Painted glass vessel"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/pale_gold> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/gold> ;
@@ -1034,17 +236,6 @@
     skos:prefLabel "Perle"@de,
         "Pearl"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/peplophore> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/robe_statue_female> ;
-    skos:definition "female figure dressed in a peplos"@en,
-        "figura femminile vestita con un peplo"@it ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q131400348>,
-        <http://www.wikidata.org/entity/Q87658027> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "peplophoros"@de,
-        "peplophoros"@en,
-        "peplophoros"@it .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/potin> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/metal> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
@@ -1060,8 +251,7 @@
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/raw_glass> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Rohglas"@de,
-        "Raw glass"@en .
+    skos:prefLabel "Rohglas"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/rose_gold> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/gold> ;
@@ -1095,7 +285,11 @@
         "Shell"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/silk> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material/concept_a4bf16d5> ;
+    skos:definition "A fine, lustrous, natural fiber obtained from the catepillar cocoons of silk moths, such as the domesticated Bombyx mori. Silkworm silk is composed of a heavy and light chain of core proteins called fibroins, which are coated by sericin, a collection of sticky, glue-like proteins.  Microscopically, raw silk appears as two strands that are held together with sericin protein. According to legend, silk was discovered by Chinese Empress Si-Ling-Shi when a cocoon fell in her tea. China maintained a monopoly on the production of silk fabric for almost 3,000 years.The worms were first cultivated in Japan about 195 CE and in Europe about 555 CE."@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300014072>,
+        <http://www.wikidata.org/entity/Q37681>,
+        <https://d-nb.info/gnd/4054289-0> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Seide"@de,
         "Silk"@en .
@@ -1108,33 +302,20 @@
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/snail> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/organic_material> ;
+    skos:definition "gebräuchliche Bezeichnung für Tiere mit einem Schneckenhaus"@de,
+        "common name for shelled Gastropods"@en,
+        "mollusco"@it ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q308841> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Schnecke"@de,
-        "Snail"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/stained_glass> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Fleckenglas"@de,
-        "Stained glass"@en .
+        "snail"@en,
+        "chiocciola"@it .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/steel> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/metal> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Stahl"@de,
         "Steel"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/tanagraean> a skos:Concept ;
-    skos:altLabel "Tanagra-Figur"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statuette> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Tanagräerin"@de,
-        "Tanagraean"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/tank_statue> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/robe_statue_male> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Panzerstatue"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/tar> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/bitumen> ;
@@ -1154,13 +335,6 @@
     skos:prefLabel "Zinnbronze"@de,
         "Tin bronze"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/togatus> a skos:Concept ;
-    skos:altLabel "Toga-Statue"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/robe_statue_male> ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q115607603> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Togatus"@en .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/tooth> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/organic_material> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
@@ -1170,9 +344,16 @@
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/tortoiseshell> a skos:Concept ;
     skos:altLabel "Schildkrott" ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/organic_material> ;
+    skos:definition "biogenes Material, das aus den flachen Hornschuppen des Rückenschildes von drei Arten von Meeresschildkröten gewonnen werden kann"@de,
+        "mottled, flexible, brownish material made from the shells of turtles"@en,
+        "materiale derivato dal carapace delle tartarughe"@it ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300011837>,
+        <http://www.wikidata.org/entity/Q2141546>,
+        <https://d-nb.info/gnd/4403338-2> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Schildpatt"@de,
-        "Tortoiseshell"@en .
+        "tortoise shell"@en,
+        "tartaruga"@it .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/wax> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/organic_material> ;
@@ -1204,17 +385,6 @@
     skos:prefLabel "Zink"@de,
         "Zinc"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/acroter> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/plastic> ;
-    skos:definition "Figur oder Ornament an der unteren Dachschräge oder auf dem Giebelfirst, steht üblicherweise auf einer Plinthe."@de,
-        "The figures or ornaments at the lower angles or apex of a pediment, generally supported on plinths."@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300002214>,
-        <http://www.wikidata.org/entity/Q421214> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/gable_acroter> ;
-    skos:prefLabel "Akroter"@de,
-        "Acroter"@en .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/brick> a skos:Concept ;
     skos:altLabel "Backstein"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
@@ -1234,8 +404,7 @@
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_frit> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:prefLabel "Glasfritte"@de,
-        "Glass frit"@en ;
+    skos:prefLabel "Glasfritte"@de ;
     skos:related <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/leg> a skos:Concept ;
@@ -1246,28 +415,16 @@
     skos:prefLabel "Bein"@de,
         "Leg"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/male_unclothed> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue_type_male> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/kouros> ;
-    skos:prefLabel "Männlich unbekleidet"@de,
-        "Male unclothed"@en .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/ore> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
+    skos:definition "Naturally occurring material from which mineral can be extracted; the term is generally but not always used to refer to metalliferous material, and is often modified by the name of the valuable constituent, for example, iron ore."@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300152583>,
+        <http://www.wikidata.org/entity/Q102798>,
+        <https://d-nb.info/gnd/4152966-2> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:prefLabel "Erz"@de,
         "Ore"@en ;
     skos:related <http://vocabs.bcdh.uni-bonn.de/heritage_assets/metal> .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/sitting_statue> a skos:Concept ;
-    skos:altLabel "Sitzstandbild"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/plastic> ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q179700> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/branchide> ;
-    skos:prefLabel "Sitzstatue"@de,
-        "Sitting statue"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/slag> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/waste> ;
@@ -1275,20 +432,6 @@
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/floss> ;
     skos:prefLabel "Schlacke"@de,
         "Slag"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/statuette> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/plastic> ;
-    skos:definition "kleine, stark unterlebensgroße Statue"@de,
-        "small item resembling a person or animal, sometimes part of a larger work"@en,
-        "piccolo oggetto raffigurante una persona o un animale, senza parti snodabili"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300047455>,
-        <http://www.wikidata.org/entity/Q1066288>,
-        <http://www.wikidata.org/entity/Q179700> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/tanagraean> ;
-    skos:prefLabel "Statuette"@de,
-        "figurine"@en,
-        "statuetta"@it .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/bitumen> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/organic_material> ;
@@ -1298,52 +441,17 @@
     skos:prefLabel "Bitumen"@de,
         "Bitumen"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/robe_statue_female> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue_type_female> ;
+<http://vocabs.bcdh.uni-bonn.de/heritage_assets/material/concept_a4bf16d5> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/organic_material> ;
+    skos:definition "Materials produced by weaving, felting, knotting, twining, or otherwise processing natural or synthetic fibers so that they cohere into a form or unit; traditionally excludes fiberboard, paper, papier-mâché, and papyrus, which, though also fiber products, are considered as separate types of material. For generic reference to the genre, see \"textiles.\""@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300231565>,
+        <http://www.wikidata.org/entity/Q28823>,
+        <https://d-nb.info/gnd/4059615-1> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/kore>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/peplophore> ;
-    skos:prefLabel "Gewandstatue weiblich"@de,
-        "Robe statue female"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/plastic> ;
-    skos:definition "Sculpture in the round, usually but not always depicting humans, animals, mythical beings, or small figure groups. Statues are relatively large in scale, being life-size, larger than life-size, or only slightly smaller than life-size. For small-scale representations of humans, animals, or mythical beings, use \"figurines,\" \"statuettes,\" or another appropriate term. For depictions of humans, animals, or mythical beings in media other than sculpture, use \"figures (representations).\""@en,
-        "Scultura a tutto tondo, di solito ma non sempre di umani, animali, esseri mitici, o piccoli gruppi di figure. Statue hanno dimensioni relativamente grandi. Per rappresentazioni piccole di umani, animali, o esseri mitici, usa \"figurine\", \"statuettes\" o un altro termine appropriato. Per rappresentazioni di umani, animali, o esseri mitici nei media diversi dalla scultura, usa \"figures (representations)\". Sculture a tutto rilievo che possono raffigurare un oggetto, una figura umana o animale, o un'entità astratta e idealizzata"@it ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300047600>,
-        <http://www.wikidata.org/entity/Q179700>,
-        <https://d-nb.info/gnd/4129665-5> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/gable_figure>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue_type> ;
-    skos:prefLabel "Statue"@de,
-        "Statue"@en,
-        "statua"@it .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue_type> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue> ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q18096903> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue_type_female>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue_type_male> ;
-    skos:prefLabel "Statuentyp"@de,
-        "Statue type"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue_type_female> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue_type> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/female_unclothed>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/robe_statue_female> ;
-    skos:prefLabel "Statuentyp Weiblich"@de,
-        "Statue type female"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue_type_male> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue_type> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/male_unclothed>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/robe_statue_male> ;
-    skos:prefLabel "Statuentyp männlich"@de,
-        "Statue type male"@en .
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/hemp>,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/silk> ;
+    skos:prefLabel "Stoff"@de,
+        "textile materials"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/waste> a skos:Concept ;
     skos:altLabel "Müll" ;
@@ -1353,15 +461,6 @@
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/slag> ;
     skos:prefLabel "Abfall"@de,
         "Waste"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/robe_statue_male> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue_type_male> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/mantle_youth>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/tank_statue>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/togatus> ;
-    skos:prefLabel "Gewandstatue männlich"@de,
-        "Robe statue male"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/gold> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/metal> ;
@@ -1375,54 +474,20 @@
     skos:prefLabel "Gold"@de,
         "Gold"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/plastic> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:definition "Figur an einem Bauwerk"@de,
-        "type of sculpture"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300379328>,
-        <http://www.wikidata.org/entity/Q3476515>,
-        <https://d-nb.info/gnd/4004913-9> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/acroter>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/animal_statue>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/equestrian_statue>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/sitting_statue>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statue>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/statuette> ;
-    skos:prefLabel "Bauplastik"@de,
-        "architectural sculpture"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/bar_shaped>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/cameo_glass_vessel>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/core_formed>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/cut_glass>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/decorative_glass_vessel>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/diatret_glass>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/gold_glass_vessel>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/mold_blown>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/mold_melted>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/nuppenglas>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/painted_glass_vessel>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/stained_glass> ;
-    skos:prefLabel "Glasgefäß"@de,
-        "Glass jar"@en .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
+    skos:definition "Eine amorphe, anorganische Substanz, die durch Verschmelzen von Kieselsäure (Siliziumdioxid) mit einem basischen Oxid hergestellt wird; im allgemeine transparent, aber oft auch durchscheinend oder undurchsichtig. Ihre charakteristischen Eigenschaften sind ihre Härte und Steifigkeit bei normalen Temperaturen, ihre Fähigkeit zur plastischen Verformung bei höheren Temperaturen und ihre Beständigkeit gegen Witterungseinflüsse und die meisten Chemikalien außer Flusssäure. Sie wird sowohl für Gebrauchs- als auch zu Dekorationszwecken verwendet und kann in verschiedene Formen gebracht, gefärbt oder dekoriert werden. Etwa 3.500 vor Chr. wurde Glas in Mesopotamien als Glasur hergestellt, und die ersten vollständig aus Glas hergestellten Gegenstände stammen aus der Zeit um 2.500 v. Chr."@de,
+        "An amorphous, inorganic substance made by fusing silica (silicon dioxide) with a basic oxide; generally transparent but often translucent or opaque. Its characteristic properties are its hardness and rigidity at ordinary temperatures, its capacity for plastic working at elevated temperatures, and its resistance to weathering and to most chemicals except hydrofluoric acid. Used for both utilitarian and decorative purposes, it can be formed into various shapes, colored or decorated. Glass originated as a glaze in Mesopotamia in about 3500 BCE and the first objects made wholly of glass date to about 2500 BCE."@en,
+        "Una sostanza inorganica e amorfa, realizzata da fondendo la silice con un ossido basico; generalmente trasparente ma spesso traslucida o opaca. Le sue caratteristiche sono la durezza e la rigidità a temperature ordinarie e la sua resistenza agli agenti atmosferici e alla maggior parte delle sostanze chimiche. Utilizzato per scopi utilitari e decorativi, può essere formato in varie forme, colorate o decorate. Il vetro è nato come uno strato in Mesopotamia intorno al 3500 a.C. e i primi oggetti realizzati interamente in vetro risalgono a circa 2500 a.C."@it ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300010797>,
+        <http://www.wikidata.org/entity/Q11469>,
+        <https://d-nb.info/gnd/4021142-3> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/cameo_glass>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_bead>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_jar>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_mosaic>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_paste>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_pipe>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_ring>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_sculpture>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_window>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/gold_glass>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/raw_glass> ;
     skos:prefLabel "Glas"@de,
@@ -1460,6 +525,7 @@
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/leather>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/leg>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material>,
+        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material/concept_a4bf16d5>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/mother_of_pearl>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/mummy>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/nut>,
@@ -1478,125 +544,8 @@
     skos:prefLabel "Organisches_Material"@de,
         "Organic material"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_vessel_shape_according_to_isings> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/ising's_100>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_001>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_002>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_003>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_004>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_005>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_006>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_007>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_008>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_009>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_010>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_011>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_012>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_013>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_014>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_015>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_016>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_017>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_018>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_019>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_020>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_021>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_022>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_023>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_024>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_025>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_026>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_027>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_028>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_029>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_030>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_031>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_032>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_033>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_034>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_035>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_036>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_037>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_038>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_039>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_040>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_041>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_042>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_043>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_044>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_045>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_046>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_047>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_048>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_049>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_050>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_051>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_052>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_053>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_054>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_055>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_056>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_057>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_058>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_059>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_060>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_061>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_062>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_063>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_064>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_065>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_066>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_067>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_068>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_069>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_070>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_071>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_072>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_073>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_074>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_075>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_076>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_077>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_078>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_079>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_080>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_081>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_082>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_083>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_084>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_085>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_086>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_087>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_088>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_089>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_090>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_091>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_092>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_093>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_094>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_095>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_096>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_097>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_098>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_099>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_101>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_102>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_103>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_104>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_105>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_106>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_107>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_108>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_109>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/isings_110> ;
-    skos:prefLabel "Glasgefäßform nach Isings"@de,
-        "Glass vessel shape according to Isings"@en .
-
 <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> a skos:Concept,
         skos:ConceptScheme ;
-    skos:altLabel "Material"@de ;
     skos:hasTopConcept <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/heritage_assets/e-mail>,
@@ -1604,20 +553,16 @@
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/flax>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/glass_frit>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/hemp>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/jute>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/linen>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/metal>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/ore>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/organic_material>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/plastic>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/quartz>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/sculpture>,
-        <http://vocabs.bcdh.uni-bonn.de/heritage_assets/silk>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/waste>,
         <http://vocabs.bcdh.uni-bonn.de/heritage_assets/wool> ;
-    skos:prefLabel "Stoff"@de,
-        "Material"@en,
+    skos:prefLabel "Material"@de,
         "material"@en ;
     skos:topConceptOf <http://vocabs.bcdh.uni-bonn.de/heritage_assets/material> .
 

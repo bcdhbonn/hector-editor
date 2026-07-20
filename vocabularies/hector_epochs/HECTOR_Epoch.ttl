@@ -662,13 +662,6 @@ hector_epochs:c_1778d87b a skos:Concept ;
     skos:prefLabel "Hatschepsut"@de,
         "Hatshepsut"@en .
 
-hector_epochs:c_177f39ac a skos:Concept ;
-    skos:broader hector_epochs:c_63260e46 ;
-    skos:definition "Epoche des europäischen Mittelalters von ca. 1050 bis 1250 n. Chr."@de ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Hochmittelalter"@de,
-        "High Middle Ages"@en .
-
 hector_epochs:c_178578ad a skos:Concept ;
     skos:broader hector_epochs:c_4b0ed540 ;
     skos:definition "römischer Kaiser (268-270) (Mittlere Kaiserzeit (reg. bis 270 n. Chr.))"@de,
@@ -5246,17 +5239,6 @@ hector_epochs:c_ac517444 a skos:Concept ;
     skos:prefLabel "Nofretete"@de,
         "Nefertiti"@en .
 
-hector_epochs:c_ad56e554 a skos:Concept ;
-    skos:broader hector_epochs:c_20f7e6d6 ;
-    skos:definition "archäologische Funde jüngster Periode der Altsteinzeit"@de,
-        "subdivision of the Paleolithic or Old Stone Age"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4140116-5>,
-        <http://vocab.getty.edu/aat/300019262>,
-        <http://www.wikidata.org/entity/Q479505> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Jungpaläolithikum"@de,
-        "Upper Paleolithic"@en .
-
 hector_epochs:c_ade75806 a skos:Concept ;
     skos:broader hector_epochs:c_d8135a44 ;
     skos:definition "altägyptischer Pharao"@de,
@@ -5696,20 +5678,6 @@ hector_epochs:c_ba6e73a8 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Beon"@de,
         "Sheshi"@en .
-
-hector_epochs:c_ba983e27 a skos:Concept ;
-    skos:altLabel "Chalkolithikum"@de,
-        "kupferzeitlich"@de,
-        "Äneolithikum"@de ;
-    skos:broader hector_epochs:c_4a572b1e ;
-    skos:definition "archäologische Epoche von Funden gediegenen Kupfers vor der Bronzezeit"@de,
-        "prehistoric period between the Neolithic and the Bronze Age"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4138001-0>,
-        <http://vocab.getty.edu/aat/300019273>,
-        <http://www.wikidata.org/entity/Q130253> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Kupferzeit"@de,
-        "Copper Age"@en .
 
 hector_epochs:c_bacb0b76 a skos:Concept ;
     skos:broader hector_epochs:c_28268fb6 ;
@@ -6523,17 +6491,6 @@ hector_epochs:c_d7348ec1 a skos:Concept ;
     skos:prefLabel "Shemsu"@de,
         "Shemsu"@en .
 
-hector_epochs:c_d743cd37 a skos:Concept ;
-    skos:broader hector_epochs:c_be027feb ;
-    skos:definition "archäologischer Zeitraum, letzter Teil der Steinzeit, Neolithikum"@de,
-        "prehistoric period when agriculture is adopted"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4075272-0>,
-        <http://vocab.getty.edu/aat/300019267>,
-        <http://www.wikidata.org/entity/Q36422> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Jungsteinzeit"@de,
-        "Neolithic"@en .
-
 hector_epochs:c_d7d146be a skos:Concept ;
     skos:broader hector_epochs:c_28268fb6 ;
     skos:definition "altägyptischer König"@de,
@@ -7051,13 +7008,6 @@ hector_epochs:c_e726a3f0 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Maurikios"@de,
         "Maurice"@en .
-
-hector_epochs:c_e7bfa31a a skos:Concept ;
-    skos:broader hector_epochs:c_63260e46 ;
-    skos:definition "Epoche des europäischen Mittelalters von ca. 500 bis 1050 n. Chr."@de ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "Frühmittelalter"@de,
-        "Early Middle Ages"@en .
 
 hector_epochs:c_e7c19b91 a skos:Concept ;
     skos:broader hector_epochs:c_6d1aeb13 ;
@@ -7958,13 +7908,170 @@ hector_epochs:c_ffbaf27a a skos:Concept ;
     skos:prefLabel "Scharek"@de,
         "Scharek"@en .
 
-hector_epochs:concept_fb3a9558 a skos:Concept ;
-    skos:broader hector_epochs:c_20bac33e ;
-    skos:definition "the earliest part of the Iron Age in Scandinavia and the North European Plain (5th/4th–1st centuries BC)"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q893307> ;
+hector_epochs:concept_1a520ea0 a skos:Concept ;
+    skos:altLabel "salisch"@de ;
+    skos:broader hector_epochs:c_177f39ac ;
+    skos:definition "deutsches Adelsgeschlecht"@de,
+        "Medieval European royal dynasty"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q161204>,
+        <https://d-nb.info/gnd/118750895> ;
     skos:inScheme hector_epochs:scheme ;
-    skos:prefLabel "vorrömische Eisenzeit"@de,
-        "Pre-Roman Iron Age"@en .
+    skos:prefLabel "Salier"@de,
+        "Salian dynasty"@en .
+
+hector_epochs:concept_208fd132 a skos:Concept ;
+    skos:broader hector_epochs:c_e7bfa31a ;
+    skos:definition "fränkisches Adelsgeschlecht"@de,
+        "Frankish noble family founded by Charles Martel"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q133602>,
+        <https://d-nb.info/gnd/118721003> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Karolinger"@de,
+        "Carolingian dynasty"@en .
+
+hector_epochs:concept_21c5a3a3 a skos:Concept ;
+    skos:broader hector_epochs:c_733a7405 ;
+    skos:definition "archäologische Epoche von Funden legierten Kupfers"@de,
+        "period in prehistory that follows the Stone Age"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300019276>,
+        <http://www.wikidata.org/entity/Q1471923> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Frühe Bronzezeit"@de,
+        "Early Bronze Age"@en .
+
+hector_epochs:concept_2daa9fee a skos:Concept ;
+    skos:altLabel "Ha A"@de ;
+    skos:broader hector_epochs:concept_d6c09ac3 ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Hallstatt A"@de .
+
+hector_epochs:concept_2fbf4906 a skos:Concept ;
+    skos:broader hector_epochs:concept_09caac4d ;
+    skos:definition "archäologische Kultur im Mittelneolithikum"@de,
+        "archaeological culture"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1549257> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Großgartacher Kultur"@de,
+        "Grossgartach culture"@en .
+
+hector_epochs:concept_430f0684 a skos:Concept ;
+    skos:broader hector_epochs:concept_d6c09ac3 ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Hallstatt D"@de .
+
+hector_epochs:concept_4c828485 a skos:Concept ;
+    skos:broader hector_epochs:concept_d6c09ac3 ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Hallstatt C"@de .
+
+hector_epochs:concept_5534e7c6 a skos:Concept ;
+    skos:altLabel "Altneolithikum"@de ;
+    skos:broader hector_epochs:c_d743cd37 ;
+    skos:definition "keramische Kulturen der Jungsteinzeit"@de,
+        "archaeological sub-period"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300019270>,
+        <http://www.wikidata.org/entity/Q97317573>,
+        <https://d-nb.info/gnd/4366955-4> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Frühneolithikum"@de,
+        "Early Neolithic"@en .
+
+hector_epochs:concept_5e2d2a8d a skos:Concept ;
+    skos:broader hector_epochs:c_733a7405 ;
+    skos:definition "Archäologische Epoche der Hügelgräberkultur"@de,
+        "a period in ancient history following the Stone Age, characterized by the discovery of bronze and advancements in civilization"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300019277>,
+        <http://www.wikidata.org/entity/Q17175310> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Mittlere Bronzezeit"@de,
+        "Middle Bronze Age"@en .
+
+hector_epochs:concept_5f8c49e5 a skos:Concept ;
+    skos:broader hector_epochs:concept_3bd8ba1d ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Spätlatènezeit"@de .
+
+hector_epochs:concept_7ce2d389 a skos:Concept ;
+    skos:broader hector_epochs:concept_d6c09ac3 ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Hallstatt B"@de .
+
+hector_epochs:concept_aabe67a8 a skos:Concept ;
+    skos:broader hector_epochs:concept_3bd8ba1d ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Mittellatènezeit"@de .
+
+hector_epochs:concept_b56ca827 a skos:Concept ;
+    skos:broader hector_epochs:concept_09caac4d ;
+    skos:definition "archäologische Kultur"@de,
+        "Archaeological culture"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1886212>,
+        <https://d-nb.info/gnd/4196969-8> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Rössener Kultur"@de,
+        "Rössen culture"@en .
+
+hector_epochs:concept_c48b5c82 a skos:Concept ;
+    skos:broader hector_epochs:concept_6cdfcc1a ;
+    skos:definition "archäologische Kultur der späten Jungsteinzeit"@de,
+        "archaeological culture"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300106854>,
+        <http://www.wikidata.org/entity/Q470867> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Glockenbecherkultur"@de,
+        "Bell beaker culture"@en .
+
+hector_epochs:concept_df7a7fa0 a skos:Concept ;
+    skos:broader hector_epochs:concept_3bd8ba1d ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Frühlatènezeit"@de .
+
+hector_epochs:concept_e5f9f4fa a skos:Concept ;
+    skos:broader hector_epochs:concept_9eb6c3ab ;
+    skos:definition "Refers to a Late Bronze Age culture evident by the 12th century BCE in east-central Europe and northern Italy, and spreading to the Ukraine, Sicily, Scandinavia, France, and the Iberian peninsula.  It is named for the custom of placing the creamated bones of the deceased in urns, either within flat graves or round barrows. The culture is characterized by fortified settlements, distinctive pottery and metal forms, beaten-bronze armaments, and a slashing sword with flanged grips to protect the handle."@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300019362>,
+        <http://www.wikidata.org/entity/Q223998>,
+        <https://d-nb.info/gnd/4062146-7> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Urnenfelderzeit"@de,
+        "Urnfield"@en .
+
+hector_epochs:concept_ef9704b8 a skos:Concept ;
+    skos:altLabel "MK"@de ;
+    skos:broader hector_epochs:concept_96e04604 ;
+    skos:definition "jungsteinzeitliche Kultur in Mitteleuropa"@de,
+        "archaeological culture"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q570798>,
+        <https://d-nb.info/gnd/4169764-9> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Michelsberger Kultur"@de,
+        "Michelsberg culture"@en .
+
+hector_epochs:concept_efa2b0d4 a skos:Concept ;
+    skos:altLabel "ottonisch"@de ;
+    skos:broader hector_epochs:c_177f39ac ;
+    skos:definition "sächsisches Adelsgeschlecht"@de,
+        "Saxon dynasty of German monarchs (919–1024)"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q157106>,
+        <https://d-nb.info/gnd/118728628> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Ottonen"@de,
+        "Ottonian dynasty"@en .
+
+hector_epochs:concept_f6e1cd43 a skos:Concept ;
+    skos:broader hector_epochs:c_e7bfa31a ;
+    skos:definition "fränkische Herrscherfamilie von Mitte des 5. Jahrhunderts bis 751"@de,
+        "Frankish aristocratic family that ruled from the 5th century to 751"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q59488>,
+        <https://d-nb.info/gnd/11858118X> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Merowinger"@de,
+        "Merovingian dynasty"@en .
+
+hector_epochs:concept_feafc30c a skos:Concept ;
+    skos:broader hector_epochs:concept_fb3a9558 ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Germanisch"@de .
 
 hector_epochs:c_043e224a a skos:Concept ;
     skos:broader hector_epochs:c_ad7adc66 ;
@@ -8001,18 +8108,6 @@ hector_epochs:c_3f60aad4 a skos:Concept ;
     skos:narrower hector_epochs:c_9a20160d ;
     skos:prefLabel "31. Dynastie"@de,
         "Thirty-first Dynasty of Egypt"@en .
-
-hector_epochs:c_733a7405 a skos:Concept ;
-    skos:broader hector_epochs:c_4a572b1e ;
-    skos:definition "Periode in der Menschheitsgeschichte"@de,
-        "prehistoric period and age studied in archaeology, part of the Holocene Epoch"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4008357-3>,
-        <http://vocab.getty.edu/aat/300019275>,
-        <http://www.wikidata.org/entity/Q11761> ;
-    skos:inScheme hector_epochs:scheme ;
-    skos:narrower hector_epochs:c_a7bfa5ce ;
-    skos:prefLabel "Bronzezeit"@de,
-        "Bronze Age"@en .
 
 hector_epochs:c_91236bf9 a skos:Concept ;
     skos:altLabel "karthagisch"@de ;
@@ -8054,6 +8149,33 @@ hector_epochs:c_ab8f742e a skos:Concept ;
     skos:prefLabel "Dunkle Jahrhunderte"@de,
         "Dark Ages"@en .
 
+hector_epochs:c_ad56e554 a skos:Concept ;
+    skos:broader hector_epochs:c_20f7e6d6 ;
+    skos:definition "archäologische Funde jüngster Periode der Altsteinzeit"@de,
+        "subdivision of the Paleolithic or Old Stone Age"@en ;
+    skos:exactMatch <http://d-nb.info/gnd/4140116-5>,
+        <http://vocab.getty.edu/aat/300019262>,
+        <http://www.wikidata.org/entity/Q479505> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:concept_c4906d1c ;
+    skos:prefLabel "Jungpaläolithikum"@de,
+        "Upper Paleolithic"@en .
+
+hector_epochs:c_ba983e27 a skos:Concept ;
+    skos:altLabel "Chalkolithikum"@de,
+        "kupferzeitlich"@de,
+        "Äneolithikum"@de ;
+    skos:broader hector_epochs:c_4a572b1e ;
+    skos:definition "archäologische Epoche von Funden gediegenen Kupfers vor der Bronzezeit"@de,
+        "prehistoric period between the Neolithic and the Bronze Age"@en ;
+    skos:exactMatch <http://d-nb.info/gnd/4138001-0>,
+        <http://vocab.getty.edu/aat/300019273>,
+        <http://www.wikidata.org/entity/Q130253> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:concept_fa42f1ba ;
+    skos:prefLabel "Kupferzeit"@de,
+        "Copper Age"@en .
+
 hector_epochs:c_cac1087e a skos:Concept ;
     skos:broader hector_epochs:c_12cd0776 ;
     skos:inScheme hector_epochs:scheme ;
@@ -8084,6 +8206,36 @@ hector_epochs:c_dfdcfeb2 a skos:Concept ;
     skos:inScheme hector_epochs:scheme ;
     skos:prefLabel "Punisch"@de,
         "Punic Period"@en .
+
+hector_epochs:concept_96e04604 a skos:Concept ;
+    skos:broader hector_epochs:c_d743cd37 ;
+    skos:definition "Abschnitt der Jungsteinzeit in Mitteleuropa"@de,
+        "archaeological sub-period"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1713476> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:concept_ef9704b8 ;
+    skos:prefLabel "Jungneolithikum"@de,
+        "Late Neolithic in Central Europe"@en .
+
+hector_epochs:concept_9eb6c3ab a skos:Concept ;
+    skos:broader hector_epochs:c_733a7405 ;
+    skos:definition "jüngste Periode der Funde der Bronzezeit"@de,
+        "last period of Bronze Age"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300019278>,
+        <http://www.wikidata.org/entity/Q1758757> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:concept_e5f9f4fa ;
+    skos:prefLabel "Späte Bronzezeit"@de,
+        "Late Bronze Age"@en .
+
+hector_epochs:concept_c4906d1c a skos:Concept ;
+    skos:broader hector_epochs:c_ad56e554,
+        hector_epochs:concept_09caac4d ;
+    skos:definition "archaeological culture"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q866086> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Bischheimer Kultur"@de,
+        "Bischheimer Kultur"@en .
 
 hector_epochs:c_00bc8e4e a skos:Concept ;
     skos:broader hector_epochs:c_ece42c3a ;
@@ -8205,6 +8357,15 @@ hector_epochs:c_15136738 a skos:Concept ;
         hector_epochs:c_6ee94fe1 ;
     skos:prefLabel "1. Hälfte 4. Jh. v. Chr."@de,
         "1st Half 4th Century BC"@en .
+
+hector_epochs:c_177f39ac a skos:Concept ;
+    skos:broader hector_epochs:c_63260e46 ;
+    skos:definition "Epoche des europäischen Mittelalters von ca. 1050 bis 1250 n. Chr."@de ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:concept_1a520ea0,
+        hector_epochs:concept_efa2b0d4 ;
+    skos:prefLabel "Hochmittelalter"@de,
+        "High Middle Ages"@en .
 
 hector_epochs:c_1b178348 a skos:Concept ;
     skos:broader hector_epochs:c_77139732 ;
@@ -9505,6 +9666,15 @@ hector_epochs:c_e6bb13ab a skos:Concept ;
     skos:prefLabel "1. Hälfte 11. Jh. v. Chr."@de,
         "1st Half 11th Century BC"@en .
 
+hector_epochs:c_e7bfa31a a skos:Concept ;
+    skos:broader hector_epochs:c_63260e46 ;
+    skos:definition "Epoche des europäischen Mittelalters von ca. 500 bis 1050 n. Chr."@de ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:concept_208fd132,
+        hector_epochs:concept_f6e1cd43 ;
+    skos:prefLabel "Frühmittelalter"@de,
+        "Early Middle Ages"@en .
+
 hector_epochs:c_e9f4c97e a skos:Concept ;
     skos:broader hector_epochs:c_7f19bfdc ;
     skos:definition "Zeitabschnitt von 2000 v. Chr. bis 1901 v. Chr.."@de,
@@ -9658,6 +9828,31 @@ hector_epochs:c_ff3d06ba a skos:Concept ;
         hector_epochs:c_95f2ebfe ;
     skos:prefLabel "1. Hälfte 27. Jh. v. Chr."@de,
         "1st Half 27th Century BC"@en .
+
+hector_epochs:concept_6cdfcc1a a skos:Concept ;
+    skos:broader hector_epochs:c_d743cd37 ;
+    skos:definition "Abschnitt der Jungsteinzeit"@de ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300106759>,
+        <http://www.wikidata.org/entity/Q97317538>,
+        <https://d-nb.info/gnd/4152166-3> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:concept_c48b5c82,
+        hector_epochs:concept_fa42f1ba ;
+    skos:prefLabel "Endneolithikum"@de,
+        "Final Neolithic"@en .
+
+hector_epochs:concept_fa42f1ba a skos:Concept ;
+    skos:broader hector_epochs:c_733a7405,
+        hector_epochs:c_ba983e27,
+        hector_epochs:concept_6cdfcc1a ;
+    skos:definition "archäologische Epoche der Funde aus der Kupferzeit"@de,
+        "European late Neolithic, Copper Age, and early Bronze Age culture"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300106852>,
+        <http://www.wikidata.org/entity/Q933996>,
+        <https://d-nb.info/gnd/4179902-1> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:prefLabel "Schnurkeramische Kultur"@de,
+        "Corded Ware culture"@en .
 
 hector_epochs:c_0ca8d3f4 a skos:Concept ;
     skos:altLabel "minoisch"@de ;
@@ -9830,6 +10025,45 @@ hector_epochs:c_ece42c3a a skos:Concept ;
     skos:prefLabel "18. Jahrhundert n. Chr."@de,
         "18th Century AD"@en .
 
+hector_epochs:concept_09caac4d a skos:Concept ;
+    skos:broader hector_epochs:c_d743cd37 ;
+    skos:definition "Abschnitt der Jungsteinzeit"@de,
+        "archaeological period"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300019271>,
+        <http://www.wikidata.org/entity/Q97317547> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:concept_2fbf4906,
+        hector_epochs:concept_b56ca827,
+        hector_epochs:concept_c4906d1c ;
+    skos:prefLabel "Mittelneolithikum"@de,
+        "Middle Neolithic"@en .
+
+hector_epochs:concept_3bd8ba1d a skos:Concept ;
+    skos:altLabel "La-Tène-Zeit"@de ;
+    skos:broader hector_epochs:concept_fb3a9558 ;
+    skos:definition "Periode der Frühgeschichte in Mitteleuropa"@de,
+        "pre-Roman Iron Age in Western Europe"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300019384>,
+        <http://www.wikidata.org/entity/Q208247>,
+        <https://d-nb.info/gnd/4034668-7> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:concept_5f8c49e5,
+        hector_epochs:concept_aabe67a8,
+        hector_epochs:concept_df7a7fa0 ;
+    skos:prefLabel "Latènezeit"@de,
+        "La Tène period"@en .
+
+hector_epochs:concept_fb3a9558 a skos:Concept ;
+    skos:broader hector_epochs:c_20bac33e ;
+    skos:definition "the earliest part of the Iron Age in Scandinavia and the North European Plain (5th/4th–1st centuries BC)"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q893307> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:concept_3bd8ba1d,
+        hector_epochs:concept_d6c09ac3,
+        hector_epochs:concept_feafc30c ;
+    skos:prefLabel "vorrömische Eisenzeit"@de,
+        "Pre-Roman Iron Age"@en .
+
 hector_epochs:c_08f1434b a skos:Concept ;
     skos:altLabel "Archaik"@de,
         "archaisch"@de ;
@@ -9949,6 +10183,36 @@ hector_epochs:c_d4ab8520 a skos:Concept ;
     skos:prefLabel "19. Jahrhundert n. Chr."@de,
         "19th Century AD"@en .
 
+hector_epochs:c_d743cd37 a skos:Concept ;
+    skos:broader hector_epochs:c_be027feb ;
+    skos:definition "archäologischer Zeitraum, letzter Teil der Steinzeit, Neolithikum"@de,
+        "prehistoric period when agriculture is adopted"@en ;
+    skos:exactMatch <http://d-nb.info/gnd/4075272-0>,
+        <http://vocab.getty.edu/aat/300019267>,
+        <http://www.wikidata.org/entity/Q36422> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:concept_09caac4d,
+        hector_epochs:concept_5534e7c6,
+        hector_epochs:concept_6cdfcc1a,
+        hector_epochs:concept_96e04604 ;
+    skos:prefLabel "Jungsteinzeit"@de,
+        "Neolithic"@en .
+
+hector_epochs:concept_d6c09ac3 a skos:Concept ;
+    skos:broader hector_epochs:concept_fb3a9558 ;
+    skos:definition "Zeitabschnitt der älteren Eisenzeit"@de,
+        "archaeological culture"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300019368>,
+        <http://www.wikidata.org/entity/Q202165>,
+        <https://d-nb.info/gnd/4072254-5> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:concept_2daa9fee,
+        hector_epochs:concept_430f0684,
+        hector_epochs:concept_4c828485,
+        hector_epochs:concept_7ce2d389 ;
+    skos:prefLabel "Hallstattzeit"@de,
+        "Hallstatt culture"@en .
+
 hector_epochs:c_17c2191a a skos:Concept ;
     skos:broader hector_epochs:c_499db5e1 ;
     skos:exactMatch <http://www.wikidata.org/entity/Q511257> ;
@@ -10011,6 +10275,22 @@ hector_epochs:c_719b0291 a skos:Concept ;
         hector_epochs:c_e20556d0 ;
     skos:prefLabel "3. Dynastie"@de,
         "Third Dynasty of Egypt"@en .
+
+hector_epochs:c_733a7405 a skos:Concept ;
+    skos:broader hector_epochs:c_4a572b1e ;
+    skos:definition "Periode in der Menschheitsgeschichte"@de,
+        "prehistoric period and age studied in archaeology, part of the Holocene Epoch"@en ;
+    skos:exactMatch <http://d-nb.info/gnd/4008357-3>,
+        <http://vocab.getty.edu/aat/300019275>,
+        <http://www.wikidata.org/entity/Q11761> ;
+    skos:inScheme hector_epochs:scheme ;
+    skos:narrower hector_epochs:c_a7bfa5ce,
+        hector_epochs:concept_21c5a3a3,
+        hector_epochs:concept_5e2d2a8d,
+        hector_epochs:concept_9eb6c3ab,
+        hector_epochs:concept_fa42f1ba ;
+    skos:prefLabel "Bronzezeit"@de,
+        "Bronze Age"@en .
 
 hector_epochs:c_77139732 a skos:Concept ;
     skos:broader hector_epochs:c_88a3a526,

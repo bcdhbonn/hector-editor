@@ -4,14 +4,12 @@
 :concept_061d262d a skos:Concept ;
     skos:broader :concept_fccb5d90 ;
     skos:definition "3D mesh processing software for repairing topology" ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Meshmixer"@de,
         "Meshmixer"@en .
 
 :concept_0bac183a a skos:Concept ;
     skos:broader :concept_78ff47fd ;
     skos:definition "Dimensional accuracy was established through the definition of known distances." ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Maßstäbe"@de,
         "scale bars"@en .
 
@@ -19,7 +17,6 @@
     skos:broader :concept_fccb5d90 ;
     skos:definition "Adobe software for creating 3D digital materials" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q98446755> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Substance 3D Designer"@de,
         "Substance 3D Designer"@en .
 
@@ -27,27 +24,21 @@
     skos:broader :concept_4b3095b3 ;
     skos:definition "photogrammetry and 3D modeling software" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q39059924> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "3DF Zephyr"@de,
         "3DF Zephyr"@en .
 
 :concept_0d98a253 a skos:Concept ;
     skos:broader :concept_a91783c8 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "FARO SCENE"@de,
-        "FARO SCENE"@en .
+    skos:prefLabel "FARO SCENE"@de .
 
 :concept_0deecf2d a skos:Concept ;
     skos:broader :concept_16852111 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Targetbasierte Registrierung"@de,
-        "target-based registration"@en .
+    skos:prefLabel "Targetbasierte Registrierung"@de .
 
 :concept_109f7867 a skos:Concept ;
     skos:broader :concept_384cdcdd ;
     skos:definition "digital camera model" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q18019297> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Nikon D750"@de,
         "Nikon D750"@en .
 
@@ -55,56 +46,49 @@
     skos:broader :concept_384cdcdd ;
     skos:definition "digital single-lens reflex camera" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q29368251> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Nikon D7500"@de,
         "Nikon D7500"@en .
 
 :concept_1899d64c a skos:Concept ;
     skos:broader :concept_a91783c8 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Z+F LaserControl"@de,
-        "Z+F LaserControl"@en .
+    skos:prefLabel "Z+F LaserControl"@de .
 
 :concept_19cded7d a skos:Concept ;
     skos:broader :concept_e4c77406 ;
     skos:definition "flexible ruler used to measure size or distance" ;
     skos:exactMatch <http://vocab.getty.edu/aat/300204852>,
         <http://www.wikidata.org/entity/Q214649> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Maßband"@de,
         "tape measure"@en .
 
+:concept_24bda754 a skos:Concept ;
+    skos:broader :concept_af2577bd ;
+    skos:definition "metric unit of mass" ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300379226>,
+        <http://www.wikidata.org/entity/Q11570>,
+        <https://d-nb.info/gnd/4163779-3> ;
+    skos:prefLabel "Kilogramm"@de,
+        "kilogram"@en .
+
 :concept_250aa5b8 a skos:Concept ;
     skos:broader :concept_1e922b84 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "OpenGL Normal-Map"@de,
-        "Normal Map OpenGL"@en .
-
-:concept_25ff81b4 a skos:Concept ;
-    skos:broader :concept_199de53d ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Faro Focus S350"@de,
-        "Faro Focus S350"@en .
+    skos:prefLabel "Normal Map OpenGL"@en .
 
 :concept_27b314d5 a skos:Concept ;
     skos:broader :concept_fccb5d90 ;
     skos:definition "3D computer graphics software" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1092448>,
         <https://d-nb.info/gnd/4385131-9> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Cinema 4D"@de,
         "Cinema 4D"@en .
 
 :concept_29f9fb10 a skos:Concept ;
     skos:broader :concept_1e922b84 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Metallness-Map"@de,
-        "Metal Map"@en .
+    skos:prefLabel "Metal Map"@en .
 
 :concept_2bd7d892 a skos:Concept ;
     skos:broader :concept_a4d8bb69 ;
     skos:definition "The transformation is performed exclusively using the device (external orientation of the exposure centers)." ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Direkte Georeferenzierung"@de,
         "Direct georeferencing"@en .
 
@@ -112,38 +96,31 @@
     skos:broader :concept_e4c77406 ;
     skos:definition "enhancements to the Global Positioning System" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q779225> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Differential Global Positioning System"@de,
         "Differential Global Positioning System"@en .
 
 :concept_2e187bd6 a skos:Concept ;
     skos:broader :concept_8e448b47 ;
     skos:definition "primary texture generation from photos or PBR baking" ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Texturerzeugung"@de,
         "Texture generation"@en .
 
 :concept_2e440d0a a skos:Concept ;
     skos:broader :concept_4b3095b3 ;
     skos:exactMatch <http://www.wikidata.org/entity/Q111511186> ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "RealityScan"@de,
-        "RealityScan"@en .
+    skos:prefLabel "RealityScan"@en .
 
 :concept_300b4191 a skos:Concept ;
     skos:broader :concept_1e922b84 ;
     skos:definition "computer graphics shading and rendering technique" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1801300> ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Ambient-Occlusion-Map"@de,
-        "Ambient Occlusion Map"@en .
+    skos:prefLabel "Ambient Occlusion Map"@en .
 
 :concept_33ea0ea9 a skos:Concept ;
     skos:broader :concept_e4c77406 ;
     skos:definition "combined electronic theodolite and electronic distance meter; used in surveying and building construction" ;
     skos:exactMatch <http://vocab.getty.edu/aat/300379943>,
         <http://www.wikidata.org/entity/Q641296> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Tachymeter"@de,
         "total station"@en .
 
@@ -151,7 +128,6 @@
     skos:broader :concept_e2368b67 ;
     skos:definition "compressed image file format" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q26329975> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "JPEG (Dateiformat)"@de,
         "JPEG (File format)"@en .
 
@@ -159,7 +135,6 @@
     skos:broader :concept_fccb5d90 ;
     skos:definition "3D mesh processing software system" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q3306840> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "MeshLab"@de,
         "MeshLab"@en .
 
@@ -167,7 +142,6 @@
     skos:broader :concept_d162f44c ;
     skos:definition "file format" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q3077345> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "PLY (Dateiformat)"@de,
         "PLY (File format)"@en .
 
@@ -175,47 +149,37 @@
     skos:broader :concept_e2368b67 ;
     skos:definition "File name extension for lossless compressed images" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q111755701> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "PNG (Dateiformat)"@de,
         "PNG (File format)"@en .
 
 :concept_3a09b35a a skos:Concept ;
     skos:broader :concept_3e46ce7e ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Artec Studio"@de,
-        "Artec Studio"@en .
+    skos:prefLabel "Artec Studio"@de .
 
 :concept_3b43a298 a skos:Concept ;
     skos:broader :concept_d162f44c ;
     skos:definition "3D scene and model file format" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q28135989> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "glTF (Dateiformat)"@de,
         "glTF (File format)"@en .
 
 :concept_3b6e4834 a skos:Concept ;
     skos:broader :concept_157196a1 ;
     skos:definition "holes in the 3D model are closed using algorithms" ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Lochfüllung"@de,
         "Hole filling"@en .
 
 :concept_3c7859bf a skos:Concept ;
     skos:broader :concept_1e922b84 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Roughness-Map"@de,
-        "Roughness Map"@en .
+    skos:prefLabel "Rougness Map"@en .
 
 :concept_3e56eb12 a skos:Concept ;
     skos:broader :concept_16852111 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Ebenenbasierte Registrierung"@de,
-        "plane-based registration"@en .
+    skos:prefLabel "Ebenenbasierte Registrierung"@de .
 
 :concept_42144786 a skos:Concept ;
     skos:broader :concept_d78364dd ;
     skos:definition "Alignment with the local coordinate system, for example based on the center of gravity." ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Lokale Ausrichtung"@de,
         "Local Orientation"@en .
 
@@ -223,14 +187,12 @@
     skos:broader :concept_fccb5d90 ;
     skos:definition "Adobe software for creating 3D digital materials" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q98446755> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Substance 3D Painter"@de,
         "Substance 3D Painter"@en .
 
 :concept_4c8d3b9a a skos:Concept ;
     skos:broader :concept_157196a1 ;
     skos:definition "unnecessary geometry is deleted" ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Löschen von Geometrie"@de,
         "Delete geometry"@en .
 
@@ -238,88 +200,69 @@
     skos:broader :concept_fccb5d90 ;
     skos:definition "Adobe software for creating 3D digital materials" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q98446755> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Substance 3D Sampler"@de,
         "Substance 3D Sampler"@en .
 
 :concept_541ccd61 a skos:Concept ;
     skos:broader :concept_4fb72ff3 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Artec Leo"@de,
-        "Artec Leo"@en .
+    skos:prefLabel "Artec Leo"@de .
 
 :concept_5c2bc9fc a skos:Concept ;
     skos:broader :concept_d78364dd ;
     skos:definition "Incorporating the scale for models" ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Skalierung"@de,
         "scaling"@en .
 
 :concept_5f167620 a skos:Concept ;
     skos:broader :concept_8e448b47 ;
     skos:definition "color correction, cloning, and artifact cleanup in textures" ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Texturmodifikation"@de,
         "Texture modification"@en .
 
 :concept_60f092f2 a skos:Concept ;
     skos:broader :concept_3e46ce7e ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "ZEISS INSPECT Optical 3D"@de,
-        "ZEISS INSPECT Optical 3D"@en .
+    skos:prefLabel "ZEISS INSPECT Optical 3D"@de .
 
 :concept_62f596a8 a skos:Concept ;
     skos:broader :concept_d78364dd ;
     skos:definition "Applying a mathematical offset/subtraction to large coordinate values" ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Koordinaten-Offset"@de,
         "Coordinate offset"@en .
 
 :concept_646c188e a skos:Concept ;
     skos:broader :concept_157196a1 ;
     skos:definition "reduction of the number of polygons in a 3D model" ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Geometrierduzierung"@de,
         "Geometry reduction"@en .
 
 :concept_6f75f085 a skos:Concept ;
     skos:broader :concept_1e922b84 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Albedo-Map"@de,
-        "Albedo Map"@en .
+    skos:prefLabel "Albedo Map"@en .
 
 :concept_706f7d23 a skos:Concept ;
     skos:broader :concept_a91783c8 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Cyclone REGISTER 360 PLUS"@de,
-        "Cyclone REGISTER 360 PLUS"@en .
+    skos:prefLabel "Cyclone REGISTER 360 PLUS"@de .
 
 :concept_70b2e9ec a skos:Concept ;
     skos:broader :concept_e2368b67 ;
     skos:definition "series of image file formats" ;
     skos:exactMatch <http://vocab.getty.edu/aat/300266226>,
         <http://www.wikidata.org/entity/Q215106> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "TIFF (Dateiformat)"@de,
         "TIFF (File format)"@en .
 
 :concept_72f06808 a skos:Concept ;
     skos:broader :concept_1e922b84 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Diffuse-Map"@de,
-        "Diffuse Map"@en .
+    skos:prefLabel "Diffuse Map"@de .
 
 :concept_746a6187 a skos:Concept ;
     skos:broader :concept_4fb72ff3 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Artec Spider I"@de,
-        "Artec Spider I"@en .
+    skos:prefLabel "Artec Spider I"@de .
 
 :concept_77ea3cd4 a skos:Concept ;
     skos:broader :concept_fccb5d90 ;
     skos:definition "computer software for 3D visualization and animation" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q272597> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Autodesk Maya"@de,
         "Autodesk Maya"@en .
 
@@ -327,7 +270,6 @@
     skos:broader :concept_d162f44c ;
     skos:definition "file format" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q33517407> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "E57 (Dateiformat)"@de,
         "E57 (File format)"@en .
 
@@ -335,14 +277,12 @@
     skos:broader :concept_6122a2a2 ;
     skos:definition "The model is referenced to a global or national coordinate reference system (CRS, e.g., UTM/ETRS89)." ;
     skos:exactMatch <http://www.wikidata.org/entity/Q94988386> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Absoluter Raumbezug"@de,
         "absolute spatial reference"@en .
 
 :concept_7fbd5e00 a skos:Concept ;
     skos:broader :concept_a4d8bb69 ;
     skos:definition "The transformation is performed on points and external orientations of devices" ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Kombinierte Georeferenzierung"@de,
         "Combined georeferencing"@en .
 
@@ -350,74 +290,58 @@
     skos:broader :concept_4b3095b3 ;
     skos:definition "photogrammetry software developed by Agisoft" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q25052018> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Agisoft Metashape"@de,
         "Agisoft Metashape"@en .
 
 :concept_8b0c47ae a skos:Concept ;
     skos:broader :concept_1e922b84 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "DirectX Normal-Map"@de,
-        "Normal Map DirectX"@en .
+    skos:prefLabel "Normal Map DirectX"@en .
 
 :concept_8f0e5d21 a skos:Concept ;
     skos:broader :concept_a91783c8 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "RIEGL RiSCAN PRO"@de,
-        "RIEGL RiSCAN PRO"@en .
+    skos:prefLabel "RIEGL RiSCAN PRO"@de .
 
 :concept_91dce6e1 a skos:Concept ;
     skos:broader :concept_4b3095b3 ;
     skos:definition "Swiss software company" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q30589374> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Pix4D"@de,
         "Pix4D"@en .
 
 :concept_a5af1a27 a skos:Concept ;
     skos:broader :concept_4fb72ff3 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Artec Eva"@de,
-        "Artec Eva"@en .
+    skos:prefLabel "Artec Eva"@de .
 
 :concept_a5da4dfc a skos:Concept ;
     skos:broader :concept_a4d8bb69 ;
     skos:definition "The transformation is performed exclusively using points like ground control points (GCPs)." ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Indirekte Georeferenzierung"@de,
         "Indirect georeferencing"@en .
 
 :concept_b329fa08 a skos:Concept ;
     skos:broader :concept_78ff47fd ;
     skos:definition "Direct distance measurement on the actual object" ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Objektmaß"@de,
         "Object dimension"@en .
 
 :concept_b6be84b3 a skos:Concept ;
     skos:broader :concept_157196a1 ;
     skos:definition "visually smoothing geometry through algorithm" ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Glättung"@de,
         "Smoothing"@en .
 
 :concept_b6cb7524 a skos:Concept ;
     skos:broader :concept_16852111 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Cloudbasierte Registrierung"@de,
-        "cloud-based registration"@en .
+    skos:prefLabel "Cloudbasierte Registrierung"@de .
 
 :concept_bb50f46d a skos:Concept ;
     skos:broader :concept_199de53d ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Faro Focus S70"@de,
-        "Faro Focus S70"@en .
+    skos:prefLabel "Faro Focus S70"@de .
 
 :concept_bd0c8797 a skos:Concept ;
     skos:broader :concept_384cdcdd ;
     skos:definition "Full-frame mirrorless interchangeable-lens camera" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q97186199> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Canon EOS R6"@de,
         "Canon EOS R6"@en .
 
@@ -430,22 +354,27 @@
 
 :concept_d68a5574 a skos:Concept ;
     skos:broader :concept_199de53d ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Faro Foucus M70"@de,
-        "Faro Foucus M70"@en .
+    skos:prefLabel "Faro Foucus M70"@de .
 
 :concept_dabc55cd a skos:Concept ;
     skos:broader :concept_384cdcdd ;
     skos:definition "full-frame mirrorless interchangeable-lens camera" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q118287749> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Nikon Z 8"@de,
         "Nikon Z 8"@en .
+
+:concept_db94566e a skos:Concept ;
+    skos:broader :concept_af2577bd ;
+    skos:definition "SI unit of length" ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300379099>,
+        <http://www.wikidata.org/entity/Q11573>,
+        <https://d-nb.info/gnd/4518579-7> ;
+    skos:prefLabel "Meter"@de,
+        "metre"@en .
 
 :concept_defb721c a skos:Concept ;
     skos:broader :concept_d162f44c ;
     skos:definition "binary fileformat of glTF - 3D scene and model file format" ;
-    skos:inScheme :scheme ;
     skos:prefLabel "glb File (Dateiformat)"@de,
         "glb (File format)"@en .
 
@@ -454,61 +383,49 @@
     skos:definition "free and open-source 3D computer graphics software" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q173136>,
         <https://d-nb.info/gnd/4588284-8> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Blender"@de,
         "Blender"@en .
 
 :concept_e41b07e5 a skos:Concept ;
     skos:broader :concept_199de53d ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Faro Focus S150"@de,
-        "Faro Focus S150"@en .
+    skos:prefLabel "Faro Focus S150"@de .
 
 :concept_e6a595e8 a skos:Concept ;
     skos:broader :concept_199de53d ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Faro Focus S150 Plus"@de,
-        "Faro Focus S150 Plus"@en .
+    skos:prefLabel "Faro Focus S150 Plus"@de .
 
 :concept_e758141c a skos:Concept ;
     skos:broader :concept_4b3095b3 ;
     skos:definition "Open-source 3D reconstruction software" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q109132097> ;
-    skos:inScheme :scheme ;
     skos:prefLabel "Meshroom"@de,
         "Meshroom"@en .
 
 :concept_e8878e96 a skos:Concept ;
     skos:broader :concept_1e922b84 ;
-    skos:definition "Vorgehensweise In der 3D-Technologie, um Details durch Schattierung zu illustrieren"@de ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q851953> ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Bumpmapping"@de,
-        "Bump Map"@en .
+    skos:prefLabel "Bump Map"@en .
 
 :concept_eb6c0d7a a skos:Concept ;
     skos:broader :concept_199de53d ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Faro Focus S350 Plus"@de,
-        "Faro Focus S350 Plus"@en .
+    skos:prefLabel "Faro Focus S350 Plus"@de .
 
 :concept_f1afe335 a skos:Concept ;
     skos:broader :concept_4fb72ff3 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Artec Spider II"@de,
-        "Artec Spider II"@en .
+    skos:prefLabel "Artec Spider II"@de .
 
 :concept_f43c3431 a skos:Concept ;
     skos:broader :concept_a91783c8 ;
-    skos:inScheme :scheme ;
-    skos:prefLabel "Trimble RealWorks"@de,
-        "Trimble RealWorks"@en .
+    skos:prefLabel "Trimble RealWorks"@de .
+
+:concept_25ff81b4 a skos:Concept ;
+    skos:broader :concept_199de53d ;
+    skos:prefLabel "Faro Focus S350"@de ;
+    skos:topConceptOf :scheme .
 
 :concept_645ddec1 a skos:Concept ;
     skos:broader :concept_f680c28a ;
     skos:definition "type of rendering" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q28456226> ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_1e922b84 ;
     skos:prefLabel "Physically Based Rendering"@de,
         "physically based rendering"@en .
@@ -516,18 +433,15 @@
 :concept_84deac50 a skos:Concept ;
     skos:broader :concept_6122a2a2 ;
     skos:definition "The model has correct metric proportions but no global coordinates." ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_78ff47fd ;
     skos:prefLabel "Relativer Raumbezug"@de,
         "relative spatial reference"@en .
 
 :concept_3e46ce7e a skos:Concept ;
     skos:broader :concept_70501d55 ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_3a09b35a,
         :concept_60f092f2 ;
-    skos:prefLabel "Streifenlichtscanner Software"@de,
-        "structured light scanner software"@en .
+    skos:prefLabel "Streifenlichtscanner Software"@de .
 
 :concept_4a346b1e a skos:Concept ;
     skos:broader :concept_f680c28a ;
@@ -535,7 +449,6 @@
     skos:exactMatch <http://vocab.getty.edu/aat/300266011>,
         <http://www.wikidata.org/entity/Q235557>,
         <https://d-nb.info/gnd/4433979-3> ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_d162f44c,
         :concept_e2368b67 ;
     skos:prefLabel "Dateiformat"@de,
@@ -543,7 +456,6 @@
 
 :concept_6122a2a2 a skos:Concept ;
     skos:broader :concept_6954b83f ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_7d16ade3,
         :concept_84deac50 ;
     skos:prefLabel "Raumbezugstyp"@de,
@@ -555,7 +467,6 @@
     skos:exactMatch <http://vocab.getty.edu/aat/300053580>,
         <http://www.wikidata.org/entity/Q190149>,
         <https://d-nb.info/gnd/4045892-1> ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_384cdcdd,
         :concept_4b3095b3 ;
     skos:prefLabel "Photogrammetrie"@de,
@@ -563,7 +474,6 @@
 
 :concept_70501d55 a skos:Concept ;
     skos:broader :concept_ea7765be ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_3e46ce7e,
         :concept_4fb72ff3 ;
     skos:prefLabel "Streifenlichtscanning"@de,
@@ -572,7 +482,6 @@
 :concept_78ff47fd a skos:Concept ;
     skos:broader :concept_84deac50 ;
     skos:definition "how was the scaling realized" ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_0bac183a,
         :concept_b329fa08 ;
     skos:prefLabel "Skalierungsmethode"@de,
@@ -580,36 +489,30 @@
 
 :concept_8e448b47 a skos:Concept ;
     skos:broader :concept_1cf7cc95 ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_2e187bd6,
         :concept_5f167620 ;
     skos:prefLabel "Textur Operationen"@de,
         "Textur operations"@en .
 
-:concept_0f86e6c8 a skos:Concept ;
-    skos:broader :concept_ea7765be ;
-    skos:definition "controlled deflection of laser beams" ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1361664>,
-        <https://d-nb.info/gnd/4419104-2> ;
-    skos:inScheme :scheme ;
-    skos:narrower :concept_16852111,
-        :concept_199de53d,
-        :concept_a91783c8 ;
-    skos:prefLabel "Laserscanning"@de,
-        "laser scanning"@en .
+:concept_af2577bd a skos:Concept ;
+    skos:broader :concept_f680c28a ;
+    skos:definition "unit in the International System of Units" ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q61610698>,
+        <https://d-nb.info/gnd/4077436-3> ;
+    skos:narrower :concept_24bda754,
+        :concept_db94566e ;
+    skos:prefLabel "SI-Einheit"@de,
+        "SI unit"@en .
 
 :concept_16852111 a skos:Concept ;
     skos:broader :concept_0f86e6c8 ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_0deecf2d,
         :concept_3e56eb12,
         :concept_b6cb7524 ;
-    skos:prefLabel "Registrierungsverfahren"@de,
-        "registration method"@en .
+    skos:prefLabel "Registrierungsverfahren"@de .
 
 :concept_1cf7cc95 a skos:Concept ;
     skos:broader :concept_f680c28a ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_157196a1,
         :concept_8e448b47,
         :concept_d78364dd ;
@@ -620,7 +523,6 @@
     skos:broader :concept_f680c28a ;
     skos:definition "identification of something to locations in physical space" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q772007> ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_6122a2a2,
         :concept_a4d8bb69,
         :concept_e4c77406 ;
@@ -630,7 +532,6 @@
 :concept_a4d8bb69 a skos:Concept ;
     skos:broader :concept_6954b83f ;
     skos:definition "The method used to perform the georeferencing" ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_2bd7d892,
         :concept_7fbd5e00,
         :concept_a5da4dfc ;
@@ -639,7 +540,6 @@
 
 :concept_d78364dd a skos:Concept ;
     skos:broader :concept_1cf7cc95 ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_42144786,
         :concept_5c2bc9fc,
         :concept_62f596a8 ;
@@ -648,7 +548,6 @@
 
 :concept_e2368b67 a skos:Concept ;
     skos:broader :concept_4a346b1e ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_34bc033f,
         :concept_377f9f56,
         :concept_70b2e9ec ;
@@ -658,27 +557,26 @@
 :concept_e4c77406 a skos:Concept ;
     skos:broader :concept_6954b83f ;
     skos:definition "The measurement method used to capture the reference data for georeferencing." ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_19cded7d,
         :concept_2c41305c,
         :concept_33ea0ea9 ;
     skos:prefLabel "Erfassungsmethode der Referenzdaten"@de,
         "Reference data acquisition method"@en .
 
-:concept_ea7765be a skos:Concept ;
-    skos:broader :concept_f680c28a ;
-    skos:definition "detailed description of a measurement" ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q110748312> ;
-    skos:inScheme :scheme ;
-    skos:narrower :concept_0f86e6c8,
-        :concept_681bda2d,
-        :concept_70501d55 ;
-    skos:prefLabel "Messverfahren"@de,
-        "measurement procedure"@en .
+:concept_0f86e6c8 a skos:Concept ;
+    skos:broader :concept_ea7765be ;
+    skos:definition "controlled deflection of laser beams" ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1361664>,
+        <https://d-nb.info/gnd/4419104-2> ;
+    skos:narrower :concept_16852111,
+        :concept_199de53d,
+        :concept_a91783c8 ;
+    skos:prefLabel "Laserscanning"@de,
+        "laser scanning"@en ;
+    skos:topConceptOf :scheme .
 
 :concept_157196a1 a skos:Concept ;
     skos:broader :concept_1cf7cc95 ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_3b6e4834,
         :concept_4c8d3b9a,
         :concept_646c188e,
@@ -692,7 +590,6 @@
     skos:exactMatch <http://vocab.getty.edu/aat/300022636>,
         <http://www.wikidata.org/entity/Q15328>,
         <https://d-nb.info/gnd/4366655-3> ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_109f7867,
         :concept_179f35df,
         :concept_bd0c8797,
@@ -702,7 +599,6 @@
 
 :concept_4fb72ff3 a skos:Concept ;
     skos:broader :concept_70501d55 ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_541ccd61,
         :concept_746a6187,
         :concept_a5af1a27,
@@ -710,31 +606,44 @@
     skos:prefLabel "Streifenlichtscanner"@de,
         "structured light scanner"@en .
 
+:concept_ea7765be a skos:Concept ;
+    skos:broader :concept_f680c28a ;
+    skos:definition "detailed description of a measurement" ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q110748312> ;
+    skos:narrower :concept_0f86e6c8,
+        :concept_681bda2d,
+        :concept_70501d55 ;
+    skos:prefLabel "Messverfahren"@de,
+        "measurement procedure"@en ;
+    skos:topConceptOf :scheme .
+
+:scheme a skos:ConceptScheme ;
+    skos:hasTopConcept :concept_0f86e6c8,
+        :concept_25ff81b4,
+        :concept_ea7765be,
+        :concept_f680c28a ;
+    skos:prefLabel "vocabulary_TechnischeDokumentation"@en .
+
 :concept_4b3095b3 a skos:Concept ;
     skos:broader :concept_681bda2d ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_0d14b1d2,
         :concept_2e440d0a,
         :concept_8ad7f1c5,
         :concept_91dce6e1,
         :concept_e758141c ;
-    skos:prefLabel "Photogrammetrie Software"@de,
-        "photogrammetry software"@en .
+    skos:prefLabel "Photogrammetrie Software"@de .
 
 :concept_a91783c8 a skos:Concept ;
     skos:broader :concept_0f86e6c8 ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_0d98a253,
         :concept_1899d64c,
         :concept_706f7d23,
         :concept_8f0e5d21,
         :concept_f43c3431 ;
-    skos:prefLabel "Laserscanner Software"@de,
-        "laser scanner software"@en .
+    skos:prefLabel "Laserscanner Software"@de .
 
 :concept_d162f44c a skos:Concept ;
     skos:broader :concept_4a346b1e ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_3773676a,
         :concept_3b43a298,
         :concept_7c1e100a,
@@ -745,36 +654,28 @@
 
 :concept_199de53d a skos:Concept ;
     skos:broader :concept_0f86e6c8 ;
-    skos:definition "device that scans objects using laser light to obtain three-dimensional coordinates"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q2726352> ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_25ff81b4,
         :concept_bb50f46d,
         :concept_d68a5574,
         :concept_e41b07e5,
         :concept_e6a595e8,
         :concept_eb6c0d7a ;
-    skos:prefLabel "Laserscanner"@de,
-        "laser scanner"@en .
+    skos:prefLabel "Laserscanner"@de .
 
 :concept_f680c28a a skos:Concept ;
-    skos:definition "die realitätsgetreue und dreidimensionale Abbildung von Körpern in digitaler Form"@de,
-        "the realistic and three-dimensional imaging of objects in digital form"@en ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q229344> ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_1cf7cc95,
         :concept_4a346b1e,
         :concept_645ddec1,
         :concept_6954b83f,
+        :concept_af2577bd,
         :concept_ea7765be,
         :concept_fccb5d90 ;
-    skos:prefLabel "3D-Dokumentation"@de,
-        "3D Documentation"@en ;
+    skos:prefLabel "Technische Dokumentation"@de,
+        "Technical Documentation"@en ;
     skos:topConceptOf :scheme .
 
 :concept_1e922b84 a skos:Concept ;
     skos:broader :concept_645ddec1 ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_250aa5b8,
         :concept_29f9fb10,
         :concept_300b4191,
@@ -783,15 +684,13 @@
         :concept_72f06808,
         :concept_8b0c47ae,
         :concept_e8878e96 ;
-    skos:prefLabel "PBR-Texturen"@de,
-        "PBR Textures"@en .
+    skos:prefLabel "PBR Textures"@de .
 
 :concept_fccb5d90 a skos:Concept ;
     skos:broader :concept_f680c28a ;
     skos:definition "software program or group of programs designed for Digital Content Creation" ;
     skos:exactMatch <http://www.wikidata.org/entity/Q166142>,
         <https://d-nb.info/gnd/4120906-0> ;
-    skos:inScheme :scheme ;
     skos:narrower :concept_061d262d,
         :concept_0cea70ba,
         :concept_27b314d5,
@@ -802,8 +701,4 @@
         :concept_e26510d1 ;
     skos:prefLabel "DCC Software"@de,
         "DCC Software"@en .
-
-:scheme a skos:ConceptScheme ;
-    skos:hasTopConcept :concept_f680c28a ;
-    skos:prefLabel "vocabulary_TechnischeDokumentation"@en .
 
