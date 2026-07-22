@@ -344,6 +344,7 @@ class HECTOREditor:
             command=self.prompt_add_new_language
         )
         self.btn_add_lang_direct.grid(row=0, column=1, sticky="e")
+        current_row += 1
         
         self.lang_entries = {}
         self.alt_label_frames = {}
