@@ -143,14 +143,27 @@ class HECTOREditor:
         self.search_ctrl_frame.grid(row=7, column=0, padx=15, pady=5, sticky="ew")
         self.search_ctrl_frame.grid_columnconfigure(0, weight=3)
         self.search_ctrl_frame.grid_columnconfigure(1, weight=1)
+        self.search_ctrl_frame.grid_columnconfigure(2, weight=0)
 
         self.txt_search = ctk.CTkEntry(self.search_ctrl_frame, placeholder_text="Type to filter hierarchy...", font=("Arial", 12))
         self.txt_search.grid(row=0, column=0, padx=(0, 5), sticky="ew")
         self.txt_search.bind("<KeyRelease>", lambda e: self.update_tree_ui())
 
-        self.combo_tree_lang = ctk.CTkComboBox(self.search_ctrl_frame, width=80, font=("Arial", 12), values=[l.upper() for l in self.all_possible_languages], command=self.on_tree_lang_changed)
-        self.combo_tree_lang.grid(row=0, column=1, sticky="ew")
+        self.combo_tree_lang = ctk.CTkComboBox(self.search_ctrl_frame, width=70, font=("Arial", 12), values=[l.upper() for l in self.all_possible_languages], command=self.on_tree_lang_changed)
+        self.combo_tree_lang.grid(row=0, column=1, padx=(0, 4), sticky="ew")
         self.combo_tree_lang.set(self.tree_lang.upper())
+
+        self.btn_add_tree_lang = ctk.CTkButton(
+            self.search_ctrl_frame,
+            text="＋",
+            width=28,
+            height=28,
+            font=("Arial", 12, "bold"),
+            fg_color="#1f538d",
+            hover_color="#153b66",
+            command=self.prompt_add_new_language
+        )
+        self.btn_add_tree_lang.grid(row=0, column=2, sticky="e")
 
         # Native Treeview Component Integration
         self.tree_container = ctk.CTkFrame(self.left_frame)
@@ -305,7 +318,7 @@ class HECTOREditor:
             
         # Frame to hold dropdown button and direct add button side-by-side
         lang_btn_frame = ctk.CTkFrame(self.form_frame, fg_color="transparent")
-        lang_btn_frame.grid(row=current_row, column=1, padx=(5, 5), pady=4, sticky="ew")
+        lang_btn_frame.grid(row=current_row, column=1, columnspan=2, padx=(5, 15), pady=4, sticky="ew")
         lang_btn_frame.grid_columnconfigure(0, weight=1)
 
         self.btn_lang_dropdown = ctk.CTkButton(
@@ -322,12 +335,12 @@ class HECTOREditor:
 
         self.btn_add_lang_direct = ctk.CTkButton(
             lang_btn_frame,
-            text="＋ Add",
-            width=65,
+            text="🌐 ＋ Add Language",
+            width=135,
             height=26,
             font=("Arial", 12),
-            fg_color="#3a3a3a",
-            hover_color="#2b2b2b",
+            fg_color="#1f538d",
+            hover_color="#153b66",
             command=self.prompt_add_new_language
         )
         self.btn_add_lang_direct.grid(row=0, column=1, sticky="e")
@@ -475,7 +488,25 @@ class HECTOREditor:
         self.lang_popup.wm_geometry(f"{self.btn_lang_dropdown.winfo_width()}x280+{x}+{y}")
         self.lang_popup.lift()
         self.lang_popup.attributes("-topmost", True)
-        self.lang_popup.bind("<FocusOut>", lambda e: self.close_language_dropdown_popup())
+        self.lang_popup.bind("<FocusOut>", self._on_lang_popup_focus_out)
+
+    def _on_lang_popup_focus_out(self, event):
+        if self.lang_popup:
+            self.root.after(150, self._check_lang_popup_focus)
+
+    def _check_lang_popup_focus(self):
+        if not self.lang_popup:
+            return
+        try:
+            focused = self.root.focus_get()
+            if focused:
+                focused_str = str(focused)
+                popup_str = str(self.lang_popup)
+                if focused_str == popup_str or focused_str.startswith(popup_str + "."):
+                    return
+        except Exception:
+            pass
+        self.close_language_dropdown_popup()
 
         scroll_frame = ctk.CTkScrollableFrame(self.lang_popup, label_text="Toggle View Languages:")
         scroll_frame.pack(fill="both", expand=True)
