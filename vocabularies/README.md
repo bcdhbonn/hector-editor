@@ -18,4 +18,10 @@ This directory contains semantic SKOS vocabularies managed and developed by the 
 * **Description:** A hierarchical technical documentation and processing vocabulary for 3D modeling, photogrammetry, structured light scanning, 3D file formats, and hardware devices.
 * **Namespace:** `http://vocabs.bcdh.uni-bonn.de/hector_3d_documentation/`
 
+### 3. **[Rhineland Archaeological SKOS Vocabulary](BJB/README.md)**
+* **Directory:** `BJB/`
+* **File:** `BJB/arch_vocab_rhineland.ttl`
+* **Description:** SKOS vocabulary for describing archaeological finds, features (contexts), and chronological dating in the German-Dutch border region (Rhineland) with trilingual labels (`de`, `en`, `nl`) and authority alignment (Wikidata, Getty AAT, GND).
+* **Namespace:** `http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/`
+
 ---
