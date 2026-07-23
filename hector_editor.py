@@ -8,7 +8,7 @@ import traceback
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 import customtkinter as ctk
-from rdflib import Graph, URIRef
+from rdflib import Graph, URIRef, SKOS
 
 from hector_core import VocabularyManager
 
@@ -1285,7 +1285,53 @@ class HECTOREditor:
             return label_cache[uri]
 
         roots = sorted(list(self.mgr.get_roots()), key=lambda x: get_cached_label(x).lower())
-        self.parent_lookup = {get_cached_label(s): s for s in concepts}
+        self.parent_lookup = {}
+        for s in concepts:
+            self.parent_lookup[get_cached_label(s)] = s
+            self.parent_lookup[str(s)] = s
+            for p in (SKOS.prefLabel, SKOS.altLabel):
+                for lit in self.mgr.g.objects(s, p):
+                    self.parent_lookup[str(lit)] = s
+
+        visible_uris = set()
+        auto_expand_uris = set()
+
+        if filter_txt:
+            def matches_filter(uri):
+                for p in (SKOS.prefLabel, SKOS.altLabel):
+                    for lit in self.mgr.g.objects(uri, p):
+                        if filter_txt in str(lit).lower():
+                            return True
+                if filter_txt in str(uri).lower():
+                    return True
+                return False
+
+            matching_concepts = set(c for c in concepts if matches_filter(c))
+
+            if matching_concepts:
+                visible_uris.update(matching_concepts)
+                # Upward propagation (ancestors up to roots)
+                for c in matching_concepts:
+                    curr_stack = list(self.mgr.g.objects(c, SKOS.broader))
+                    visited_ancestors = set()
+                    while curr_stack:
+                        parent = curr_stack.pop()
+                        if parent not in visited_ancestors:
+                            visited_ancestors.add(parent)
+                            visible_uris.add(parent)
+                            auto_expand_uris.add(str(parent))
+                            curr_stack.extend(self.mgr.g.objects(parent, SKOS.broader))
+
+                # Downward propagation (descendants of matching concepts)
+                for c in matching_concepts:
+                    curr_stack = list(self.mgr.get_child_concepts(c))
+                    visited_descendants = set()
+                    while curr_stack:
+                        child = curr_stack.pop()
+                        if child not in visited_descendants:
+                            visited_descendants.add(child)
+                            visible_uris.add(child)
+                            curr_stack.extend(self.mgr.get_child_concepts(child))
 
         inserted_nodes = {}
 
@@ -1294,6 +1340,8 @@ class HECTOREditor:
         # We push roots/children in reverse alphabetical order to pop and process in alphabetical order
         stack = []
         for r in reversed(roots):
+            if filter_txt and r not in visible_uris:
+                continue
             stack.append(("", r, set(), True))
             
         while stack:
@@ -1303,11 +1351,8 @@ class HECTOREditor:
                 continue
                 
             lbl = get_cached_label(concept_uri)
-            if filter_txt and filter_txt not in lbl.lower():
-                continue
-                
             u_str = str(concept_uri)
-            is_open = u_str in expanded_uris
+            is_open = u_str in auto_expand_uris if filter_txt else u_str in expanded_uris
             prefix = "📂 " if is_root else " └─ "
             
             node_id = self.tree.insert(parent_id, "end", text=f"{prefix}{lbl}", values=(u_str,), open=is_open)
@@ -1389,6 +1434,8 @@ class HECTOREditor:
             
             new_path_set = path_set | {concept_uri}
             for child_uri, _ in kids:
+                if filter_txt and child_uri not in visible_uris:
+                    continue
                 stack.append((node_id, child_uri, new_path_set, False))
 
         if selected_uri and selected_uri in inserted_nodes:
