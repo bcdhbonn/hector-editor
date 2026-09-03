@@ -47,7 +47,8 @@
         "heilige tafel die wordt gebruikt voor rituele offers of voor het deponeren van offergaven"@nl ;
     skos:exactMatch <http://vocab.getty.edu/aat/300003725>,
         <http://www.wikidata.org/entity/Q101687>,
-        <https://d-nb.info/gnd/4001381-9> ;
+        <https://d-nb.info/gnd/4001381-9>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/7d4c4891-9fc2-469a-a62d-7d18c6bbc9ce> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Altar"@de,
         "altar"@en,
@@ -86,6 +87,7 @@
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/ango> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Waffe_und_Ruestung> ;
     skos:definition "Ein Ango ist ein Speer, dessen Spitze aus einem Blatt mit Widerhaken, einem langen Schaft und einer schmalen Tülle besteht."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/06d4e441-a384-4bb6-a79e-aedf788edf96> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Ango"@de .
 
@@ -98,14 +100,293 @@
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/anker_geraet> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Anker ist ein Gerät, mit dem ein Wasserfahrzeug an einem bestimmten Platz festgehalten wird und nicht durch äußere Einwirkungen wie Wind, Strömung oder Wellen abgetrieben werden kann. Ein Anker besteht in der Regel aus einem Schaft und mehreren hakenförmigen Armen, auch Flunken genannt. Er ist durch eine Ankerkette mit dem Wasserfahrzeug verbunden."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/e4a6a3b1-977d-4694-8dbf-0a3b87b6ace9> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Anker (Gerät)"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/aquamanile> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/gefaess_behaelter> ;
     skos:definition "Ein Aquamanile ist eine figürliche Kanne zum Ausgießen von Wasser. In der Regel besitzen die Gefäße einen Henkel und werden je nach Verwendungszweck aus Metall oder Keramik herstellt. Es wird zur Handwaschung für den liturgischen und profanen Gebrauch verwendet."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/77d93a00-b9cb-44dd-82c3-eb68b51d5029> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Aquamanile"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_0d2f0a5c> a skos:Concept ;
+    skos:altLabel "Bruchsteinmauer"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/mauer> ;
+    skos:definition "rough, unhewn stone set in mortar, but not laid in regular courses"@en,
+        "onbewerkte natuursteen, via explosieven of steenbrekers in een steengroeve gewonnen"@nl ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300386948>,
+        <http://www.wikidata.org/entity/Q47401> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Natursteinmauerwerk"@de,
+        "rubble masonry"@en,
+        "breuksteen"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_153d3150> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_25c54f17> ;
+    skos:definition "Sammlung wertvoller Objekte oder Artefakte"@de,
+        "collection of valuable objects or artifacts"@en,
+        "verzameling waardevolle voorwerpen of artefacten"@nl ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300195474>,
+        <http://www.wikidata.org/entity/Q164099>,
+        <https://d-nb.info/gnd/4131453-0> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Depotfund"@de,
+        "hoard"@en,
+        "depotvondst"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_1f44d942> a skos:Concept ;
+    skos:altLabel "Zollfeste"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2c698655> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Zollfestung"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_2ecebfc1> a skos:Concept ;
+    skos:altLabel "Flurstück"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_902bfe53> ;
+    skos:definition "Ein Grundstück in einem ansonsten bebauten Gebiet, es kann sich um öffentliche, Wohn- oder Geschäftsfgelände handeln, ohne dauerhafte oder auch nur temporäre Bauten."@de,
+        "A subdivided residential, governmental, institutional, or commercial lot which contains no structures of a permanent or temporary nature."@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300122264>,
+        <http://www.wikidata.org/entity/Q683595>,
+        <https://d-nb.info/gnd/4072147-4> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Flur"@de,
+        "vacant lots"@en .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_31615f15> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_a62bbfd9> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Fundschleier"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_3f47887a> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_1005be64> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Retentura"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_45c90f93> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_93dcc278> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Frührömisch"@de,
+        "Early roman"@en .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_4ffb1cba> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_b6a5c560> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Töpferbezirk"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_5aa855bc> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dd749656> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Schwerkeramik"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_6386ef38> a skos:Concept ;
+    skos:altLabel "frühneuzeitlich"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_63dcc1d1> ;
+    skos:definition "Zeitalter zwischen Spätmittelalter und dem Übergang vom 18. zum 19. Jahrhundert"@de,
+        "the era from ca. 1500 to ca. 1800"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q5308718>,
+        <https://d-nb.info/gnd/7503866-3> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Frühe Neuzeit"@de,
+        "early modern period"@en,
+        "vroegmoderne tijd"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_70c529f2> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/helm_kopfbedeckung> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q31837580> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Helmbusch"@de,
+        "Helmbusch"@en .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_71a681f8> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2b8899a6> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Sechspfostenbau"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_760c8cee> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_1005be64> ;
+    skos:definition "in der Römischen Republik ursprünglich das Zelt, später allgemein der Sitz des Befehlshabers in einem Legionslager"@de,
+        "primarily the commander’s residence in Roman imperial military bases but also by extension an emperor or governor's non-urban residence; compare with principia"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300005636>,
+        <http://www.wikidata.org/entity/Q1309666>,
+        <https://d-nb.info/gnd/4175557-1> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Praetorium"@de,
+        "praetorium"@en,
+        "praetorium"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_7aa92087> a skos:Concept ;
+    skos:altLabel "Bandkeramische Kultur"@de,
+        "LBK"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_150e4564> ;
+    skos:definition "älteste bäuerliche Kultur der Jungsteinzeit Mitteleuropas mit permanenten Siedlungen"@de,
+        "archaeological culture"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300107826>,
+        <http://www.wikidata.org/entity/Q806348>,
+        <https://d-nb.info/gnd/4167696-8> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Linearbandkeramische Kultur"@de,
+        "Linear Pottery culture"@en .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_803f00dc> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e2c50426> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Haltern"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_845b4432> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_a62bbfd9> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Luftbildanomalie"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_862d3886> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dd749656> ;
+    skos:definition "archäologische Stätte in Deutschland"@de,
+        "archaeological site in Germany"@en,
+        "archeologische vindplaats in Duitsland"@nl ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1914429> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Mayener Ware"@de,
+        "Mayener Ware"@en .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_89235491> a skos:Concept ;
+    skos:altLabel "Jupitersäule"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/weihedenkmal> ;
+    skos:definition "Typ archäologischer römischer Denkmale, Zeugnisse des damals verbreiteten synkretistischen Götterkults"@de,
+        "archaeological monuments dedicated to Jupiter common in ancient Europe"@en,
+        "bouwwerk in Oude Rome"@nl ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1546286>,
+        <https://d-nb.info/gnd/4200010-5> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Jupitergigantensäule"@de,
+        "Jupiter Column"@en,
+        "Jupiterzuil"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_9204fdf8> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Gefaess_und_Behaeltnis> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Keramikgefäß"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_98fe7e24> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_325d7203> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Schulterwehr"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_9f4391bb> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Gefaess_und_Behaeltnis> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Glasgefäß"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_a0659e6e> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/fibel_verschluss> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Scharnierfiebel"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_b8e7e6de> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2c698655> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Festungsmauer"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_c48e4058> a skos:Concept ;
+    skos:altLabel "Auxiliarlager"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_842b03fc> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Auxiliarkastell"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_d0e983ee> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_25c54f17> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Kleinfund"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_d6a1afda> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_01b77638> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Gebrauchskeramik"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_db93b6f3> a skos:Concept ;
+    skos:altLabel "Poterne"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2c698655> ;
+    skos:definition "Nebentor in einer Befestigungsanlage"@de,
+        "secondary door or gate"@en,
+        "term uit de vestingbouwkunde"@nl ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300002932>,
+        <http://www.wikidata.org/entity/Q23418> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Ausfalltor"@de,
+        "postern"@en,
+        "poterne"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_e0e411b4> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bau_und_Architekturelement> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Durchgang"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_e5ed79ef> a skos:Concept ;
+    skos:altLabel "frühgeschichtlich"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
+    skos:definition "Teil der archäologischen Disziplin der Ur- und Frühgeschichte mit ersten Schriftquellen"@de,
+        "period between prehistory and written history"@en,
+        "periode tussen de prehistorie en historie"@nl ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q695827> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Frühgeschichte"@de,
+        "protohistory"@en,
+        "protohistorie"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_e7dcdb69> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dd749656> ;
+    skos:definition "engobe"@de ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1342903> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Engobierte Ware"@de,
+        "Engobierte Ware"@en .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_e8ef8210> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4232cbcc> ;
+    skos:definition "historischer Aquädukt des römischen Imperiums und längster Aquädukt nördlich der Alpen"@de,
+        "aqueduct in the Eifel region of the Roman Empire"@en,
+        "archeologische vindplaats in Duitsland"@nl ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q751092> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Eifelwasserleitung"@de,
+        "Eifel Aqueduct"@en,
+        "Eifelaquaduct"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_eaac7841> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_2f2a06ac> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Vie Belgica"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_ee3da0ae> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_325d7203> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Splitterschutz"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_f0adac86> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_ebc5bc9a> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Lichthäuschen"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_f5707028> a skos:Concept ;
+    skos:altLabel "Drag."@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e2c50426> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Dragendorff"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_fa878640> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_9ad88dd4> ;
+    skos:definition "archaeological culture"@en,
+        "prehistorische cultuur (1800 v.Chr. – 1200 v.Chr.)"@nl ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q278382> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Hilversum Kultur"@de,
+        "Hilversum culture"@en,
+        "Hilversumcultuur"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_febec2e2> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dd749656> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Terranigra"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/architekturfragment> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bau_und_Architekturelement> ;
@@ -127,6 +408,7 @@
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/armring> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schmuckring> ;
     skos:definition "Ein Armring ist Armschmuck in Form eines starren Reifs, der um das Handgelenk oder den Oberarm getragen wird. Er kann die Form eines geschlossenen oder offenen Rings haben und wird übergestreift oder mithilfe von Scharnieren geöffnet und um den Arm gelegt."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/df14998c-665d-4f65-acbd-0724c60b5110> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Armring"@de .
 
@@ -185,6 +467,8 @@
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Eine Axt ist eine Schlagwaffe, die im Nahkampf genutzt wird und auch in die Ferne geschleudert werden kann."@de ;
     skos:editorialNote "Benutzt für die Nutzung der Axt als Waffe; bei Nutzung als Werkzeug siehe Axt (Werkzeug). Benutzt für die vollständige Waffe Axt, bestehend aus Axtklinge und Axtschaft; bei Fehlen des Axtschaftes Axtklinge verwenden."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/5db012b2-2ed1-419c-9aee-216d5196f355>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/b89fb466-b0af-4c93-9d78-204a59816aee> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Axt (Waffe)"@de .
 
@@ -260,6 +544,7 @@
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/gefaess_behaelter> ;
     skos:definition "Ein Becher ist ein Trinkgefäß mit zylindrischer, konischer oder bauchiger Form, normalerweise höher als der Mündungsdurchmesser breit ist. Er kann einen Fuß besitzen, aber keinen Stiel, auch Henkel treten auf, dann aber meist an Exemplaren ohne Fuß."@de ;
     skos:editorialNote "Verwendet für das Trinkgefäß. Für andere Behälter, die die Form eines Bechers haben, benutze spezifischere Begriffe, etwa Eierbecher, Würfelbecher, Messbecher."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/8b1b9747-c642-401c-a7bb-4dd637a9f6f0> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Becher"@de .
 
@@ -291,6 +576,7 @@
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/beitel> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/88d17503-7f04-4310-843d-e9e6005a163b> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Beitel"@de ;
     skos:scopeNote "Ein Beitel besteht aus einem Griff und einer Klinge. Er wird in Verbindung mit einem Hammer oder Schlägel verwendet."@de .
@@ -371,6 +657,7 @@
     skos:prefLabel "Bodenprobe"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/bodenscherbe> a skos:Concept ;
+    skos:altLabel "BS"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Eine Bodenscherbe ist eine Scherbe aus dem unteren Abschluss eines Gefäßes."@de ;
     skos:editorialNote "Benutzt für Scherben aus Ton, Glas und Porzellan; für Fragmente aus anderen Materialien benutze Gefäßboden."@de ;
@@ -525,12 +812,14 @@
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/chopper_steinwerkzeug> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:editorialNote "Chopper konnten in Deutschland bisher nicht überzeugend nachgewiesen werden."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/10bdbbdd-58f1-4e72-b089-45b608116d20> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Chopper (Steinwerkzeug)"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/chopping_tool> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:editorialNote "Chopping Tools konnten in Deutschland bisher nicht überzeugend nachgewiesen werden."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/5112e1f4-f897-4fc8-b941-e92b9fd97b79> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Chopping Tool"@de .
 
@@ -568,7 +857,8 @@
     skos:definition "Ein globaler Krieg von 1914 bis 1918, der in Europa begann."@de,
         "A global war originating in Europe that lasted from 1914 to 1918."@en,
         "wereldoorlog (1914–1918)"@nl ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q361> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q361>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/19679187-0ac4-4127-b4cd-09a348400585> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Erster Weltkrieg"@de,
         "World War I"@en,
@@ -589,12 +879,6 @@
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_62a5d47a> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Mittellatènezeit"@de .
-
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_01b77638> a skos:Concept ;
-    skos:altLabel "Scherbe (Keramik)"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_25c54f17> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Keramik (Fund)"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_01c2f6ef> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_30060d07> ;
@@ -837,6 +1121,7 @@
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_0efe7e03> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
     skos:definition "Eine Wand ist ein Architekturelement, das einen Raum in der Senkrechten in voller Höhe und Breite begrenzt. Besteht die Raumbegrenzung aus Mauern, so meint Wand lediglich die sichtbare Oberfläche."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/ab585838-944c-4453-ae84-4d98e5322a74> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Wand (Architektur)"@de .
 
@@ -966,18 +1251,6 @@
     skos:definition "Ein Steinzeugofen ist ein Töpferofen, in dem zumeist Steinzeug gebrannt wird."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Steinzeugofen"@de .
-
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_150e4564> a skos:Concept ;
-    skos:altLabel "Altneolithikum"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ac85549f> ;
-    skos:definition "keramische Kulturen der Jungsteinzeit"@de,
-        "archaeological sub-period"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300019270>,
-        <http://www.wikidata.org/entity/Q97317573>,
-        <https://d-nb.info/gnd/4366955-4> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Frühneolithikum"@de,
-        "Early Neolithic"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_15310bd8> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_30060d07> ;
@@ -1163,7 +1436,8 @@
         "muntsoort"@nl ;
     skos:exactMatch <http://vocab.getty.edu/aat/300037266>,
         <http://www.wikidata.org/entity/Q187776>,
-        <https://d-nb.info/gnd/4257529-1> ;
+        <https://d-nb.info/gnd/4257529-1>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/3e350622-5202-4dbf-a1ac-2ffd3ce79ecd> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Denarius"@de,
         "denarius"@en,
@@ -1401,6 +1675,7 @@
         "2nd Quarter 9th Century BC"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_23106784> a skos:Concept ;
+    skos:altLabel "Landgut"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Villa rustica"@de .
@@ -1672,11 +1947,6 @@
     skos:prefLabel "3. Viertel 3. Jh. v. Chr."@de,
         "3rd Quarter 3rd Century BC"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2b8899a6> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Pfostenbau (Bauwerk)"@de .
-
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2ba794ca> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f0489169> ;
     skos:definition "Ein Absetzbecken ist ein Becken, in dem Abwässer von Feststoffen getrennt werden. Da in dem Becken kaum Strömung herrscht, können die im Wasser enthaltenen Feststoffe zu Boden sinken."@de ;
@@ -1708,13 +1978,6 @@
     skos:definition "Eine Schleuse ist ein Bauwerk zur Überwindung von Höhenunterschieden in staugeregelten Flüssen und Kanälen."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Schleuse (Wasserbau)"@de .
-
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2c698655> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
-    skos:definition "Eine Festung ist eine Befestigungsanlage, die vorrangig zu militärischen Verteidigungszwecken dauerhaft errichtet wurde und zumeist aus mehreren untergeordneten Wehrbauten besteht."@de ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Festung"@de ;
-    skos:scopeNote "Die hauptsächlich vom Ende des 15. Jahrhunderts bis in die erste Hälfte des 20. Jahrhunderts entstandenen Festungen sind in ihrer Form und Ausbildung von der gleichzeitigen Entwicklung der Feuerwaffen abhängig."@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2cd34086> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_392c81ce> ;
@@ -1926,18 +2189,6 @@
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "4. Viertel 21. Jh. v. Chr."@de,
         "4th Quarter 21st Century BC"@en .
-
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_325d7203> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_30060d07> ;
-    skos:definition "militärische Befestigung"@de,
-        "type of earthwork constructed in a military context"@en,
-        "gegraven gang waarin soldaten beschermd zijn tegen vijandelijk vuur"@nl ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q91764>,
-        <https://d-nb.info/gnd/4180074-6> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Schützengraben"@de,
-        "military trench"@en,
-        "loopgraaf"@nl .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_325dad43> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ed027b4f> ;
@@ -2344,7 +2595,8 @@
         "prehistoric period, second part of the Stone Age"@en ;
     skos:exactMatch <http://d-nb.info/gnd/4169472-7>,
         <http://vocab.getty.edu/aat/300019264>,
-        <http://www.wikidata.org/entity/Q44155> ;
+        <http://www.wikidata.org/entity/Q44155>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/5142431c-0520-489b-afef-60940d9f7c50> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Mittelsteinzeit"@de,
         "Mesolithic"@en,
@@ -2592,7 +2844,8 @@
         "door water aangedreven molen"@nl ;
     skos:exactMatch <http://vocab.getty.edu/aat/300006270>,
         <http://www.wikidata.org/entity/Q185187>,
-        <https://d-nb.info/gnd/4064760-2> ;
+        <https://d-nb.info/gnd/4064760-2>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/b9d4630c-48c8-49ac-950f-e5ff355cc267> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Wassermühle"@de,
         "watermill"@en,
@@ -2665,7 +2918,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "valuta"@nl ;
     skos:exactMatch <http://vocab.getty.edu/aat/300192871>,
         <http://www.wikidata.org/entity/Q476078>,
-        <https://d-nb.info/gnd/4873978-9> ;
+        <https://d-nb.info/gnd/4873978-9>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/55249153-c888-40f3-9c52-bd690264d07c> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Aureus"@de,
         "aureus"@en,
@@ -3056,6 +3310,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "4th Quarter 7th Century AD"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_583b389a> a skos:Concept ;
+    skos:altLabel "Kreisgrabensegment"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_30060d07> ;
     skos:definition "Anlage, die sich als kreisförmiger Graben im archäologischen Bodenbefund abzeichnet"@de,
         "circular or semicircular ditch, or cropmark indicating the remains of a ditch"@en,
@@ -3487,6 +3742,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
     skos:definition "Eine Latrine ist ein Bauwerk in Form einer Grube, das als behelfsmäßiger Abort von mehreren Personen gleichzeitig benutzt werden kann."@de ;
     skos:editorialNote "Benutzt für die Sanitäranlage des Altertums und des Mittelalters."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/19d16767-95d6-42bf-a02b-745365b1814f> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Latrine"@de .
 
@@ -3619,7 +3875,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "ancient Roman coin"@en ;
     skos:exactMatch <http://vocab.getty.edu/aat/300037270>,
         <http://www.wikidata.org/entity/Q208041>,
-        <https://d-nb.info/gnd/4181084-3> ;
+        <https://d-nb.info/gnd/4181084-3>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/b8767a3e-9658-45c9-a8a1-7d99882e022a> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Sesterz"@de,
         "sestertius"@en,
@@ -3810,6 +4067,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Knochensiederei"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_79f23ff3> a skos:Concept ;
+    skos:altLabel "Holzkohlemeiler"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_b6a5c560> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Kohlenmeiler"@de .
@@ -3983,7 +4241,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Glashütte"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_801d1e8b> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_842b03fc> ;
     skos:definition "Ein Alenkastell ist ein römisches Auxiliarlager, in dem eine berittene Einheit (ala quingenaria oder ala milliaria, Kavallerieeinheiten) stationiert ist."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Alenkastell"@de .
@@ -4108,12 +4366,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Kapitelsaal"@de .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_84a4e3a5> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
-    skos:definition "Eine Siedlung ist in der gebauten Umwelt eine menschliche Niederlassung, die aus Wohnbauten und Zweckbauten sowie der dazugehörigen Infrastruktur besteht."@de ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Siedlung"@de .
-
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_84e3e33e> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4b025e2b> ;
     skos:definition "Viertel-Jahrhundert von 1 n. Chr. bis 25 n. Chr.."@de,
@@ -4202,6 +4454,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8827b91e> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_225cb316> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/fbdcb9cd-d9ca-4cce-8a49-93076d428fcc> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "As"@de .
 
@@ -4273,7 +4526,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "a period in ancient history following the Stone Age, characterized by the discovery of bronze and advancements in civilization"@en,
         "archeologische periode"@nl ;
     skos:exactMatch <http://vocab.getty.edu/aat/300019277>,
-        <http://www.wikidata.org/entity/Q17175310> ;
+        <http://www.wikidata.org/entity/Q17175310>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/405d4012-5845-4837-8051-2a559679c30e> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Mittlere Bronzezeit"@de,
         "Middle Bronze Age"@en,
@@ -4681,18 +4935,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Villa"@de ;
     skos:scopeNote "Der Begriff Villa wurde in der Antike für repräsentative Landsitze geprägt. Die dem zugrunde liegende Idee blieb bis in die Gegenwart erhalten. In römischer Zeit wurde begrifflich zwischen ländlichen, vorstädtischen und städtischen Villen unterschieden. In nachrömischer Zeit wurde derartige begriffliche Unterschiede nicht mehr gemacht."@de .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_9ad88dd4> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_918898bf> ;
-    skos:definition "archäologische Epoche von Funden legierten Kupfers"@de,
-        "period in prehistory that follows the Stone Age"@en,
-        "periode die de steentijd opvolgt"@nl ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300019276>,
-        <http://www.wikidata.org/entity/Q1471923> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Frühe Bronzezeit"@de,
-        "Early Bronze Age"@en,
-        "Vroege Bronstijd"@nl .
-
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_9b905e1b> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
@@ -4938,7 +5180,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
     skos:definition "Ein Erdwerk ist eine Befestigungsanlage, die aus einer Grabenanlage mit einem oder mehreren Zugängen besteht."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Erdwerk (Archäologie)"@de ;
+    skos:prefLabel "Erdwerk"@de ;
     skos:scopeNote "Das hinter dem Graben im Inneren der Anlage anzunehmende Annäherungshindernis in Form eines Walles oder einer Palisade kann im archäologischen Befund gelegentlich nachgewiesen oder erschlossen werden."@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a473f3d2> a skos:Concept ;
@@ -4998,6 +5240,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a5e37e82> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
     skos:definition "Ein Schloss ist ein Baukomplex, der aus einem repräsentativen Gebäude, Nebengebäuden und häufig auch Wirtschaftsgebäuden, Außenanlagen und Freiflächen, Gärten und Gewässern besteht und bei dem je nach Größe und Lage einzelne Teile entfallen können."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/068533f4-e142-40ad-85f1-68d446e2d791> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Schloss (Bauwerk)"@de ;
     skos:scopeNote "Von der Burg unterscheidet sich das Schloss durch den Vorrang des Repräsentativen und die größere Bequemlichkeit der Wohnung. Allerdings sind die Grenzen fließend, so dass es zahlreiche Überschneidungen zwischen Burg und Schloss gibt."@de .
@@ -5217,7 +5460,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ab59ffc6> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_902bfe53> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Altacker (Landwirtschaft)"@de ;
+    skos:prefLabel "Altacker"@de ;
     skos:scopeNote "Im Gelände können sich Altäcker als terrassierte Fläche zeigen, die als Grünland genutzt wird oder mit Wald bestanden ist."@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ab6575e9> a skos:Concept ;
@@ -5448,6 +5691,9 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Pingenfeld"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_b36d4929> a skos:Concept ;
+    skos:altLabel "Einzelgehöft"@de,
+        "Hofplatz"@de,
+        "Hofstelle"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
     skos:definition "Ein Einzelhof ist eine Einzelsiedlung, die von einem einzeln gelegenen Bauernhof gebildet wird."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
@@ -6009,7 +6255,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "4th Quarter 11th Century BC"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c77c8303> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_842b03fc> ;
     skos:definition "Ein Kleinkastell ist ein römisches Militärlager, das für kleine Einheiten wie Wachkommandos genutzt wurde."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Kleinkastell"@de ;
@@ -6091,13 +6337,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Tiberius"@de,
         "Tiberius"@en,
         "Tiberius Claudius Nero"@nl .
-
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ca47ae79> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
-    skos:definition "Ein Kloster ist ein Baukomplex, in dem Menschen in Ausübung ihrer Religion zusammenleben."@de ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Kloster (Architektur)"@de ;
-    skos:scopeNote "Das Kloster besteht in der Regel aus Bauten für die Religionsausübung, Wohngebäuden, Wirtschaftsgebäuden, eventuell weiteren Bauwerken und Freiflächen sowie Nutzflächen wie der Innenhof des Kreuzgangs oder Gärten."@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_caa2ced1> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
@@ -6715,12 +6954,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Spätlatènezeit"@de .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e4455f3c> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
-    skos:definition "Ein Kohortenkastell ist ein Auxiliarlager, in dem eine Kohorte stationiert ist."@de ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Kohortenkastell"@de .
-
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e4ea69fe> a skos:Concept ;
     skos:altLabel "mykenisch"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_bdef4811> ;
@@ -7028,7 +7261,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_9527f17d> ;
     skos:definition "Ein Findling ist ein Gesteinsblock, der durch einen Gletscher über eine größere Entfernung mittransportiert wird und nach dem Abschmelzen des Gletschers zurückbleibt."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Findling (Geologie)"@de .
+    skos:prefLabel "Findling"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ee7ae311> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a23e2bba> ;
@@ -7037,7 +7270,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Schädelbestattung (Grab)"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ee7dfd2e> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_9527f17d> ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q120714483>,
         <https://d-nb.info/gnd/4155746-3> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
@@ -7262,12 +7495,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Burg"@de ;
     skos:scopeNote "Der Begriff Burg ist epochenübergreifend. Auch in der Neuzeit hat die Burg noch häufig eine zumindest rechtliche Bedeutung."@de .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f7219f6d> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
-    skos:definition "Ein Numeruskastell ist ein Auxiliarlager, in dem ein Numerus stationiert ist."@de ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Numeruskastell"@de .
-
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f7e6b9b5> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_b6a5c560> ;
     skos:definition "Ein Glasofen ist ein Ofen, in dem Glas hergestellt oder bearbeitet wird."@de ;
@@ -7303,10 +7530,16 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Stufenrain"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f9fe1448> a skos:Concept ;
+    skos:altLabel "Brennofen"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_b6a5c560> ;
-    skos:definition "Ein Ofen ist eine Vorrichtung, die sowohl transportabel als auch fest eingebaut sein kann und zur Erzeugung von Wärme dient."@de ;
+    skos:definition "Backtechnik"@de,
+        "enclosed chamber for heating other objects, often used to prepare food, finish ceramics, and purify substances"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300003650>,
+        <http://www.wikidata.org/entity/Q36539>,
+        <https://d-nb.info/gnd/4004148-7> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Ofen (Vorrichtung)"@de .
+    skos:prefLabel "Ofen"@de,
+        "oven"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_fa50a453> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_30060d07> ;
@@ -7366,7 +7599,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:definition "Ein globaler Konflikt von 1939 bis 1945, an dem die große Mehrheit der Länder der Welt beteiligt war."@de,
         "A global war that lasted from 1939 to 1945."@en,
         "wereldoorlog (1939–1945)"@nl ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q362> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q362>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/49e56f6e-7834-4225-ac0d-d80b3a67a7b8> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Zweiter Weltkrieg"@de,
         "World War II"@en,
@@ -7397,7 +7631,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:definition "Ancient Roman coin denomination with the value of two aes"@en,
         "valuta"@nl ;
     skos:exactMatch <http://vocab.getty.edu/aat/300037267>,
-        <http://www.wikidata.org/entity/Q1127799> ;
+        <http://www.wikidata.org/entity/Q1127799>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/8fbab790-e5c9-472a-83ae-ec792f84a8ae> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Dupondius"@de,
         "dupondius"@en,
@@ -7506,6 +7741,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/dachziegel> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bau_und_Architekturelement> ;
     skos:definition "Ein Dachziegel ist Baukeramik, die als Dachdeckung verwendet wird."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/6f3f7beb-8f7e-46f6-953a-b59498922aa6> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Dachziegel"@de .
 
@@ -7595,6 +7831,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/dolch_waffe> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Waffe_und_Ruestung> ;
     skos:definition "Ein Dolch ist eine Blankwaffe, die eine kurze mehrschneidige Klinge, eine Griffstange und einen in der Regel symmetrischen Griff besitzt. Sie ist für eine stoßende Bewegung konzipiert."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/754c4696-ce04-4bad-a531-945887da7f7d> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Dolch (Waffe)"@de .
 
@@ -7611,6 +7848,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/dolium> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Dolium ist ein sehr großes Gefäß aus gebranntem Ton, das in weiten Teilen des Römischen Reichs vor allem zur Lagerung von Lebensmitteln verwendet wurde. Diese größte römische Gefäßform zeichnet sich durch einen bauchigen Körper ohne Henkel, meist ohne Hals und eine weite Öffnung aus. Dolia konnten mannshoch sein und ein Volumen von bis zu zwei Kubikmetern besitzen."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/0f542315-8ba5-4eb6-a93c-bdbfd378848f> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Dolium"@de .
 
@@ -7807,6 +8045,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/fischereigeraet> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Fischereigerät ist ein Fanggerät, das zur Ausrüstung von Fischern gehört. Hierzu zählen etwa Angeln, Netze und Fangkammern."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/6545285d-6fa0-4892-b1a4-091c94239898> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Fischereigerät"@de .
 
@@ -7826,6 +8065,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/fliese_objekt> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bau_und_Architekturelement> ;
     skos:definition "Eine Fliese ist ein Objekt, das in der Regel aus einer viereckigen dünnen Platte aus Keramik, Stein, Kunststoff oder Glas besteht und vorwiegend als Bodenbelag oder Wandverkleidung im Innenbereich und Außenbereich verwendet wird."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/8d972609-9cd1-4ab4-a0f7-5d48e63fdff9> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Fliese (Objekt)"@de .
 
@@ -7971,6 +8211,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/geroellkeule> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/761237e1-1ee1-4bd9-baea-e9cf17d574a6> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Geröllkeule"@de .
 
@@ -8116,6 +8357,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/griffel_schrift> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Griffel ist ein schmales, stabförmiges Gerät, das zum Schreiben, Zeichnen oder Ritzen auf verschiedenen Oberflächen, beispielsweise Wachs, Schiefer, Metall, Stein, verwendet wird. Er besitzt häufig eine angespitzte oder abgerundete Spitze, je nach Verwendungszweck. In der Regel wird er aus Metall, Holz, Knochen, Stein oder Kunststoff hergestellt."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/de0863bc-6e5b-4930-b5f5-e04844e08e2e> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Griffel (Schrift)"@de .
 
@@ -8239,12 +8481,14 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/halsring> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schmuckring> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/8dd9adbd-d6ab-4236-9301-7821f943389c> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Halsring"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/hammer_werkzeug> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:editorialNote "Benutzt für das vollständige Werkzeug Hammer bestehend aus Kopf und Stiel, ist nur der Kopf erhalten s. Hammerkopf"@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/5614d6ec-9432-445c-8b1b-4258f31dc067> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Hammer (Werkzeug)"@de ;
     skos:scopeNote "Unter Nutzung seiner beschleunigten Masse werden mit einem meist stumpfen Kopf Schläge auf Körper ausgeübt."@de .
@@ -8283,15 +8527,10 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Heizanlage"@de .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/helm_kopfbedeckung> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Waffe_und_Ruestung> ;
-    skos:definition "Ein Helm ist eine schützende Kopfbedeckung, die aus formstabilem, in der Regel schlagfestem und stoßfestem Material besteht und die den Kopf ganz oder teilweise umschließt. Neben der Schutzfunktion vor Kopfverletzungen in den Bereichen Militär, Beruf, Sport und Freizeit gibt es auch Helme, die der Repräsentation dienen."@de ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Helm (Kopfbedeckung)"@de .
-
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/hemd_oberbekleidung> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Hemd ist Oberbekleidung mit kurzen oder langen Ärmeln, welches hauptsächlich locker in oder über den Bund einer Hose oder eines Rockes getragen wird. Hemden haben häufig einen Kragen und werden in klassischer Form durch Knöpfe geschlossen. Kleine Taschen, vor allem auf Brusthöhe, kommen vor."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/1996ccfa-794b-4099-b57b-e472a2b24505> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Hemd (Oberbekleidung)"@de .
 
@@ -8341,6 +8580,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/imbrex> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bau_und_Architekturelement> ;
     skos:definition "Eine Imbrex ist ein halbröhrenförmiger römischer Dachziegel, der die Stoßfuge zweier nebeneinander liegender Tegulae abdeckt, um die Dachbedeckung abzudichten."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/fa32056a-abd8-4504-b4fd-89a30c773a2b> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Imbrex"@de .
 
@@ -8369,6 +8609,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/kamm_koerperpflege> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/6b8ec744-542c-4982-8155-ae87e0f8c970> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Kamm (Körperpflege)"@de .
 
@@ -8422,6 +8663,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/keilmesser> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/b2dd090b-da07-4ea7-8b5d-97bf2e998bd0> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Keilmesser"@de .
 
@@ -8444,6 +8686,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/kern_steinartefakt> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/0b64778b-0c4e-412c-9a8f-89adf0cdae22> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Kern (Steinartefakt)"@de .
 
@@ -8576,6 +8819,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/knopf_verschluss> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Tracht_und_Schmuck> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/ea77d56e-1475-4e4c-94f5-489bd3d9a3e7> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Knopf (Verschluss)"@de .
 
@@ -8619,6 +8863,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/krug_gefaess> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/gefaess_behaelter> ;
     skos:definition "Ein Krug ist ein Gefäß mit bauchiger oder zylindrischer Form. Er besitzt einen Henkel, aber keinen Ausguss. Hauptsächlich wird ein Krug zum Aufbewahren und Transport von Flüssigkeiten genutzt."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/460c7e76-363b-4450-9a44-5119e74ff7d3> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Krug (Gefäß)"@de .
 
@@ -8739,6 +8984,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/levalloiskern> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/cc158971-b7ef-4555-87d4-f6f8dd4004f7> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Levalloiskern"@de .
 
@@ -8827,12 +9073,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Matrize (Stempel)"@de .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/mauer> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
-    skos:definition "Eine Mauer ist ein begrenzendes Bauteil oder Bauwerk, das als massive Konstruktion aus anorganischen Materialien wie Naturstein, Backstein, Beton usw. besteht und dessen Dicke deutlich geringer ist als seine horizontale und vertikale Ausdehnung."@de ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Mauer"@de .
-
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/mauerziegel> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bau_und_Architekturelement> ;
     skos:definition "Ein Mauerziegel ist Baukeramik, die aus Ton oder Lehm geformt ist, durch Brennen gehärtet und wetterfest gemacht und als Mauerstein verwendet wird."@de ;
@@ -8841,6 +9081,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/medaille> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/50981f78-2ca2-4c40-832e-f12fdba819c5> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Medaille"@de .
 
@@ -8883,6 +9124,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Messer ist ein Schneidewerkzeug, das über eine Klinge mit Schneide und einen Griff verfügt."@de ;
     skos:editorialNote "Messer können in ihrer Funktion sowohl als Schneidwerkzeug für gezielte Schneidvorgänge, als Küchengerät zur Zubereitung von Lebensmitteln als auch als Waffe verwendet werden. Der Begriff „Messer“ (wk005412) kann als allgemeindeutiger Begriff genutzt werden. Entsprechende Unterbegriffe werden gezielt polyhierarchisch unter dem jeweils spezifischeren Oberbegriff abgelegt."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/8ace9f2b-8ae4-47f1-9878-7229a388b43d> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Messer (Schneidewerkzeug)"@de .
 
@@ -8915,6 +9157,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/moebel> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Möbel ist ein großer Einrichtungsgegenstand, der der funktionalen oder dekorativen Ausstattung von Innenräumen und Außenräumen dient. Dazu zählen in erster Linie Gegenstände zum Sitzen und Liegen, Behältnismöbel sowie Tische und andere Ablagemöbel."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/0cc82079-d786-46cb-963f-c5e36b5f0cb5> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Möbel"@de .
 
@@ -8972,6 +9215,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/musikinstrument> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bildkunst_Schrift_und_Spiel> ;
     skos:definition "Ein Musikinstrument ist ein Tonerzeuger, das dazu bestimmt ist, auf ihm Musik zu spielen."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/68ec981e-7b44-4d9e-9007-80e9de07525d> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Musikinstrument"@de .
 
@@ -8979,6 +9223,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Eine Nadel ist ein Objekt, das aus einem länglichen, schmalen Schaft und einem spitz zulaufenden Ende besteht. Das andere Ende ist unterschiedlich geformt, je nach Verwendungszweck."@de ;
     skos:editorialNote "Eine Nadel kann zur Verarbeitung von Textilien, zum Verschluss von Kleidungsstücken, zur Verarbeitung von Metallen, zur Körperverzierung, zum Feststecken von Kopfschmuck und Haaren usw. verwendet werden."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/e75f7b6b-7009-4634-819b-6274ea4c9d65> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Nadel (Objekttyp)"@de .
 
@@ -8991,6 +9236,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/nagel_befestigungselement> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bau_und_Architekturelement> ;
     skos:definition "Ein Nagel ist ein Befestigungselement aus Metall oder Holz, das aus einem schlanken Schaft mit einem zugespitzten Ende und einem flachen Kopf besteht. Er wird in der Regel mit einem Hammer eingeschlagen."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/9278d385-3390-4f9f-a98a-f6acc638989d> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Nagel (Befestigungselement)"@de .
 
@@ -9141,6 +9387,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/perle_visuelles_werk> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Tracht_und_Schmuck> ;
     skos:definition "Eine Perle ist ein visuelles Werk in Form eines kleinen, durchlochten Objektes, das aus unterschiedlichen Materialien und in verschiedenen Formen gefertigt sein kann. Perlen dienen, aufgefädelt oder aufgenäht, häufig als Schmuck."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/a7e5da32-8cf6-46a9-a704-7e2d6aca8820> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Perle (visuelles Werk)"@de .
 
@@ -9167,6 +9414,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/pfeife_tonerzeugendes_instrument> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/013dafbb-285e-4aa9-8ffa-fb97b46b6aea>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/5943f8c6-7e15-4cf5-a4a4-c47fe25dc678> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Pfeife (Tonerzeugendes Instrument)"@de .
 
@@ -9185,6 +9434,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/pfeilspitze> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Waffe_und_Ruestung> ;
     skos:definition "Eine Pfeilspitze ist ein Waffenteil, das spitz zulaufend gefertigt und vorne am Schaft eines Projektils wie Pfeil oder Bolzen befestigt ist. Pfeilspitzen unterliegen einer großen Formenvielfalt und können nach Material, Schäftung und Form der Spitze klassifiziert werden."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/fbf3e853-f9f7-4329-bad2-0da6a2c9291a> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Pfeilspitze"@de .
 
@@ -9229,6 +9479,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/pilum> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Pilum ist ein Speer, der in römischen Legionen benutzt wurde und aus einem hölzernen Schaft und einer ebenso langen eisernen Pilumspitze mit Widerhaken bestand."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/2e196173-67fe-4252-9963-b7d333962e72> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Pilum"@de .
 
@@ -9349,6 +9600,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/rad_maschinenelement> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/ed3caacb-96d7-40e7-b425-e617d12ab7a5> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Rad (Maschinenelement)"@de .
 
@@ -9429,6 +9681,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/relief_kunst> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bildkunst_Schrift_und_Spiel> ;
     skos:definition "Relief ist eine Bildhauertechnik, bei der Figuren oder Ornamente plastisch auf einer Fläche gestaltet werden, sodass sie sich von dieser abheben oder in diese eingesenkt sind. Die Gestaltung kann durch direktes Bearbeiten des Materials, durch Gießen in eine vorgeformte Negativform oder durch andere formgebende Verfahren erfolgen."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/059a6540-d198-4e55-a51e-e5eed5b3a190>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/a5344025-8a2f-4521-8f06-43e1349379ed> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Relief (Kunst)"@de .
 
@@ -9470,6 +9724,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/ring_objekttyp> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Tracht_und_Schmuck> ;
     skos:definition "Ein Ring ist ein Objekttyp, der durch eine geschlossene kreisförmige Form gekennzeichnet ist."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/7b42b1df-3674-4a3e-941d-53a14e325fa6>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/b762a589-fb43-4e2c-9a75-106d7169a241> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Ring (Objekttyp)"@de .
 
@@ -9590,6 +9846,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/sax_waffe> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Waffe_und_Ruestung> ;
     skos:definition "Ein Sax ist ein Kurzschwert, das als Hiebwaffe eine einschneidige kurze und schwere Klinge aufweist und für den Nahkampf geeignet ist."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/f04b63b2-e14b-42b5-aba5-a2bdd9433920> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Sax (Waffe)"@de .
 
@@ -9607,10 +9864,12 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Schachfigur"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schale_gefaess> a skos:Concept ;
+    skos:altLabel "Schälchen"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/gefaess_behaelter> ;
     skos:definition "Eine Schale ist ein weites und flach gewölbtes Gefäß. Sie kann einen Fuß, Griffe und einen Deckel besitzen."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/3bf7c0d1-9ea2-4ad7-bfd5-051543b09224> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Schale (Gefäß)"@de ;
+    skos:prefLabel "Schale"@de ;
     skos:scopeNote "Der Übergang zur Schüssel und zum Teller sind fließend, aber bei Schalen ist die Gefäßhöhe relativ zur Breite üblicherweise kleiner als bei der Schüssel und größer als beim Teller. Zudem sind die einzelnen Gefäßzonen der Schale meist weniger deutlich abgesetzt als bei der Schüssel und sie besitzt in der Regel ein insgesamt kleineres Volumen als diese."@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schaufel_geraet> a skos:Concept ;
@@ -9636,6 +9895,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/scheibenkeule> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/a54d7ad9-c3b5-4b26-8e71-20a2eae47490> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Scheibenkeule"@de .
 
@@ -9660,6 +9920,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schere_schneidewerkzeug> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Eine Schere ist ein Schneidewerkzeug zum Zertrennen oder Einschneiden diverser Materialien mittels zweier gegeneinander beweglicher Klingen mit Schneiden."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/8124fd8b-11df-4470-8462-fd287cf1aced> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Schere (Schneidewerkzeug)"@de ;
     skos:scopeNote "Zum Öffnen und Schneiden müssen die Finger in den meist ringförmig auslaufenden Griffen verkantet werden. Das Schneiden erfolgt durch die gegeneinander gerichtete Bewegung der zwei Hebelenden."@de .
@@ -9756,6 +10017,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schluessel_schloss> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bau_und_Architekturelement> ;
     skos:definition "Ein Schlüssel ist der Bestandteil eines Schlosses, mit dem dieses geöffnet oder geschlossen werden kann."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/4bc5a988-e743-45b3-8359-c246abf27125> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Schlüssel (Schloss)"@de .
 
@@ -9791,6 +10053,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schnalle_verschluss> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Tracht_und_Schmuck> ;
     skos:definition "Eine Schnalle ist eine Schließe in Form eines Bügels mit einem oder mehreren an einem Riemen befestigten, beweglichen Dorn."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/5a1096a7-b8d3-457f-a669-5817a598b373> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Schnalle (Verschluss)"@de .
 
@@ -9814,6 +10077,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schreibgeraet> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bildkunst_Schrift_und_Spiel> ;
     skos:definition "Ein Schreibgerät ist ein Gerät, mit dem man handschriftlich oder maschinell Texte auf einer beschreibbaren Fläche anbringen kann."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/51bd7c15-35e9-4217-acaf-22cd0438e83c> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Schreibgerät"@de .
 
@@ -9826,6 +10090,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schuessel_gefaess> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/gefaess_behaelter> ;
     skos:definition "Eine Schüssel ist ein weites und tief gewölbtes Gefäß. Sie kann einen Fuß, Griffe und einen Deckel besitzen."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/f7dae156-2c9a-4439-b8fe-dabbc3b26d2c> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Schüssel (Gefäß)"@de ;
     skos:scopeNote "Der Übergang zur Schale ist fließend, aber bei Schüsseln ist die Gefäßhöhe relativ zur Breite üblicherweise größer und die einzelnen Gefäßzonen sind meist deutlicher abgesetzt als bei der Schale. Zudem besitzt die Schüssel in der Regel ein insgesamt größeres Volumen."@de .
@@ -9864,6 +10129,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/segment_mikrolith> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/ea890fed-68c1-4a51-b22d-646d1db7c98b> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Segment (Mikrolith)"@de .
 
@@ -9934,6 +10200,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bildkunst_Schrift_und_Spiel> ;
     skos:definition "Eine Skulptur ist ein Bildwerk, das durch Abtragen aus festem Material herausgearbeitet wird."@de ;
     skos:editorialNote "Benutzt für Bildwerke, die aus einem Material herausgearbeitet werden; für visuelle Werke, die aus Materialien modelliert oder gegossen werden benutze Plastik."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/b57836b0-d3c2-4d32-8d97-7e5345f2a4bb> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Skulptur"@de .
 
@@ -9964,6 +10231,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/spatel> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/29a4ccfc-9ea2-4d52-9b13-3f5519aef273>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/fb46d42c-a2a3-4bfd-8e52-c573f456878d> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Spatel"@de .
 
@@ -9975,6 +10244,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/spatha_waffe> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Waffe_und_Ruestung> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/2b39290f-736e-440a-b7c8-e8502422629d> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Spatha (Waffe)"@de .
 
@@ -9992,6 +10262,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/spiegel_optik> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Spiegel ist ein Einrichtungsgegenstand, der eine glatt polierte Oberfläche besitzt. Da diese Lichtstrahlen reflektiert, entsteht dadurch ein Abbild."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/124c40dd-11e7-4630-bb7a-7698e4e24f2b> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Spiegel (Optik)"@de .
 
@@ -10015,6 +10286,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/spielzeug> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bildkunst_Schrift_und_Spiel> ;
     skos:definition "Ein Spielzeug ist ein Freizeitgegenstand, der der spielerischen Beschäftigung dient und sich in erster Linie an Kinder richtet, aber auch eigens für Erwachsene und Haustiere bestimmt sein kann. Über die spielerische Komponente hinaus kann ein Spielzeug auch eine pädagogische oder sozialisierende Funktion besitzen."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/6f6b36ae-f1cb-4fe6-82f0-20d2bdb75506> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Spielzeug"@de .
 
@@ -10094,6 +10366,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/standring> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schmuckring> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/bd7e7e63-646c-40dd-863c-6d6290a50cba> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Standring"@de .
 
@@ -10134,6 +10407,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/stempel_geraet> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Stempel ist ein Gerät, das aus einer Fläche, an der ein Griff befestigt ist, und in die ein Text oder eine Abbildung eingeschnitten ist, besteht."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/fba7734d-6b04-4cff-8cc8-d6ba9cd1dd2c> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Stempel (Gerät)"@de ;
     skos:scopeNote "Die Informationen auf der Fläche können durch Farbauftrag oder Abdruck auf andere Objekte übertragen werden."@de .
@@ -10175,6 +10449,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Strigilis ist ein Gerät, das ein gebogenes Blatt besitzt. Es wurde in der Antike vor allem in Badeanlagen benutzt, um feuchte oder ölige Schmutzschichten vom Körper abzuschaben."@de ;
     skos:editorialNote "Verwendet für das antike Instrument zum Abschaben von Öl, Schweiß und Staub vom Körper; für das Werkzeug zur Oberflächenbearbeitung siehe Schabeisen (wk008712) (de)."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/dd0901f3-137c-40ca-b452-c18f29fb04fa> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Strigilis"@de .
 
@@ -10217,6 +10492,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/tafel_informationstraeger> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/45a669d5-d8c2-430f-9a7a-3ed1daed79d6> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Tafel (Informationsträger)"@de .
 
@@ -10242,6 +10518,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/tegula_dachziegel> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bau_und_Architekturelement> ;
     skos:definition "Eine Tegula ist ein rechteckiger, flacher römischer Dachziegel mit hochgezogenen Leisten an den beiden Seitenflächen. Über die aneinanderstoßenden seitlichen Leisten zweier Tegulae wird zur Abdichtung der Dachbedeckung ein halbröhrenförmiger Imbrex gelegt."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/1bd1d384-d48a-45d0-a057-5370bbb552ed> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Tegula (Dachziegel)"@de ;
     skos:scopeNote "In archäologischen Fundkontexten sind Tegulae vor allem aus Städten, Siedlungen und Militärlagern der römischen Provinzen bekannt. Nicht selten tragen sie einen Herstellerstempel oder einen Abdruck einer Tierpfote."@de .
@@ -10256,6 +10533,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/terrine_gefaess> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/gefaess_behaelter> ;
     skos:definition "Eine Terrine ist eine dickbauchige Schüssel mit Deckel, die oft auch einen oder mehrere Standfüße sowie zwei gegenständige Griffe besitzt. Der Deckel kann eine Aussparung für einen Schöpflöffel aufweisen. Darüber hinaus existieren auch figürliche Terrinen, oft in Form von Tieren oder Tierköpfen."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/ec2edf07-f3a3-4b38-90b3-ef6faad5ba56> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Terrine (Gefäß)"@de .
 
@@ -10329,6 +10607,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Topf ist ein getöpfertes Gefäß für Lebensmittel, das eine zylindrische bis bauchige oder leicht konische und eher hohe Form ohne Hals und mit einer weiten Öffnung besitzt."@de ;
     skos:editorialNote "Benutzt für vor- und frühgeschichtliche Funde. Für Kochgefäße in Topfform benutze Kochtopf, für Pflanzgefäße benutze Blumentopf."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/6cad8945-75f9-4a26-8007-d8f05db2c79f> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Topf (Behälter)"@de .
 
@@ -10420,6 +10699,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/tubulus> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/7c25ce60-b49a-4dd2-9b0b-12c3cd4e1494> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Tubulus"@de .
 
@@ -10519,6 +10799,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Ein Wagen ist ein nicht spurgebundenes Landfahrzeug, das üblicherweise über zwei Achsen mit je zwei Rädern verfügt und, je nach Ausführung, gezogen oder geschoben wird, in jedem Fall aber über keinen eigenen Antrieb verfügt."@de ;
     skos:editorialNote "Benutzt für Fahrzeuge ohne Kraftantrieb; für Fahrzeuge mit Kraftantrieb benutze Kraftfahrzeug. Nach Möglichkeit mit Unterbegriff verschlagworten."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/fd52c744-85fa-4d80-8f71-cf0d9b6fd6e2> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Wagen (Fahrzeug)"@de .
 
@@ -10556,6 +10837,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Wandputz"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/wandscherbe> a skos:Concept ;
+    skos:altLabel "WS"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
     skos:definition "Eine Wandscherbe ist eine Scherbe aus dem Bereich zwischen Randzone und Boden."@de ;
     skos:editorialNote "Benutzt für Scherben aus Ton, Glas und Porzellan; für Fragmente aus anderen Materialien benutze Gefäßwand."@de ;
@@ -10589,6 +10871,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/webgewicht> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Muenze_Gewicht_und_Tauschmittel> ;
     skos:definition "Ein Webgewicht ist der Bestandteil eines Gewichtswebstuhls, der der Straffung der senkrecht hängenden Kettfäden dient."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/72119391-5639-41f8-a3f1-1d435cc23e6b> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Webgewicht"@de .
 
@@ -10597,12 +10880,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:definition "Ein Webschwert ist ein Gerät, dessen Form an eine Klinge erinnert. Mit seiner Hilfe wird der Schuss, besonders bei Gewichtswebstühlen, angeschlagen."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Webschwert"@de .
-
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/weihedenkmal> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
-    skos:definition "Ein Weihedenkmal ist ein Denkmal, das anlässlich eines Ereignisses einer Person oder einer Gottheit geweiht ist."@de ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:prefLabel "Weihedenkmal"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/weihrauchfass> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
@@ -10717,29 +10994,84 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:prefLabel "Zwiebelknopffibel"@de .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Gefaess_und_Behaeltnis> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e9dddde8> ;
-    skos:definition "Gefäße, Behältnisse, Geschirr und Vorratsbehälter aus Ton, Metall, Glas oder Stein."@de ;
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_2f2a06ac> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_06678d7e> ;
+    skos:definition "Straße zur Zeit des Römischen Reiches"@de,
+        "roads built in service of the Roman Republic and Empire"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q194029>,
+        <https://d-nb.info/gnd/1066330476> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/gefaess_behaelter> ;
-    skos:prefLabel "Gefäß und Behältnis"@de .
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_eaac7841> ;
+    skos:prefLabel "Römerstraße"@de,
+        "Roman road"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_070f3e75> a skos:Concept ;
-    skos:altLabel "Chalkolithikum"@de,
-        "kupferzeitlich"@de,
-        "Äneolithikum"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
-    skos:definition "archäologische Epoche von Funden gediegenen Kupfers vor der Bronzezeit"@de,
-        "prehistoric period between the Neolithic and the Bronze Age"@en,
-        "archeologische cultuurperiode"@nl ;
-    skos:exactMatch <http://d-nb.info/gnd/4138001-0>,
-        <http://vocab.getty.edu/aat/300019273>,
-        <http://www.wikidata.org/entity/Q130253> ;
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_5205ef29> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:definition "Teil einer Leuchte, der durch Energieumwandlung Licht erzeugt (Leuchtmittel)"@de,
+        "part of a light fixture that produces the light"@en,
+        "lichtbron"@nl ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300037592>,
+        <http://www.wikidata.org/entity/Q1138737>,
+        <https://d-nb.info/gnd/4723086-1> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_7923947a> ;
-    skos:prefLabel "Kupferzeit"@de,
-        "Copper Age"@en,
-        "kopertijd"@nl .
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_ebc5bc9a> ;
+    skos:prefLabel "Lampe"@de,
+        "lamp"@en,
+        "lamp"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_8ed0d9a3> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ca47ae79>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/mauer> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Klostermauer"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_ebc5bc9a> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_5205ef29> ;
+    skos:definition "Beleuchtungskörper, der mit Ölen als Brennstoff betrieben wird"@de,
+        "object used to produce light continuously for a period of time using an oil-based fuel source"@en,
+        "een vorm van een lamp die op allerlei soorten olie of vet brandt"@nl ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300037630>,
+        <http://www.wikidata.org/entity/Q821952>,
+        <https://d-nb.info/gnd/4060401-9> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_f0adac86> ;
+    skos:prefLabel "Öllampe"@de,
+        "oil lamp"@en,
+        "olielamp"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_ecfb37ff> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2000a1d4>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_84a4e3a5> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:prefLabel "Siedlungsgrube"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_01b77638> a skos:Concept ;
+    skos:altLabel "Scherbe"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_25c54f17> ;
+    skos:definition "aus Ton geformtes und gebranntes Objekt"@de,
+        "class of physical objects, as distinguished from the craft of pottery"@en,
+        "gebakken klei-object"@nl ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300010666>,
+        <http://www.wikidata.org/entity/Q17379525>,
+        <https://d-nb.info/gnd/4265686-2> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_d6a1afda> ;
+    skos:prefLabel "Keramik"@de,
+        "pottery ware"@en,
+        "pottenbakkersgoed"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_150e4564> a skos:Concept ;
+    skos:altLabel "Altneolithikum"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ac85549f> ;
+    skos:definition "keramische Kulturen der Jungsteinzeit"@de,
+        "archaeological sub-period"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300019270>,
+        <http://www.wikidata.org/entity/Q97317573>,
+        <https://d-nb.info/gnd/4366955-4> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_7aa92087> ;
+    skos:prefLabel "Frühneolithikum"@de,
+        "Early Neolithic"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_1732910d> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ac85549f> ;
@@ -10764,20 +11096,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "Upper Paleolithic"@en,
         "laatpaleolithicum"@nl .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_25c54f17> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e9dddde8> ;
-    skos:definition "Wissenschaft von den materiellen Hinterlassenschaften früherer Kulturen und ihre Erschließung"@de,
-        "study of the past via material culture"@en,
-        "wetenschap die overblijfselen van oude culturen bestudeert"@nl ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300054328>,
-        <http://www.wikidata.org/entity/Q23498>,
-        <https://d-nb.info/gnd/4002827-6> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_01b77638> ;
-    skos:prefLabel "Archäologie"@de,
-        "archaeology"@en,
-        "archeologie"@nl .
-
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_28be19ea> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c283d5a3>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_eb0d4843> ;
@@ -10792,6 +11110,12 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "Dark Ages"@en,
         "Duistere Eeuwen"@nl .
 
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2b8899a6> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_71a681f8> ;
+    skos:prefLabel "Pfostenbau"@de .
+
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2fd1298d> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8e462332>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f204e7aa> ;
@@ -10801,12 +11125,15 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:scopeNote "Die lebensspendende, gesundheitsspendende und fruchtbarkeitsspendende Rolle des Wassers sowie der Glaube an den Sitz über- und unterirdischer Kräfte an Quellen bilden den kultisch-religiösen Hintergrund."@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_450dc8e6> a skos:Concept ;
+    skos:altLabel "Spätbronzezeit"@de,
+        "spätbronzezeitlich"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_918898bf> ;
     skos:definition "jüngste Periode der Funde der Bronzezeit"@de,
         "last period of Bronze Age"@en,
         "onderverdeling van de Bronstijd"@nl ;
     skos:exactMatch <http://vocab.getty.edu/aat/300019278>,
-        <http://www.wikidata.org/entity/Q1758757> ;
+        <http://www.wikidata.org/entity/Q1758757>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/98a715d8-cd51-4125-b1b3-4c8d489f85bf> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c7f8bb3b> ;
     skos:prefLabel "Späte Bronzezeit"@de,
@@ -10869,6 +11196,22 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Sarg"@de ;
     skos:scopeNote "Ein Sarg hat die Form eines langen Kastens. Er wird mit einem Deckel verschlossen und kann aus unterschiedlichen Materialien hergestellt sein."@de .
 
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_84a4e3a5> a skos:Concept ;
+    skos:altLabel "Besiedlung"@de,
+        "Siedlungsstelle"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
+    skos:definition "geographischer Ort, an dem Menschen zusammen leben"@de,
+        "place of any size, in which people permanently live"@en,
+        "bewoonde plaats"@nl ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300008347>,
+        <http://www.wikidata.org/entity/Q486972>,
+        <https://d-nb.info/gnd/4054858-2> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_ecfb37ff> ;
+    skos:prefLabel "Siedlung"@de,
+        "settlement"@en,
+        "woonplaats"@nl .
+
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_86c4a69a> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e9dddde8> ;
     skos:definition "Zuordnen von Objekten zu Klassen"@de,
@@ -10889,6 +11232,22 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_eaaa59c9> ;
     skos:prefLabel "Kirchengebäude"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_9ad88dd4> a skos:Concept ;
+    skos:altLabel "Frühbronzezeit"@de,
+        "frühbronzezeitlich"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_918898bf> ;
+    skos:definition "archäologische Epoche von Funden legierten Kupfers"@de,
+        "period in prehistory that follows the Stone Age"@en,
+        "periode die de steentijd opvolgt"@nl ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300019276>,
+        <http://www.wikidata.org/entity/Q1471923>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/6264b6bd-899e-4c34-a88e-03a36e1d4008> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_fa878640> ;
+    skos:prefLabel "Frühe Bronzezeit"@de,
+        "Early Bronze Age"@en,
+        "Vroege Bronstijd"@nl .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a65b9db4> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_78c41ba4> ;
@@ -10931,6 +11290,14 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Späthelladische Epoche"@de,
         "Late Helladic Period"@en .
 
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ca47ae79> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
+    skos:definition "Ein Kloster ist ein Baukomplex, in dem Menschen in Ausübung ihrer Religion zusammenleben."@de ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_8ed0d9a3> ;
+    skos:prefLabel "Kloster (Architektur)"@de ;
+    skos:scopeNote "Das Kloster besteht in der Regel aus Bauten für die Religionsausübung, Wohngebäuden, Wirtschaftsgebäuden, eventuell weiteren Bauwerken und Freiflächen sowie Nutzflächen wie der Innenhof des Kreuzgangs oder Gärten."@de .
+
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dc69e82a> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
     skos:definition "Zeitraum vom Ende der Frühgeschichte bis zum beginnenden Mittelalter"@de,
@@ -10945,31 +11312,70 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "Antiquity"@en,
         "oudheid"@nl .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dd749656> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_86c4a69a> ;
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e4455f3c> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e4455f3c> ;
+    skos:definition "Ein Kohortenkastell ist ein Auxiliarlager, in dem eine Kohorte stationiert ist."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e2c50426> ;
-    skos:prefLabel "Römische Keramik"@de .
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e4455f3c> ;
+    skos:prefLabel "Kohortenkastell"@de .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e2c50426> a skos:Concept ;
-    skos:altLabel "TS"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dd749656> ;
-    skos:definition "Tafelgeschirr aus der römischen Antike"@de,
-        "fine red Ancient Roman pottery with glossy surface slips made in specific areas of the Roman Empire"@en ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300387395>,
-        <http://www.wikidata.org/entity/Q367622>,
-        <https://d-nb.info/gnd/4184789-1> ;
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f7219f6d> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f7219f6d> ;
+    skos:definition "Ein Numeruskastell ist ein Auxiliarlager, in dem ein Numerus stationiert ist."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dfd5e9fe> ;
-    skos:prefLabel "Terra Sigillata"@de,
-        "terra sigillata"@en,
-        "terra sigillata"@nl .
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f7219f6d> ;
+    skos:prefLabel "Numeruskastell"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/helm_kopfbedeckung> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Waffe_und_Ruestung> ;
+    skos:definition "schützende Kopfbedeckung"@de,
+        "protective headwear"@en,
+        "hoofddeksel"@nl ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300203712>,
+        <http://www.wikidata.org/entity/Q173603>,
+        <https://d-nb.info/gnd/4130510-3>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/f655614c-ea2f-49c6-a11e-f63c360231b3> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_70c529f2> ;
+    skos:prefLabel "Helm"@de,
+        "helmet"@en,
+        "helm"@nl .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/muenze_tauschmittel> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Muenze_Gewicht_und_Tauschmittel> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/7d662f33-10b8-4728-9898-08dde2f9c12b> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_225cb316> ;
     skos:prefLabel "Münze (Tauschmittel)"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/weihedenkmal> a skos:Concept ;
+    skos:altLabel "Denkmal"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:definition "Ein Weihedenkmal ist ein Denkmal, das anlässlich eines Ereignisses einer Person oder einer Gottheit geweiht ist."@de ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_89235491> ;
+    skos:prefLabel "Weihedenkmal"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_1005be64> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_842b03fc> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_3f47887a>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_760c8cee> ;
+    skos:prefLabel "Kastell Elemente"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_93dcc278> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_eb0d4843> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_45c90f93>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_80e96f2f> ;
+    skos:prefLabel "Römische Zeit"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_a62bbfd9> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4c5049c7> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_31615f15>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_845b4432> ;
+    skos:prefLabel "Archäologische Beobachtung"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_012f72ce> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f73dc7f9> ;
@@ -11282,6 +11688,20 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "2. Hälfte 11. Jh. n. Chr."@de,
         "2nd Half 11th Century AD"@en .
 
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_325d7203> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_30060d07> ;
+    skos:definition "militärische Befestigung"@de,
+        "type of earthwork constructed in a military context"@en,
+        "gegraven gang waarin soldaten beschermd zijn tegen vijandelijk vuur"@nl ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q91764>,
+        <https://d-nb.info/gnd/4180074-6> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_98fe7e24>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_ee3da0ae> ;
+    skos:prefLabel "Schützengraben"@de,
+        "military trench"@en,
+        "loopgraaf"@nl .
+
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_335a7b1f> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_cf8ad5ec> ;
     skos:definition "Hälfte eines Jahrhunderts von 600 v. Chr. bis 551 v. Chr.."@de,
@@ -11385,21 +11805,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "1. Jahrhundert v. Chr."@de,
         "1st Century BC"@en,
         "1e eeuw v.Chr."@nl .
-
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4232cbcc> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f204e7aa> ;
-    skos:definition "Brücken- und Kanalbauwerk zum Transport von Frischwasser"@de,
-        "structure constructed to convey water"@en,
-        "constructie voor het transport van water"@nl ;
-    skos:exactMatch <http://vocab.getty.edu/aat/300006165>,
-        <http://www.wikidata.org/entity/Q474>,
-        <https://d-nb.info/gnd/4002509-3> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_43bca29d>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_eb97f646> ;
-    skos:prefLabel "Aquädukt"@de,
-        "aqueduct"@en,
-        "aquaduct"@nl .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_425b93a5> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8139da3b> ;
@@ -11882,7 +12287,9 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "put in de grond voor toegang tot water"@nl ;
     skos:exactMatch <http://vocab.getty.edu/aat/300152327>,
         <http://www.wikidata.org/entity/Q43483>,
-        <https://d-nb.info/gnd/4008491-7> ;
+        <https://d-nb.info/gnd/4008491-7>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/04fe40e1-326e-456d-a1a3-3af35bfcf7de>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/76f9c612-6d06-4a8a-a1c7-6b57ca3ab073> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_1b8c9fdb>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_38caa12c> ;
@@ -12706,18 +13113,69 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/lanze_waffe> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Waffe_und_Ruestung> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/dc2e15df-f868-4af9-b670-085f4b16fca3> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/lanzenschuh>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/lanzenspitze> ;
     skos:prefLabel "Lanze (Waffe)"@de .
 
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/mauer> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Werkzeug_und_Geraet> ;
+    skos:definition "Eine Mauer ist ein begrenzendes Bauteil oder Bauwerk, das als massive Konstruktion aus anorganischen Materialien wie Naturstein, Backstein, Beton usw. besteht und dessen Dicke deutlich geringer ist als seine horizontale und vertikale Ausdehnung."@de ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_0d2f0a5c>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_8ed0d9a3> ;
+    skos:prefLabel "Mauer"@de .
+
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schild_waffe> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Waffe_und_Ruestung> ;
     skos:definition "Ein Schild ist eine Panzerung, die der Abwehr von Hieben, Stichen und Wurfgeschossen dient."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/1bbcf64b-6c42-4458-a680-07359d19761e> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schildbuckel>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schildfessel> ;
     skos:prefLabel "Schild (Waffe)"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Gefaess_und_Behaeltnis> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e9dddde8> ;
+    skos:definition "Gefäße, Behältnisse, Geschirr und Vorratsbehälter aus Ton, Metall, Glas oder Stein."@de ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_9204fdf8>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_9f4391bb>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/gefaess_behaelter> ;
+    skos:prefLabel "Gefäß und Behältnis"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_8fa140ae> a skos:Concept ;
+    skos:altLabel "metalzeitlich"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
+    skos:definition "zusammengefasste vorgeschichtliche Epochen"@de,
+        "period of human civilization defined by the development of metallurgy"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q3319076>,
+        <https://d-nb.info/gnd/4387815-5> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_070f3e75>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_918898bf>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_d7b1aebc> ;
+    skos:prefLabel "Metallzeit"@de,
+        "Age of metals"@en .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_9f0be81f> a skos:Concept ;
+    skos:altLabel "Vorgeschichte"@de,
+        "urgeschichtlich"@de,
+        "vorgeschichtlich"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
+    skos:definition "Ältester Zeitabschnitt der Geschichte ohne Schriftquellen, der von der Archäologie erforscht wird"@de,
+        "span of time before recorded history"@en,
+        "periode in de geschiedenis"@nl ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q11756>,
+        <https://d-nb.info/gnd/4078951-2> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_070f3e75>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8b79727a>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_918898bf> ;
+    skos:prefLabel "Urgeschichte"@de,
+        "prehistory"@en,
+        "prehistorie"@nl .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_03a66bfd> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ac85549f> ;
@@ -12732,15 +13190,24 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Mittelneolithikum"@de,
         "Middle Neolithic"@en .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_06678d7e> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a8a7fc5a> ;
-    skos:definition "Eine Straße ist ein Landverkehrsweg, der in erster Linie für die Nutzung mit Fahrzeugen angelegt ist."@de ;
-    skos:editorialNote "Benutzt für die befestigte Fahrbahn sowie zugehörige Bürgersteige, Bankette, Straßengräben und Straßenbäume."@de ;
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_070f3e75> a skos:Concept ;
+    skos:altLabel "Chalkolithikum"@de,
+        "kupferzeitlich"@de,
+        "Äneolithikum"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_8fa140ae>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_9f0be81f>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
+    skos:definition "archäologische Epoche von Funden gediegenen Kupfers vor der Bronzezeit"@de,
+        "prehistoric period between the Neolithic and the Bronze Age"@en,
+        "archeologische cultuurperiode"@nl ;
+    skos:exactMatch <http://d-nb.info/gnd/4138001-0>,
+        <http://vocab.getty.edu/aat/300019273>,
+        <http://www.wikidata.org/entity/Q130253> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_00ec1436>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_387f67c8>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a7642f77> ;
-    skos:prefLabel "Straße"@de .
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_7923947a> ;
+    skos:prefLabel "Kupferzeit"@de,
+        "Copper Age"@en,
+        "kopertijd"@nl .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_0a194182> a skos:Concept ;
     skos:altLabel "helladisch"@de ;
@@ -12770,6 +13237,48 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "18. Jahrhundert n. Chr."@de,
         "18th Century AD"@en,
         "18e eeuw"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_25c54f17> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e9dddde8> ;
+    skos:definition "Wissenschaft von den materiellen Hinterlassenschaften früherer Kulturen und ihre Erschließung"@de,
+        "study of the past via material culture"@en,
+        "wetenschap die overblijfselen van oude culturen bestudeert"@nl ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300054328>,
+        <http://www.wikidata.org/entity/Q23498>,
+        <https://d-nb.info/gnd/4002827-6> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_153d3150>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_d0e983ee>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_01b77638> ;
+    skos:prefLabel "Archäologie"@de,
+        "archaeology"@en,
+        "archeologie"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2c698655> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
+    skos:definition "Eine Festung ist eine Befestigungsanlage, die vorrangig zu militärischen Verteidigungszwecken dauerhaft errichtet wurde und zumeist aus mehreren untergeordneten Wehrbauten besteht."@de ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_1f44d942>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_b8e7e6de>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_db93b6f3> ;
+    skos:prefLabel "Festung"@de ;
+    skos:scopeNote "Die hauptsächlich vom Ende des 15. Jahrhunderts bis in die erste Hälfte des 20. Jahrhunderts entstandenen Festungen sind in ihrer Form und Ausbildung von der gleichzeitigen Entwicklung der Feuerwaffen abhängig."@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4232cbcc> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f204e7aa> ;
+    skos:definition "Brücken- und Kanalbauwerk zum Transport von Frischwasser"@de,
+        "structure constructed to convey water"@en,
+        "constructie voor het transport van water"@nl ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300006165>,
+        <http://www.wikidata.org/entity/Q474>,
+        <https://d-nb.info/gnd/4002509-3> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_e8ef8210>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_43bca29d>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_eb97f646> ;
+    skos:prefLabel "Aquädukt"@de,
+        "aqueduct"@en,
+        "aquaduct"@nl .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_492f747f> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4c5049c7> ;
@@ -12818,7 +13327,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "prehistorisch tijdperk, de periode die in het drieperiodensysteem volgde op het neolithicum"@nl ;
     skos:exactMatch <http://d-nb.info/gnd/4008357-3>,
         <http://vocab.getty.edu/aat/300019275>,
-        <http://www.wikidata.org/entity/Q11761> ;
+        <http://www.wikidata.org/entity/Q11761>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/8072a357-c9aa-4cd8-b8ba-c06a8e176431> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_5327825b>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a8cb766a>,
@@ -12847,7 +13357,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_80e96f2f> a skos:Concept ;
     skos:altLabel "Kaiserzeit"@de,
         "kaiserzeitlich"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_eb0d4843> ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_93dcc278> ;
     skos:definition "antikes Weltreich"@de,
         "period of ancient Rome following the Republic"@en ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2277> ;
@@ -12861,13 +13371,14 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8b79727a> a skos:Concept ;
     skos:altLabel "steinzeitlich"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_9f0be81f> ;
     skos:definition "Epoche frühester Funde der Menschheitsgeschichte"@de,
         "broad prehistoric period during which stone was widely used to make implements"@en,
         "periode uit de prehistorie"@nl ;
     skos:exactMatch <http://d-nb.info/gnd/4057226-2>,
         <http://vocab.getty.edu/aat/300106724>,
-        <http://www.wikidata.org/entity/Q11759> ;
+        <http://www.wikidata.org/entity/Q11759>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/d6b4b121-edd0-4792-b14b-5422b4210225> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_3fa75f84>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ac85549f>,
@@ -12901,7 +13412,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "oudste periode in de voorgeschiedenis van de mens en zijn materiële cultuur"@nl ;
     skos:exactMatch <http://d-nb.info/gnd/4140148-7>,
         <http://vocab.getty.edu/aat/300019258>,
-        <http://www.wikidata.org/entity/Q40203> ;
+        <http://www.wikidata.org/entity/Q40203>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/8d762bf7-bda3-4c07-b77f-5df51301ad3f> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_06d90187>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_1d5c718c>,
@@ -12947,13 +13459,60 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "21st Century AD"@en,
         "21e eeuw"@nl .
 
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e2c50426> a skos:Concept ;
+    skos:altLabel "Sigilata"@de,
+        "Sigilaten"@de,
+        "TS"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dd749656> ;
+    skos:definition "Tafelgeschirr aus der römischen Antike"@de,
+        "fine red Ancient Roman pottery with glossy surface slips made in specific areas of the Roman Empire"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300387395>,
+        <http://www.wikidata.org/entity/Q367622>,
+        <https://d-nb.info/gnd/4184789-1> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_803f00dc>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_f5707028>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dfd5e9fe> ;
+    skos:prefLabel "Terra Sigillata"@de,
+        "terra sigillata"@en,
+        "terra sigillata"@nl .
+
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schwert_waffe> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Waffe_und_Ruestung> ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/94675f25-a222-4ded-8ee5-7f50c9a38184> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schwertklinge>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schwertscheide>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/webschwert> ;
     skos:prefLabel "Schwert (Waffe)"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_842b03fc> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
+    skos:definition "Dauerhaftes römisches Militär-Lager, nach einem Raster angeordnet; kann später auch eine Burg, ein Fort oder einen Wehrturm bezeichnen."@de,
+        "Permanent ancient Roman military encampments laid out on a grid; may also designate later castles, forts, or fortified towers."@en,
+        "Wordt gebruikt voor permanente Romeinse militaire kampementen opgezet volgens een rastervormig patroon; ook een aanduiding voor kastelen, forten of versterkte torens."@nl ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300008440>,
+        <http://www.wikidata.org/entity/Q88205>,
+        <https://d-nb.info/gnd/4136071-0> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_1005be64>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_c48e4058>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_801d1e8b>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c77c8303> ;
+    skos:prefLabel "Kastell"@de,
+        "castra"@en,
+        "castra"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_06678d7e> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a8a7fc5a> ;
+    skos:definition "Eine Straße ist ein Landverkehrsweg, der in erster Linie für die Nutzung mit Fahrzeugen angelegt ist."@de ;
+    skos:editorialNote "Benutzt für die befestigte Fahrbahn sowie zugehörige Bürgersteige, Bankette, Straßengräben und Straßenbäume."@de ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_2f2a06ac>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_00ec1436>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_387f67c8>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a7642f77> ;
+    skos:prefLabel "Straße"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_182c4170> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_0a45182c>,
@@ -12978,7 +13537,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "periode in de Europese geschiedenis"@nl ;
     skos:exactMatch <http://d-nb.info/gnd/4129108-6>,
         <http://vocab.getty.edu/aat/300020756>,
-        <http://www.wikidata.org/entity/Q12554> ;
+        <http://www.wikidata.org/entity/Q12554>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/4bf24a9f-1f7d-497e-96a4-d4a0f42d564b> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_bd9ad4eb>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_d4dcab08>,
@@ -13023,6 +13583,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "geometrische periode"@nl .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_66f0e2cc> a skos:Concept ;
+    skos:altLabel "Fühe Eisenzeit"@de,
+        "früheisenzeitlich"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c27a4f31> ;
     skos:definition "Zeitabschnitt der älteren Eisenzeit"@de,
         "archaeological culture"@en,
@@ -13040,13 +13602,16 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "Hallstatt-cultuur"@nl .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ac85549f> a skos:Concept ;
+    skos:altLabel "Neolithikum"@de,
+        "neolithisch"@de ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8b79727a> ;
     skos:definition "archäologischer Zeitraum, letzter Teil der Steinzeit, Neolithikum"@de,
         "prehistoric period when agriculture is adopted"@en,
         "prehistorische periode"@nl ;
     skos:exactMatch <http://d-nb.info/gnd/4075272-0>,
         <http://vocab.getty.edu/aat/300019267>,
-        <http://www.wikidata.org/entity/Q36422> ;
+        <http://www.wikidata.org/entity/Q36422>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/c6134150-77f2-481b-bba6-c482e59046e8> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_03a66bfd>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_150e4564>,
@@ -13132,24 +13697,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "Roman currency"@en,
         "Romeinse munteenheid"@nl .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_918898bf> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
-    skos:definition "Periode in der Menschheitsgeschichte"@de,
-        "prehistoric period and age studied in archaeology, part of the Holocene Epoch"@en,
-        "prehistorisch tijdperk, de periode die in het drieperiodensysteem volgde op het neolithicum"@nl ;
-    skos:exactMatch <http://d-nb.info/gnd/4008357-3>,
-        <http://vocab.getty.edu/aat/300019275>,
-        <http://www.wikidata.org/entity/Q11761> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_450dc8e6>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_772c9a63>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_7923947a>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8b0dbc13>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_9ad88dd4> ;
-    skos:prefLabel "Bronzezeit"@de,
-        "Bronze Age"@en,
-        "bronstijd"@nl .
-
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a8a7fc5a> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4c5049c7> ;
     skos:definition "Verkehrswege, Brücken, Wege und erschließende Bauten."@de ;
@@ -13177,41 +13724,15 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "20th Century AD"@en,
         "20e eeuw"@nl .
 
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_d7b1aebc> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
-    skos:definition "Epoche der Urgeschichte bis in die Frühgeschichte mit Funden geschmiedeten Eisens"@de,
-        "archaeological period"@en,
-        "ijzertijd"@nl ;
-    skos:exactMatch <http://d-nb.info/gnd/4014102-0>,
-        <http://vocab.getty.edu/aat/300019279>,
-        <http://www.wikidata.org/entity/Q11764> ;
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dd749656> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_86c4a69a> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_65ef439b>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_6ba0a074>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a5a26433>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c27a4f31>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c283d5a3> ;
-    skos:prefLabel "Eisenzeit"@de,
-        "Iron Age"@en,
-        "ijzertijd"@nl .
-
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_63dcc1d1> a skos:Concept ;
-    skos:altLabel "neuzeitlich"@de ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
-    skos:definition "historische Großepoche (ab etwa 1500)"@de,
-        "era from ca. 1500 until present"@en ;
-    skos:exactMatch <http://d-nb.info/gnd/4171678-4>,
-        <http://www.wikidata.org/entity/Q3281534> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_182c4170>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2560f7a8>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_6cdc2f0e>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ab1a1cc2>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c03d1003>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_d809a315> ;
-    skos:prefLabel "Neuzeit"@de,
-        "Modern Period"@en,
-        "nieuwe tijd"@nl .
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_5aa855bc>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_862d3886>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_e7dcdb69>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_febec2e2>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e2c50426> ;
+    skos:prefLabel "Römische Keramik"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_78c41ba4> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
@@ -13244,6 +13765,26 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "Greek Iron Age"@en,
         "Duistere Eeuwen"@nl .
 
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_d7b1aebc> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_8fa140ae>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
+    skos:definition "Epoche der Urgeschichte bis in die Frühgeschichte mit Funden geschmiedeten Eisens"@de,
+        "archaeological period"@en,
+        "ijzertijd"@nl ;
+    skos:exactMatch <http://d-nb.info/gnd/4014102-0>,
+        <http://vocab.getty.edu/aat/300019279>,
+        <http://www.wikidata.org/entity/Q11764>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/0e341d8a-d304-40fe-8dda-dd3845bb1f7f> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_65ef439b>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_6ba0a074>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a5a26433>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c27a4f31>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c283d5a3> ;
+    skos:prefLabel "Eisenzeit"@de,
+        "Iron Age"@en,
+        "ijzertijd"@nl .
+
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/schmuckring> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Tracht_und_Schmuck> ;
     skos:definition "Ein Schmuckring ist Schmuck, der als offener oder geschlossener Reif an den verschiedensten Stellen des Körpers getragen wird."@de ;
@@ -13256,18 +13797,60 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/standring> ;
     skos:prefLabel "Schmuckring"@de .
 
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_63dcc1d1> a skos:Concept ;
+    skos:altLabel "neuzeitlich"@de ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
+    skos:definition "historische Großepoche (ab etwa 1500)"@de,
+        "era from ca. 1500 until present"@en ;
+    skos:exactMatch <http://d-nb.info/gnd/4171678-4>,
+        <http://www.wikidata.org/entity/Q3281534>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/c6858173-5ca2-4319-b242-f828ec53d52d> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_6386ef38>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_182c4170>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2560f7a8>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_6cdc2f0e>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ab1a1cc2>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c03d1003>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_d809a315> ;
+    skos:prefLabel "Neuzeit"@de,
+        "Modern Period"@en,
+        "nieuwe tijd"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_918898bf> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_8fa140ae>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_9f0be81f>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> ;
+    skos:definition "Periode in der Menschheitsgeschichte"@de,
+        "prehistoric period and age studied in archaeology, part of the Holocene Epoch"@en,
+        "prehistorisch tijdperk, de periode die in het drieperiodensysteem volgde op het neolithicum"@nl ;
+    skos:exactMatch <http://d-nb.info/gnd/4008357-3>,
+        <http://vocab.getty.edu/aat/300019275>,
+        <http://www.wikidata.org/entity/Q11761> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_450dc8e6>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_772c9a63>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_7923947a>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8b0dbc13>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_9ad88dd4> ;
+    skos:prefLabel "Bronzezeit"@de,
+        "Bronze Age"@en,
+        "bronstijd"@nl .
+
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/fibel_verschluss> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Tracht_und_Schmuck> ;
     skos:definition "Eine Fibel ist ein Schmuckstück, das dem Verschließen von Kleidungsstücken dient."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/b8c9f1bd-e41d-4eb2-861f-50c7b1db1fca> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/armbrustfibel>,
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_a0659e6e>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/armbrustfibel>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/aucissafibel>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/buegelfibel>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/kniefibel>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/scheibenfibel>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/spiralfibel>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/zwiebelknopffibel> ;
-    skos:prefLabel "Fibel (Verschluss)"@de .
+    skos:prefLabel "Fibel"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4c5049c7> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_bda3361f> ;
@@ -13277,7 +13860,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:exactMatch <http://www.wikidata.org/entity/Q814254>,
         <https://d-nb.info/gnd/1078757348> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_492f747f>,
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_a62bbfd9>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_492f747f>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8e462332>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_902bfe53>,
@@ -13288,40 +13872,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Befund"@de,
         "feature"@en,
         "vondst"@nl .
-
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_bda3361f> ;
-    skos:definition "langer Zeitraum"@de,
-        "long period of time"@en,
-        "lange periode"@nl ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q12310205>,
-        <http://www.wikidata.org/entity/Q132712> ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_070f3e75>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_508f7e1a>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_63dcc1d1>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_78c41ba4>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8b79727a>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_918898bf>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_d7b1aebc>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dc69e82a> ;
-    skos:prefLabel "Epoche"@de,
-        "epoch"@en,
-        "tijdperk"@nl .
-
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_902bfe53> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4c5049c7> ;
-    skos:definition "Spuren von Ackerbau, Viehhaltung, Einfriedungen und Flurnutzung."@de ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_158160f7>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2177a0c9>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_55fcb1bf>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_658b742c>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_7d7ac12d>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8cad2425>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ab59ffc6>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_b444eedd> ;
-    skos:prefLabel "Landwirtschaft und Flurstruktur"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8e462332> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4c5049c7> ;
@@ -13337,6 +13887,21 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a23e2bba>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_aecd8816> ;
     skos:prefLabel "Sepulkral- und Bestattungsbefund"@de .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_902bfe53> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4c5049c7> ;
+    skos:definition "Spuren von Ackerbau, Viehhaltung, Einfriedungen und Flurnutzung."@de ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_2ecebfc1>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_158160f7>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2177a0c9>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_55fcb1bf>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_658b742c>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_7d7ac12d>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8cad2425>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ab59ffc6>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_b444eedd> ;
+    skos:prefLabel "Landwirtschaft und Flurstruktur"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Muenze_Gewicht_und_Tauschmittel> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e9dddde8> ;
@@ -13408,6 +13973,28 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "3rd Millennium BC"@en,
         "3e millennium v.Chr."@nl .
 
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4de8f3b0> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_bda3361f> ;
+    skos:definition "langer Zeitraum"@de,
+        "long period of time"@en,
+        "lange periode"@nl ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q12310205>,
+        <http://www.wikidata.org/entity/Q132712> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_8fa140ae>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_9f0be81f>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_e5ed79ef>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_070f3e75>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_508f7e1a>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_63dcc1d1>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_78c41ba4>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_918898bf>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_d7b1aebc>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dc69e82a> ;
+    skos:prefLabel "Epoche"@de,
+        "epoch"@en,
+        "tijdperk"@nl .
+
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8139da3b> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_78c41ba4> ;
     skos:definition "millennium"@nl ;
@@ -13475,12 +14062,12 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         <http://vocab.getty.edu/aat/300020093>,
         <http://www.wikidata.org/entity/Q486761> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_28be19ea>,
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_93dcc278>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_28be19ea>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_55a6cc41>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_65506460>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_65ef439b>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_6ba0a074>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_80e96f2f>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a82f83b9>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_b465adce>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_d5ad7ff8>,
@@ -13496,7 +14083,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         "In algemene zin, objecten die zijn gemaakt of bewerkt door mensen, gewoonlijk handgereedschap, gebruiksvoorwerpen, sieraden of kunst. In de archeologie is een artefact een object dat is vervaardigd door een menselijke cultuur en wordt onderscheiden van natuurlijke resten, en later is aangetroffen bij archeologische werkzaamheden. Zie ook 'culturele artefacten' voor de context van objecten die specifiek worden verzameld door musea. Gebruik de term niet in de technische en medische betekenis, dat wil zeggen voor een product of effect dat niet aanwezig is in de natuurlijke toestand van een organisme of een systeem, maar optreedt wegens het onderzoek zelf of het gevolg is van een andere externe activiteit."@nl ;
     skos:exactMatch <http://vocab.getty.edu/aat/300117127>,
         <http://www.wikidata.org/entity/Q220659>,
-        <https://d-nb.info/gnd/4143114-5> ;
+        <https://d-nb.info/gnd/4143114-5>,
+        <https://data.cultureelerfgoed.nl/term/id/abr/2/22cbb070-6542-48f0-8afe-7d98d398cc0b> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bau_und_Architekturelement>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Bildkunst_Schrift_und_Spiel>,
@@ -13547,7 +14135,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c27ba113>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c4b01eea>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ee18f494>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ee7dfd2e>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f59f8e61> ;
     skos:prefLabel "Geologie, Stratigraphie und Naturform"@de .
 
@@ -13571,7 +14158,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e29f41c3>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f254ce35>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_fa50a453> ;
-    skos:prefLabel "Graben (Erdbauwerk)"@de .
+    skos:prefLabel "Graben"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_5e9746a4> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_53ac9493> ;
@@ -13657,6 +14244,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/gefaess_behaelter> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/Gefaess_und_Behaeltnis> ;
     skos:definition "Ein Gefäß ist ein tragbarer, starrer und wasserundurchlässiger Behälter."@de ;
+    skos:exactMatch <https://data.cultureelerfgoed.nl/term/id/abr/2/7bcfc891-1148-49e9-b28c-c10c90b444f4> ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/amphore>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/aquamanile>,
@@ -13685,39 +14273,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/terrine_gefaess>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/urne_grabgefaess> ;
     skos:prefLabel "Gefäß"@de .
-
-<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2000a1d4> a skos:Concept ;
-    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_492f747f> ;
-    skos:definition "Eine Grube ist ein künstlich angelegtes Bauwerk, das als Vertiefung in der Erde sichtbar ist."@de ;
-    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_06a004c4>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_27b5a13f>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2e59a528>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_31524981>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_3d95a0aa>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_3f9bda1d>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_434632d5>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_43a59711>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4ea8265a>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_51f929af>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_5567adc7>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_56b1ca6e>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_63c22551>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_710098a0>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_84ed0bb1>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_99d90f9b>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_9d119603>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a296fb0a>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_abdae801>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_af7c73f5>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_bb94e94f>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_be72788c>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_cbf93d36>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_cdbf8af3>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dff3a518>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e934cbe6>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_fd363e71> ;
-    skos:prefLabel "Grube (Erdbauwerk)"@de .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8be8abe5> a skos:Concept ;
     skos:altLabel "frühkaiserzeitlich"@de ;
@@ -13755,6 +14310,44 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:prefLabel "Frühe Kaiserzeit"@de,
         "Early Roman Imperial Period"@en,
         "Hoog-Romeinse Rijk"@nl .
+
+<http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2000a1d4> a skos:Concept ;
+    skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_492f747f> ;
+    skos:definition "natürliche oder künstlich angelegte Vertiefung im Erdboden"@de,
+        "hole or cavity in the ground, either natural or the result of excavation"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q23090513>,
+        <https://d-nb.info/gnd/4391635-1> ;
+    skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_ecfb37ff>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_06a004c4>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_27b5a13f>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_2e59a528>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_31524981>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_3d95a0aa>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_3f9bda1d>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_434632d5>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_43a59711>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4ea8265a>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_51f929af>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_5567adc7>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_56b1ca6e>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_63c22551>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_710098a0>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_84ed0bb1>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_99d90f9b>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_9d119603>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a296fb0a>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_abdae801>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_af7c73f5>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_bb94e94f>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_be72788c>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_cbf93d36>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_cdbf8af3>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_dff3a518>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e934cbe6>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_fd363e71> ;
+    skos:prefLabel "Grube"@de,
+        "pit"@en .
 
 <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_a23e2bba> a skos:Concept ;
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8e462332> ;
@@ -13968,6 +14561,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:definition "Bauteile, Ziegel, Beschläge, Befestigungselemente und Architekturfragmente."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
     skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/aedikula>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_e0e411b4>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/architekturfragment>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/bodenfliese>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/bodenziegel>,
@@ -14021,7 +14615,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4c5049c7> ;
     skos:definition "Befunde zu Handwerk, Gewerbe, Öfen und Rohstoffgewinnung."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_0441d658>,
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_4ffb1cba>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_0441d658>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_0568bef7>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_09d73480>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_0e7bdb21>,
@@ -14088,7 +14683,8 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
     skos:broader <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_4c5049c7> ;
     skos:definition "Befunde zu Siedlungen, Gebäuden, Bauwerken und Bauteilen."@de ;
     skos:inScheme <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland> ;
-    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_0103b88b>,
+    skos:narrower <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_842b03fc>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_0103b88b>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_011de187>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_02ed5b51>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_063ba885>,
@@ -14242,7 +14838,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_7d5a563c>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_7f5f9aea>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_7fa56423>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_801d1e8b>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_8036e2e6>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_804d21b1>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_81661f83>,
@@ -14339,7 +14934,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c1393480>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c2a74c4e>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c5a91724>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c77c8303>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c7efef30>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c7fcc7a1>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_c8111dfa>,
@@ -14380,7 +14974,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_df178b17>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e111c546>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e31adda8>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e4455f3c>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e55b1b8c>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e62d789d>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_e6e05476>,
@@ -14395,6 +14988,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_eaf5d83d>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ed027b4f>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ed3f93af>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ee7dfd2e>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_eed47260>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_ef050ed0>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_efc12069>,
@@ -14404,7 +14998,6 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f65e714a>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f6a9f1b1>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f6ad28bc>,
-        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f7219f6d>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_f98d8a42>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_fadcb107>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/concept_fb03d028>,
@@ -14431,6 +15024,7 @@ Für den Bewirtungsbetrieb, der vorrangig Speisen anbietet, siehe Restaurant."""
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/amboss_werkzeug>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/angelhaken>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/anker_geraet>,
+        <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/arch_vocab_rhineland/concept_5205ef29>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/armschutzplatte>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/aschenkiste>,
         <http://vocabs.bcdh.uni-bonn.de/LVR_Fundansprachen/aurignacienklinge>,
