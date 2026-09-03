@@ -1,7 +1,23 @@
+# Application Config
 hector_config.json
 
+# Python & Build Artefacts
+__pycache__/
+*.py[cod]
+build/
+.pytest_cache/
+venv/
+.venv/
+venv_build/
+
+# ABR Files & Mapping Reports
+vocabularies/BJB/ABR*
+vocabularies/BJB/*abr*
+
+# Vocabulary Drafts & Temp Files
 vocabularies/BJB/archaevocabNLDE.ttl
 vocabularies/hector_epochs/Liste_WNK-Datierungen.csv
 vocabularies/material.ttl
 vocabularies/test.html
 vocabularies/vocab_heritage.ttl
+

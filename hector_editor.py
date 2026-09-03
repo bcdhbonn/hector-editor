@@ -10,6 +10,18 @@ from tkinter import filedialog, messagebox, ttk
 import customtkinter as ctk
 from rdflib import Graph, URIRef, SKOS
 
+# Ensure UTF-8 output encoding on Windows consoles
+if sys.stdout is not None and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+if sys.stderr is not None and hasattr(sys.stderr, "reconfigure"):
+    try:
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 from hector_core import VocabularyManager
 
 CONFIG_FILE = "hector_config.json"
@@ -1130,11 +1142,22 @@ class HECTOREditor:
         if path: self.load_data(path)
 
     def log(self, message):
-        print(message)
+        if sys.stdout is not None:
+            try:
+                print(message)
+            except Exception:
+                try:
+                    encoding = getattr(sys.stdout, "encoding", "utf-8") or "utf-8"
+                    print(str(message).encode(encoding, errors="replace").decode(encoding))
+                except Exception:
+                    pass
         if hasattr(self, 'out_tools') and self.out_tools.winfo_exists():
-            self.out_tools.configure(state="normal")
-            self.out_tools.insert("end", message + "\n")
-            self.out_tools.see("end")  
+            try:
+                self.out_tools.configure(state="normal")
+                self.out_tools.insert("end", str(message) + "\n")
+                self.out_tools.see("end")
+            except Exception:
+                pass  
 
     def display_turtle(self, uri):
         try:
@@ -1644,5 +1667,18 @@ if __name__ == "__main__":
         app = HECTOREditor(root)
         root.mainloop()
     except Exception as boot_exception:
-        print(f"\nCRITICAL BOOT ERROR:\n{traceback.format_exc()}")
-        input("\nPress ENTER to terminate application workspace...")
+        err_msg = traceback.format_exc()
+        if sys.stdout is not None:
+            try:
+                print(f"\nCRITICAL BOOT ERROR:\n{err_msg}")
+            except Exception:
+                pass
+        try:
+            messagebox.showerror("HECTOR Boot Error", f"Ein kritischer Fehler ist beim Starten aufgetreten:\n\n{err_msg}")
+        except Exception:
+            pass
+        if sys.stdin is not None and sys.stdin.isatty():
+            try:
+                input("\nPress ENTER to terminate application workspace...")
+            except Exception:
+                pass
